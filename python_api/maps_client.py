@@ -79,10 +79,13 @@ class GoogleMapsClient:
             print(f"found {len(results)} businesses")
             
             for place in results:
-                place_name = place.get("name", "").strip()
+                place_name = place.get("name")
                 if not place_name:
                     continue
-                    
+                place_name = str(place_name).strip()
+                if not place_name:
+                    continue
+                
                 details = self.get_place_details(place.get("place_id"))
                 all_businesses.append(details)
                 
