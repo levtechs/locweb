@@ -140,119 +140,61 @@ class GoogleMapsClient:
         
         return found
 
-    def find_populated_areas(self, count=50):
-        print(f"\nFinding {count} populated areas in the US...")
-        
-        areas = []
-        page_token = None
-        searches_done = 0
-        
-        search_queries = [
+    def find_random_area(self):
+        queries = [
             "city in United States",
-            "town in United States",
-            "suburb in United States",
-            "neighborhood in United States",
-            "city in California USA",
-            "city in Texas USA",
-            "city in Florida USA",
-            "city in New York USA",
-            "city in Massachusetts USA",
-            "city in Illinois USA",
-            "city in Pennsylvania USA",
-            "city in Ohio USA",
-            "city in Georgia USA",
-            "city in North Carolina USA",
-            "city in Michigan USA",
-            "city in New Jersey USA",
-            "city in Virginia USA",
-            "city in Washington USA",
-            "city in Arizona USA",
-            "city in Tennessee USA",
-            "city in Indiana USA",
-            "city in Missouri USA",
-            "city in Maryland USA",
-            "city in Wisconsin USA",
-            "city in Colorado USA",
-            "city in Minnesota USA",
-            "city in South Carolina USA",
-            "city in Alabama USA",
-            "city in Louisiana USA",
-            "city in Kentucky USA",
-            "city in Oregon USA",
-            "city in Oklahoma USA",
-            "city in Connecticut USA",
-            "city in Utah USA",
-            "city in Iowa USA",
-            "city in Nevada USA",
-            "city in Arkansas USA",
-            "city in Mississippi USA",
-            "city in Kansas USA",
-            "city in Nevada USA",
-            "suburb of Los Angeles",
-            "suburb of New York",
-            "suburb of Chicago",
-            "suburb of Houston",
-            "suburb of Phoenix",
-            "suburb of Philadelphia",
-            "suburb of San Antonio",
-            "suburb of San Diego",
-            "suburb of Dallas",
-            "suburb of San Jose",
-            "suburb of Austin",
-            "suburb of Jacksonville",
-            "suburb of Fort Worth",
-            "suburb of Columbus",
-            "suburb of Charlotte",
-            "suburb of San Francisco",
-            "suburb of Indianapolis",
-            "suburb of Seattle",
-            "suburb of Denver",
-            "suburb of Boston",
+            "suburb in California",
+            "suburb in Texas",
+            "suburb in Florida",
+            "suburb in New York",
+            "town in Massachusetts",
+            "city in Illinois",
+            "city in Pennsylvania",
+            "city in Ohio",
+            "city in Georgia",
+            "city in North Carolina",
+            "city in Michigan",
+            "city in New Jersey",
+            "city in Virginia",
+            "city in Washington",
+            "city in Arizona",
+            "city in Tennessee",
+            "city in Indiana",
+            "city in Missouri",
+            "city in Maryland",
+            "city in Wisconsin",
+            "city in Colorado",
+            "city in Minnesota",
+            "city in South Carolina",
+            "city in Alabama",
+            "city in Louisiana",
+            "city in Kentucky",
+            "city in Oregon",
+            "city in Oklahoma",
+            "city in Connecticut",
+            "city in Nevada",
         ]
         
-        for query in search_queries:
-            if len(areas) >= count:
-                break
-                
-            try:
-                url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
-                params = {
-                    "query": query,
-                    "key": self.api_key
-                }
-                
-                response = requests.get(url, params=params)
-                data = response.json()
-                
-                if data.get("status") == "OK":
-                    for place in data.get("results", [])[:10]:
-                        location = place.get("geometry", {}).get("location", {})
-                        lat = location.get("lat")
-                        lng = location.get("lng")
-                        
-                        if lat and lng:
-                            area = {
-                                "name": place.get("name", ""),
-                                "city": place.get("formatted_address", "").split(",")[0].strip() if place.get("formatted_address") else "",
-                                "lat": lat,
-                                "lng": lng
-                            }
-                            
-                            existing = [a for a in areas if abs(a["lat"] - lat) < 0.1 and abs(a["lng"] - lng) < 0.1]
-                            if not existing and area not in areas:
-                                areas.append(area)
-                
-                searches_done += 1
-                time.sleep(0.1)
-                
-            except Exception as e:
-                continue
+        query = random.choice(queries)
         
-        print(f"  Found {len(areas)} populated areas")
-        return areas[:count]
-
-    def find_random_area(self):
-        areas = self.find_populated_areas(100)
-        if areas:
-            return random.choice(areas)
+        try:
+            url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
+            params = {"query": query, "key": self.api_key}
+            
+            response = requests.get(url, params=params)
+            data = response.json()
+            
+            if data.get("status") == "OK" and data.get("results"):
+                place = random.choice(data.get("results")[:10])
+                location = place.get("geometry", {}).get("location", {})
+                
+                return {
+                    "name": place.get("name", ""),
+                    "city": place.get("formatted_address", "").split(",")[0].strip() if place.get("formatted_address") else "",
+                    "lat": location.get("lat"),
+                    "lng": location.get("lng")
+                }
+        except Exception as e:
+            pass
+        
         return None
