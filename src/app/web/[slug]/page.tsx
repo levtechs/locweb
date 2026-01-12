@@ -119,20 +119,27 @@ export default async function BusinessPage({ params }: BusinessPageProps) {
 
   // Add watermark
   const watermark = (
-    <div style={{
-      backgroundColor: "#fbbf24",
-      color: "#000",
-      textAlign: "center",
-      padding: "8px",
-      fontSize: "14px",
-      fontWeight: 500,
-      fontFamily: "system-ui, -apple-system, sans-serif",
-      position: "sticky",
-      top: 0,
-      zIndex: 1000
-    }}>
+    <a
+      href="/"
+      style={{
+        display: "block",
+        backgroundColor: "#fbbf24",
+        color: "#000",
+        textAlign: "center",
+        padding: "8px",
+        fontSize: "14px",
+        fontWeight: 500,
+        fontFamily: "system-ui, -apple-system, sans-serif",
+        position: "sticky",
+        top: 0,
+        zIndex: 1000,
+        textDecoration: "none",
+        cursor: "pointer"
+      }}
+      title="LocWeb - Professional websites for local businesses"
+    >
       Free Website - Custom-Curated by LocWeb
-    </div>
+    </a>
   )
 
   // Always render with watermark (both for raw HTML and extracted HTML)
