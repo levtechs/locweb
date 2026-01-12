@@ -105,11 +105,11 @@ For `{business_nice_domain}`, suggest:
 - Use light/white backgrounds only
 - If you need section dividers, use very light gray (bg-gray-50 or bg-gray-100), not dark
 - Use subtle shadows and borders instead of dark backgrounds for visual separation
-- Pick accent colors appropriate for the business type (for buttons, links, icons):
-  - Restaurants: warm accent colors (reds, oranges, yellows)
-  - Healthcare: calming blues, greens
-  - Retail: vibrant accent colors
-  - Services: professional blues, navy
+- Pick accent colors for BUTTONS and LINKS (use light backgrounds with dark text):
+  - Restaurants: warm accent colors (reds, oranges, yellows) as button background with dark text
+  - Healthcare: calming blues, greens as button background with dark text
+  - Retail: vibrant accent colors as button background with dark text
+  - Services: professional blues, navy as button background with dark text
 
 ### Typography
 - Use clear, readable fonts (system fonts or Google Fonts like Inter, Poppins, Roboto, Open Sans)
@@ -118,11 +118,12 @@ For `{business_nice_domain}`, suggest:
 - Good line-height (1.5-1.7) for readability
 - ALL TEXT should be dark (not light, not gray)
 
-### Typography
-- Use clear, readable fonts (system fonts or Google Fonts like Inter, Poppins, Roboto, Open Sans)
-- Minimum 16px font size for body text
-- Clear hierarchy with distinct heading sizes
-- Good line-height (1.5-1.7) for readability
+### Buttons
+- ALL BUTTONS MUST HAVE LIGHT BACKGROUNDS (white, bg-gray-100, bg-gray-50)
+- Buttons with light backgrounds must have DARK text (text-gray-900, text-black)
+- NEVER use dark button backgrounds (bg-gray-800, bg-gray-900, bg-black, bg-navy) - they make text invisible
+- Use colored button backgrounds only if you can guarantee dark text contrast
+- Recommended: white buttons with dark text, or light gray buttons with dark text
 
 ### Layout & Visual Design
 - Create a modern, clean design with plenty of whitespace
@@ -187,11 +188,11 @@ When adding customer reviews to the website:
 
 - ALL text on the page must be DARK (#171717 or similar) on LIGHT backgrounds
 - NEVER use dark backgrounds (bg-gray-800, bg-gray-900, bg-black, bg-navy, etc.)
+- ALL BUTTONS MUST HAVE LIGHT BACKGROUNDS with DARK TEXT (e.g., bg-white text-gray-900 or bg-gray-100 text-gray-900)
 - The default text color should be dark throughout the entire page
 - Use white, bg-gray-50, or bg-gray-100 for section backgrounds only
 - Minimum 4.5:1 contrast ratio for normal text
 - Minimum 3:1 contrast ratio for large text and UI components
-- Buttons should have contrasting colors with their text
 
 ## Important
 
