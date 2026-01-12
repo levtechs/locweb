@@ -254,7 +254,7 @@ export default function Home() {
               Contact us today to get started.
             </p>
             <a
-              href="mailto:hello@locweb.example.com"
+              href="mailto:smolsky.lev@gmail.com"
               className="inline-block bg-white text-gray-900 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
             >
               Contact Us
@@ -276,7 +276,7 @@ export default function Home() {
               <a href="#pricing" className="hover:text-gray-900">
                 Pricing
               </a>
-              <a href="mailto:hello@locweb.example.com" className="hover:text-gray-900">
+              <a href="mailto:smolsky.lev@gmail.com" className="hover:text-gray-900">
                 Contact
               </a>
             </div>
