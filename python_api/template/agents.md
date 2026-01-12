@@ -6,20 +6,117 @@ You are an expert web developer creating a complete, beautiful HTML landing page
 
 Read `data.json` to understand the business, then create a stunning professional landing page by modifying `index.html`.
 
+## Additional Task: Create Sales Email
+
+After creating the website, you MUST also create a file called `email.txt` with a personalized sales email to send to the business owner.
+
+### Email Strategy
+
+The goal is to:
+1. Build rapport with the business owner
+2. Show them you noticed their business and care about their success
+3. Present the free website as a gift/volume favor
+4. Gently introduce the idea of ongoing value
+5. Open the door for a conversation
+
+### Email Tone
+- Warm, friendly, professional
+- Genuinely enthusiastic about their business
+- Not salesy or pushy
+- Show you've done your homework about their business
+- Keep it conversational, not transactional
+
+### Email Template (Customize for Each Business)
+
+```
+Subject: Something special for {business_name}
+
+Hi {owner_first_name},
+
+I was looking at {business_name} on Google and I have to say - {personalized_comment_about_their_business}.
+
+I noticed you don't have a website yet, and I thought: every great local business deserves to be found online. So I created one for you!
+
+{your_business_name} is live right here: {website_url}
+
+I wanted to put together something that really showcases what makes {business_name} special - your photos, your reviews, your location, everything that makes people want to visit you.
+
+**What would make this even better is if we could chat about how a professional online presence could help you attract even more customers.**
+
+I'm happy to show you around the website and talk about how we can:
+- Make it even more personalized to your brand
+- Add features that would genuinely help your business grow
+- Get your own custom domain name (like {business_nice_domain})
+
+No pressure at all - I just wanted to make sure you knew about this gift and see if it might be valuable to you.
+
+Would you have a few minutes to chat this week? Even just 10 minutes would be great.
+
+Looking forward to hearing from you!
+
+Warmly,
+Lev
+smolsky.lev@gmail.com
+```
+
+### Email Customization Guidelines
+
+For `{personalized_comment_about_their_business}`, choose ONE based on the business:
+- For restaurants with good reviews: "Your customers clearly love the food here - those reviews are impressive!"
+- For restaurants with photos: "The photos of your dishes look absolutely incredible"
+- For new businesses: "It's exciting to see a new business bringing something fresh to the area"
+- For highly-rated places: "With a {rating}-star rating and {review_count} reviews, it's clear you know how to take care of customers"
+- For businesses with clear location: "Located in {neighborhood/area}, you're perfectly positioned to serve the community"
+
+For `{owner_first_name}`, use:
+- If you can find the owner's name from Google, use it
+- Otherwise use "there" or "the team"
+
+For `{business_nice_domain}`, suggest:
+- {businessname}.com
+- {businessname}{city}.com
+
+### Key Principles
+
+1. **Lead with genuine appreciation** - Show you've actually looked at their business
+2. **Give value first** - The website is a gift, not a pitch
+3. **Personalize specifically** - Reference their rating, photos, location, or reviews
+4. **Keep pricing vague** - Never mention specific prices in the email
+5. **Create curiosity** - Hint at possibilities without being pushy
+6. **Easy out** - Make it clear there's no pressure
+7. **Clear call-to-action** - Suggest a brief chat, keep it low-commitment
+
+### What NOT to Do
+
+- Do NOT mention specific prices or packages
+- Do NOT use aggressive sales language
+- Do NOT make it sound like a transaction
+- Do NOT apologize for reaching out
+- Do NOT make it about selling - make it about helping
+- Do NOT use dark backgrounds (gray-800, gray-900, black, navy, etc.)
+- Do NOT assume light text will work - ALWAYS use dark text throughout
+
 ## Design Requirements
 
 ### Color Scheme
-- Pick a cohesive, professional color scheme appropriate for the business type
-- Use contrasting colors for text to ensure ALL text is clearly visible and readable
-- Avoid light text on light backgrounds or dark text on dark backgrounds
-- For dark backgrounds, use white or very light text (not gray)
-- For light backgrounds, use dark text (not gray)
-- Ensure sufficient contrast ratio (WCAG AA standard or better)
-- Consider the business type when choosing colors:
-  - Restaurants: warm, appetizing colors (reds, oranges, yellows, or earthy tones)
-  - Healthcare: calming blues, greens, or clean white/teal
-  - Retail: vibrant colors that grab attention
-  - Services: professional blues, grays, or navy
+- ALL TEXT ON THE PAGE IS DARK (#171717 or similar) BY DEFAULT
+- Assume dark text on light background throughout the entire page
+- DO NOT use dark backgrounds (gray, black, navy, etc.) - they make text invisible
+- Use light/white backgrounds only
+- If you need section dividers, use very light gray (bg-gray-50 or bg-gray-100), not dark
+- Use subtle shadows and borders instead of dark backgrounds for visual separation
+- Pick accent colors appropriate for the business type (for buttons, links, icons):
+  - Restaurants: warm accent colors (reds, oranges, yellows)
+  - Healthcare: calming blues, greens
+  - Retail: vibrant accent colors
+  - Services: professional blues, navy
+
+### Typography
+- Use clear, readable fonts (system fonts or Google Fonts like Inter, Poppins, Roboto, Open Sans)
+- Minimum 16px font size for body text
+- Clear hierarchy with distinct heading sizes
+- Good line-height (1.5-1.7) for readability
+- ALL TEXT should be dark (not light, not gray)
 
 ### Typography
 - Use clear, readable fonts (system fonts or Google Fonts like Inter, Poppins, Roboto, Open Sans)
@@ -34,21 +131,22 @@ Read `data.json` to understand the business, then create a stunning professional
 - Make all call-to-action buttons prominent and clickable
 - Use rounded corners, subtle shadows, and smooth transitions
 - Ensure the design looks professional and trustworthy
+- FOOTER: Use white or very light gray background with DARK text (never dark background)
 
 ## Instructions
 
 1. Read `data.json` to get the business information
 2. Modify `index.html` to create a professional landing page:
    - Update the title tag with the business name
-   - Create a hero section with:
-     - Business name as headline (large, clear, high contrast)
-     - Professional tagline/welcome message
-     - Call-to-action buttons (Call Now, Get Directions)
-   - Add a "About" section with business description
-   - Include business information (address, phone, hours, rating) in a clean info section
-   - Add a photo gallery using the provided photo URLs with hover effects
-   - Include customer reviews if available
-   - Add a footer with contact info, hours, and copyright
+    - Create a hero section with:
+      - Business name as headline (large, clear, high contrast)
+      - Professional tagline/welcome message
+      - Call-to-action buttons (Call Now, Get Directions)
+    - Add a "About" section with business description
+    - Include business information (address, phone, hours, rating) in a clean info section
+    - Add a photo gallery using the provided photo URLs with hover effects
+    - Add customer reviews section ONLY if there are positive reviews (4+ stars). If no positive reviews, skip the reviews section entirely.
+    - Add a footer with contact info, hours, and copyright (light background with dark text)
 3. Use Tailwind CSS classes for all styling
 4. Add custom CSS in a `<style>` tag for any additional styling needed
 
@@ -58,13 +156,22 @@ The `data.json` file contains:
 - name: Business name
 - address/vicinity/formatted_address: Business address
 - phone/formatted_phone_number/international_phone_number: Contact number
-- rating: Star rating
+- rating: Star rating (1-5)
 - user_ratings_total: Number of reviews
 - types: Business categories
 - opening_hours: Business hours
-- reviews: Customer reviews array
+- reviews: Array of customer reviews, each with "author_name", "text", and "rating"
 - photo_urls: Array of photo URLs
 - website: Business website URL (if exists)
+
+## Reviews Filtering
+
+When adding customer reviews to the website:
+- ONLY include reviews with 4 or 5 stars (positive reviews)
+- ONLY include reviews specific and appropriate to the business
+- Skip reviews with 3 stars or below
+- If NO positive reviews exist, omit the reviews section entirely
+- Display up to 3 positive reviews with author name and excerpt
 
 ## Code Quality
 
@@ -78,16 +185,17 @@ The `data.json` file contains:
 
 ## Accessibility Requirements
 
-- All text must have sufficient contrast against its background
-- Use contrasting colors for buttons and their text
-- Avoid using gray text - use dark gray (not light gray) on white, or white on dark
-- Make sure all interactive elements are clearly visible
+- ALL text on the page must be DARK (#171717 or similar) on LIGHT backgrounds
+- NEVER use dark backgrounds (bg-gray-800, bg-gray-900, bg-black, bg-navy, etc.)
+- The default text color should be dark throughout the entire page
+- Use white, bg-gray-50, or bg-gray-100 for section backgrounds only
 - Minimum 4.5:1 contrast ratio for normal text
 - Minimum 3:1 contrast ratio for large text and UI components
+- Buttons should have contrasting colors with their text
 
 ## Important
 
-- Do NOT create additional files
+- Do NOT create additional files EXCEPT `email.txt`
 - Do NOT delete any existing files
 - Focus on making the business look professional and trustworthy online
 - Test that all links work properly

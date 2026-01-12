@@ -154,7 +154,7 @@ def run_opencode_session(business_name, prompt, timeout=120):
             except Exception as e:
                 print(f"Error cleaning up session: {e}")
 
-def generate_prompt_for_opencode(business_data, folder_path):
+def generate_prompt_for_opencode(business_data, folder_path, slug):
     name = business_data.get("name") or "Our Business"
     address = business_data.get("vicinity") or business_data.get("formatted_address") or "Visit us in person"
     phone = business_data.get("formatted_phone_number") or business_data.get("international_phone_number") or "Call us"
@@ -186,6 +186,8 @@ def generate_prompt_for_opencode(business_data, folder_path):
     else:
         reviews_list = []
     
+    positive_reviews = [r for r in reviews_list if isinstance(r.get("rating"), (int, float)) and r.get("rating", 0) >= 4]
+    
     photo_urls_raw = business_data.get("photo_urls", "")
     if isinstance(photo_urls_raw, str) and "|||" in photo_urls_raw:
         photo_urls = photo_urls_raw.split("|||")
@@ -210,13 +212,16 @@ def generate_prompt_for_opencode(business_data, folder_path):
         opening_hours = "Not available"
     
     review_texts = ""
-    if isinstance(reviews_list, list) and len(reviews_list) > 0:
-        sample_reviews = reviews_list[:3]
-        review_texts = "\nSample customer reviews:\n"
+    if isinstance(positive_reviews, list) and len(positive_reviews) > 0:
+        sample_reviews = positive_reviews[:3]
+        review_texts = "\nPositive customer reviews (4+ stars):\n"
         for r in sample_reviews:
             author = r.get("author_name", "Customer")
             text = r.get("text", "")[:200]
-            review_texts += f"- {author}: \"{text}...\"\n"
+            rating = r.get("rating", "")
+            review_texts += f"- {author} ({rating} stars): \"{text}...\"\n"
+    else:
+        review_texts = "\nNo positive reviews available."
     
     photos_section = ""
     if photo_urls:
@@ -236,6 +241,10 @@ def generate_prompt_for_opencode(business_data, folder_path):
 
 **IMPORTANT: Work in this directory: {folder_path}**
 
+**Website URL:**
+When creating the email, use this placeholder for the website URL:
+https://locweb.example.com/{slug.replace(" ", "-")}
+
 **Your Task:**
 
 Follow the detailed instructions in AGENTS.md to create a professional HTML website.
@@ -250,12 +259,12 @@ Follow the detailed instructions in AGENTS.md to create a professional HTML webs
 - Make all links functional
 
 **Critical Rules:**
-- DO NOT create additional files
+- DO NOT create additional files EXCEPT email.txt
 - DO NOT delete existing files
-- Only modify index.html
+- Only modify index.html and create email.txt
 - Follow AGENTS.md instructions exactly
 
-After modifying index.html, verify it contains a complete, professional website."""
+After modifying index.html and creating email.txt, verify everything is complete and professional."""
     return prompt
 
 def create_temp_workspace(business_data, slug):
@@ -289,21 +298,24 @@ def parse_generated_code(temp_dir, slug):
             code_data[f"{slug}.html"] = f.read()
             print(f"Saved generated HTML to code.json")
     
-    # Also check for page.tsx if generated
-    page_file = os.path.join(temp_dir, "page.tsx")
-    if os.path.exists(page_file):
-        with open(page_file, "r", encoding="utf-8") as f:
-            code_data[f"{slug}.page"] = f.read()
+    # Look for email.txt (but don't save to code.json - only to CSV)
+    email_file = os.path.join(temp_dir, "email.txt")
+    email_content = None
+    if os.path.exists(email_file):
+        with open(email_file, "r", encoding="utf-8") as f:
+            email_content = f.read()
+        print(f"Email generated for {slug}")
     
     save_code_file(code_data)
     print(f"Saved generated code to code.json")
+    return email_content
 
 def cleanup_temp_workspace(temp_dir):
     if os.path.exists(temp_dir):
         shutil.rmtree(temp_dir)
         print(f"Cleaned up temp directory")
 
-def update_csv_slug(business_name, slug):
+def update_csv_slug(business_name, slug, email_content=None):
     if not os.path.exists(CSV_FILE):
         return False
     
@@ -321,6 +333,9 @@ def update_csv_slug(business_name, slug):
         if row.get("name", "").lower().strip() == business_name.lower().strip():
             if not row.get("curated"):
                 row["curated"] = slug
+                if email_content:
+                    row["sales_email"] = email_content
+                    all_fields.add("sales_email")
                 updated = True
                 break
     
@@ -361,14 +376,14 @@ def generate_website_for_business(business_data, use_opencode=True):
     temp_dir = create_temp_workspace(business_data, slug)
     print(f"Created temp workspace: {temp_dir}")
     
-    prompt = generate_prompt_for_opencode(business_data, temp_dir)
+    prompt = generate_prompt_for_opencode(business_data, temp_dir, slug)
     success, result = run_opencode_session(name, prompt)
     
     if success:
         print("OpenCode agent completed successfully")
-        parse_generated_code(temp_dir, slug)
+        email_content = parse_generated_code(temp_dir, slug)
         print(f"Calling update_csv_slug for: {name}")
-        updated = update_csv_slug(name, slug)
+        updated = update_csv_slug(name, slug, email_content)
         print(f"update_csv_slug returned: {updated}")
         if updated:
             print(f"Updated CSV with slug: {slug}")
@@ -422,6 +437,18 @@ def main():
     if os.path.exists(websites_dir):
         shutil.rmtree(websites_dir)
         print(f"Cleaned up {websites_dir}")
+    
+    print("\n" + "=" * 60)
+    print("SALES EMAILS")
+    print("=" * 60)
+    
+    businesses_with_emails = load_all_businesses_from_csv()
+    for row in businesses_with_emails:
+        email = row.get("sales_email", "").strip()
+        if email:
+            print(f"\n--- {row.get('name', 'Unknown')} ---")
+            print(email)
+            print()
 
 if __name__ == "__main__":
     main()

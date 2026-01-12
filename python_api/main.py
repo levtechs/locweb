@@ -167,16 +167,14 @@ def main():
     
     keyword = input("Search keyword (optional): ").strip() or ""
     
-    print("\nSearching for businesses...")
-    all_businesses = client.find_all_businesses(lat, lng, keyword, target_count=20)
+    print("\nSearching for businesses without websites...")
+    businesses_to_curate, all_businesses = client.find_businesses_without_website(lat, lng, keyword, target_count=5)
     
-    if not all_businesses:
-        print("\nNo businesses found")
+    if not businesses_to_curate:
+        print("\nNo businesses without websites found in the area")
         return
     
-    businesses_without_websites = [b for b in all_businesses if not b.get("website")]
-    
-    print(f"\nFound {len(all_businesses)} businesses ({len(businesses_without_websites)} without websites)")
+    print(f"\nFound {len(businesses_to_curate)} businesses without websites out of {len(all_businesses)} total")
     
     existing_rows, _ = load_existing_csv()
     merged_businesses = merge_and_save(all_businesses, existing_rows)
@@ -209,6 +207,18 @@ def main():
             import shutil
             shutil.rmtree(websites_dir)
             print(f"\nCleaned up {websites_dir}")
+        
+        print("\n" + "=" * 60)
+        print("SALES EMAILS")
+        print("=" * 60)
+        
+        existing_rows, _ = load_existing_csv()
+        for row in existing_rows:
+            email = row.get("sales_email", "").strip()
+            if email:
+                print(f"\n--- {row.get('name', 'Unknown')} ---")
+                print(email)
+                print()
     else:
         print("\nSkipped. Run generate_website.py later to generate websites.")
 

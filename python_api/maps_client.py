@@ -54,11 +54,13 @@ class GoogleMapsClient:
     def find_businesses_without_website(self, lat, lng, keyword="", target_count=5):
         print(f"\nSearching for {target_count} businesses without websites...")
         
-        found = []
+        found_without_website = []
+        all_businesses = []
         page_token = None
         page_num = 0
+        max_pages = 20
         
-        while len(found) < target_count:
+        while len(found_without_website) < target_count and page_num < max_pages:
             page_num += 1
             print(f"  Page {page_num}...", end=" ")
             
@@ -76,14 +78,12 @@ class GoogleMapsClient:
             print(f"found {len(results)} businesses")
             
             for place in results:
-                if len(found) >= target_count:
-                    break
-                
                 details = self.get_place_details(place.get("place_id"))
+                all_businesses.append(details)
                 
                 if not details.get("website"):
-                    found.append(details)
-                    print(f"    ✓ {details.get('name')} - no website ({len(found)}/{target_count})")
+                    found_without_website.append(details)
+                    print(f"    ✓ {details.get('name')} - no website ({len(found_without_website)}/{target_count})")
             
             page_token = data.get("next_page_token")
             if not page_token:
@@ -92,7 +92,10 @@ class GoogleMapsClient:
             
             time.sleep(2)
         
-        return found
+        if len(found_without_website) < target_count:
+            print(f"  Only found {len(found_without_website)} businesses without websites after {page_num} pages")
+        
+        return found_without_website, all_businesses
 
     def find_all_businesses(self, lat, lng, keyword="", target_count=20):
         print(f"\nSearching for {target_count} businesses...")
