@@ -39,6 +39,11 @@ class GoogleMapsClient:
         
         response = requests.get(base_url, params=params)
         json_data = response.json()
+        
+        if json_data.get("status") != "OK":
+            print(f"  API ERROR: {json_data.get('status')}")
+            return {}
+        
         result = json_data.get("result", {})
         
         if "photos" in result and isinstance(result["photos"], list):
