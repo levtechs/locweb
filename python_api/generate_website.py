@@ -5,7 +5,7 @@ import time
 import requests
 import json
 import shutil
-from urllib.parse import unquote
+from urllib.parse import unquote, quote
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -242,9 +242,9 @@ def generate_prompt_for_opencode(business_data, folder_path, slug):
 
 **IMPORTANT: Work in this directory: {folder_path}**
 
-**Website URL:**
-When creating the email, use this placeholder for the website URL:
-https://locweb.example.com/{slug.replace(" ", "-")}
+    **Website URL:**
+    When creating the email, use this placeholder for the website URL:
+    https://locweb.vercel.app/web/{slug}
 
 **Your Task:**
 
