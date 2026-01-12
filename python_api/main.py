@@ -258,9 +258,12 @@ def process_area(client, lat, lng, area_name, keyword):
             email = row.get("sales_email", "").strip()
             if email:
                 phone = row.get("formatted_phone_number", "").strip() or row.get("international_phone_number", "").strip()
+                business_email = row.get("email", "").strip()
                 print(f"\n--- {row.get('name', 'Unknown')} ---")
                 if phone:
-                    print(f"Contact: {phone}")
+                    print(f"Phone: {phone}")
+                if business_email:
+                    print(f"Email: {business_email}")
                 print(email)
                 print()
         
