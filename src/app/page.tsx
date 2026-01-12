@@ -48,9 +48,6 @@ export default function Home() {
               <a href="#pricing" className="text-gray-600 hover:text-gray-900">
                 Pricing
               </a>
-              <Link href="/master" className="text-gray-600 hover:text-gray-900">
-                Dashboard
-              </Link>
             </nav>
           </div>
         </div>
