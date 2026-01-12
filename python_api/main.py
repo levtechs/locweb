@@ -252,6 +252,12 @@ def process_area(client, lat, lng, area_name, keyword):
     print(f"\nCSV updated")
     print(f"Total businesses: {len(merged_businesses)}")
     
+    if merged_businesses:
+        all_fields = set()
+        for b in merged_businesses:
+            all_fields.update(b.keys())
+        print(f"Fields being saved: {sorted(all_fields)}")
+    
     uncurated = [b for b in merged_businesses if not b.get("website") and not b.get("curated")]
     
     if not uncurated:
