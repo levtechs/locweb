@@ -79,6 +79,10 @@ class GoogleMapsClient:
             print(f"found {len(results)} businesses")
             
             for place in results:
+                place_name = place.get("name", "").strip()
+                if not place_name:
+                    continue
+                    
                 details = self.get_place_details(place.get("place_id"))
                 all_businesses.append(details)
                 
@@ -175,26 +179,30 @@ class GoogleMapsClient:
             "city in Nevada",
         ]
         
-        query = random.choice(queries)
-        
-        try:
-            url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
-            params = {"query": query, "key": self.api_key}
+        for attempt in range(3):
+            query = random.choice(queries)
             
-            response = requests.get(url, params=params)
-            data = response.json()
-            
-            if data.get("status") == "OK" and data.get("results"):
-                place = random.choice(data.get("results")[:10])
-                location = place.get("geometry", {}).get("location", {})
+            try:
+                url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
+                params = {"query": query, "key": self.api_key}
                 
-                return {
-                    "name": place.get("name", ""),
-                    "city": place.get("formatted_address", "").split(",")[0].strip() if place.get("formatted_address") else "",
-                    "lat": location.get("lat"),
-                    "lng": location.get("lng")
-                }
-        except Exception as e:
-            pass
+                response = requests.get(url, params=params)
+                data = response.json()
+                
+                if data.get("status") == "OK" and data.get("results"):
+                    valid_places = [p for p in data.get("results", [])[:20] if p.get("name") and p.get("name").strip()]
+                    
+                    if valid_places:
+                        place = random.choice(valid_places)
+                        location = place.get("geometry", {}).get("location", {})
+                        
+                        return {
+                            "name": place.get("name", ""),
+                            "city": place.get("formatted_address", "").split(",")[0].strip() if place.get("formatted_address") else "",
+                            "lat": location.get("lat"),
+                            "lng": location.get("lng")
+                        }
+            except Exception as e:
+                continue
         
         return None
