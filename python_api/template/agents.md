@@ -37,7 +37,7 @@ I was looking at {business_name} on Google and I have to say - {personalized_com
 
 I noticed you don't have a website yet, and I thought: every great local business deserves to be found online. So I created one for you!
 
-{your_business_name} is live right here: {website_url}
+Your website is live right here: {website_url}
 
 I wanted to put together something that really showcases what makes {business_name} special - your photos, your reviews, your location, everything that makes people want to visit you.
 
@@ -57,6 +57,7 @@ Looking forward to hearing from you!
 Warmly,
 Lev
 smolsky.lev@gmail.com
+https://locweb.vercel.app
 ```
 
 ### Email Customization Guidelines
