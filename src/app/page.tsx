@@ -38,9 +38,12 @@ export default function Home() {
       <header className="border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-gray-900">
-              LocWeb
-            </h1>
+            <div className="flex items-center gap-3">
+              <img src="/favicon.ico" alt="LocWeb" className="w-10 h-10" />
+              <h1 className="text-2xl font-bold text-gray-900">
+                LocWeb
+              </h1>
+            </div>
             <nav className="flex gap-6">
               <a href="#how-it-works" className="text-gray-600 hover:text-gray-900">
                 How It Works
