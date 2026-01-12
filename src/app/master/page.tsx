@@ -41,7 +41,7 @@ export default function Master() {
             Local Business Websites
           </h1>
           <p className="mt-1 text-sm text-gray-500">
-            Auto-generated websites for local businesses
+            Auto-curated websites for local businesses
           </p>
         </div>
       </header>
