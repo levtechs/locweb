@@ -2,6 +2,8 @@ import os
 import csv
 import sys
 import random
+import json
+from urllib.parse import unquote
 from dotenv import load_dotenv
 from maps_client import GoogleMapsClient, DEFAULT_LAT, DEFAULT_LNG
 
@@ -208,6 +210,30 @@ def run_website_generation(businesses):
     print(f"\nCuration complete: {curated_count} succeeded, {failed_count} failed")
     return updated_businesses
 
+def load_code_file():
+    code_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), "src", "lib", "code.json")
+    if os.path.exists(code_file):
+        try:
+            with open(code_file, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except:
+            return {}
+    return {}
+
+def print_sales_emails_from_code():
+    print("\n" + "=" * 60)
+    print("SALES EMAILS")
+    print("=" * 60)
+    
+    code_data = load_code_file()
+    for key in code_data:
+        if key.endswith(".email"):
+            slug = key.replace(".email", "")
+            name = unquote(slug).replace("-", " ").replace("+", " ")
+            print("\n--- " + name + " ---")
+            print(code_data[key])
+            print()
+
 def process_area(client, lat, lng, area_name, keyword):
     print(f"\nSearching in {area_name}")
     print(f"Coordinates: {lat:.4f}, {lng:.4f}")
@@ -249,23 +275,7 @@ def process_area(client, lat, lng, area_name, keyword):
             shutil.rmtree(websites_dir)
             print(f"\nCleaned up {websites_dir}")
         
-        print("\n" + "=" * 60)
-        print("SALES EMAILS")
-        print("=" * 60)
-        
-        existing_rows, _ = load_existing_csv()
-        for row in existing_rows:
-            email = row.get("sales_email", "").strip()
-            if email:
-                phone = row.get("formatted_phone_number", "").strip() or row.get("international_phone_number", "").strip()
-                business_email = row.get("email", "").strip()
-                print(f"\n--- {row.get('name', 'Unknown')} ---")
-                if phone:
-                    print(f"Phone: {phone}")
-                if business_email:
-                    print(f"Email: {business_email}")
-                print(email)
-                print()
+        print_sales_emails_from_code()
         
         print("\nCommitting and pushing changes...")
         commit_and_push_changes()

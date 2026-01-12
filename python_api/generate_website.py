@@ -5,6 +5,7 @@ import time
 import requests
 import json
 import shutil
+from urllib.parse import unquote
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -290,7 +291,6 @@ def create_temp_workspace(business_data, slug):
 def parse_generated_code(temp_dir, slug):
     code_data = load_code_file()
     
-    # Look for index.html (generated HTML)
     index_file = os.path.join(temp_dir, "index.html")
     
     if os.path.exists(index_file):
@@ -298,13 +298,13 @@ def parse_generated_code(temp_dir, slug):
             code_data[f"{slug}.html"] = f.read()
             print(f"Saved generated HTML to code.json")
     
-    # Look for email.txt (but don't save to code.json - only to CSV)
     email_file = os.path.join(temp_dir, "email.txt")
     email_content = None
     if os.path.exists(email_file):
         with open(email_file, "r", encoding="utf-8") as f:
             email_content = f.read()
-        print(f"Email generated for {slug}")
+        code_data[f"{slug}.email"] = email_content
+        print(f"Saved email to code.json")
     
     save_code_file(code_data)
     print(f"Saved generated code to code.json")
@@ -333,9 +333,6 @@ def update_csv_slug(business_name, slug, email_content=None):
         if row.get("name", "").lower().strip() == business_name.lower().strip():
             if not row.get("curated"):
                 row["curated"] = slug
-                if email_content:
-                    row["sales_email"] = email_content
-                    all_fields.add("sales_email")
                 updated = True
                 break
     
@@ -410,6 +407,20 @@ def load_all_businesses_from_csv():
     
     return businesses
 
+def print_sales_emails():
+    print("\n" + "=" * 60)
+    print("SALES EMAILS")
+    print("=" * 60)
+    
+    code_data = load_code_file()
+    for key in code_data:
+        if key.endswith(".email"):
+            slug = key.replace(".email", "")
+            name = unquote(slug).replace("-", " ").replace("+", " ")
+            print("\n--- " + name + " ---")
+            print(code_data[key])
+            print()
+
 def main():
     print("Website Generator for Local Businesses")
     print("=" * 50)
@@ -438,17 +449,7 @@ def main():
         shutil.rmtree(websites_dir)
         print(f"Cleaned up {websites_dir}")
     
-    print("\n" + "=" * 60)
-    print("SALES EMAILS")
-    print("=" * 60)
-    
-    businesses_with_emails = load_all_businesses_from_csv()
-    for row in businesses_with_emails:
-        email = row.get("sales_email", "").strip()
-        if email:
-            print(f"\n--- {row.get('name', 'Unknown')} ---")
-            print(email)
-            print()
+    print_sales_emails()
 
 if __name__ == "__main__":
     main()
