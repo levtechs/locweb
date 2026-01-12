@@ -257,7 +257,10 @@ def process_area(client, lat, lng, area_name, keyword):
         for row in existing_rows:
             email = row.get("sales_email", "").strip()
             if email:
+                phone = row.get("formatted_phone_number", "").strip() or row.get("international_phone_number", "").strip()
                 print(f"\n--- {row.get('name', 'Unknown')} ---")
+                if phone:
+                    print(f"Contact: {phone}")
                 print(email)
                 print()
         
