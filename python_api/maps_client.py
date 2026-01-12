@@ -80,18 +80,18 @@ class GoogleMapsClient:
             
             for place in results:
                 place_name = place.get("name")
-                if not place_name:
-                    continue
-                place_name = str(place_name).strip()
-                if not place_name:
+                if not place_name or str(place_name).strip() in ["", "None", "null"]:
                     continue
                 
+                place_name = str(place_name).strip()
+                
                 details = self.get_place_details(place.get("place_id"))
+                details["name"] = place_name
                 all_businesses.append(details)
                 
                 if not details.get("website"):
                     found_without_website.append(details)
-                    print(f"    ✓ {details.get('name')} - no website ({len(found_without_website)}/{target_count})")
+                    print(f"    ✓ {place_name} - no website ({len(found_without_website)}/{target_count})")
             
             page_token = data.get("next_page_token")
             if not page_token:
@@ -193,7 +193,8 @@ class GoogleMapsClient:
                 data = response.json()
                 
                 if data.get("status") == "OK" and data.get("results"):
-                    valid_places = [p for p in data.get("results", [])[:20] if p.get("name") and p.get("name").strip()]
+                    valid_places = [p for p in data.get("results", [])[:20] 
+                                    if p.get("name") and str(p.get("name")).strip() not in ["", "None", "null"]]
                     
                     if valid_places:
                         place = random.choice(valid_places)
