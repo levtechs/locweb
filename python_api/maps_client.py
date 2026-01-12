@@ -33,17 +33,12 @@ class GoogleMapsClient:
         
         params = {
             "place_id": place_id,
-            "fields": "name,place_id,vicinity,formatted_address,formatted_phone_number,international_phone_number,email,rating,user_ratings_total,price_level,opening_hours,website,reviews,photos,geometry,url,utc_offset,icon,icon_mask_base_uri,icon_background_color,reference,types,business_status,curbside_pickup,delivery,dine_in,takeout,reservable",
+            "fields": "name,place_id,vicinity,formatted_address,formatted_phone_number,international_phone_number,rating,user_ratings_total,price_level,opening_hours,website,reviews,photos,geometry,url,utc_offset,icon,icon_mask_base_uri,icon_background_color,reference,types,business_status,curbside_pickup,delivery,dine_in,takeout,reservable",
             "key": self.api_key
         }
         
         response = requests.get(base_url, params=params)
         json_data = response.json()
-        
-        if json_data.get("status") != "OK":
-            print(f"  API ERROR: {json_data.get('status')}")
-            return {}
-        
         result = json_data.get("result", {})
         
         if "photos" in result and isinstance(result["photos"], list):
