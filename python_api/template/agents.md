@@ -129,6 +129,9 @@ For `{business_nice_domain}`, suggest:
 ### Layout & Visual Design
 - Create a modern, clean design with plenty of whitespace
 - Use a hero section with an engaging headline and subheadline
+- HERO SECTION: Use LIGHT background only (bg-white, bg-gray-50, bg-gray-100) - NO black, NO gray-800, NO gray-900
+- HERO SECTION: All text in hero must be DARK (text-gray-900, text-black) - NO white text
+- Hero should NOT have a dark gradient overlay or dark background
 - Include a professional-looking photo gallery with smooth transitions
 - Make all call-to-action buttons prominent and clickable
 - Use rounded corners, subtle shadows, and smooth transitions
@@ -140,10 +143,11 @@ For `{business_nice_domain}`, suggest:
 1. Read `data.json` to get the business information
 2. Modify `index.html` to create a professional landing page:
    - Update the title tag with the business name
-    - Create a hero section with:
-      - Business name as headline (large, clear, high contrast)
-      - Professional tagline/welcome message
-      - Call-to-action buttons (Call Now, Get Directions)
+   - Create a hero section with:
+     - LIGHT background only (bg-white, bg-gray-50, or bg-gray-100) - NO dark backgrounds
+     - Business name as headline with DARK text (text-gray-900 or text-black)
+     - Professional tagline/welcome message with DARK text
+     - Call-to-action buttons with light backgrounds and dark text
     - Add a "About" section with business description
     - Include business information (address, phone, hours, rating) in a clean info section
     - Add a photo gallery using the provided photo URLs with hover effects
