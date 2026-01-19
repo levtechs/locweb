@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LocWeb
+
+Professional websites for local businesses at no cost.
+
+## What It Does
+
+LocWeb automatically creates free professional websites for local businesses that don't have one. The system:
+
+1. **Searches Google Maps** for local businesses without websites
+2. **Generates customized landing pages** using AI
+3. **Includes business photos, reviews, hours, and contact info** from Google Business profiles
+4. **Creates personalized sales emails** to pitch the websites to business owners
+5. **Hosts the websites** on a Next.js platform
+
+## Website
+
+[https://locweb.vercel.app/](https://locweb.vercel.app/)
+
+## Features
+
+- Automated business discovery via Google Places API
+- AI-powered website generation with Tailwind CSS
+- Photo gallery from Google Maps
+- Customer reviews showcase (4+ stars)
+- Business hours and contact information
+- Google Maps integration
+- Personalized sales email generation
+- Master dashboard at `/master`
+
+## Tech Stack
+
+- **Frontend**: Next.js 16, React 19, TypeScript
+- **Styling**: Tailwind CSS 4
+- **Backend**: Python scripts for business discovery
+- **AI**: OpenCode for website and email generation
+- **APIs**: Google Maps Places API
+
+## Project Structure
+
+```
+locweb/
+├── src/                      # Next.js frontend
+│   ├── app/                  # App router pages
+│   │   ├── page.tsx         # Main landing page
+│   │   ├── master/page.tsx  # Dashboard of all websites
+│   │   └── web/[slug]/      # Dynamic business pages
+│   └── lib/
+│       └── code.json        # Generated HTML & emails (database)
+├── python_api/              # Python backend
+│   ├── main.py             # CLI for business discovery
+│   ├── generate_website.py # AI website generation
+│   └── template/           # Templates for AI
+└── public/                  # Static assets
+```
 
 ## Getting Started
 
-First, run the development server:
+### Frontend (Next.js)
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Backend (Python)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+cd python_api
+python main.py
+```
 
-## Learn More
+## Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Copy `.env.example` to `.env` and fill in:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+cp .env.example .env
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Required variables:
+- `GOOGLE_MAPS_API_KEY` - Google Maps Places API key
+- `OPENCODE_API_KEY` - OpenCode API key for AI generation
+- `OWNER_EMAIL` - Contact email for sales outreach
+- `OWNER_NAME` - Owner name for email signature
+- `OPENCODE_HOST` - OpenCode server host (default: 127.0.0.1)
+- `OPENCODE_PORT` - OpenCode server port (default: 4096)
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT

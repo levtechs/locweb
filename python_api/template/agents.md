@@ -28,6 +28,10 @@ The goal is to:
 
 ### Email Template (Customize for Each Business)
 
+The email.txt file should use the following placeholders from data.json:
+- `{owner_name}` - The sender's name (e.g., "Lev")
+- `{owner_email}` - The sender's email (e.g., "smolsky.lev@gmail.com")
+
 ```
 Subject: Something special for {business_name}
 
@@ -55,10 +59,16 @@ Would you have a few minutes to chat this week? Even just 10 minutes would be gr
 Looking forward to hearing from you!
 
 Warmly,
-Lev
-smolsky.lev@gmail.com
+{owner_name}
+{owner_email}
 https://locweb.vercel.app
 ```
+
+### Email Placeholders
+
+The following values are available in `data.json` for the email:
+- `{owner_name}` - Your name (from OWNER_NAME env var)
+- `{owner_email}` - Your email address (from OWNER_EMAIL env var)
 
 ### Email Customization Guidelines
 

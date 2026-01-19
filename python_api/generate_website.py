@@ -18,6 +18,8 @@ CSV_FILE = os.path.join(os.path.dirname(__file__), "businesses.csv")
 OPENCODE_API_KEY = os.environ.get("OPENCODE_API_KEY")
 OPENCODE_HOST = os.environ.get("OPENCODE_HOST", "127.0.0.1")
 OPENCODE_PORT = os.environ.get("OPENCODE_PORT", "4096")
+OWNER_EMAIL = os.environ.get("OWNER_EMAIL", "contact@locweb.example.com")
+OWNER_NAME = os.environ.get("OWNER_NAME", "The LocWeb Team")
 
 OPENCODE_BASE_URL = f"http://{OPENCODE_HOST}:{OPENCODE_PORT}"
 
@@ -271,6 +273,10 @@ After modifying index.html and creating email.txt, verify everything is complete
 def create_temp_workspace(business_data, slug):
     temp_dir = os.path.join(WEBSITES_DIR, f".temp_{slug}")
     os.makedirs(temp_dir, exist_ok=True)
+    
+    # Add owner info to business data for email template
+    business_data["owner_email"] = OWNER_EMAIL
+    business_data["owner_name"] = OWNER_NAME
     
     # Create data.json with business info
     with open(os.path.join(temp_dir, "data.json"), "w", encoding="utf-8") as f:

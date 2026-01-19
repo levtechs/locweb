@@ -15,5 +15,6 @@ Would you have a few minutes to chat this week? Even just 10 minutes would be gr
 Looking forward to hearing from you!
 
 Warmly,
-Lev
-smolsky.lev@gmail.com
+{owner_name}
+{owner_email}
+https://locweb.vercel.app
