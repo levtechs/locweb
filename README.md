@@ -29,11 +29,8 @@ LocWeb automatically creates free professional websites for local businesses tha
 
 ## Tech Stack
 
-- **Frontend**: Next.js 16, React 19, TypeScript
-- **Styling**: Tailwind CSS 4
-- **Backend**: Python scripts for business discovery
-- **AI**: OpenCode for website and email generation
-- **APIs**: Google Maps Places API
+- **Frontend**: Next.js 16, React 19, TypeScript, Tailwind CSS 4
+- **Business Discovery**: Python scripts for Google Maps scanning and AI website generation
 
 ## Project Structure
 
@@ -46,9 +43,9 @@ locweb/
 │   │   └── web/[slug]/      # Dynamic business pages
 │   └── lib/
 │       └── code.json        # Generated HTML & emails (database)
-├── python_api/              # Python backend
-│   ├── main.py             # CLI for business discovery
-│   ├── generate_website.py # AI website generation
+├── python_api/              # Business discovery & generation scripts
+│   ├── main.py             # CLI for scanning businesses
+│   ├── generate_website.py # AI website generation orchestration
 │   └── template/           # Templates for AI
 └── public/                  # Static assets
 ```
@@ -64,12 +61,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
-### Backend (Python)
+### Python Scripts (Business Discovery & Generation)
 
 ```bash
 cd python_api
 python main.py
 ```
+
+These scripts scan Google Maps for businesses without websites and use AI to generate landing pages.
 
 ## Environment Variables
 
