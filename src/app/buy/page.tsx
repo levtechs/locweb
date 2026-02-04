@@ -36,24 +36,86 @@ async function checkDomainAvailability(domain: string): Promise<boolean> {
   }
 }
 
-function generateDomainIdeas(name: string, city: string, category: string = ""): string[] {
+async function generateDomainIdeasWithAvailability(
+  name: string, 
+  city: string, 
+  street: string = "", 
+  type: string = ""
+): Promise<{ domain: string; available: boolean }[]> {
   const cleanName = name.toLowerCase().replace(/[^a-z0-9]/g, "")
   const cleanCity = city.toLowerCase().replace(/[^a-z0-9]/g, "")
-  const cleanCategory = category.toLowerCase().replace(/[^a-z0-9]/g, "")
+  const cleanStreet = street.toLowerCase().replace(/[^a-z0-9]/g, "")
+  const cleanType = type.toLowerCase().replace(/[^a-z0-9]/g, "")
 
-  const ideas = [
+  // Shortened name variants - strip common suffixes for cleaner domains
+  const shortName = cleanName
+    .replace(/(restaurant|cafe|bar|grill|pizzeria|bakery|deli|pub|eatery|kitchen|diner|bistro)$/, "")
+  
+  const ideas: string[] = [
     `${cleanName}.com`,
-    `${cleanName}${cleanCity}.com`,
-    `visit${cleanName}.com`,
-    `${cleanName}official.com`,
-  ]
+    shortName !== cleanName ? `${shortName}.com` : null,
+  ].filter(Boolean) as string[]
 
-  if (cleanCategory) {
-    ideas.push(`${cleanName}${cleanCategory}.com`)
+  // Add type-specific variations
+  if (cleanType) {
+    if (shortName === cleanName) {
+      ideas.push(`${cleanName}${cleanType}.com`)
+      ideas.push(`the${cleanName}${cleanType}.com`)
+    } else {
+      ideas.push(`${shortName}${cleanType}.com`)
+    }
   }
   
-  // Deduplicate
-  return Array.from(new Set(ideas))
+  // Add city variations
+  if (cleanCity) {
+    ideas.push(`${cleanName}${cleanCity}.com`)
+    ideas.push(`${shortName}${cleanCity}.com`)
+    ideas.push(`${cleanName}in${cleanCity}.com`)
+  }
+  
+  // Add street variations
+  if (cleanStreet && cleanStreet.length > 3 && cleanStreet.length < 12) {
+    ideas.push(`${shortName}${cleanStreet}.com`)
+  }
+  
+  // Add "visit" variant
+  ideas.push(`visit${shortName}.com`)
+
+  // Generate more creative variations if needed
+  const creativeIdeas = [
+    `${shortName}spot.com`,
+    `${shortName}place.com`,
+    `${shortName}house.com`,
+    `${shortName}spot${cleanCity}.com`,
+    `${shortName}go.com`,
+    `${shortName}now.com`,
+    `${cleanName}now.com`,
+    `${shortName}hub.com`,
+    `${shortName}central.com`,
+  ]
+  
+  ideas.push(...creativeIdeas)
+
+  // Check availability and return up to 3 available
+  const uniqueIdeas = Array.from(new Set(ideas))
+  const results: { domain: string; available: boolean }[] = []
+  
+  for (const domain of uniqueIdeas) {
+    const available = await checkDomainAvailability(domain)
+    results.push({ domain, available })
+    // If we have 3 available, we're done
+    if (results.filter(r => r.available).length >= 3) {
+      break
+    }
+  }
+  
+  // Sort: available first, then by relevance
+  results.sort((a, b) => {
+    if (a.available !== b.available) return a.available ? -1 : 1
+    return 0
+  })
+  
+  return results
 }
 
 export async function generateMetadata({ searchParams }: BuyPageProps): Promise<Metadata> {
@@ -79,32 +141,35 @@ export default async function BuyPage({ searchParams }: BuyPageProps) {
   const businessPhotos = businessData?.photos as unknown[] | undefined
   const photoCount = businessPhotos?.length || 0
 
-  // Domain Logic
-  let city = "city"
+  // Domain Logic - extract city and street from address
+  let city = ""
+  let street = ""
+  
   if (businessData?.address_components) {
      const comps = businessData.address_components as { long_name: string, types: string[] }[]
      const cityComp = comps.find(c => c.types.includes('locality'))
      if (cityComp) city = cityComp.long_name
+     
+     // Try to get street name
+     const streetComp = comps.find(c => c.types.includes('route'))
+     if (streetComp) {
+       // Extract street name (e.g., "Main Street" from "Main Street")
+       street = streetComp.long_name.split(' ').slice(0, 2).join(' ').replace(/[^a-zA-Z0-9\s]/g, '')
+     }
   } else if (businessAddress) {
-      // Fallback parse: "123 Main St, Springfield, IL 62704" -> Springfield
+      // Fallback parse: "123 Main St, Springfield, IL 62704" -> Springfield, Main
       const parts = businessAddress.split(',')
       if (parts.length >= 2) {
-         city = parts[parts.length - 3]?.trim() || parts[parts.length - 2]?.trim() || "city"
+         city = parts[parts.length - 3]?.trim() || parts[parts.length - 2]?.trim() || ""
+         street = parts[0]?.replace(/[0-9]/g, '').trim() || ""
+         street = street.split(' ').slice(0, 2).join(' ').replace(/[^a-zA-Z0-9]/g, '')
       }
   }
 
-  const category = (businessData?.types as string[])?.[0]?.replace('_', '') || ""
+  const types = (businessData?.types as string[])?.[0] || ""
   
-  const domainIdeas = generateDomainIdeas(businessName, city, category)
-  const domainResults = await Promise.all(
-    domainIdeas.map(async (domain) => ({
-      domain,
-      available: await checkDomainAvailability(domain)
-    }))
-  )
-  // Sort available first
-  domainResults.sort((a, b) => (a.available === b.available ? 0 : a.available ? -1 : 1))
-  const topDomains = domainResults.slice(0, 5)
+  const domainResults = await generateDomainIdeasWithAvailability(businessName, city, street, types)
+  const topDomains = domainResults
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white font-sans text-gray-900">
@@ -207,9 +272,10 @@ export default async function BuyPage({ searchParams }: BuyPageProps) {
               {/* Scaled Iframe Container */}
               <div className="w-full h-full bg-white overflow-hidden relative">
                  <iframe 
-                  src={`/web/${slug}?preview=true`}
+                  src={`/businesses/${slug}/index.html`}
                   className="absolute top-0 left-0 border-none bg-white origin-top-left"
                   title="Mobile Preview"
+                  sandbox="allow-scripts allow-same-origin allow-forms"
                   style={{ 
                     width: '414px', 
                     height: '896px', // iPhone Max height
@@ -232,10 +298,10 @@ export default async function BuyPage({ searchParams }: BuyPageProps) {
         </div>
 
         {/* Domain Selection */}
-        <div className="max-w-3xl mx-auto mb-16">
-          <div className="text-center mb-8">
+        <div className="max-w-2xl mx-auto mb-16">
+          <div className="text-center mb-6">
             <h2 className="text-2xl font-bold text-gray-900 mb-2">Claim Your Digital Real Estate</h2>
-            <p className="text-gray-600">We&apos;ve identified these premium domain names for your business.</p>
+            <p className="text-gray-600">We generated these personalized domains based on your business name, location, and type.</p>
           </div>
           
           <div className="bg-white rounded-xl shadow-md border border-gray-200 overflow-hidden">
@@ -260,8 +326,8 @@ export default async function BuyPage({ searchParams }: BuyPageProps) {
                 </div>
               ))}
             </div>
-            <div className="bg-gray-50 p-4 text-center text-sm text-gray-500 border-t border-gray-100">
-              Select your preferred domain after checkout. We handle the registration for you.
+            <div className="bg-amber-50 p-4 text-center text-sm text-gray-600 border-t border-amber-100">
+              <span className="font-medium">Tip:</span> These are personalized suggestions, but you're not limited to this list. After checkout, you can pick any domain you prefer.
             </div>
           </div>
         </div>

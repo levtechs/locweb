@@ -3,15 +3,205 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Business Website</title>
+  <title>KB 333 Korean BBQ - Premium Korean BBQ in Los Angeles</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .hover-scale { transition: transform 0.3s ease; }
+    .hover-scale:hover { transform: scale(1.05); }
+    .fade-in { animation: fadeIn 0.5s ease-in; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  </style>
 </head>
-<body>
-  <div class="min-h-screen flex items-center justify-center">
-    <div class="text-center max-w-md">
-      <h1 class="text-2xl font-bold mb-4">Business Website</h1>
-      <p class="text-gray-600 mb-4">Your business website will appear here.</p>
+<body class="text-gray-900 bg-white">
+  <nav class="bg-white shadow-sm fixed w-full z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-red-600">KB 333 Korean BBQ</h1>
+      <div class="hidden md:flex space-x-6">
+        <a href="#about" class="text-gray-700 hover:text-red-600 font-medium">About</a>
+        <a href="#info" class="text-gray-700 hover:text-red-600 font-medium">Info</a>
+        <a href="#gallery" class="text-gray-700 hover:text-red-600 font-medium">Gallery</a>
+        <a href="#reviews" class="text-gray-700 hover:text-red-600 font-medium">Reviews</a>
+      </div>
+      <a href="tel:+12136170306" class="bg-red-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-red-700 transition">Call Now</a>
     </div>
-  </div>
+  </nav>
+
+  <header class="pt-24 pb-16 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="fade-in">
+          <span class="inline-block bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-medium mb-4">Premium Korean BBQ</span>
+          <h1 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">Experience Authentic Korean BBQ at KB 333</h1>
+          <p class="text-lg text-gray-600 mb-6">Savor high-quality meats, fresh sides, and an unforgettable dining experience in the heart of Little Tokyo, Los Angeles.</p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="tel:+12136170306" class="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold text-center hover:bg-red-700 transition">Call to Reserve</a>
+            <a href="https://maps.google.com/?q=333+Alameda+St+305+Los+Angeles+CA" target="_blank" class="bg-white border-2 border-red-600 text-red-600 px-6 py-3 rounded-lg font-semibold text-center hover:bg-red-50 transition">Get Directions</a>
+          </div>
+          <div class="mt-6 flex items-center gap-2">
+            <div class="flex text-yellow-400">★★★★★</div>
+            <span class="font-semibold">4.9</span>
+            <span class="text-gray-600">(1,487 reviews)</span>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="photos/photo-1.jpg" alt="Korean BBQ grill with premium meats" class="rounded-2xl shadow-xl w-full h-80 object-cover hover-scale">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">About KB 333 Korean BBQ</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+          <div class="text-4xl mb-4">🥩</div>
+          <h3 class="text-xl font-semibold mb-2">Premium Quality Meats</h3>
+          <p class="text-gray-600">Prime cuts including brisket, pork belly, rib fingers, and marinated galbi. Every bite is tender and flavorful.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+          <div class="text-4xl mb-4">🍱</div>
+          <h3 class="text-xl font-semibold mb-2">Full Buffet & Sides</h3>
+          <p class="text-gray-600">Enjoy our extensive salad bar, fresh sides, steamed egg, cheese fondue, and even sushi options.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+          <div class="text-4xl mb-4">🍸</div>
+          <h3 class="text-xl font-semibold mb-2">Signature Cocktails</h3>
+          <p class="text-gray-600">Try our delicious cocktails for just $8 each - dangerously delicious and a great value!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="info" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12">Visit Us</h2>
+      <div class="grid md:grid-cols-2 gap-12">
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+          <h3 class="text-xl font-semibold mb-6 flex items-center gap-2">
+            <span class="text-red-600">📍</span> Location
+          </h3>
+          <p class="text-gray-700 text-lg mb-4">333 Alameda St #305<br>Los Angeles, CA 90013</p>
+          <p class="text-gray-600 mb-4">Located in the Little Tokyo area, easy access from downtown LA.</p>
+          <a href="https://maps.google.com/?q=333+Alameda+St+305+Los+Angeles+CA" target="_blank" class="inline-flex items-center text-red-600 font-medium hover:text-red-700">
+            Open in Maps →
+          </a>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+          <h3 class="text-xl font-semibold mb-6 flex items-center gap-2">
+            <span class="text-red-600">📞</span> Contact
+          </h3>
+          <p class="text-gray-700 text-lg mb-4">
+            <a href="tel:+12136170306" class="hover:text-red-600 transition">(213) 617-0306</a>
+          </p>
+          <p class="text-gray-600 mb-2">Call for reservations and takeout orders</p>
+          <p class="text-sm text-gray-500 mt-4">Price Level: $$</p>
+        </div>
+      </div>
+      <div class="mt-12 bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+        <h3 class="text-xl font-semibold mb-6 flex items-center gap-2">
+          <span class="text-red-600">🕐</span> Opening Hours
+        </h3>
+        <div class="grid md:grid-cols-2 gap-4">
+          <div class="space-y-2">
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Monday</span>
+              <span class="text-gray-900 font-medium">11:30 AM - 11:00 PM</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Tuesday</span>
+              <span class="text-gray-900 font-medium">11:30 AM - 11:00 PM</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Wednesday</span>
+              <span class="text-gray-900 font-medium">11:30 AM - 11:00 PM</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Thursday</span>
+              <span class="text-gray-900 font-medium">11:30 AM - 11:00 PM</span>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700 font-medium">Friday</span>
+              <span class="text-gray-900 font-medium">11:30 AM - 12:00 AM</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700 font-medium">Saturday</span>
+              <span class="text-gray-900 font-medium">11:30 AM - 12:00 AM</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Sunday</span>
+              <span class="text-gray-900 font-medium">11:30 AM - 11:00 PM</span>
+            </div>
+          </div>
+        </div>
+        <p class="mt-4 text-sm text-gray-500">✓ Free parking with 3-hour validation at Little Tokyo Galleria Mall</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-4">Our Gallery</h2>
+      <p class="text-gray-600 text-center mb-12">See what makes KB 333 Korean BBQ special</p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <img src="photos/photo-1.jpg" alt="Korean BBQ experience" class="rounded-xl shadow-md hover-scale w-full h-64 object-cover">
+        <img src="photos/photo-2.jpg" alt="Premium meats on the grill" class="rounded-xl shadow-md hover-scale w-full h-64 object-cover">
+        <img src="photos/photo-3.jpg" alt="Delicious Korean dishes" class="rounded-xl shadow-md hover-scale w-full h-64 object-cover">
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-4">What Our Customers Say</h2>
+      <p class="text-gray-600 text-center mb-12">Join thousands of satisfied diners</p>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="flex text-yellow-400 mb-3">★★★★★</div>
+          <p class="text-gray-700 mb-4 italic">"KB333 BBQ in Los Angeles is my top recommendation for Korean BBQ. They serve high-quality meats and offer a full salad bar, appetizers, sides, and even sushi. The staff is super friendly and helpful."</p>
+          <p class="font-semibold">— Annette Garay</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="flex text-yellow-400 mb-3">★★★★★</div>
+          <p class="text-gray-700 mb-4 italic">"This is a place we come to all the time. The quality of the meat is excellent and the taste is always consistent. Fast service, clean environment, and friendly staff. A must-try spot!"</p>
+          <p class="font-semibold">— serhat Tasyurek</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-50 py-12 border-t border-gray-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <h3 class="text-xl font-bold text-red-600 mb-4">KB 333 Korean BBQ</h3>
+          <p class="text-gray-600">Premium Korean BBQ experience in the heart of Little Tokyo, Los Angeles.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Hours</h4>
+          <div class="text-gray-600 text-sm space-y-1">
+            <p>Mon-Thu: 11:30 AM - 11:00 PM</p>
+            <p>Fri-Sat: 11:30 AM - 12:00 AM</p>
+            <p>Sunday: 11:30 AM - 11:00 PM</p>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4">Contact</h4>
+          <div class="text-gray-600 text-sm space-y-1">
+            <p>333 Alameda St #305</p>
+            <p>Los Angeles, CA 90013</p>
+            <p><a href="tel:+12136170306" class="hover:text-red-600">(213) 617-0306</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-200 pt-8 text-center text-gray-500 text-sm">
+        <p>© 2025 KB 333 Korean BBQ. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

@@ -4,7 +4,6 @@ import path from "path"
 
 interface BusinessPageProps {
   params: Promise<{ slug: string }>
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
 
 const BUSINESSES_DIR = path.join(process.cwd(), "public", "businesses")
@@ -95,11 +94,9 @@ export async function generateMetadata({ params }: BusinessPageProps): Promise<M
   }
 }
 
-export default async function BusinessPage({ params, searchParams }: BusinessPageProps) {
+export default async function BusinessPage({ params }: BusinessPageProps) {
   const { slug } = await params
-  const { preview } = await searchParams
   const decodedSlug = decodeURIComponent(slug)
-  const showWatermark = preview !== "true"
   
   // Read HTML from the business folder
   const htmlContent = readHtmlContent(decodedSlug)
@@ -149,7 +146,7 @@ export default async function BusinessPage({ params, searchParams }: BusinessPag
       width: "100vw",
       overflow: "hidden" 
     }}>
-      {showWatermark && watermark}
+      {watermark}
       <div style={{ flex: 1, width: "100%", position: "relative" }}>
         <iframe 
           srcDoc={htmlContent}

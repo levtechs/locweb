@@ -1,0 +1,31 @@
+Phone Script - Mendocino Farms
+
+Call Opening:
+"Hi, this is Lev calling. Am I speaking with the owner/manager of Mendocino Farms?"
+
+Business Context:
+Mendocino Farms is a popular sandwich and salad restaurant at 444 Flower St in downtown Los Angeles. With a 4.6-star rating from 205 reviews, it's clearly doing well. Customers rave about the chicken Caesar wrap, Farm Club sandwich, and Chicken Pesto Caprese. Your customers clearly love the food here - those reviews are impressive!
+
+Value Pitch:
+"I noticed Mendocino Farms doesn't have a dedicated website, and I wanted to reach out because I've actually built a FREE demo website for your business to show what I can do. It showcases your location, hours, photos, and great reviews - everything potential customers need to find and choose you."
+
+Website URL: https://locweb.vercel.app/web/mendocino-farms
+
+Service Explanation:
+"I set up websites specifically for local businesses like yours. The service includes:
+- Custom domain setup (like mendocinofarms.com)
+- Professional design with your photos and info
+- Ongoing maintenance and updates
+- Everything optimized for mobile and search"
+
+Pricing:
+"It's $45 one-time setup fee plus $5/month for hosting and maintenance. Very affordable, and I'll have it live with your own domain this week."
+
+Handle Interest:
+"Great! What's the best email to send the contract? Once you approve, I can have your custom domain set up within a few days."
+
+Handle Objections/Not Interested:
+"No problem at all. I understand. I'll send you the demo website link anyway so you can see the work. If you ever change your mind or want to discuss, I'm happy to help. Thanks so much for your time!"
+
+Closing:
+"Thanks so much for your time today. I'll send you an email with the demo link and we can chat more if you're interested. Have a great day!"
