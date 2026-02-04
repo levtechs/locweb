@@ -1,0 +1,39 @@
+Phone Pitch Script for Acacia Teriyaki
+
+---
+
+Opening:
+"Hi, this is Lev calling. I wanted to reach out because I noticed Acacia Teriyaki here in Redmond and I've been really impressed with what I found."
+
+Show Research:
+"Your customers clearly love the food here - those reviews are impressive! I saw one customer say the teriyaki has 'perfect char' and another mentioned your gyoza has surprisingly great flavor of scallion and ginger. That's the kind of attention to detail that sets a great restaurant apart."
+
+Present Demo Website:
+"I actually put together a FREE demo website for Acacia Teriyaki to show you what I can do. It's already live and ready to see - you can check it out at: https://locweb.vercel.app/web/acacia-teriyaki"
+
+Explain the Service:
+"I specialize in helping local businesses get a professional online presence. What I offer is simple:
+- I set up a custom website tailored to your business
+- I can connect it to your own domain (like acaciateriyaki.com) 
+- I handle all the ongoing maintenance and updates
+- Just a small $45 one-time setup fee, then $5/month for hosting and maintenance"
+
+Response Options:
+
+If Interested:
+"That's great! I can have everything set up with your custom domain this week. What domain would you like to use? I can help you figure out the best option."
+
+If Undecided:
+"No problem, I totally understand. I'll send you the demo link so you can look it over. Would you prefer email or text? My email is smolsky.lev@gmail.com. Feel free to reach out anytime if you have questions or want to move forward."
+
+If Not Interested:
+"I appreciate your time anyway. If you ever need a website or want to chat about your online presence, I'm here. Thanks for making great teriyaki for the Redmond community!"
+
+---
+
+Key Points to Remember:
+- Be warm and friendly, not pushy
+- Keep it brief - 2-3 minutes max
+- Emphasize the FREE demo website as value
+- Be clear about pricing: $45 setup + $5/month
+- Mention you can have it live with their domain this week

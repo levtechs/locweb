@@ -10,18 +10,6 @@ from generate_website import generate_website_for_business, PUBLIC_BUSINESSES_DI
 
 load_dotenv()
 
-def get_random_coordinates():
-    api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
-    if not api_key:
-        return None, None, None
-    
-    client = GoogleMapsClient(api_key)
-    area = client.find_random_area()
-    
-    if area:
-        return area["lat"], area["lng"], area["name"]
-    return None, None, None
-
 US_AREAS = [
     {"city": "Boston, MA", "lat": 42.3601, "lng": -71.0589},
     {"city": "Cambridge, MA", "lat": 42.3736, "lng": -71.1097},
@@ -73,6 +61,10 @@ US_AREAS = [
     {"city": "San Antonio, TX", "lat": 29.4241, "lng": -98.4936},
 ]
 
+def get_random_area():
+    area = random.choice(US_AREAS)
+    return area["lat"], area["lng"], area["city"]
+
 def get_already_curated_slugs():
     slugs = set()
     if os.path.exists(PUBLIC_BUSINESSES_DIR):
@@ -101,91 +93,34 @@ def print_phone_pitches():
             with open(pitch_file, "r") as f:
                 print(f.read())
 
-def process_single_business(business):
-    name = business.get("name", "Unknown")
-    print(f"\nProcessing: {name}")
-    
-    photo_urls = business.get("photo_urls", [])
-    if photo_urls:
-        print(f"  Downloading {len(photo_urls)} photos...")
-        local_paths = download_photos_locally(photo_urls, name)
-        print(f"  Downloaded {len(local_paths)} photos")
-    else:
-        local_paths = []
-        print("  No photos to download")
-    
-    slug = generate_website_for_business(business, photo_paths=local_paths, use_opencode=True)
-    
-    if slug:
-        print(f"  ✓ Curated: {slug}")
-    else:
-        print(f"  ✗ Failed to curate: {name}")
-    
-    return slug
-
-def process_area(client, lat, lng, area_name, keyword, goal_mode=False, parallel_workers=3):
-    print(f"\nSearching in {area_name}")
-    print(f"Coordinates: {lat:.4f}, {lng:.4f}")
-    
-    businesses_to_curate, all_businesses = client.find_businesses_without_website(lat, lng, keyword, target_count=5)
-    
-    if not businesses_to_curate:
-        print(f"No businesses without websites found in {area_name}")
-        return 0
-    
-    print(f"\nFound {len(businesses_to_curate)} businesses without websites out of {len(all_businesses)} total")
-    
-    curated_slugs = get_already_curated_slugs()
-    new_businesses = [b for b in businesses_to_curate if sanitize_folder_name(b.get("name", "")) not in curated_slugs]
-    
-    if not new_businesses:
-        print(f"All found businesses already have websites curated!")
-        return 0
-    
-    if not goal_mode:
-        print(f"\n{len(new_businesses)} new businesses to curate:")
-        for i, b in enumerate(new_businesses, 1):
-            print(f"  {i}. {b.get('name')}")
-        
-        print()
-        response = input("Curate websites for these businesses? (y/n): ").strip().lower()
-        
-        if response != "y" and response != "yes":
-            print("\nSkipped.")
-            return 0
-    
-    print(f"\nCurating websites with {parallel_workers} parallel agent(s)...")
-    
-    success_count = 0
-    with ThreadPoolExecutor(max_workers=parallel_workers) as executor:
-        futures = {executor.submit(process_single_business, b): b for b in new_businesses}
-        for future in as_completed(futures):
-            slug = future.result()
-            if slug:
-                success_count += 1
-    
-    return success_count
-
 def commit_and_push_changes():
     try:
         import subprocess
         import os
         
         repo_dir = os.path.dirname(os.path.dirname(__file__))
+        businesses_dir = os.path.join(repo_dir, "public", "businesses")
         
         result = subprocess.run(
-            ["git", "status", "--porcelain"],
+            ["git", "status", "--porcelain", "--", businesses_dir],
             cwd=repo_dir,
             capture_output=True,
             text=True
         )
         
         if not result.stdout.strip():
-            print("No changes to commit")
+            print("No changes to commit in public/businesses")
             return
         
         result = subprocess.run(
-            ["git", "diff", "--stat"],
+            ["git", "add", "--", businesses_dir],
+            cwd=repo_dir,
+            capture_output=True,
+            text=True
+        )
+        
+        result = subprocess.run(
+            ["git", "diff", "--cached", "--stat"],
             cwd=repo_dir,
             capture_output=True,
             text=True
@@ -193,12 +128,9 @@ def commit_and_push_changes():
         
         stats = result.stdout.strip()
         
-        result = subprocess.run(
-            ["git", "add", "-A"],
-            cwd=repo_dir,
-            capture_output=True,
-            text=True
-        )
+        if not stats:
+            print("No staged changes to commit")
+            return
         
         commit_message = f"""Automated commit: Updated business websites
 
@@ -233,41 +165,135 @@ This is an automated commit generated by the LocWeb curation script."""
     except Exception as e:
         print(f"Git operation failed: {e}")
 
-def run_with_goal(client, lat, lng, area_name, keyword, goal, parallel_workers=3):
+
+def search_for_businesses(client, keyword, goal):
+    """Phase 1: Search regions until we find enough businesses to meet the goal."""
     print("\n" + "=" * 60)
-    print(f"GOAL MODE: Generate {goal} websites ({parallel_workers} parallel agents)")
+    print(f"PHASE 1: Searching for {goal} businesses without websites")
     print("=" * 60)
     
-    start_count = get_current_count()
-    target_count = start_count + goal
-    current_count = start_count
+    curated_slugs = get_already_curated_slugs()
+    businesses_to_process = []
+    searched_areas = set()
     
-    iteration = 0
-    while current_count < target_count:
-        iteration += 1
-        print(f"\n--- Iteration {iteration} (Current: {current_count}/{target_count}) ---")
+    while len(businesses_to_process) < goal:
+        remaining = goal - len(businesses_to_process)
+        print(f"\nNeed {remaining} more business(es)...")
         
-        success_count = process_area(client, lat, lng, area_name, keyword, goal_mode=True, parallel_workers=parallel_workers)
+        lat, lng, area_name = get_random_area()
         
-        if success_count > 0:
-            current_count += success_count
-            print(f"\n  → Generated {success_count} website(s). Progress: {current_count}/{target_count}")
-        else:
-            print("\n  → No new websites generated in this area. Moving to a new area...")
-            lat, lng, area_name = get_random_coordinates()
-            if not lat:
-                print("Could not find more areas. Stopping.")
+        if area_name in searched_areas:
+            if len(searched_areas) >= len(US_AREAS):
+                print("Searched all available areas.")
                 break
+            continue
         
-        if iteration >= 50:
-            print("\nReached maximum iterations (50). Stopping.")
-            break
+        searched_areas.add(area_name)
+        print(f"\nSearching in {area_name} ({lat:.4f}, {lng:.4f})...")
+        
+        try:
+            businesses_found, all_businesses = client.find_businesses_without_website(
+                lat, lng, keyword, target_count=remaining
+            )
+        except Exception as e:
+            print(f"  Error searching: {e}")
+            continue
+        
+        if not businesses_found:
+            print(f"  No businesses without websites found")
+            continue
+        
+        new_businesses = []
+        for b in businesses_found:
+            slug = sanitize_folder_name(b.get("name", ""))
+            if slug not in curated_slugs:
+                already_queued = any(
+                    sanitize_folder_name(queued.get("name", "")) == slug 
+                    for queued in businesses_to_process
+                )
+                if not already_queued:
+                    new_businesses.append(b)
+        
+        if new_businesses:
+            print(f"  Found {len(new_businesses)} new business(es):")
+            for b in new_businesses:
+                print(f"    - {b.get('name')}")
+            businesses_to_process.extend(new_businesses[:remaining])
+        else:
+            print(f"  All businesses already curated or queued")
     
-    if current_count >= target_count:
-        print(f"\n✓ Goal reached! Generated {current_count - start_count} new websites.")
+    print(f"\nFound {len(businesses_to_process)} business(es) to process")
+    return businesses_to_process
+
+
+def process_single_business(business):
+    """Process a single business: download photos and generate website."""
+    name = business.get("name", "Unknown")
+    print(f"\n[AGENT] Starting: {name}")
     
-    print_phone_pitches()
-    commit_and_push_changes()
+    photo_urls = business.get("photo_urls", [])
+    if photo_urls:
+        local_paths = download_photos_locally(photo_urls, name)
+        print(f"[AGENT] {name}: Downloaded {len(local_paths)} photos")
+    else:
+        local_paths = []
+    
+    slug = generate_website_for_business(business, photo_paths=local_paths, use_opencode=True)
+    
+    if slug:
+        print(f"[AGENT] ✓ Completed: {name}")
+    else:
+        print(f"[AGENT] ✗ Failed: {name}")
+    
+    return slug
+
+
+def process_businesses_parallel(businesses, parallel_workers):
+    """Phase 2: Process businesses with parallel agents, keeping pool full."""
+    print("\n" + "=" * 60)
+    print(f"PHASE 2: Generating websites ({parallel_workers} parallel agents)")
+    print("=" * 60)
+    
+    total = len(businesses)
+    completed = 0
+    success_count = 0
+    
+    with ThreadPoolExecutor(max_workers=parallel_workers) as executor:
+        futures = {}
+        business_queue = list(businesses)
+        
+        initial_batch = min(parallel_workers, len(business_queue))
+        for _ in range(initial_batch):
+            business = business_queue.pop(0)
+            future = executor.submit(process_single_business, business)
+            futures[future] = business
+        
+        while futures:
+            done_futures = []
+            for future in as_completed(futures):
+                done_futures.append(future)
+                break
+            
+            for future in done_futures:
+                business = futures.pop(future)
+                completed += 1
+                
+                try:
+                    slug = future.result()
+                    if slug:
+                        success_count += 1
+                except Exception as e:
+                    print(f"[ERROR] {business.get('name')}: {e}")
+                
+                print(f"\n[PROGRESS] {completed}/{total} completed, {success_count} successful")
+                
+                if business_queue:
+                    next_business = business_queue.pop(0)
+                    new_future = executor.submit(process_single_business, next_business)
+                    futures[new_future] = next_business
+    
+    return success_count
+
 
 def main():
     api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
@@ -278,20 +304,24 @@ def main():
     
     client = GoogleMapsClient(api_key)
     
-    print("Find Local Businesses Without Websites")
+    print("LocWeb - Local Business Website Generator")
     print("-" * 50)
     
     current_count = get_current_count()
     print(f"Currently have {current_count} websites generated.\n")
     
-    goal_input = input("Enter goal (number of websites to generate), or press Enter for single run: ").strip()
-    
-    parallel_input = input("Number of parallel agents (press Enter for 3): ").strip()
-    
-    lat_input = input(f"Latitude (press Enter for random): ").strip()
-    lng_input = input(f"Longitude (press Enter for random): ").strip()
-    
+    goal_input = input("Goal (number of websites to generate, default 6): ").strip()
+    parallel_input = input("Number of parallel agents (default 3): ").strip()
     keyword = input("Search keyword (optional): ").strip() or ""
+    
+    if goal_input:
+        try:
+            goal = max(1, int(goal_input))
+        except ValueError:
+            print("Invalid number, using default of 6.")
+            goal = 6
+    else:
+        goal = 6
     
     if parallel_input:
         try:
@@ -302,63 +332,44 @@ def main():
     else:
         parallel_workers = 3
     
-    if goal_input:
-        try:
-            goal = int(goal_input)
-            if goal <= 0:
-                print("Goal must be positive. Running in single mode.")
-                goal = None
-        except ValueError:
-            print("Invalid goal. Running in single mode.")
-            goal = None
-    else:
-        goal = None
+    print(f"\nConfiguration:")
+    print(f"  Goal: {goal} websites")
+    print(f"  Parallel agents: {parallel_workers}")
+    print(f"  Keyword: {keyword or '(none)'}")
     
-    if goal and goal > 0:
-        if lat_input and lng_input:
-            try:
-                lat = float(lat_input)
-                lng = float(lng_input)
-                area_name = f"Custom coordinates ({lat}, {lng})"
-            except ValueError:
-                print("Invalid coordinates, using random areas")
-                lat, lng, area_name = get_random_coordinates()
-        else:
-            lat, lng, area_name = get_random_coordinates()
-            if not lat:
-                print("Could not find random area, exiting")
-                return
-        
-        run_with_goal(client, lat, lng, area_name, keyword, goal, parallel_workers)
-        print("\nDone!")
-    else:
-        while True:
-            if lat_input and lng_input:
-                try:
-                    lat = float(lat_input)
-                    lng = float(lng_input)
-                    area_name = f"Custom coordinates ({lat}, {lng})"
-                except ValueError:
-                    print("Invalid coordinates, using random area")
-                    lat, lng, area_name = get_random_coordinates()
-            else:
-                lat, lng, area_name = get_random_coordinates()
-                if not lat:
-                    print("Could not find random area, exiting")
-                    return
-            
-            print("\n" + "=" * 60)
-            processed = process_area(client, lat, lng, area_name, keyword, parallel_workers=parallel_workers)
-            
-            print("\n" + "=" * 60)
-            response = input("\nSearch another area? (y/n): ").strip().lower()
-            
-            if response != "y" and response != "yes":
-                print("\nDone!")
-                break
-            
-            lat_input = ""
-            lng_input = ""
+    response = input("\nProceed? (y/n): ").strip().lower()
+    if response != "y" and response != "yes":
+        print("Cancelled.")
+        return
+    
+    businesses = search_for_businesses(client, keyword, goal)
+    
+    if not businesses:
+        print("\nNo businesses found to process.")
+        return
+    
+    print(f"\n{'=' * 60}")
+    print(f"Ready to generate {len(businesses)} website(s)")
+    print(f"{'=' * 60}")
+    for i, b in enumerate(businesses, 1):
+        print(f"  {i}. {b.get('name')}")
+    
+    response = input("\nStart website generation? (y/n): ").strip().lower()
+    if response != "y" and response != "yes":
+        print("Cancelled.")
+        return
+    
+    success_count = process_businesses_parallel(businesses, parallel_workers)
+    
+    print("\n" + "=" * 60)
+    print(f"COMPLETE: Generated {success_count}/{len(businesses)} websites")
+    print("=" * 60)
+    
+    print_phone_pitches()
+    commit_and_push_changes()
+    
+    print("\nDone!")
+
 
 if __name__ == "__main__":
     main()

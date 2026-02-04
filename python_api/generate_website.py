@@ -291,52 +291,6 @@ def create_business_folder(business_data, slug, photo_paths):
     
     return folder_path
 
-def save_phone_pitch(folder_path, slug, business_data, name):
-    pitch_file = os.path.join(folder_path, "phone_pitch.txt")
-    
-    website_url = f"https://locweb.vercel.app/web/{slug}"
-    phone = business_data.get("formatted_phone_number") or business_data.get("international_phone_number") or ""
-    
-    pitch = f"""Phone Call Script for {name}
-================================
-
-**Call Goal:** Schedule a brief 10-minute call to present the free website and gauge interest.
-
-**Opening:**
-"Hi, is this {name}? My name is {OWNER_NAME} from LocWeb. I'm calling because I noticed you don't have a website yet, and I thought every great local business deserves to be found online."
-
-**If they ask what LocWeb is:**
-"We're a local initiative helping small businesses get online with professional websites - completely free as a gift to support the community."
-
-**If they ask why I'm calling:**
-"I was looking at your business on Google and I have to say - your reviews are impressive! With a {business_data.get('rating')}-star rating, it's clear you know how to take care of customers. I thought: why isn't this amazing business showing up online?"
-
-**The Offer:**
-"I put together a free professional website for {name} - it showcases your photos, your reviews, your location, everything that makes people want to visit you. I'd love to show it to you!"
-
-**Website URL:** {website_url}
-
-**If they're interested:**
-"Great! I can walk you through it right now if you have 2 minutes, or I can send you the link and we can schedule a quick call this week."
-
-**If they're not interested:**
-"No problem at all! I just wanted to make sure you knew about this resource. If you change your mind, here's the website anyway - it's yours to keep: {website_url}"
-
-**Closing:**
-"Thanks so much for your time today! I'll send you a quick text with the website link. Have a great day!"
-
----
-Owner: {OWNER_NAME}
-Owner Email: {OWNER_EMAIL}
-Website: {website_url}
-"""
-    
-    with open(pitch_file, "w", encoding="utf-8") as f:
-        f.write(pitch)
-    
-    print(f"Saved phone pitch to {pitch_file}")
-    return pitch
-
 def generate_website_for_business(business_data, photo_paths=None, use_opencode=True):
     name = business_data.get("name") or "Unknown Business"
     slug = sanitize_folder_name(name)
@@ -367,9 +321,7 @@ def generate_website_for_business(business_data, photo_paths=None, use_opencode=
     
     if success:
         print("OpenCode agent completed successfully")
-        save_phone_pitch(folder_path, slug, business_data, name)
         
-        # Cleanup AGENTS.md
         agents_path = os.path.join(folder_path, "AGENTS.md")
         if os.path.exists(agents_path):
             try:

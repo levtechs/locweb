@@ -52,6 +52,29 @@ function readHtmlContent(slug: string): string | null {
           return `url('/businesses/${slug}/${imagePath}')`
         }
       )
+      // Add base target to keep all navigation within iframe
+      // Also inject a script to handle hash links manually to prevent reloading the page in the iframe
+      const script = `
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            const base = document.createElement('base');
+            base.target = '_self';
+            document.head.appendChild(base);
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+              anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                  targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+              });
+            });
+          });
+        </script>
+      `
+      html = html.replace(/<body[^>]*>/i, (match) => match + script)
       return html
     } catch {
       return null
@@ -135,7 +158,7 @@ export default async function BusinessPage({ params }: BusinessPageProps) {
             display: "block"
           }}
           title={`Website for ${decodedSlug}`}
-          sandbox="allow-scripts allow-same-origin allow-forms" // Enable generic capabilities
+          sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
         />
       </div>
     </div>

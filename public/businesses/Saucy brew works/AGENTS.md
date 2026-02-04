@@ -15,17 +15,16 @@ After creating the website, you MUST also create a file called `phone_pitch.txt`
 The goal is to:
 1. Build rapport with the business owner
 2. Show them you noticed their business and care about their success
-3. Present the demo website you created for them FOR FREE
-4. Explain your service: you set up the website properly with a custom domain and ongoing maintenance
-5. Pricing: $45 one-time setup fee + $5/month for hosting and maintenance
-6. Close the sale or leave the door open for follow-up
+3. Present the free website as a gift/volume favor
+4. Gently introduce the idea of ongoing value
+5. Open the door for a conversation about their business
 
 ### Phone Pitch Tone
 - Warm, friendly, professional
 - Genuinely enthusiastic about their business
-- Confident but not pushy
+- Not salesy or pushy
 - Show you've done your homework about their business
-- Keep it conversational
+- Keep it conversational, not transactional
 - Be brief - phone calls should be 2-5 minutes max
 
 ### Phone Pitch Template (Customize for Each Business)
@@ -33,20 +32,20 @@ The goal is to:
 The phone_pitch.txt file should include:
 - Call opening script
 - Explanation of who you are and why you're calling
-- Specific details about their business (from your research) to show you care
-- Mention you made them a FREE demo website to show what you can do
-- Website URL: https://locweb.vercel.app/web/{slug} (use the business slug)
-- Explain the service: custom domain setup + ongoing maintenance
-- Pricing: $45 setup + $5/month
+- Specific details about their business (from your research)
+- Description of the free website
+- Website URL placeholder
 - Response handling for interested/uninterested prospects
 - Closing
 
 ### Phone Pitch Placeholders
 
 The following values are available in `data.json`:
-- `owner_name` - Your name (from OWNER_NAME env var)
-- `owner_email` - Your email address (from OWNER_EMAIL env var)
-- Business name, rating, review_count from the business data
+- `{owner_name}` - Your name (from OWNER_NAME env var)
+- `{owner_email}` - Your email address (from OWNER_EMAIL env var)
+- `{business_name}` - The business name
+- `{rating}` - Star rating
+- `{review_count}` - Number of reviews
 
 ### Pitch Customization Guidelines
 
@@ -54,25 +53,26 @@ For a personalized comment about their business, choose ONE based on the busines
 - For restaurants with good reviews: "Your customers clearly love the food here - those reviews are impressive!"
 - For restaurants with photos: "The photos of your dishes look absolutely incredible"
 - For new businesses: "It's exciting to see a new business bringing something fresh to the area"
-- For highly-rated places: "With a X-star rating and Y reviews, it's clear you know how to take care of customers"
+- For highly-rated places: "With a {rating}-star rating and {review_count} reviews, it's clear you know how to take care of customers"
 - For businesses with clear location: "Located in a great spot, you're perfectly positioned to serve the community"
 
 ### Key Principles
 
 1. **Lead with genuine appreciation** - Show you've actually looked at their business
-2. **Give value first** - You already made them a free demo website
+2. **Give value first** - The website is a gift, not a pitch
 3. **Personalize specifically** - Reference their rating, photos, location, or reviews
-4. **Be clear about pricing** - $45 setup + $5/month for domain and maintenance
-5. **Create urgency without pressure** - "I can have this live with your own domain this week"
-6. **Easy out** - Make it clear there's no pressure, but follow up
+4. **Keep pricing vague** - Never mention specific prices
+5. **Create curiosity** - Hint at possibilities without being pushy
+6. **Easy out** - Make it clear there's no pressure
 7. **Be brief** - Phone calls should be short and sweet
 
 ### What NOT to Do
 
-- Do NOT be vague about pricing - be upfront: $45 + $5/mo
+- Do NOT mention specific prices or packages
 - Do NOT use aggressive sales language
+- Do NOT make it sound like a transaction
 - Do NOT apologize for reaching out
-- Do NOT make it sound like charity - you're offering a professional service
+- Do NOT make it about selling - make it about helping
 - Do NOT use dark backgrounds (gray-800, gray-900, black, navy, etc.)
 - Do NOT assume light text will work - ALWAYS use dark text throughout
 - Do NOT create long scripts - keep phone pitches to key points only
@@ -172,9 +172,7 @@ When adding customer reviews to the website:
 ## Photo Usage - CRITICAL
 
 **You must use LOCAL photo paths from data.json**, NOT Google Maps URLs:
-- Local paths look like: `photos/photo-1.jpg`, `photos/photo-2.jpg`, etc.
-- Up to 10 photos may be available in `local_photos`
-- You do NOT need to use all photos - pick the best 3-6 for a clean layout
+- Local paths look like: `photos/photo-1.jpg`, `photos/photo-2.jpg`
 - Example: `<img src="photos/photo-1.jpg" alt="Business interior">`
 - Example: `background-image: url('photos/photo-1.jpg')`
 

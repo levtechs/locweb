@@ -1,0 +1,185 @@
+{
+  "business_status": "CLOSED_TEMPORARILY",
+  "formatted_address": "1000 Commerce Park Dr # 110, Williamsport, PA 17701, USA",
+  "formatted_phone_number": "(570) 601-0244",
+  "geometry": {
+    "location": {
+      "lat": 41.24529950000001,
+      "lng": -76.9860798
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 41.2467714802915,
+        "lng": -76.98419556970849
+      },
+      "southwest": {
+        "lat": 41.2440735197085,
+        "lng": -76.9868935302915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 570-601-0244",
+  "name": "Tower Cafe",
+  "photos": [
+    {
+      "height": 3000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102099091115209884992\">michael ritter</a>"
+      ],
+      "photo_reference": "AcnlKN3Qh4zQLfIqpBAKxdDwk4Y-E1bB5QcGdTp_GAla-8nbxFwByz5ZZS2DeELAZhIZ-TZCy3V1PLnDKR0gVYYt9gTh3h5bORTwOTbiqZes3Uhk9ID7KMgFIZyJc7mhv9O9uGe0BBBNaKKANNrrDIHZazto6CrYsmmTJvHLWqjzQnuvLaWr09Ki3lNUWAi0I_dyU5s_GaHrSHjfqiqwpscQ2XWATfepQO-DR7Sgh52cp78UFNb3MeiGhvaHLEYRtVa8LXo_8R0QL6F-BFKy4YbJDw7HMwcF-ZoPHZvv_y8c3tZ4nDsZO6fU2G2hLLD-3bIUIpDtfRG3rVUJVAftVBESyBxrzOEID7CWTwzrUBnwNPoi74nABmj6-Q0q4gEIkYs2B4azt8_n2INqMrXvNJgL4LiG6-NE40JZK8fpWAn6K8zewju9",
+      "width": 4000
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100974018781918543361\">Aviya</a>"
+      ],
+      "photo_reference": "AcnlKN2du0JcG5aFF6ctGxE2LqrKfevPt-DlvD9LncIT6H-ZFqSOVo2GEoggwtXi-6fCqi_e0pr0qrd6q-jONwjK3wHlODTF5DcOc18biGNOyDtiAE93azUQC8oIDLVfM751g1Y6YUMiYjYG7i5ujlNH7Zs3AckEO1UB-k3zv86zgD9O7-zcEz1lkGicjhuIieTQNEMhN6hwtsjY9AQdh-NsD61WIknCpnksfoX0tfj-P46hPIysZwcdyGuEWgajIofAykAGq73FzQh_1hAuQBeFNzjgP4phUdjTS4NE0FAsfwWHJfRr9qHEYzBhkVJzMgmMkOFb_o-Gbena2QNJTYnO0IaP1qbXS2lF55vWVSyFrObT95cw4nNHg_42ymEi5SELqIzQNlrilbKagmH0P91ZYAIwR-FU3ldt3opZ9nqG3Sk",
+      "width": 3024
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106829507550599757679\">Caleb Britez</a>"
+      ],
+      "photo_reference": "AcnlKN0IBOhUv8ExSTz8OXWS7hyvAEiJQoQ2s4HnFt28lr9BSUhV8RIDvFpaEN4lKFhUVBCJozmp7FsNWQGUNeOwW94g-RvZkqB-gPAgFGF0d6sIjn_6xXETV3wehdh6cJgJjw26UOc3JUg1qXuVPvYV-2syr-aSgNijEF5zokDWi4lJkDQvK9p6qvOBhGeuBKgvH42dQsSrwr9UzvlNkbES4nmjdYSjE6qsVq5VS5z3kCTc03l4xNQoreBKvEeLGJHSQMnxpXSnwVGwh686_kRfoH606wL1QwXVBMaw2tpLPW6QkdEejvjc0tVycwl1bagi6FdKnYAFVjeTdTezo1WBZbylmI_zminbidIjV7uPmjYs178U4uhBQS5GHBX-TpU4vdNt7hN7gwl5Re6bF0npQg1WKbIPuYaayC3HyJVhRIqsmnJh",
+      "width": 3000
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106829507550599757679\">Caleb Britez</a>"
+      ],
+      "photo_reference": "AcnlKN2JIHntA6sazA6hLnYazA2o1DVB5o57mn5J2zMkO-BbiMWWhWIWktNux3zpXJ5XFVoVjAZ2V0zCRBLEQ1BETygkWETUQ_NV6nd_HX8DeVdvikUZaKay62G5HvyVmE0SzyHJGQTVUcX5uxIwarimCGJqnxBSGCy5jcc47e24ElOEDPAoW6siMtWa1tqFKsrDwruH1R2glnAVNlgrhUbtrfzGt_FxIIW1OKf4Pjex756-GZLawubGbcOZqh3n5nycIkGSNR7oNUmTHV8HmSgErVY8i8svGVZutxNSiCQxGNFJRUW6IZQqyDYHKSaiKope-1lNd0TCtyPgo9KE2ojLG7D-SWt6tjMiCUHkLdhD0YjICrPl03LvLqFAEsSccEHiYlfOhDfQ30O9kIkVAN9FcC-jKvpKALGD4zDfYjDH-lgs3A",
+      "width": 3000
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106827187747909581697\">Joshua Ulmer</a>"
+      ],
+      "photo_reference": "AcnlKN0URLEudKkzQLxhprzqu6QgBg_xTfKgptebuLuxta7QWdHupwuTn6rKhCMOyEl2LIsyFLQNUMqcjHzvRGSX3kJ3Wt-Gep1XH43gNUm4ET6T_EjFA4x5xKcUuRzp35GeBORjtUnKHrrOxmQj9JJ3JfZTOsigR6dSBI0sjwDuYDgttdF2Sups327FKRq3HEcKtHXX70YzfOfqiw6kmD837IHNdXRKLxALsNj_0xknS6FgBJ4coTnugGta99i1XZY2M6itA97msu2R5MZ0RkYguGn4rUsvRLiwjgfqfydA3JrssgCCGrwP1j6Pl9Pr4uo7RUnJU8JzIjJHx7b7C57SROQjBeNNTPbeXJlsYvFjRVUNyLPHTNaXuTvSDxFKqihXrZU5HyjPz36bZzuL3dEIJ5f9UlhlGj4jcb8Uhry1FAMeew",
+      "width": 4032
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106829507550599757679\">Caleb Britez</a>"
+      ],
+      "photo_reference": "AcnlKN024fOjAM-4ISzLz1ptYYaqO2yclNbIAs8gaY2OHc_URG65gOTXPVP9ScdcNhfaSTqpRCPwaW0I6iYxVPp2ni7z-dH-rdRhj0uUysBPQM6uLgSv7Xv8uZEpUqdcbDsTwAJJ7-G9Kks0zgi4oU5XkgVdwLLs66yjcQCHrXtS1m1gppaTd7A1SiLSmUdNA41bHJDO6EeuyDFn3wDmDemDUklQscv_lyjzaRNhna7l7x0S5vveAeD0emOa58eCqA5KxrtBCLrhhQghR1sRRF48m59ODRBCC-OSF1Assp5YBBUAJs4ckBYA2l9CL13VgvpRPxBqEKjoAznM65eTcdVIhAvDw0hY2R_VKlCz27kCvifqQ8MyOTmjUrt2j_3xBZ1gfMsgAU1OJ_W_P3QL-1KQpLxlJ9TmiPhE-ZKwCUk-NvM",
+      "width": 3000
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106829507550599757679\">Caleb Britez</a>"
+      ],
+      "photo_reference": "AcnlKN3jqppGtocCjErmUhFQODXIrdE0TxmUE2xPwEppXdmV_gll5xTrtbMFGzm3ZiJkndzfjNEJEkYwDlbfDzn26n2o4zxTxIj73iBmHeOb_kme0cO_CPZ_hWNI_vdebqrtqyd7lFIyOfRC3-DF9diAMls1Zqsv5Bfjxx4aHc9dyjgeAmKcnAvwi19mfDp7jpZRQz0grRt-Kp9X-CSH7rqa7dFZz6K3qV7keF1j4IwP8Uz63aqQVoY8-dOm2K2cUa0-ETxVIKJpcR3BOv4mb5MKaBpypxcNxF0WYfj6aSRkuzPFuAMZm8kOvEp-RnGztMlR5Ul2bSU9tHQD10_8DqVgYRpLO6TaYPNsBQKt1p_PSbAznaWBsXkumXWPiKe3cuqX1QEjoA-GJ6ntncgLs9i3wnaSl4UhS38xE6KddQImFKncBw",
+      "width": 3000
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106829507550599757679\">Caleb Britez</a>"
+      ],
+      "photo_reference": "AcnlKN1JrQ0BK_ttcONl6026yOBTZ9XIa3NUT0wlfv4hnYoiejmeRPjCBRbkGqf67_QDgt6YEXfoxJ2BXmu2DHlyRrA_DYD6byAib-ghxJ7PwO9QR6lWf37jSAcJ5DFQNbxJ1k4Jzfym94RFJjDbDTNb_Zk1obNZxsFsq4Y3iVRihYASddpIu2DVXg9HgMRKF1EG_IyFcSiAh5i9h3295yBM7cztDyMAyWcrM9EzvEvpX6wa2GKLBQSjlwxGoOqNdX3P4T3tpLs0RKdk_d2gsHAZytMCc2sPo5vvFg0uDqRY0ceN8Iaqg8HriMYnmdgzTIBt9uHWBbAW8t-UAyn3NB9P1j6ERM8lzArtXZO1QyKm6bsotQAgSkkaavDNYkqFXRFULQLVlHoW1x2lF3QHDEFoGL1XwYobUXTi-fXmKgn--5BPeOg",
+      "width": 3000
+    }
+  ],
+  "place_id": "ChIJ407fkmymz4kRPRU81f9J1k8",
+  "price_level": 2,
+  "rating": 4,
+  "reference": "ChIJ407fkmymz4kRPRU81f9J1k8",
+  "reviews": [
+    {
+      "author_name": "M. Beren Reeder",
+      "author_url": "https://www.google.com/maps/contrib/108122148743491807302/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocITU7gK8mdv8WOWZ3S1AbxjhlEpRYmRCwVdZbE9mirX6sjwdos=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 4,
+      "relative_time_description": "a year ago",
+      "text": "The food is pretty good. I had a Reuben, and my wife had the CA Benedict. The only issue was when it came time to check out, it took a while for the check. I watched the waitress stand there for several minutes doing nothing while we were clearly done. My wife had gone outside already, I had put all the plates to the edge. I just wanted my check.\nThis isn't the first time this has happened here. When I'm on lunch I want to eat and go.",
+      "time": 1724124099,
+      "translated": false
+    },
+    {
+      "author_name": "michael ritter",
+      "author_url": "https://www.google.com/maps/contrib/102099091115209884992/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUbJQICUBq6YdWT8ZxLitI732BPKHN6NhBbsgYihYXtE9vvhnRuug=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "We were cleaning the windows at WTS and decided to get breakfast there. Great food! Friendly staff! Reasonable prices for the amount of food you get!! And the desserts looked amazing!!",
+      "time": 1712674665,
+      "translated": false
+    },
+    {
+      "author_name": "Travis Delcamp",
+      "author_url": "https://www.google.com/maps/contrib/105267948800760283734/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKUDBojA-rVbd3H8MH37TUD3REgms7kly_E2mKcRMAkXl42yg=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 2,
+      "relative_time_description": "a year ago",
+      "text": "It\u2019s a beautiful looking restaurant. I absolutely love the interior. The servers were friendly and helpful. The food was underwhelming however. My sunny side up eggs, were more goo than egg. My pancakes were dense because of how undercooked it was in the center. Quite possibly, they just use a jug of premade Betty Crocker (though not fully sure).The hash browns were more like large breakfast potatoes with no seasoning. My mother had similar issues with her cheesesteak omelet. Not worth it to spend money on food when you can just cook yourself with actual flavor. If they add seasoning and fully cook their food it would be more worth it. As it stands now, I cannot recommend a restaurant because it looks nice, the food is too meh. Which you can likely correlate to how good the catering will be too\u2026",
+      "time": 1714479525,
+      "translated": false
+    },
+    {
+      "author_name": "A Cruz",
+      "author_url": "https://www.google.com/maps/contrib/104638805779492628493/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXqY9NPTYlO5BqrdAvKoycqpvMJbCLCo_9t9Rc5SgHm4x3ND6Y=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "Came here twice in two days because the baked goods, food options and expertly crafted coffees are not only unique, but just plainly delicious. We adore the staff, the aesthetic dining room, and merchandise.",
+      "time": 1729525274,
+      "translated": false
+    },
+    {
+      "author_name": "Reeve Platt",
+      "author_url": "https://www.google.com/maps/contrib/102607389732552302404/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXGPf3M1E6dVLXPM8aAbCfamJC9cK_X9uPibeDEr-z6-pSnV3q4wA=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 3,
+      "relative_time_description": "a year ago",
+      "text": "OK so I was meeting a friend there.\nThe waitress was very kind to me and brought me my coffee right away but then when my friend got there, the waitress was helping other people and\na different one came over and took his order but then somehow got lost and never returned and 30 minutes later we\u2019re still waiting, so my first waitress comes over and takes his order again and then bring a coffee right away. Wtf",
+      "time": 1729877265,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=5752866937155360061",
+  "user_ratings_total": 11,
+  "utc_offset": -300,
+  "vicinity": "1000 Commerce Park Dr # 110, Williamsport",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3Qh4zQLfIqpBAKxdDwk4Y-E1bB5QcGdTp_GAla-8nbxFwByz5ZZS2DeELAZhIZ-TZCy3V1PLnDKR0gVYYt9gTh3h5bORTwOTbiqZes3Uhk9ID7KMgFIZyJc7mhv9O9uGe0BBBNaKKANNrrDIHZazto6CrYsmmTJvHLWqjzQnuvLaWr09Ki3lNUWAi0I_dyU5s_GaHrSHjfqiqwpscQ2XWATfepQO-DR7Sgh52cp78UFNb3MeiGhvaHLEYRtVa8LXo_8R0QL6F-BFKy4YbJDw7HMwcF-ZoPHZvv_y8c3tZ4nDsZO6fU2G2hLLD-3bIUIpDtfRG3rVUJVAftVBESyBxrzOEID7CWTwzrUBnwNPoi74nABmj6-Q0q4gEIkYs2B4azt8_n2INqMrXvNJgL4LiG6-NE40JZK8fpWAn6K8zewju9&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2du0JcG5aFF6ctGxE2LqrKfevPt-DlvD9LncIT6H-ZFqSOVo2GEoggwtXi-6fCqi_e0pr0qrd6q-jONwjK3wHlODTF5DcOc18biGNOyDtiAE93azUQC8oIDLVfM751g1Y6YUMiYjYG7i5ujlNH7Zs3AckEO1UB-k3zv86zgD9O7-zcEz1lkGicjhuIieTQNEMhN6hwtsjY9AQdh-NsD61WIknCpnksfoX0tfj-P46hPIysZwcdyGuEWgajIofAykAGq73FzQh_1hAuQBeFNzjgP4phUdjTS4NE0FAsfwWHJfRr9qHEYzBhkVJzMgmMkOFb_o-Gbena2QNJTYnO0IaP1qbXS2lF55vWVSyFrObT95cw4nNHg_42ymEi5SELqIzQNlrilbKagmH0P91ZYAIwR-FU3ldt3opZ9nqG3Sk&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0IBOhUv8ExSTz8OXWS7hyvAEiJQoQ2s4HnFt28lr9BSUhV8RIDvFpaEN4lKFhUVBCJozmp7FsNWQGUNeOwW94g-RvZkqB-gPAgFGF0d6sIjn_6xXETV3wehdh6cJgJjw26UOc3JUg1qXuVPvYV-2syr-aSgNijEF5zokDWi4lJkDQvK9p6qvOBhGeuBKgvH42dQsSrwr9UzvlNkbES4nmjdYSjE6qsVq5VS5z3kCTc03l4xNQoreBKvEeLGJHSQMnxpXSnwVGwh686_kRfoH606wL1QwXVBMaw2tpLPW6QkdEejvjc0tVycwl1bagi6FdKnYAFVjeTdTezo1WBZbylmI_zminbidIjV7uPmjYs178U4uhBQS5GHBX-TpU4vdNt7hN7gwl5Re6bF0npQg1WKbIPuYaayC3HyJVhRIqsmnJh&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2JIHntA6sazA6hLnYazA2o1DVB5o57mn5J2zMkO-BbiMWWhWIWktNux3zpXJ5XFVoVjAZ2V0zCRBLEQ1BETygkWETUQ_NV6nd_HX8DeVdvikUZaKay62G5HvyVmE0SzyHJGQTVUcX5uxIwarimCGJqnxBSGCy5jcc47e24ElOEDPAoW6siMtWa1tqFKsrDwruH1R2glnAVNlgrhUbtrfzGt_FxIIW1OKf4Pjex756-GZLawubGbcOZqh3n5nycIkGSNR7oNUmTHV8HmSgErVY8i8svGVZutxNSiCQxGNFJRUW6IZQqyDYHKSaiKope-1lNd0TCtyPgo9KE2ojLG7D-SWt6tjMiCUHkLdhD0YjICrPl03LvLqFAEsSccEHiYlfOhDfQ30O9kIkVAN9FcC-jKvpKALGD4zDfYjDH-lgs3A&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0URLEudKkzQLxhprzqu6QgBg_xTfKgptebuLuxta7QWdHupwuTn6rKhCMOyEl2LIsyFLQNUMqcjHzvRGSX3kJ3Wt-Gep1XH43gNUm4ET6T_EjFA4x5xKcUuRzp35GeBORjtUnKHrrOxmQj9JJ3JfZTOsigR6dSBI0sjwDuYDgttdF2Sups327FKRq3HEcKtHXX70YzfOfqiw6kmD837IHNdXRKLxALsNj_0xknS6FgBJ4coTnugGta99i1XZY2M6itA97msu2R5MZ0RkYguGn4rUsvRLiwjgfqfydA3JrssgCCGrwP1j6Pl9Pr4uo7RUnJU8JzIjJHx7b7C57SROQjBeNNTPbeXJlsYvFjRVUNyLPHTNaXuTvSDxFKqihXrZU5HyjPz36bZzuL3dEIJ5f9UlhlGj4jcb8Uhry1FAMeew&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

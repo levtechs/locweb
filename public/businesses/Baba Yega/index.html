@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baba Yega - Houston Restaurant</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .hero-overlay {
+      background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,248,240,0.9) 100%);
+    }
+    .photo-gallery img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .photo-gallery img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+    .star-rating {
+      color: #f59e0b;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <span class="text-2xl font-bold text-orange-600">Baba Yega</span>
+      </div>
+      <div class="hidden md:flex space-x-6">
+        <a href="#about" class="text-gray-700 hover:text-orange-600 transition">About</a>
+        <a href="#gallery" class="text-gray-700 hover:text-orange-600 transition">Gallery</a>
+        <a href="#reviews" class="text-gray-700 hover:text-orange-600 transition">Reviews</a>
+        <a href="#contact" class="text-gray-700 hover:text-orange-600 transition">Contact</a>
+      </div>
+      <a href="#contact" class="bg-orange-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-orange-700 transition shadow-md">
+        Visit Us
+      </a>
+    </nav>
+  </header>
+
+  <section class="relative min-h-[70vh] flex items-center justify-center">
+    <div class="absolute inset-0">
+      <img src="photos/photo-1.jpg" alt="Baba Yega Restaurant" class="w-full h-full object-cover">
+      <div class="hero-overlay absolute inset-0"></div>
+    </div>
+    <div class="relative z-10 text-center max-w-4xl mx-auto px-4">
+      <span class="inline-block bg-orange-100 text-orange-700 px-4 py-1 rounded-full text-sm font-medium mb-4">
+        ★ 4.4 Rating · 1,372 Reviews
+      </span>
+      <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
+        Welcome to Baba Yega
+      </h1>
+      <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
+        Experience delightful brunch and breakfast in the heart of Midtown Houston. 
+        Fresh, delicious food in a serene atmosphere.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contact" class="bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-orange-700 transition shadow-lg">
+          Visit Today
+        </a>
+        <a href="#about" class="bg-white text-gray-800 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition shadow-md border border-gray-200">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            A Hidden Gem in Midtown Houston
+          </h2>
+          <p class="text-gray-700 text-lg leading-relaxed mb-6">
+            Baba Yega is a beloved local restaurant bringing delicious brunch and breakfast options to the Montrose area. 
+            Known for our fantastic breakfast buffet and fresh, flavorful dishes, we've become a favorite destination 
+            for Houstonians seeking quality food in a peaceful setting.
+          </p>
+          <p class="text-gray-700 text-lg leading-relaxed mb-6">
+            Our menu offers something for everyone – from hearty breakfast classics to fresh vegetarian options. 
+            Enjoy your meal in our tranquil outdoor space with a pond and waterfall, perfect for a relaxing dining experience.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Brunch</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Breakfast Buffet</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Fresh & Local</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Outdoor Seating</span>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <img src="photos/photo-2.jpg" alt="Delicious brunch dish" class="rounded-lg shadow-lg w-full h-48 object-cover">
+          <img src="photos/photo-3.jpg" alt="Restaurant ambiance" class="rounded-lg shadow-lg w-full h-48 object-cover">
+          <img src="photos/photo-4.jpg" alt="Fresh food presentation" class="rounded-lg shadow-lg w-full h-48 object-cover">
+          <img src="photos/photo-5.jpg" alt="Baba Yega interior" class="rounded-lg shadow-lg w-full h-48 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Gallery</h2>
+        <p class="text-gray-600 text-lg max-w-2xl mx-auto">
+          Take a visual tour of Baba Yega and see what makes our restaurant special
+        </p>
+      </div>
+      <div class="photo-gallery grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <img src="photos/photo-1.jpg" alt="Baba Yega Restaurant" class="rounded-xl shadow-lg w-full h-64 object-cover cursor-pointer">
+        <img src="photos/photo-2.jpg" alt="Delicious brunch dish" class="rounded-xl shadow-lg w-full h-64 object-cover cursor-pointer">
+        <img src="photos/photo-3.jpg" alt="Restaurant ambiance" class="rounded-xl shadow-lg w-full h-64 object-cover cursor-pointer">
+        <img src="photos/photo-4.jpg" alt="Fresh food presentation" class="rounded-xl shadow-lg w-full h-64 object-cover cursor-pointer">
+        <img src="photos/photo-5.jpg" alt="Baba Yega interior" class="rounded-xl shadow-lg w-full h-64 object-cover cursor-pointer">
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What Our Customers Say</h2>
+        <div class="flex items-center justify-center gap-2 mb-4">
+          <span class="star-rating text-2xl">★★★★★</span>
+          <span class="text-gray-700 font-semibold">4.4 out of 5 stars</span>
+          <span class="text-gray-500">· 1,372 reviews</span>
+        </div>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="star-rating mb-3">★★★★★</div>
+          <p class="text-gray-700 mb-4 italic">"This is a must-go restaurant for breakfast buffet! What an absolute delight to break bread here in this quaint slice of serenity right in the heart of Midtown. Our server was quick and friendly, the food was fresh and tasty, and the flavored mimosas were excellent."</p>
+          <p class="font-semibold text-gray-900">Jake M.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="star-rating mb-3">★★★★★</div>
+          <p class="text-gray-700 mb-4 italic">"Loved this place!! 1st time here (Brunch) & EVERYTHING we ate was so good & fresh!! Friendly staff & great service."</p>
+          <p class="font-semibold text-gray-900">Briana Ramirez</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl shadow-sm border border-gray-100">
+          <div class="star-rating mb-3">★★★★★</div>
+          <p class="text-gray-700 mb-4 italic">"Nice hidden gem in the Montrose area, we had the breakfast buffet and everything was wonderful. The food delicious and great service."</p>
+          <p class="font-semibold text-gray-900">Stephen T</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 bg-orange-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Visit Baba Yega Today</h2>
+        <p class="text-orange-100 text-lg max-w-2xl mx-auto">
+          Join us for an unforgettable dining experience in Midtown Houston
+        </p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="text-3xl mb-3">📍</div>
+          <h3 class="font-semibold text-gray-900 mb-2">Location</h3>
+          <p class="text-gray-700">2607 Grant St<br>Houston, TX 77006</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="text-3xl mb-3">📞</div>
+          <h3 class="font-semibold text-gray-900 mb-2">Phone</h3>
+          <p class="text-gray-700">Call us</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-lg">
+          <div class="text-3xl mb-3">💰</div>
+          <h3 class="font-semibold text-gray-900 mb-2">Price Level</h3>
+          <p class="text-gray-700">$$<br>Affordable & Value</p>
+        </div>
+      </div>
+      <div class="mt-12 text-center">
+        <p class="text-orange-100 mb-4">Ready to experience Baba Yega?</p>
+        <a href="https://maps.google.com/?cid=16140312009123344544" target="_blank" class="inline-block bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-gray-100 transition shadow-lg">
+          Get Directions
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-xl font-bold text-orange-500 mb-4">Baba Yega</h3>
+          <p class="text-gray-400">
+            A delightful restaurant in Midtown Houston serving fresh, delicious brunch and breakfast options.
+          </p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Visit Us</h4>
+          <p class="text-gray-400">2607 Grant St<br>Houston, TX 77006</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Hours</h4>
+          <p class="text-gray-400">Contact us for<br>current hours</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Connect</h4>
+          <p class="text-gray-400">Phone: Call us</p>
+          <p class="text-gray-400">Price: $$</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+        <p class="text-gray-500">© 2025 Baba Yega. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

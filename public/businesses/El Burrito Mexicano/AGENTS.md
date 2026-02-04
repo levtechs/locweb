@@ -172,9 +172,7 @@ When adding customer reviews to the website:
 ## Photo Usage - CRITICAL
 
 **You must use LOCAL photo paths from data.json**, NOT Google Maps URLs:
-- Local paths look like: `photos/photo-1.jpg`, `photos/photo-2.jpg`, etc.
-- Up to 10 photos may be available in `local_photos`
-- You do NOT need to use all photos - pick the best 3-6 for a clean layout
+- Local paths look like: `photos/photo-1.jpg`, `photos/photo-2.jpg`
 - Example: `<img src="photos/photo-1.jpg" alt="Business interior">`
 - Example: `background-image: url('photos/photo-1.jpg')`
 

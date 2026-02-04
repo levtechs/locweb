@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santino's Italian Restaurant - Authentic Italian Cuisine in Williamsport</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            italianRed: '#C41E3A',
+            italianRedDark: '#A01830',
+            cream: '#FFF8E7',
+            warmGray: '#F5F0EB'
+          },
+          fontFamily: {
+            'display': ['Playfair Display', 'serif'],
+            'body': ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .hero-gradient {
+      background: linear-gradient(135deg, #FFF8E7 0%, #F5F0EB 100%);
+    }
+    .section-divider {
+      background: linear-gradient(to right, transparent, #C41E3A, transparent);
+      height: 2px;
+    }
+    .photo-hover {
+      transition: all 0.4s ease;
+    }
+    .photo-hover:hover {
+      transform: scale(1.03);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body class="font-body text-gray-900 bg-white">
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#" class="font-display text-xl font-bold text-italianRed">Santino's</a>
+      <div class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="#about" class="hover:text-italianRed transition">About</a>
+        <a href="#info" class="hover:text-italianRed transition">Info</a>
+        <a href="#gallery" class="hover:text-italianRed transition">Gallery</a>
+        <a href="#reviews" class="hover:text-italianRed transition">Reviews</a>
+      </div>
+      <a href="tel:+15703264044" class="bg-italianRed text-white px-5 py-2.5 rounded-lg font-medium hover:bg-italianRedDark transition shadow-md">
+        Call Now
+      </a>
+    </div>
+  </nav>
+
+  <header class="hero-gradient">
+    <div class="max-w-6xl mx-auto px-4 py-20 md:py-28">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <div class="inline-flex items-center bg-italianRed/10 text-italianRed px-3 py-1 rounded-full text-sm font-medium mb-4">
+            <span class="flex text-yellow-500 mr-1">★★★★★</span>
+            <span>4.5 rating · 227 reviews</span>
+          </div>
+          <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-5">
+            Welcome to <span class="text-italianRed">Santino's</span>
+          </h1>
+          <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+            Authentic Italian cuisine in the heart of Williamsport. Family-owned since 1985, serving handmade pasta, fresh seafood, and beloved family recipes with a modern twist.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="tel:+15703264044" class="bg-italianRed text-white px-7 py-3.5 rounded-lg font-semibold hover:bg-italianRedDark transition shadow-lg flex items-center">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+              </svg>
+              Order Now
+            </a>
+            <a href="#info" class="bg-white text-gray-900 px-7 py-3.5 rounded-lg font-semibold hover:bg-gray-50 transition shadow-md border border-gray-200">
+              View Hours
+            </a>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="photos/photo-1.jpg" alt="Santino's Italian Restaurant interior" class="rounded-2xl shadow-2xl w-full h-auto object-cover">
+          <div class="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-xl">
+            <div class="flex items-center space-x-2">
+              <span class="text-2xl font-bold text-italianRed">$$</span>
+              <span class="text-gray-600 font-medium">Price Level</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="py-20 bg-warmGray">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition">
+          <div class="w-14 h-14 bg-italianRed/10 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-7 h-7 text-italianRed" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-bold mb-3">Handmade Pasta</h3>
+          <p class="text-gray-600 leading-relaxed">Fresh, handmade pasta made daily using traditional family recipes passed down through generations.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition">
+          <div class="w-14 h-14 bg-italianRed/10 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-7 h-7 text-italianRed" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-bold mb-3">Gluten-Free Options</h3>
+          <p class="text-gray-600 leading-relaxed">Knowledgeable staff who can modify most menu items to accommodate dietary restrictions and allergies.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition">
+          <div class="w-14 h-14 bg-italianRed/10 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-7 h-7 text-italianRed" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl font-bold mb-3">Exceptional Service</h3>
+          <p class="text-gray-600 leading-relaxed">Friendly staff who remember your preferences and go above and beyond to make every visit special.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Restaurant</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">A warm, inviting atmosphere perfect for family dinners, romantic dates, or celebrations with friends.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="rounded-xl overflow-hidden shadow-md photo-hover">
+          <img src="photos/photo-1.jpg" alt="Restaurant interior dining room" class="w-full h-64 object-cover">
+        </div>
+        <div class="rounded-xl overflow-hidden shadow-md photo-hover">
+          <img src="photos/photo-2.jpg" alt="Delicious Italian pasta dish" class="w-full h-64 object-cover">
+        </div>
+        <div class="rounded-xl overflow-hidden shadow-md photo-hover">
+          <img src="photos/photo-3.jpg" alt="Fresh seafood specialties" class="w-full h-64 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-20 bg-warmGray">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-4">What Our Customers Say</h2>
+        <div class="flex items-center justify-center space-x-1 text-yellow-500 text-lg mb-2">
+          <span>★★★★★</span>
+          <span class="text-gray-700 font-medium ml-2">4.5 out of 5 stars</span>
+        </div>
+        <p class="text-gray-600">Based on 227 reviews</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-7 rounded-xl shadow-sm">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-500 text-sm">★★★★★</div>
+          </div>
+          <p class="text-gray-700 mb-4 italic leading-relaxed">"Delicious Italian cuisine. They have gluten free options and the cook is very knowledgeable and can make most menu items into an allergy friendly meal. Great atmosphere and prices."</p>
+          <p class="font-semibold text-gray-900">— Kayla Ham</p>
+        </div>
+        <div class="bg-white p-7 rounded-xl shadow-sm">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-500 text-sm">★★★★★</div>
+          </div>
+          <p class="text-gray-700 mb-4 italic leading-relaxed">"Great place with great food. Service is phenomenal. They go above every time we've been there. The wait staff recognize us and bring our preferred drinks right to us. Highly recommended."</p>
+          <p class="font-semibold text-gray-900">— Penny Cupp</p>
+        </div>
+        <div class="bg-white p-7 rounded-xl shadow-sm">
+          <div class="flex items-center mb-4">
+            <div class="flex text-yellow-500 text-sm">★★★★☆</div>
+          </div>
+          <p class="text-gray-700 mb-4 italic leading-relaxed">"Nice local Italian restaurant. Better than your chain restaurant. I had their Salmon Pistachio and wife had their Lasagna. Very good. They also have subs and pizza."</p>
+          <p class="font-semibold text-gray-900">— Dennis Crapser</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="info" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h2 class="font-display text-3xl font-bold text-gray-900 mb-6">Visit Us</h2>
+          <div class="space-y-5">
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-italianRed/10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                <svg class="w-5 h-5 text-italianRed" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Address</h4>
+                <p class="text-gray-600">24 E Southern Ave, Williamsport, PA 17702</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-italianRed/10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                <svg class="w-5 h-5 text-italianRed" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Phone</h4>
+                <a href="tel:+15703264044" class="text-gray-600 hover:text-italianRed transition">(570) 326-4044</a>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-italianRed/10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                <svg class="w-5 h-5 text-italianRed" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Hours</h4>
+                <div class="text-gray-600 space-y-1">
+                  <p>Monday: Closed</p>
+                  <p>Tuesday - Thursday: 10:30 AM - 3:00 PM, 4:00 - 8:30 PM</p>
+                  <p>Friday - Saturday: 10:30 AM - 3:00 PM, 4:00 - 9:30 PM</p>
+                  <p>Sunday: 10:30 AM - 3:00 PM, 4:00 - 8:30 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-warmGray rounded-2xl p-8">
+          <h3 class="font-display text-xl font-bold text-gray-900 mb-4">Reserve a Table</h3>
+          <p class="text-gray-600 mb-6">Call ahead or walk in! We accept reservations for parties of 6 or more.</p>
+          <a href="tel:+15703264044" class="bg-italianRed text-white w-full py-4 rounded-lg font-semibold hover:bg-italianRedDark transition shadow-md flex items-center justify-center">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+            </svg>
+            Call to Reserve
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-50 py-12 border-t border-gray-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8 mb-8">
+        <div class="md:col-span-2">
+          <h3 class="font-display text-2xl font-bold text-italianRed mb-4">Santino's Italian Restaurant</h3>
+          <p class="text-gray-600 max-w-sm">Family-owned authentic Italian cuisine in Williamsport since 1985. Fresh pasta, seafood specialties, and warm hospitality.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-gray-900 mb-4">Hours</h4>
+          <div class="text-gray-600 text-sm space-y-2">
+            <p>Mon: Closed</p>
+            <p>Tue-Thu: 10:30 AM - 8:30 PM</p>
+            <p>Fri-Sat: 10:30 AM - 9:30 PM</p>
+            <p>Sun: 10:30 AM - 8:30 PM</p>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-semibold text-gray-900 mb-4">Contact</h4>
+          <div class="text-gray-600 text-sm space-y-2">
+            <p>24 E Southern Ave</p>
+            <p>Williamsport, PA 17702</p>
+            <p><a href="tel:+15703264044" class="hover:text-italianRed">(570) 326-4044</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="section-divider mb-8"></div>
+      <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+        <p>© 2025 Santino's Italian Restaurant. All rights reserved.</p>
+        <p class="mt-2 md:mt-0">Authentic Italian cuisine in Williamsport, PA</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

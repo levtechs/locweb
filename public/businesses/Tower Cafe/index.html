@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tower Cafe - Williamsport</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .photo-gallery img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .photo-gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+  <nav class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-orange-600">Tower Cafe</h1>
+      <div class="hidden md:flex gap-6 text-gray-700 font-medium">
+        <a href="#about" class="hover:text-orange-600 transition">About</a>
+        <a href="#photos" class="hover:text-orange-600 transition">Photos</a>
+        <a href="#reviews" class="hover:text-orange-600 transition">Reviews</a>
+        <a href="#contact" class="hover:text-orange-600 transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="bg-gray-50 py-20">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h1 class="text-5xl font-bold mb-4 text-gray-900">Welcome to Tower Cafe</h1>
+      <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">Discover delicious baked goods, expertly crafted coffees, and unique food options in our beautiful dining room.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:5706010244" class="bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-700 transition">Call Us: (570) 601-0244</a>
+        <a href="#contact" class="bg-white text-orange-600 border-2 border-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-orange-50 transition">Visit Us</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">About Tower Cafe</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+            Tower Cafe is your local destination for exceptional breakfast and lunch experiences in Williamsport. 
+            Our menu features a delightful variety of dishes from classic Reubens to innovative California Benedicts, 
+            all prepared with care and served in an aesthetic dining environment.
+          </p>
+          <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+            We're known for our uniquely delicious baked goods and expertly crafted coffees that keep customers 
+            coming back. Whether you're stopping in for a quick coffee or enjoying a leisurely meal with friends, 
+            our friendly staff ensures every visit is memorable.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Restaurant</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Coffee & Pastries</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Breakfast & Lunch</span>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-2xl p-8">
+          <div class="grid grid-cols-2 gap-6">
+            <div class="text-center">
+              <div class="text-4xl font-bold text-orange-600 mb-2">$$</div>
+              <div class="text-gray-600">Price Level</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-orange-600 mb-2">★ 4.0</div>
+              <div class="text-gray-600">11 Reviews</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-orange-600 mb-2">✓</div>
+              <div class="text-gray-600">Takeout Available</div>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-orange-600 mb-2">☕</div>
+              <div class="text-gray-600">Fresh Coffee</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="photos" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-4 text-gray-900">Our Cafe</h2>
+      <p class="text-center text-gray-600 mb-12">Experience our beautiful dining room and delicious offerings</p>
+      <div class="grid md:grid-cols-3 gap-6 photo-gallery">
+        <div class="rounded-xl overflow-hidden shadow-lg">
+          <img src="photos/photo-1.jpg" alt="Tower Cafe interior" class="w-full h-64 object-cover">
+        </div>
+        <div class="rounded-xl overflow-hidden shadow-lg">
+          <img src="photos/photo-2.jpg" alt="Delicious food at Tower Cafe" class="w-full h-64 object-cover">
+        </div>
+        <div class="rounded-xl overflow-hidden shadow-lg">
+          <img src="photos/photo-3.jpg" alt="Tower Cafe dining experience" class="w-full h-64 object-cover">
+        </div>
+        <div class="rounded-xl overflow-hidden shadow-lg">
+          <img src="photos/photo-4.jpg" alt="Fresh baked goods" class="w-full h-64 object-cover">
+        </div>
+        <div class="rounded-xl overflow-hidden shadow-lg">
+          <img src="photos/photo-5.jpg" alt="Tower Cafe coffee and pastries" class="w-full h-64 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-4 text-gray-900">What Our Customers Say</h2>
+      <p class="text-center text-gray-600 mb-12">Discover why our guests love dining with us</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 rounded-xl p-6 shadow-sm">
+          <div class="flex items-center mb-4">
+            <div class="flex text-orange-500">★★★★★</div>
+            <span class="ml-2 text-gray-600 font-medium">5 Stars</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Great food! Friendly staff! Reasonable prices for the amount of food you get!! And the desserts looked amazing!!"</p>
+          <p class="font-semibold text-gray-900">- michael ritter</p>
+        </div>
+        <div class="bg-gray-50 rounded-xl p-6 shadow-sm">
+          <div class="flex items-center mb-4">
+            <div class="flex text-orange-500">★★★★★</div>
+            <span class="ml-2 text-gray-600 font-medium">5 Stars</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Came here twice in two days because the baked goods, food options and expertly crafted coffees are not only unique, but just plainly delicious. We adore the staff, the aesthetic dining room, and merchandise."</p>
+          <p class="font-semibold text-gray-900">- A Cruz</p>
+        </div>
+        <div class="bg-gray-50 rounded-xl p-6 shadow-sm">
+          <div class="flex items-center mb-4">
+            <div class="flex text-orange-500">★★★★☆</div>
+            <span class="ml-2 text-gray-600 font-medium">4 Stars</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"The food is pretty good. I had a Reuben, and my wife had the CA Benedict. The only issue was when it came time to check out, it took a while for the check."</p>
+          <p class="font-semibold text-gray-900">- M. Beren Reeder</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 bg-orange-600">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-white">Visit Tower Cafe</h2>
+      <div class="grid md:grid-cols-2 gap-12">
+        <div class="bg-white rounded-xl p-8 shadow-lg">
+          <h3 class="text-xl font-semibold mb-6 text-gray-900">Contact Information</h3>
+          <div class="space-y-4">
+            <div class="flex items-start gap-4">
+              <div class="text-orange-600 text-xl">📍</div>
+              <div>
+                <p class="font-medium text-gray-900">Address</p>
+                <p class="text-gray-600">1000 Commerce Park Dr # 110<br>Williamsport, PA 17701</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="text-orange-600 text-xl">📞</div>
+              <div>
+                <p class="font-medium text-gray-900">Phone</p>
+                <p class="text-gray-600"><a href="tel:5706010244" class="hover:text-orange-600">(570) 601-0244</a></p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <div class="text-orange-600 text-xl">🕐</div>
+              <div>
+                <p class="font-medium text-gray-900">Hours</p>
+                <p class="text-gray-600">Please call for current hours</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl p-8 shadow-lg">
+          <h3 class="text-xl font-semibold mb-6 text-gray-900">Quick Links</h3>
+          <div class="space-y-4">
+            <a href="https://maps.google.com/?cid=5752866937155360061" target="_blank" class="flex items-center gap-4 p-4 bg-gray-50 rounded-lg hover:bg-orange-50 transition">
+              <div class="text-orange-600 text-xl">🗺️</div>
+              <div>
+                <p class="font-medium text-gray-900">Get Directions</p>
+                <p class="text-gray-600 text-sm">Open in Google Maps</p>
+              </div>
+            </a>
+            <a href="tel:5706010244" class="flex items-center gap-4 p-4 bg-gray-50 rounded-lg hover:bg-orange-50 transition">
+              <div class="text-orange-600 text-xl">📞</div>
+              <div>
+                <p class="font-medium text-gray-900">Call Us</p>
+                <p class="text-gray-600 text-sm">Order takeout or make inquiries</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <h3 class="text-xl font-bold text-orange-500 mb-4">Tower Cafe</h3>
+          <p class="text-gray-400">Your local destination for delicious food, fresh baked goods, and expertly crafted coffee in Williamsport.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4 text-white">Hours</h4>
+          <p class="text-gray-400">Please call for current hours</p>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-4 text-white">Contact</h4>
+          <p class="text-gray-400">📞 (570) 601-0244</p>
+          <p class="text-gray-400">📍 1000 Commerce Park Dr # 110</p>
+          <p class="text-gray-400">Williamsport, PA 17701</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+        <p>© 2025 Tower Cafe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

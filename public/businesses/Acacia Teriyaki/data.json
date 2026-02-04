@@ -1,0 +1,268 @@
+{
+  "business_status": "OPERATIONAL",
+  "delivery": true,
+  "dine_in": true,
+  "formatted_address": "4026 148th Ave NE, Redmond, WA 98052, USA",
+  "formatted_phone_number": "(425) 885-0574",
+  "geometry": {
+    "location": {
+      "lat": 47.6464361,
+      "lng": -122.1411588
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 47.64767268029149,
+        "lng": -122.1397362697085
+      },
+      "southwest": {
+        "lat": 47.64497471970849,
+        "lng": -122.1424342302915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 425-885-0574",
+  "name": "Acacia Teriyaki",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 1,
+          "time": "1900"
+        },
+        "open": {
+          "day": 1,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1900"
+        },
+        "open": {
+          "day": 2,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1900"
+        },
+        "open": {
+          "day": 3,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1900"
+        },
+        "open": {
+          "day": 4,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1900"
+        },
+        "open": {
+          "day": 5,
+          "time": "1000"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+      "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+      "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+      "Thursday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+      "Friday: 10:00\u202fAM\u2009\u2013\u20097:00\u202fPM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111944919548086842581\">James Hardy</a>"
+      ],
+      "photo_reference": "AcnlKN38ufh-efohw-Y5g3wzVivKYg1QT7BMkJQmgued-60kOSXMCDhRJZ5DLQC6ZScEyMsoUsyg6rTB3UsJkJwJ8IgKxTs84EpMpS-HCCcOHY8iTxDtWz1lUPPRnBH3BQvdl583-TjKw5tE0IcITAkQediOukd1QeKG6qSsZ-eJ1WYkyd5J6aoHbvoD_T5Uoo3p2wLeJAknPRAPzxKMJfPUP45Ge91GmkELzNhVCi9nAdhoZqyppp0Rr0_0XPbbsAXTaLmmfVOwe4-rlmymcvlOJb5kkSK55HXsJLw32jjb2Po7bvn3j9eS2OX0XaGYSu8dGtHTMCebGwM27xCnM8cbd01TZadyDM6_c6AwWdNIPmCFhx0MMmWau-QjL4b9VEcl4YD_LmsRErG4grBYSIM2E7Q2gPEOYfT4OluTeQHvCoiSLA",
+      "width": 4032
+    },
+    {
+      "height": 2994,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116818317705682724349\">Mike Aspi</a>"
+      ],
+      "photo_reference": "AcnlKN04FKQRANiGox5wxeP9QI_Ss9gHCnhgj8XPIQkKszVpuG6C2hfv0z9gEUVLqSPWYmgIsFHBNVk78uJSi4n1erIChrLUbA40yiHa5Mlroyetd8_6q0PU6kR5RaKIsn_JbgPClHuvZdBCf66YYkjxPo3VGYY-C7V-GkP2WDQ9hM6k84QkWShv9AxYOAdQ9_fKebZJUrSciiq5IPTd6R1kn7lESXYnZbJiIA8KmZRXXW_T5wb6iXxroQZvOVXofEk7iEBZzA3ZqkwHpQwN7o-4lTqZJTsl2ZY7oa2Y5k60lpP0uM7P7y3Ym8IvR3izHjz-7Jvk5OAFP9hJmS4LsVbwFcxwde0h2zwNxL1uq9DigO2uPJwSHCqrIDYlFHEr0qCUL9XutevZYNPN-56ZS7jdqGqoYPoABwqO08cKQvMZQLCICg",
+      "width": 2994
+    },
+    {
+      "height": 1440,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116114512593301678988\">Spencer Darrington</a>"
+      ],
+      "photo_reference": "AcnlKN3qhP9480TMOMtDyJ1Y7fwjQnOLGrKbTXUiGUpRSht9maIbk-AapyYUgaQXy4pY4aXi8IWE_aMPW0o4q5kOYYF_6VvKesDorD3QlvEj21WphpLFpbUZqqtTKh88fiofaS7t8ONAYLiaGVkDLhsAXTY2pe8smJzQJNF0sl9q_qhwPV6-ykaCjTQ5TuCI_aa8YkbrYuCDH8V4eYGgNOVuqDGblr9nNyY0VlspHRtdskxnt8S7OTAsywarR2nAmcuWqFkuXua8PN0aLp7qFVCR8R0RvipD3Tp9RgC-s2J4CujBnvA3LGuSv96DnmCB5P9jAbhndoIc78ELt79aDo16m-eJGxr7lZUniMymJD1q-vEtKj6MWmtzo5jl0LCoU2OknEqzmHtBIda9jxIUjGvZnXUZNAqbVlAtF5z4fpacWxlxCTz_",
+      "width": 1920
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112958737683281936613\">Cary</a>"
+      ],
+      "photo_reference": "AcnlKN2sG53QZ6FWY5qodA4mf3Zz0FWMudrAUCq5csZZZXzATRqgWylafKWoSS8l8luaeLOWECVilgw4o_nnGRj6xko9TT8GPs08sHcMshaTuFx9DdcUfGW0w7bPEUDcbULy0wKWXJ5WEL1QHGb_D9hfeRswUoYnCUd12AjEx374oWiHbOIv66LjHiAm5xplJRgLJMg6HM8k5sx0sSJVtWGOSUEwUsBvv3LiboyyUVxDPNBaxTgSRjf2r9YRJ7dl2eSiRHFiEjPi4rbTcEPxbxD3mBqsLr6QoVDizrQBCtoCtq6gCbiQRpdROcmMHwX6uC_7OQhg_xGgV51kwimhJ5k6bOl4piVox8dpWV5OQw4zYiagJkVf10usi_T30aVM2O-veOrYcaXrCAER1cW4prRzcpbqN2xy73Hj5udrzKkhnLBarG1TRg6TAKyxHdZbobIr",
+      "width": 3600
+    },
+    {
+      "height": 3072,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100090868017318352587\">Amitrajit Banerjee</a>"
+      ],
+      "photo_reference": "AcnlKN38xKqUC2CQNVBY8VrQspRIh4H0muwfoP2ky0veO40j0rrlyCb9VyBqw6L4ME3ScVNvl_9T2p2kGl6KTXGpUlrJCn7OQugUwbtuH0Mkn39XeV-VGvYTZnzHFcZhyTGW3J_UxImJ6v8OX1z3hwEeqDE4jh7I-Ku8GD1Wf_Xk2scbseI30ir8MWiGA_Kzw2lgOESUb77OImxteZIgIiJuVClU2-3MG4Yhr8OIN4-uYQ3Df3gsblcvv8UwLUGfn-IVhBeCZzTny9tUkT5rZZtrfpxCEM9IrZR-vkgYABQX6rYTXhkCCznbI7JsO7onSvZwBNKuOCVA07uIGzRa0VrYfl3ggeSxnvtWD3r4g7Lqhe-_n0tHtx5Yc6bVhihoWNOQ5kAvRg2VTIj8JrbWQAeQ2C0NzJ_ivBnhXVigNE4uLurbGA",
+      "width": 4080
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117439895946194887920\">Arasu Shankher J</a>"
+      ],
+      "photo_reference": "AcnlKN0VmsZ6NTl5cCd1XGah1ccn4xjBBta-b2wMbueQx-y_FB5xa0tJDLypVQRX4tHiNA-K8ZdFlFdkxD8yeJv-muodqZ6zVg7cp95b48qMeRYSQcv1P5wGRgT87SPPJbw3CT1wD1sYPXo35npOXSqiJDV89KfZ_OvUiJV2D_JKB9_V1JJZ5gflDOjuqSG3gs1GL1PaZPtGePtM43xxt_9SEMA7LE2bD58SNYq8hIMdaDmOA7t4LdRnRWb1cyX_cdiiiPVDjiNwZketLRuuG9tsvEITlkXfVo0sNA1ODDWoPNXiGxSlBkTTofvD4wDiyvoDqM_GjqGjGQa5ij44DDnY4AVkT3zpkOZ754yAg2-QGrjIXla3y2WeT4Sftb0GYQheJ7W2oQB5eC5NM583-9bnvTJTm-2hX3oYe343Mf7tm-81rQ",
+      "width": 3024
+    },
+    {
+      "height": 3072,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100090868017318352587\">Amitrajit Banerjee</a>"
+      ],
+      "photo_reference": "AcnlKN1_TbtvzQnsgOlyrmFCB0LJloHDdNWzd0MbwNLwldtbYcBIOfwVonP1AqbR82NwPLNJz2U40SPgmOp3IDU-f0FjXiAj0m_YsgwQP3iTorewvjoo0oMWU5VCNoi6TDHzelLwij1J7oH9yOCsRRzkz9GbypFbCpDy-k4kZWxnSW3dLFpkugIfOoGPOuogw3Uh941SaujzepfuazsXmh0QoRTl9dWH1GwS6DQIRljScF9vmAX_yFn4OO-IgRXgdrbUUNLtIM9Q5loQYj4afSulPl0OOhQYd2Lpz-JSmRhbAGaMBGYhoAmnjk3H3-EwCz1eaaFw40Ux9j5MIMc30a_tQaTs3IVHiJ6v4Rw_1ykv2q7Iv3P_-mPpUXdcT6hWDH639NAMRixDmkUQgVWl5jiH-nEeKCCg-ZGXhgVnyaKVjzmwFsEw",
+      "width": 4080
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107945855731999798004\">DRA LISSETH</a>"
+      ],
+      "photo_reference": "AcnlKN1L0wqY8277YNIElK29KigBd64offFLKtLkIaBAJkJg7cOZ0fheOQv-YCMFG-wyGPxi0felbK_NGQspLPMEpSu4zUZdxgGlaGSV6s9rFargAx2FME4i_c1c5rRC92dREsfhTSO033AZd3RHwYMV6EydJHCA50zsxKda2MHJe8F44gu1SDNVqaw6qg-ygyJXxQqlnTYF3hX0yEZzn1QkKG_G5v9-M7v04TxFNvrGp7fCQoQI3Rc9iweSNvhntUkvedE9xkhMoQ1SlPg0WxqavdaAGh_LQnuh8rNXhCxEZs8LxNTZC2gCCN6A3e8RnVVN9m2S0kJ4cKNTF1Kw_RCMJXafYS4YOZeB3niul3ApAK_nyVgAz4ZCxi6Tmf4FIzh2gsSxbFCjbSRPnTnG4XkdkCdv24Z2IkjOpiZ6A3Aa6UOKcg",
+      "width": 3600
+    },
+    {
+      "height": 4160,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118211079901248354600\">h k</a>"
+      ],
+      "photo_reference": "AcnlKN1VGgeAaQyQWntzuHD9fF9JrpqmGe3krNdY7JT979E1Bp1s7FTyUrZ0Do3aSyci2NYqEwdUcU64f8M6lycuQSC95F_IkjBfOqa6T1B4vr92T-LB_ZftZeXkySgtN-79CTQ9ihuN3gnQDaLAdmcItZq2ephzvQRD-coQfQmR9Zs97bto3aI_6h_KgJXqWp2r6Saj9va6H9qSeSRacnuED43kPYxKRfzy3aEFlGMHvgwmjZHlvLvfJ3a7X2C8y1_Uzf3SOwiol_PrLtXv6tNcsZPz-ENiQzmuZf51wByhX1XCGEN3t-sSk_2MxfiaJC8NQD8GKkE4rTvLhatiXKLJ7U6PI9V9jz64s4whJdOH-cDXdUH1AbFpWrysduRqt8TeN5kiwxo8WfE-wb1gsgGFVR6yfpyNxKDuktGHTBtBB2KV926O",
+      "width": 2340
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111376202188132571182\">Michael Grinshtat</a>"
+      ],
+      "photo_reference": "AcnlKN15hpm3xbgW_4WzaiVACEJlxus6nVBND0rXS-DvJQH11ZCSHYG6ZjZpDH8YbhVv-0Q3NY_fHoJ1Q0uxpQB0-bfMObCbKUot2AaJrg4E8Vlfg5I91PT1xgozK4a-L817LPlFIZbO4j8dcN-OccRWLGouDs1u_jdjjS5-WBye53FyuMTrH6NcKEYbNzUXzPczOfNPTqP391gwyvjM2l2MXRd5LoDe6Kkcprva0GPSqEVJE9oJCGRdbYEjuWOP22aX8qfQWff3YRset3qpvMn0y8GbVKb5jQWOCuTAgOKUFWnpQrbSpujNe5_Z70PZXTZmNuqOvIFTEz4IX_9yUWm_FnHDlayCCrqu_-jeR-Y3Qek6YbsfP9yB9IjTLNEkb9zvkmOgRTgDJ4dbXLBt8JjVIeaLofMJXiGTgmeqPVRWPnpmQQ",
+      "width": 3000
+    }
+  ],
+  "place_id": "ChIJJ193aGttkFQRpuDw6bzC6es",
+  "price_level": 1,
+  "rating": 4.2,
+  "reference": "ChIJJ193aGttkFQRpuDw6bzC6es",
+  "reservable": false,
+  "reviews": [
+    {
+      "author_name": "Cary",
+      "author_url": "https://www.google.com/maps/contrib/112958737683281936613/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXmeG7wypdyfrpmRD9e_k591GlhnBXb7_eqDiZoWL63g86qbtvp=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "6 months ago",
+      "text": "My favorite Teriyaki place on the eastside. The guy working the counter is super nice. Love the presentation of the food.",
+      "time": 1752803528,
+      "translated": false
+    },
+    {
+      "author_name": "Amitrajit Banerjee",
+      "author_url": "https://www.google.com/maps/contrib/100090868017318352587/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWKJqMx3xAsLrONgLbg9Ls85jpp_oInObPSRSL7P2afyqjhgQZIQw=s128-c0x00000000-cc-rp-mo-ba6",
+      "rating": 4,
+      "relative_time_description": "a year ago",
+      "text": "Nice small peaceful place, away from other restaurants and shops, so less traffic.\n\nFood and service is great.  Around lunch you should try their lunch special.",
+      "time": 1727818040,
+      "translated": false
+    },
+    {
+      "author_name": "Alan Wong",
+      "author_url": "https://www.google.com/maps/contrib/107909241128403711899/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXMJD-0CMNr79zyDjaY-DyvlmCayfvuEGwkzuGa7BLyrbYyMDqo=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "I'm willing to bet if kenji reviewed this it would be in the top of the teriyaki places. Perfect char, fresh sliced, great rice. Gyoza has surprisingly great flavor of scallion and ginger.",
+      "time": 1717462913,
+      "translated": false
+    },
+    {
+      "author_name": "Michael Grinshtat",
+      "author_url": "https://www.google.com/maps/contrib/111376202188132571182/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUD7tVKwWv-DdwzBxqzvMwoHKRLDTxjoibJfeKP1j9bS6hxxEPe=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 2,
+      "relative_time_description": "2 years ago",
+      "text": "The portions got so small and over 20 $ is way too expensive. And tastes became more bland not as much flavor  :/ really like this place years ago.",
+      "time": 1683754215,
+      "translated": false
+    },
+    {
+      "author_name": "Kat JW",
+      "author_url": "https://www.google.com/maps/contrib/108150104252941212331/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjU8DYC5R-ugb3GOGa57hOmGtKn0ZcJjpS_IDCQKX7h7AeDiXmFa2g=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "3 years ago",
+      "text": "The food was amazing! Great prices, great variety, and amazing service! The food was really fresh and delicious. Will absolutely be coming here again.",
+      "time": 1649715709,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=16999332385121165478",
+  "user_ratings_total": 212,
+  "utc_offset": -480,
+  "vicinity": "4026 148th Ave NE, Redmond",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN38ufh-efohw-Y5g3wzVivKYg1QT7BMkJQmgued-60kOSXMCDhRJZ5DLQC6ZScEyMsoUsyg6rTB3UsJkJwJ8IgKxTs84EpMpS-HCCcOHY8iTxDtWz1lUPPRnBH3BQvdl583-TjKw5tE0IcITAkQediOukd1QeKG6qSsZ-eJ1WYkyd5J6aoHbvoD_T5Uoo3p2wLeJAknPRAPzxKMJfPUP45Ge91GmkELzNhVCi9nAdhoZqyppp0Rr0_0XPbbsAXTaLmmfVOwe4-rlmymcvlOJb5kkSK55HXsJLw32jjb2Po7bvn3j9eS2OX0XaGYSu8dGtHTMCebGwM27xCnM8cbd01TZadyDM6_c6AwWdNIPmCFhx0MMmWau-QjL4b9VEcl4YD_LmsRErG4grBYSIM2E7Q2gPEOYfT4OluTeQHvCoiSLA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN04FKQRANiGox5wxeP9QI_Ss9gHCnhgj8XPIQkKszVpuG6C2hfv0z9gEUVLqSPWYmgIsFHBNVk78uJSi4n1erIChrLUbA40yiHa5Mlroyetd8_6q0PU6kR5RaKIsn_JbgPClHuvZdBCf66YYkjxPo3VGYY-C7V-GkP2WDQ9hM6k84QkWShv9AxYOAdQ9_fKebZJUrSciiq5IPTd6R1kn7lESXYnZbJiIA8KmZRXXW_T5wb6iXxroQZvOVXofEk7iEBZzA3ZqkwHpQwN7o-4lTqZJTsl2ZY7oa2Y5k60lpP0uM7P7y3Ym8IvR3izHjz-7Jvk5OAFP9hJmS4LsVbwFcxwde0h2zwNxL1uq9DigO2uPJwSHCqrIDYlFHEr0qCUL9XutevZYNPN-56ZS7jdqGqoYPoABwqO08cKQvMZQLCICg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3qhP9480TMOMtDyJ1Y7fwjQnOLGrKbTXUiGUpRSht9maIbk-AapyYUgaQXy4pY4aXi8IWE_aMPW0o4q5kOYYF_6VvKesDorD3QlvEj21WphpLFpbUZqqtTKh88fiofaS7t8ONAYLiaGVkDLhsAXTY2pe8smJzQJNF0sl9q_qhwPV6-ykaCjTQ5TuCI_aa8YkbrYuCDH8V4eYGgNOVuqDGblr9nNyY0VlspHRtdskxnt8S7OTAsywarR2nAmcuWqFkuXua8PN0aLp7qFVCR8R0RvipD3Tp9RgC-s2J4CujBnvA3LGuSv96DnmCB5P9jAbhndoIc78ELt79aDo16m-eJGxr7lZUniMymJD1q-vEtKj6MWmtzo5jl0LCoU2OknEqzmHtBIda9jxIUjGvZnXUZNAqbVlAtF5z4fpacWxlxCTz_&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2sG53QZ6FWY5qodA4mf3Zz0FWMudrAUCq5csZZZXzATRqgWylafKWoSS8l8luaeLOWECVilgw4o_nnGRj6xko9TT8GPs08sHcMshaTuFx9DdcUfGW0w7bPEUDcbULy0wKWXJ5WEL1QHGb_D9hfeRswUoYnCUd12AjEx374oWiHbOIv66LjHiAm5xplJRgLJMg6HM8k5sx0sSJVtWGOSUEwUsBvv3LiboyyUVxDPNBaxTgSRjf2r9YRJ7dl2eSiRHFiEjPi4rbTcEPxbxD3mBqsLr6QoVDizrQBCtoCtq6gCbiQRpdROcmMHwX6uC_7OQhg_xGgV51kwimhJ5k6bOl4piVox8dpWV5OQw4zYiagJkVf10usi_T30aVM2O-veOrYcaXrCAER1cW4prRzcpbqN2xy73Hj5udrzKkhnLBarG1TRg6TAKyxHdZbobIr&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN38xKqUC2CQNVBY8VrQspRIh4H0muwfoP2ky0veO40j0rrlyCb9VyBqw6L4ME3ScVNvl_9T2p2kGl6KTXGpUlrJCn7OQugUwbtuH0Mkn39XeV-VGvYTZnzHFcZhyTGW3J_UxImJ6v8OX1z3hwEeqDE4jh7I-Ku8GD1Wf_Xk2scbseI30ir8MWiGA_Kzw2lgOESUb77OImxteZIgIiJuVClU2-3MG4Yhr8OIN4-uYQ3Df3gsblcvv8UwLUGfn-IVhBeCZzTny9tUkT5rZZtrfpxCEM9IrZR-vkgYABQX6rYTXhkCCznbI7JsO7onSvZwBNKuOCVA07uIGzRa0VrYfl3ggeSxnvtWD3r4g7Lqhe-_n0tHtx5Yc6bVhihoWNOQ5kAvRg2VTIj8JrbWQAeQ2C0NzJ_ivBnhXVigNE4uLurbGA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

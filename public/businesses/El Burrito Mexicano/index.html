@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Burrito Mexicano - Authentic Mexican Food in Nashville</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .gallery-img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery-img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-orange-600">El Burrito Mexicano</h1>
+      <div class="hidden md:flex space-x-6">
+        <a href="#about" class="text-gray-700 hover:text-orange-600 transition">About</a>
+        <a href="#info" class="text-gray-700 hover:text-orange-600 transition">Info</a>
+        <a href="#gallery" class="text-gray-700 hover:text-orange-600 transition">Gallery</a>
+        <a href="#reviews" class="text-gray-700 hover:text-orange-600 transition">Reviews</a>
+      </div>
+      <a href="tel:6152550136" class="bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition">Call Now</a>
+    </nav>
+  </header>
+
+  <section class="bg-white py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Authentic Mexican Food in Nashville</h2>
+      <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Fresh, homemade Mexican cuisine served daily at the Nashville Farmers Market. Known for our huge burritos, delicious breakfast burritos, and warm hospitality.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:6152550136" class="bg-orange-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-orange-700 transition shadow-lg">Call to Order</a>
+        <a href="#info" class="bg-white text-orange-600 px-8 py-3 rounded-lg text-lg font-semibold border-2 border-orange-600 hover:bg-orange-50 transition">Get Directions</a>
+      </div>
+      <div class="mt-6 flex items-center justify-center gap-2">
+        <div class="flex text-yellow-400">
+          <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <span class="text-gray-600">4.6 stars · 126 reviews</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Welcome to El Burrito Mexicano</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-lg text-gray-700 mb-4">Located at the Nashville Farmers Market, El Burrito Mexicano has been serving the community with authentic, homemade Mexican food made with love and care.</p>
+          <p class="text-lg text-gray-700 mb-4">Everything is custom-ordered with tons of options to choose from. Our burritos are famously huge, and our breakfast burritos are the best in Nashville according to our loyal customers.</p>
+          <p class="text-lg text-gray-700 mb-6">From beef enchiladas to breakfast burritos loaded with eggs and your choice of toppings, we use fresh ingredients and traditional recipes to bring you the authentic flavors of Mexico.</p>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Breakfast Burritos</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Beef Enchiladas</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Taco Salads</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Hibiscus Tea</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Peach Cobbler</span>
+          </div>
+        </div>
+        <div class="bg-gray-100 rounded-2xl p-8">
+          <h3 class="text-xl font-semibold mb-4 text-gray-900">What Our Customers Say</h3>
+          <div class="space-y-4">
+            <div class="bg-white p-4 rounded-lg shadow-sm">
+              <p class="text-gray-700 italic">"The breakfast burritos are the best in Nashville. Everything is custom ordered with tons of options!"</p>
+              <p class="text-gray-500 text-sm mt-2">— Courtney Edwards Cotton</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-sm">
+              <p class="text-gray-700 italic">"The beef enchiladas and breakfast burrito never miss—always full of flavor. The portion size matches the price!"</p>
+              <p class="text-gray-500 text-sm mt-2">— R B White</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="info" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Visit Us</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <h3 class="text-xl font-semibold mb-4 text-orange-600 flex items-center gap-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            Location
+          </h3>
+          <p class="text-gray-700 mb-2">900 Rosa L Parks Blvd #111</p>
+          <p class="text-gray-700 mb-4">Nashville, TN 37208</p>
+          <a href="https://maps.google.com/?q=900+Rosa+L+Parks+Blvd+Nashville+TN+37208" target="_blank" class="text-orange-600 hover:text-orange-700 font-medium">Get Directions →</a>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <h3 class="text-xl font-semibold mb-4 text-orange-600 flex items-center gap-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            Hours
+          </h3>
+          <div class="space-y-2 text-gray-700">
+            <p class="flex justify-between"><span>Monday</span><span>8:00 AM - 4:00 PM</span></p>
+            <p class="flex justify-between"><span>Tuesday</span><span>8:00 AM - 4:00 PM</span></p>
+            <p class="flex justify-between"><span>Wednesday</span><span>8:00 AM - 4:00 PM</span></p>
+            <p class="flex justify-between"><span>Thursday</span><span>8:00 AM - 4:00 PM</span></p>
+            <p class="flex justify-between"><span>Friday</span><span>8:00 AM - 4:00 PM</span></p>
+            <p class="flex justify-between"><span>Saturday</span><span>8:00 AM - 4:00 PM</span></p>
+            <p class="flex justify-between"><span>Sunday</span><span>8:00 AM - 4:00 PM</span></p>
+          </div>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <h3 class="text-xl font-semibold mb-4 text-orange-600 flex items-center gap-2">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+            Contact
+          </h3>
+          <p class="text-gray-700 mb-2">Phone: (615) 255-0136</p>
+          <p class="text-gray-700 mb-4">Located inside Nashville Farmers Market</p>
+          <a href="tel:6152550136" class="bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 transition inline-block text-center w-full">Call Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Our Food</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="overflow-hidden rounded-xl shadow-md">
+          <img src="photos/photo-1.jpg" alt="El Burrito Mexicano food" class="gallery-img w-full h-64 object-cover">
+        </div>
+        <div class="overflow-hidden rounded-xl shadow-md">
+          <img src="photos/photo-2.jpg" alt="El Burrito Mexicano dish" class="gallery-img w-full h-64 object-cover">
+        </div>
+        <div class="overflow-hidden rounded-xl shadow-md">
+          <img src="photos/photo-3.jpg" alt="El Burrito Mexicano restaurant" class="gallery-img w-full h-64 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">What Our Customers Say</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <div class="flex text-yellow-400 mb-3">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="text-gray-700 mb-4">"El Burrito is great! Everything is custom ordered, and they have tons of options. The burritos are huge, as are the taco salads. They even offer fries and peach cobbler! Their breakfast burritos are the best in Nashville."</p>
+          <p class="font-semibold text-gray-900">— Courtney Edwards Cotton</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <div class="flex text-yellow-400 mb-3">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="text-gray-700 mb-4">"El Burrito Mexicano at the Farmers Market is one of my favorite go-to spots. The beef enchiladas and breakfast burrito never miss—always full of flavor, and the portion size definitely matches the price. The hibiscus tea is honestly the best I've had since visiting Jamaica!"</p>
+          <p class="font-semibold text-gray-900">— R B White</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+          <div class="flex text-yellow-400 mb-3">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="text-gray-700 mb-4">"Our breakfast burritos were delish and we will definitely return! Amazing breakfast spot open early on Saturdays. We visited at 9am and it was the perfect start to our day."</p>
+          <p class="font-semibold text-gray-900">— Kailey Parks</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white py-12 border-t border-gray-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <h3 class="text-xl font-bold text-orange-600 mb-4">El Burrito Mexicano</h3>
+          <p class="text-gray-700">Authentic Mexican food made with love at the Nashville Farmers Market.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Hours</h3>
+          <p class="text-gray-700">Daily: 8:00 AM - 4:00 PM</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Contact</h3>
+          <p class="text-gray-700">900 Rosa L Parks Blvd #111</p>
+          <p class="text-gray-700">Nashville, TN 37208</p>
+          <p class="text-gray-700 mt-2">Phone: (615) 255-0136</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-200 pt-8 text-center text-gray-600">
+        <p>&copy; 2026 El Burrito Mexicano. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
