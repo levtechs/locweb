@@ -1,0 +1,19 @@
+Phone Script for Café Trastevere Italian Restaurant
+
+Opening:
+"Hi, this is Lev calling. I just wanted to reach out because I came across your restaurant online and was really impressed with what I saw."
+
+Why I'm Calling:
+"I've actually built a professional website for Café Trastevere as a demo to show business owners what I can do. I wanted to share it with you because your restaurant clearly has a lot to offer - with a 4.4-star rating from 668 reviews, your customers clearly love the food here!"
+
+The Demo Website:
+"I put together a complete website for you at: https://locweb.vercel.app/web/café-trastevere-italian-restaurant It includes your business info, hours, location, a photo gallery, and those great customer reviews. Take a look when you get a chance - I'd love to hear what you think."
+
+My Service:
+"I specialize in helping local businesses get set up with their own professional website. I handle everything - setting up a custom domain, hosting, ongoing maintenance, the whole package. It's a turnkey solution so you don't have to worry about any of the technical stuff."
+
+Pricing:
+"It's $45 one-time setup fee plus $5 per month for hosting and maintenance. Very affordable, and it includes my support whenever you need it."
+
+Closing:
+"If you're interested, I can have this live with your own domain this week. And hey, no pressure at all - I just wanted to show you what I've put together and leave the door open. Would you like to discuss this further, or do you have any questions?"

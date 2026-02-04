@@ -1,0 +1,291 @@
+{
+  "business_status": "OPERATIONAL",
+  "curbside_pickup": false,
+  "delivery": true,
+  "dine_in": true,
+  "formatted_address": "1106 E Colonial Dr, Orlando, FL 32803, USA",
+  "formatted_phone_number": "(407) 423-8539",
+  "geometry": {
+    "location": {
+      "lat": 28.5528081,
+      "lng": -81.36529259999999
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 28.5541168802915,
+        "lng": -81.36392311970847
+      },
+      "southwest": {
+        "lat": 28.5514189197085,
+        "lng": -81.36662108029148
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 407-423-8539",
+  "name": "Little Saigon",
+  "opening_hours": {
+    "open_now": true,
+    "periods": [
+      {
+        "close": {
+          "day": 1,
+          "time": "2000"
+        },
+        "open": {
+          "day": 1,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2000"
+        },
+        "open": {
+          "day": 2,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2000"
+        },
+        "open": {
+          "day": 3,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2000"
+        },
+        "open": {
+          "day": 4,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2000"
+        },
+        "open": {
+          "day": 5,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2000"
+        },
+        "open": {
+          "day": 6,
+          "time": "1000"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Tuesday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Wednesday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Thursday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Friday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Saturday: 10:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 3600,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106835755415772786139\">Eric Swardstrom</a>"
+      ],
+      "photo_reference": "AcnlKN3o-A8lCZmrh99vDwU6xmblblgEW5aRDwL4DQ46PIXGjbn8aH-woS8FjyA4i99fjSyRAcw4wtl5Re04zoV4Nbtt_ESMUkyAuqR5xuAEl6W_BqwWR9Ma3YpkDaRja5gmEihs7j6uHRPAXVbHdfc6ksbUSUVgUmuDB0DzC83cBJpvitwvis2c4uNSIPIYx1duZndtrWJ3OX32htPMpEnHFYMYnupWQafbQsVvIS0CIyI7L4YeuZVCGqB6ccOGFqbMzUNLn7pecBLRL7RKVx9k6N0nXgsgvfwyuVCLw3dUGmugfDPzmYP33ih1jEBQxj9JaU-we2HeYgn5OSe7KpDYSrpwUSW3ubeA1YoSZ-V4mBgwK3Q1TSiYZeQbuchCjWPAGJyIyzc8AzL10vV8YFyfKZF6ebOzfTEVv1j6koST_4aJ7g",
+      "width": 4800
+    },
+    {
+      "height": 2322,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112385613077508654742\">Christopher Hansen</a>"
+      ],
+      "photo_reference": "AcnlKN11GfUEKbmLXjhiIuLIDMu1vFyXACyHmj_bNcDJERBkRR3qXlhg_FCFb4PSDiZ3zr3xdSpDRxorcrLd4pzXCvrumzu6FdFwL2FdnrBFgfIUosJK_ZkBNTqrX1X2vO9Pmk-sMzWOLfeIQok1eywbM-7cbrcsiAfqgifC4ftwgohb1PoOlqKtebiKq2WP4OrQ5LwjvIGR_RJj4vu_ffPvtYaXXc7lm2p9eZ73ltgUSY-srGg8XN_bf7hdaQ8ywnxqOt1W7oRgmoUDbF2uwvzp8FmivGMRJm8q09csCbFSiQbx4b-JMU_2p7rynf0FsuUwrg94xDusoWA36QU8twMJDVFjsaFiGXSD0lYsiWKMM8nCQZN-Cs6wRwXSObUMDC9WKZX4mdV-s46AseSY9hkX1pxt5SvdHwH1d_152unnCSRcrfoJ",
+      "width": 4128
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/114588869624377154174\">Shawn Tuffy</a>"
+      ],
+      "photo_reference": "AcnlKN1hiIrdyDnwsBaX0EUmcw4NhuGphfWiqPRjDnLeAoxGdJgekZnyYdxo7_Sh2pcEy2b71GPb78f2uly87DhfN58oFgLqtRu54jVkfscVHxut2peGRyP8RerEL2AVkLQK2dfe3QweiBKSaUcDSHmn5ZoVSsZNQeYYtwu5W6PTeRi4bK39AWpAZuIuhecEC83YtnYGIpLEKTWOTK-TpfY18NIGsAvMbQlRfLgIb1usjWvyn2xaef9Y24OFUOapaZwsXF5lO6TU8THnhCfrRppCwnAeP-4ECPhhkAkfo61Dd9nuexECl-pW9JTJ1XODpexEEEltZy-kIMHmuFttUkxvZnHb1gLV7F6E_C6JbvLydc_q59mCb9X78QC4tUoUqBH98C68Dlrf-VQZTYsE_0hyCOYekVyEpco_LartvSeFD87U-RH-rCi89FLoPo9UmtbT",
+      "width": 4032
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/114588869624377154174\">Shawn Tuffy</a>"
+      ],
+      "photo_reference": "AcnlKN1VpJBZitNf7gSZ3BdulcuyWhLqoBEhAcqdevXK-dy3AUpyEIOy76ujTYh3ER4wvmbV3rBbaBr2Sa6rs9U6kygb41b12EEuY_H1do0II5JQKa4aE3z-9et8ulPz6zaIK-XHiyijdLa5Q-IOyfr2xxbgdWSILYxqF0mH3MjGwOA5n6gQwS3RW_26jxDIlPF8p4qZHGSDUyxo1-rosas4fk86p9M0Lb-S6gKnbslpp4EB6OJKI1sXOQhKiAI2ko35Gf14NQDVpCfzQPve2b0Ad9FgKCWQAHo-hW0DjTMYAUh59dZapTux4yEQ_jKAu1zGd52WV8TQKxrkfX2wT4IOv1QAGwYnqkV6n2r77Yg5k0j5ZsCKwe2qCeXaAkBmwnhnvt8mNn-zXcXTQwgBISBbThJWX_tjUp8n0Mj_qJyljgl59hSXC0jCQ_CfcgJwF31o",
+      "width": 4032
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101942717784531415529\">Cisco Kidd</a>"
+      ],
+      "photo_reference": "AcnlKN0JlbHWO1Iho5iyoUo-7xz8a846GozgTKaz0sPy8HYjkAkS6pygHlwWMCPh4cxJpXGYe6rdvus-Dt3H-hiFcL8BmuZ108kQX5BuC1sYBFj95SeX0oaf4sL6h_jfv9gBuIk1wc1ruC294MID8j5wmgmT8qFXbLu7Qk9zfZjnFiIcBdmjZVYxxJHnCIuT8AJ9-j7YLrdpkoK2bnB3cRVg7iiCj3R1t18AgkdnkdeZWdEBWmQ4osk0BgahanoJmVtBN703TMhv5GI_BJmfqwHYW0QbP300vz9_N_iIs3yJyno-Yhqt7h_UuKwjVP4ZD2cGuZJdDcPwkwY-JYzNQG5qhh6hbffVQt2LloMXOj0zc7u0lr5L9v1NXo3nfBV8uqtY5ht9OCXUGIYEO__kfG1xc9jSxJJP_q0fDOwsQ6hYW_lqG-4YC0ejzqpYsfHYGMkT",
+      "width": 3000
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103591576631098171781\">JC C</a>"
+      ],
+      "photo_reference": "AcnlKN1XP3JDSBbIQs0WzMeIQVONg6aKiIVZ4VtrfGQmkh6e9K-cgSMDd_wkEiWtUBkV99HxRgrkSS559j3YMyVDnVQAWLo0oABMGgotrFgaDEpg_2_PBntuvV-6vbrKEGq49dM-iu-87n4-A7D3pvmX_u28sfQJQuVV3rnxggA429chdSjRQPX8iboI56n9NugFrYEhwcNInf-xmhqJa51Fh3yTaV4xQtf7zKqCRVIfEdcW5YC-uYhXCFbpqam67MQYFpoBy9iKVhaHNeDrumkqSvylMSblwexuSYdzbBqp7mrS9MtwEQZp5xfFAvzONLHZFj36lmpVPldg_EzDR40VHdzN7QfxE8I-FdKW5HdaYhCYLdp5kEv76VUxeItPNZr1c3hqqNWjfwUnws4lAkPWtnbgwlbdmvMz71QOCccRdsIGkoOKlXQW7B6sR_e_Bg",
+      "width": 3000
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101942717784531415529\">Cisco Kidd</a>"
+      ],
+      "photo_reference": "AcnlKN0GkDC23rFuW4DNT6Qm7CAzn5-NHTUPWqrpKtasvDaNRkzhg_pqgNgO-T0oWWRFFnf308rdINx4zcFATU3boaOzOlNuruiNSQW6-OQ7X7BmADvXMy912nIfx1s9OX0zlp0Uy2zkjwKA0hNePBvtU9xWjJU9bBLY8zww7teitRtKrwsCXUHsqbwch3xK5WPoEcnva8J03fJQ1nkwAD4RV3wfBjzX5-ghxol4xvZY_kawMy6wbU4_pHI9YAohSGG-kLUYbWv0Brc2Yl2WgiBeUQLnF2zBGKuLqZHCmHhs1geTzWXRM8HGViBLl6TiZcsR9o88swaoJILEhc57DcD73aL9L9W-o3gY8AjKO52UHtcy-rKtMHMYZED_z5IrEL3NnC2QX1aoAwkcN8ueuNSvsK1Qi7q6CqtBlnlK0goJUgsUJPyZAND2mvjJcpmNZw",
+      "width": 3000
+    },
+    {
+      "height": 2340,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100834565194728216834\">Delia Moore</a>"
+      ],
+      "photo_reference": "AcnlKN1w4ayQ4pBTXWn650fGlX8-gM9bJuibo9hB9q2YLPil6kGmTJy0_-wuckXNyoTV67i_AI07YTYGTmn9XOGzFzpuQ35LEml05hvq6OWxtm63xtkgQgnkebOIjc6wVM89veHNZuP-LfZMOo03s1BQdHjHU6H8DVA8bpE3Ok045Ar9bBkUT1r9v8z9nqlqtiwt4djimAbqqVoyHJKTyfR_8Ww4Q1WO2TkxctJaJbdPo4FKxs7jLFVXE-3jiN_FXfsXXxT5mUbt0L0Bv41JIEPeePSP8nijTJb17D36LklTBgqa12UbGr67juFv_XUofUMU_IRF2QcaAxssufFfzheDUEznoCsJW4UVFSfJXqVR1276ltzEoY23ZenIuaVyzwF1QEwhPq4WI_tssKleHTjJG0TlJdPWKBQn1zmgXjgKDf-pbO7imMBvN6KJVtzDv0k9",
+      "width": 1080
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/114588869624377154174\">Shawn Tuffy</a>"
+      ],
+      "photo_reference": "AcnlKN0gBjRpjEud8QhPVO7BPP_hpLAu_mkMu9pV33cQencSnhC-Xo1o7MD-fAwEXpVToPxmX5aB51J26SmRTeLlAgetAUKby_6WJln7w_Tg6VMTtZiJtSANdBARwRe4zdBtrcqWL_xx2DkdS0PkCm3evNAN38UC4TAnEz97MbELmYs9jKrrg1ohHWizah1Z4ABjFW87NQjesDT5B8llNZihgI3IakuLSoVYidTXME5seDdoM17yQQQAIN0UwBB37OpgfUTyokqH3NN4UygJ86L16j9n-QB--wajPFU7uqSqP2xbhn-PHcRf_vrWwj9K48iJK8lVEB579NS4FYowZ7BaOevW8nZYrFYom7CAKCzuvomLWX_ZOd-9EQOMa4G0PgYOVJw7sDeL2vBKsPCtwr3IQHBYndiTaZ9kCuL-uAjc3rANlHB85qy6t5WI6xqzLbth",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110637095772699166759\">Arianne C.</a>"
+      ],
+      "photo_reference": "AcnlKN2M66e9Z2G9puY5v8Am2MqrCq3RUZMynzAdOYvP_CUQE53HRDrwHRz6GM9E4KFlYxRh8pbIUJxAFcltf-XvQ7gqRMHPJvHsaM1UOqOgZIW4NT43RzhnOc6l5rwQakyL991bnO_0GM8-N12fBoWogWp0tOMBm5fYoSfeb8moNRl3gNDD2do270K9-KTgTjzcYJ8gOIFQebduaaCjU2tPaYMx5WyNyiJOqeGqJ2YiP9zH-TUgwKwglvxXo9Zt-0iucyMb3cg1nDDwo6s8eKPjSJ9ZvU9R2QsPLRmtKl-_bgpOOmU_P5YRI_BdksVxr7nIfTlKRbqXfvwRt2bHGXK_cTrTJ4pCQm8K8kEWxqke5gMw0ch-AbX-794o5lbSiwkzZo8CXTTz2uINWPHFj5vfK_4RsLk1WTcauq6txfFx6bXYNKaG",
+      "width": 3024
+    }
+  ],
+  "place_id": "ChIJeYTtBOl654gRXKYxvDuKx8g",
+  "price_level": 1,
+  "rating": 4.4,
+  "reference": "ChIJeYTtBOl654gRXKYxvDuKx8g",
+  "reservable": true,
+  "reviews": [
+    {
+      "author_name": "Cisco Kidd",
+      "author_url": "https://www.google.com/maps/contrib/101942717784531415529/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLE-x3OuMZisMKFLAebT-iUDgQdOZTa6Y-mv4F-_yvyRkv6VA=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "4 months ago",
+      "text": "I was greeted as soon as I came in by Mr.Vu n very nice n polite n I must very knowledgeable of the restaurant food!! The place is very Big n it can hold Big families n also parties too!! Very friendly atmosphere n the music is smooth n not too loud either!!! The food came out fresh n fast!!! Highly recommended to all my friends n family members!!! You must try the Summer Rolls!!! I will come back for sure!!! Very nice n clean!! You come to the restaurant frm the back door or the main front of the Building if you like!!! Keep up the great wrk!!!!",
+      "time": 1757775391,
+      "translated": false
+    },
+    {
+      "author_name": "Delia Moore",
+      "author_url": "https://www.google.com/maps/contrib/100834565194728216834/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWdgkGw8kObi2Yl_DWfd_y602l4qDa9ZR37lyugrIlnSDEFx15W=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "6 months ago",
+      "text": "I come here regularly for lunch with one of my friends. We have tried lots of pho and ramen and Little Saigon is consistently delicious. We always come back! The staff here is very friendly, also.\n\nThe only downside to this restaurant is the little market that opened up next door. It's so popular that the parking lot is always full. So just be prepared to have parking difficulties.",
+      "time": 1753452769,
+      "translated": false
+    },
+    {
+      "author_name": "JC C",
+      "author_url": "https://www.google.com/maps/contrib/103591576631098171781/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWutKsEyeP_S84mvVxnQHL4lU20QCvt8nCJndmi5Ycw3wWNWG8I=s128-c0x00000000-cc-rp-mo-ba6",
+      "rating": 5,
+      "relative_time_description": "3 months ago",
+      "text": "Great food, good service.  I really liked the Pho.\nWill come back when Im in town",
+      "time": 1760989539,
+      "translated": false
+    },
+    {
+      "author_name": "Huan Le",
+      "author_url": "https://www.google.com/maps/contrib/113806631557334209671/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUTOqjla8b0LIwcvv119dfn_mzOE4N-6ga_MILhDT8sYP6hngLy=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "We were visiting Orlando and were craving for some Vietnamese food.    We found this restaurant in Vietnamese town.   The atmosphere was quiet but as dinner time rolled in.  It got busy enough.  I got the Vietnamese Ice coffee which was off the menu.  We ordered the Pho special and it was really good.  Service was great and friendly.  The price were reasonable and portions were right on. We were all full and will highly recommend this place if you\u2019re in the area.",
+      "time": 1735704938,
+      "translated": false
+    },
+    {
+      "author_name": "Wiem Grey",
+      "author_url": "https://www.google.com/maps/contrib/106525647393060886041/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjW1arIzmU6OdthUfXgJDzc1Yg9iiLlWcZdeOzVk9KToJ7sjs-Wg3Q=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "6 months ago",
+      "text": "This is un update of 2025 after my visit of 2024 :\nAll i can say is wonderful! Flavor is top \ud83d\udd1d! Service is very impressive and satisfying! Thank you \ud83d\ude4f thank you for the great experience every time that keeps us coming back .\n2014: I love the summer rolls with peanut sauce! Delicious \ud83e\udd24 and the beef pho , along with pad thai",
+      "time": 1754488941,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "meal_delivery",
+    "meal_takeaway",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=14467684317116081756",
+  "user_ratings_total": 1238,
+  "utc_offset": -300,
+  "vicinity": "1106 E Colonial Dr, Orlando",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3o-A8lCZmrh99vDwU6xmblblgEW5aRDwL4DQ46PIXGjbn8aH-woS8FjyA4i99fjSyRAcw4wtl5Re04zoV4Nbtt_ESMUkyAuqR5xuAEl6W_BqwWR9Ma3YpkDaRja5gmEihs7j6uHRPAXVbHdfc6ksbUSUVgUmuDB0DzC83cBJpvitwvis2c4uNSIPIYx1duZndtrWJ3OX32htPMpEnHFYMYnupWQafbQsVvIS0CIyI7L4YeuZVCGqB6ccOGFqbMzUNLn7pecBLRL7RKVx9k6N0nXgsgvfwyuVCLw3dUGmugfDPzmYP33ih1jEBQxj9JaU-we2HeYgn5OSe7KpDYSrpwUSW3ubeA1YoSZ-V4mBgwK3Q1TSiYZeQbuchCjWPAGJyIyzc8AzL10vV8YFyfKZF6ebOzfTEVv1j6koST_4aJ7g&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN11GfUEKbmLXjhiIuLIDMu1vFyXACyHmj_bNcDJERBkRR3qXlhg_FCFb4PSDiZ3zr3xdSpDRxorcrLd4pzXCvrumzu6FdFwL2FdnrBFgfIUosJK_ZkBNTqrX1X2vO9Pmk-sMzWOLfeIQok1eywbM-7cbrcsiAfqgifC4ftwgohb1PoOlqKtebiKq2WP4OrQ5LwjvIGR_RJj4vu_ffPvtYaXXc7lm2p9eZ73ltgUSY-srGg8XN_bf7hdaQ8ywnxqOt1W7oRgmoUDbF2uwvzp8FmivGMRJm8q09csCbFSiQbx4b-JMU_2p7rynf0FsuUwrg94xDusoWA36QU8twMJDVFjsaFiGXSD0lYsiWKMM8nCQZN-Cs6wRwXSObUMDC9WKZX4mdV-s46AseSY9hkX1pxt5SvdHwH1d_152unnCSRcrfoJ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1hiIrdyDnwsBaX0EUmcw4NhuGphfWiqPRjDnLeAoxGdJgekZnyYdxo7_Sh2pcEy2b71GPb78f2uly87DhfN58oFgLqtRu54jVkfscVHxut2peGRyP8RerEL2AVkLQK2dfe3QweiBKSaUcDSHmn5ZoVSsZNQeYYtwu5W6PTeRi4bK39AWpAZuIuhecEC83YtnYGIpLEKTWOTK-TpfY18NIGsAvMbQlRfLgIb1usjWvyn2xaef9Y24OFUOapaZwsXF5lO6TU8THnhCfrRppCwnAeP-4ECPhhkAkfo61Dd9nuexECl-pW9JTJ1XODpexEEEltZy-kIMHmuFttUkxvZnHb1gLV7F6E_C6JbvLydc_q59mCb9X78QC4tUoUqBH98C68Dlrf-VQZTYsE_0hyCOYekVyEpco_LartvSeFD87U-RH-rCi89FLoPo9UmtbT&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1VpJBZitNf7gSZ3BdulcuyWhLqoBEhAcqdevXK-dy3AUpyEIOy76ujTYh3ER4wvmbV3rBbaBr2Sa6rs9U6kygb41b12EEuY_H1do0II5JQKa4aE3z-9et8ulPz6zaIK-XHiyijdLa5Q-IOyfr2xxbgdWSILYxqF0mH3MjGwOA5n6gQwS3RW_26jxDIlPF8p4qZHGSDUyxo1-rosas4fk86p9M0Lb-S6gKnbslpp4EB6OJKI1sXOQhKiAI2ko35Gf14NQDVpCfzQPve2b0Ad9FgKCWQAHo-hW0DjTMYAUh59dZapTux4yEQ_jKAu1zGd52WV8TQKxrkfX2wT4IOv1QAGwYnqkV6n2r77Yg5k0j5ZsCKwe2qCeXaAkBmwnhnvt8mNn-zXcXTQwgBISBbThJWX_tjUp8n0Mj_qJyljgl59hSXC0jCQ_CfcgJwF31o&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0JlbHWO1Iho5iyoUo-7xz8a846GozgTKaz0sPy8HYjkAkS6pygHlwWMCPh4cxJpXGYe6rdvus-Dt3H-hiFcL8BmuZ108kQX5BuC1sYBFj95SeX0oaf4sL6h_jfv9gBuIk1wc1ruC294MID8j5wmgmT8qFXbLu7Qk9zfZjnFiIcBdmjZVYxxJHnCIuT8AJ9-j7YLrdpkoK2bnB3cRVg7iiCj3R1t18AgkdnkdeZWdEBWmQ4osk0BgahanoJmVtBN703TMhv5GI_BJmfqwHYW0QbP300vz9_N_iIs3yJyno-Yhqt7h_UuKwjVP4ZD2cGuZJdDcPwkwY-JYzNQG5qhh6hbffVQt2LloMXOj0zc7u0lr5L9v1NXo3nfBV8uqtY5ht9OCXUGIYEO__kfG1xc9jSxJJP_q0fDOwsQ6hYW_lqG-4YC0ejzqpYsfHYGMkT&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1XP3JDSBbIQs0WzMeIQVONg6aKiIVZ4VtrfGQmkh6e9K-cgSMDd_wkEiWtUBkV99HxRgrkSS559j3YMyVDnVQAWLo0oABMGgotrFgaDEpg_2_PBntuvV-6vbrKEGq49dM-iu-87n4-A7D3pvmX_u28sfQJQuVV3rnxggA429chdSjRQPX8iboI56n9NugFrYEhwcNInf-xmhqJa51Fh3yTaV4xQtf7zKqCRVIfEdcW5YC-uYhXCFbpqam67MQYFpoBy9iKVhaHNeDrumkqSvylMSblwexuSYdzbBqp7mrS9MtwEQZp5xfFAvzONLHZFj36lmpVPldg_EzDR40VHdzN7QfxE8I-FdKW5HdaYhCYLdp5kEv76VUxeItPNZr1c3hqqNWjfwUnws4lAkPWtnbgwlbdmvMz71QOCccRdsIGkoOKlXQW7B6sR_e_Bg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0GkDC23rFuW4DNT6Qm7CAzn5-NHTUPWqrpKtasvDaNRkzhg_pqgNgO-T0oWWRFFnf308rdINx4zcFATU3boaOzOlNuruiNSQW6-OQ7X7BmADvXMy912nIfx1s9OX0zlp0Uy2zkjwKA0hNePBvtU9xWjJU9bBLY8zww7teitRtKrwsCXUHsqbwch3xK5WPoEcnva8J03fJQ1nkwAD4RV3wfBjzX5-ghxol4xvZY_kawMy6wbU4_pHI9YAohSGG-kLUYbWv0Brc2Yl2WgiBeUQLnF2zBGKuLqZHCmHhs1geTzWXRM8HGViBLl6TiZcsR9o88swaoJILEhc57DcD73aL9L9W-o3gY8AjKO52UHtcy-rKtMHMYZED_z5IrEL3NnC2QX1aoAwkcN8ueuNSvsK1Qi7q6CqtBlnlK0goJUgsUJPyZAND2mvjJcpmNZw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1w4ayQ4pBTXWn650fGlX8-gM9bJuibo9hB9q2YLPil6kGmTJy0_-wuckXNyoTV67i_AI07YTYGTmn9XOGzFzpuQ35LEml05hvq6OWxtm63xtkgQgnkebOIjc6wVM89veHNZuP-LfZMOo03s1BQdHjHU6H8DVA8bpE3Ok045Ar9bBkUT1r9v8z9nqlqtiwt4djimAbqqVoyHJKTyfR_8Ww4Q1WO2TkxctJaJbdPo4FKxs7jLFVXE-3jiN_FXfsXXxT5mUbt0L0Bv41JIEPeePSP8nijTJb17D36LklTBgqa12UbGr67juFv_XUofUMU_IRF2QcaAxssufFfzheDUEznoCsJW4UVFSfJXqVR1276ltzEoY23ZenIuaVyzwF1QEwhPq4WI_tssKleHTjJG0TlJdPWKBQn1zmgXjgKDf-pbO7imMBvN6KJVtzDv0k9&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0gBjRpjEud8QhPVO7BPP_hpLAu_mkMu9pV33cQencSnhC-Xo1o7MD-fAwEXpVToPxmX5aB51J26SmRTeLlAgetAUKby_6WJln7w_Tg6VMTtZiJtSANdBARwRe4zdBtrcqWL_xx2DkdS0PkCm3evNAN38UC4TAnEz97MbELmYs9jKrrg1ohHWizah1Z4ABjFW87NQjesDT5B8llNZihgI3IakuLSoVYidTXME5seDdoM17yQQQAIN0UwBB37OpgfUTyokqH3NN4UygJ86L16j9n-QB--wajPFU7uqSqP2xbhn-PHcRf_vrWwj9K48iJK8lVEB579NS4FYowZ7BaOevW8nZYrFYom7CAKCzuvomLWX_ZOd-9EQOMa4G0PgYOVJw7sDeL2vBKsPCtwr3IQHBYndiTaZ9kCuL-uAjc3rANlHB85qy6t5WI6xqzLbth&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2M66e9Z2G9puY5v8Am2MqrCq3RUZMynzAdOYvP_CUQE53HRDrwHRz6GM9E4KFlYxRh8pbIUJxAFcltf-XvQ7gqRMHPJvHsaM1UOqOgZIW4NT43RzhnOc6l5rwQakyL991bnO_0GM8-N12fBoWogWp0tOMBm5fYoSfeb8moNRl3gNDD2do270K9-KTgTjzcYJ8gOIFQebduaaCjU2tPaYMx5WyNyiJOqeGqJ2YiP9zH-TUgwKwglvxXo9Zt-0iucyMb3cg1nDDwo6s8eKPjSJ9ZvU9R2QsPLRmtKl-_bgpOOmU_P5YRI_BdksVxr7nIfTlKRbqXfvwRt2bHGXK_cTrTJ4pCQm8K8kEWxqke5gMw0ch-AbX-794o5lbSiwkzZo8CXTTz2uINWPHFj5vfK_4RsLk1WTcauq6txfFx6bXYNKaG&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg",
+    "photos/photo-6.jpg",
+    "photos/photo-7.jpg",
+    "photos/photo-8.jpg",
+    "photos/photo-9.jpg",
+    "photos/photo-10.jpg"
+  ]
+}

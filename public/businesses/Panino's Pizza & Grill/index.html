@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panino's Pizza & Grill - Orlando's Best NY Style Pizza</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+    .photo-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+    .photo-item { aspect-ratio: 4/3; overflow: hidden; border-radius: 0.75rem; }
+    .photo-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; }
+    .photo-item:hover img { transform: scale(1.05); }
+    .star-rating { color: #f97316; }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold text-gray-900">Panino's Pizza & Grill</a>
+      <div class="hidden md:flex items-center gap-6">
+        <a href="#about" class="text-gray-700 hover:text-orange-600 transition">About</a>
+        <a href="#photos" class="text-gray-700 hover:text-orange-600 transition">Photos</a>
+        <a href="#reviews" class="text-gray-700 hover:text-orange-600 transition">Reviews</a>
+        <a href="#contact" class="text-gray-700 hover:text-orange-600 transition">Contact</a>
+      </div>
+      <a href="tel:(407) 999-7701" class="bg-orange-500 text-white px-5 py-2 rounded-full font-medium hover:bg-orange-600 transition shadow-md">Call Now</a>
+    </nav>
+  </header>
+
+  <section class="bg-gray-50 py-20">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <span class="inline-block bg-orange-100 text-orange-700 px-4 py-1 rounded-full text-sm font-medium mb-4">★ 4.1 rating · 406 reviews</span>
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Welcome to Panino's Pizza & Grill</h1>
+      <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">Orlando's favorite spot for authentic New York style pizza, specialty pies, and delicious grilled favorites. Fresh, flavorful, and generously sized at an affordable price!</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:(407) 999-7701" class="bg-orange-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-orange-600 transition shadow-lg text-center">Order Now</a>
+        <a href="#contact" class="bg-white text-gray-900 border-2 border-gray-200 px-8 py-3 rounded-full font-semibold hover:border-orange-500 hover:text-orange-600 transition text-center">Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl font-bold text-gray-900 mb-6">Authentic New York Style Pizza in Orlando</h2>
+          <p class="text-gray-700 mb-4 text-lg leading-relaxed">At Panino's Pizza & Grill, we bring the authentic taste of New York to the heart of Orlando. Our specialty New York style pizzas are made with fresh, quality ingredients and crafted with care.</p>
+          <p class="text-gray-700 mb-6 text-lg leading-relaxed">From classic cheese and pepperoni to unique creations like our Tomatoes, Spinach & Ricotta, Cheesesteak Pizza, and the beloved Margherita with fresh Buffalo mozzarella, there's something for everyone. Our generous portion sizes and affordable prices make us a local favorite!</p>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Dine-In</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Takeout</span>
+            <span class="bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-medium">Delivery</span>
+          </div>
+        </div>
+        <div class="photo-gallery">
+          <div class="photo-item"><img src="photos/photo-1.jpg" alt="Delicious pizza slice at Panino's"></div>
+          <div class="photo-item"><img src="photos/photo-2.jpg" alt="Panino's Pizza & Grill interior"></div>
+          <div class="photo-item"><img src="photos/photo-3.jpg" alt="Fresh pizza preparation"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="photos" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">Our Gallery</h2>
+      <p class="text-gray-600 text-center mb-10">A glimpse into Panino's Pizza & Grill</p>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="photo-item"><img src="photos/photo-1.jpg" alt="Pizza"></div>
+        <div class="photo-item"><img src="photos/photo-2.jpg" alt="Restaurant interior"></div>
+        <div class="photo-item"><img src="photos/photo-3.jpg" alt="Fresh food"></div>
+        <div class="photo-item"><img src="photos/photo-4.jpg" alt="Food presentation"></div>
+        <div class="photo-item"><img src="photos/photo-5.jpg" alt="Dining area"></div>
+        <div class="photo-item"><img src="photos/photo-6.jpg" alt="Our delicious offerings"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-4">What Our Customers Say</h2>
+      <p class="text-gray-600 text-center mb-10">★ 4.1 rating from 406 reviews</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center gap-1 mb-3 star-rating">★★★★★</div>
+          <p class="text-gray-700 mb-4 italic">"I've now been to Panino's Pizza & Grill twice, and both visits left me impressed. The Tomatoes, Spinach & Ricotta slice was flavorful and cheesy. The portion sizes are huge for the price!"</p>
+          <p class="font-semibold text-gray-900">— Amira Moorman</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center gap-1 mb-3 star-rating">★★★★☆</div>
+          <p class="text-gray-700 mb-4 italic">"Great spot for late night pizza in downtown Orlando. Visited around 10:30 pm Friday after a soccer game. I got their cheesesteak pizza for $8 after tax. Pizzas are filling and hit the spot!"</p>
+          <p class="font-semibold text-gray-900">— Jeff Vongjesda</p>
+        </div>
+        <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition">
+          <div class="flex items-center gap-1 mb-3 star-rating">★★★★★</div>
+          <p class="text-gray-700 mb-4 italic">"They have an excellent selection of specialty New York style pizzas. I would definitely recommend the Margherita. Piled with fresh, Buffalo mozzarella, strips of savory sauce and a basil oil. Great guys and great pizza."</p>
+          <p class="font-semibold text-gray-900">— Don G</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-12">Visit Us</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 text-center">
+          <div class="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">📍</div>
+          <h3 class="font-semibold text-gray-900 mb-2">Address</h3>
+          <p class="text-gray-700">21 S Orange Ave<br>Orlando, FL 32801<br>USA</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 text-center">
+          <div class="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">📞</div>
+          <h3 class="font-semibold text-gray-900 mb-2">Phone</h3>
+          <a href="tel:(407) 999-7701" class="text-gray-700 hover:text-orange-600 transition">(407) 999-7701</a>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-200 text-center">
+          <div class="w-14 h-14 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl">🕐</div>
+          <h3 class="font-semibold text-gray-900 mb-2">Hours</h3>
+          <p class="text-gray-700">Open Daily<br>10:00 AM - 3:00 AM</p>
+        </div>
+      </div>
+      <div class="mt-10 text-center">
+        <a href="https://www.google.com/maps/search/?api=1&query=21+S+Orange+Ave+Orlando+FL" target="_blank" class="inline-flex items-center gap-2 bg-orange-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-orange-600 transition shadow-md">
+          <span>Get Directions on Google Maps</span>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white border-t border-gray-200 py-8">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="text-center md:text-left">
+          <h4 class="font-bold text-gray-900">Panino's Pizza & Grill</h4>
+          <p class="text-gray-600 text-sm">21 S Orange Ave, Orlando, FL 32801</p>
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="tel:(407) 999-7701" class="text-gray-600 hover:text-orange-600 transition text-sm">(407) 999-7701</a>
+          <span class="text-gray-400">|</span>
+          <span class="text-gray-600 text-sm">Open Daily: 10:00 AM - 3:00 AM</span>
+        </div>
+      </div>
+      <div class="mt-6 pt-6 border-t border-gray-100 text-center text-gray-500 text-sm">
+        <p>★ 4.1 rating · 406 reviews · Price: $</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

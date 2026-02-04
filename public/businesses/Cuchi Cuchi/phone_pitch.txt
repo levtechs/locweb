@@ -1,0 +1,15 @@
+Phone Script for Cuchi Cuchi
+
+Hi, this is [YOUR NAME] calling. I noticed your restaurant Cuchi Cuchi on Main Street in Cambridge, and I have to say, with a 4.5-star rating and over 800 reviews, it's clear you know how to take care of your customers!
+
+I run a small web development service, and I noticed that many local businesses don't have a proper online presence. I wanted to reach out because I built a free demo website for Cuchi Cuchi to show what I can do.
+
+You can see it at: https://locweb.vercel.app/web/cuchi-cuchi
+
+The site includes your location, hours, photos, and those great customer reviews. It's designed to help more people find you and learn about what makes Cuchi Cuchi special.
+
+I'm offering to set this up with your own custom domain for a small fee - just $45 one-time setup, then $5/month for hosting and maintenance. That covers everything - domain setup, updates, and ongoing support.
+
+I can have this live with your own domain this week if you're interested. There's no pressure at all, but I think it could really help bring in more customers.
+
+Would you like me to send you the link so you can take a look?

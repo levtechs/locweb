@@ -1,0 +1,209 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "611 Degraw St, Brooklyn, NY 11217, USA",
+  "geometry": {
+    "location": {
+      "lat": 40.679225,
+      "lng": -73.98316200000001
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 40.6805018802915,
+        "lng": -73.9818301697085
+      },
+      "southwest": {
+        "lat": 40.6778039197085,
+        "lng": -73.98452813029151
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+  "icon_background_color": "#909CE1",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
+  "name": "Union Hotel Brooklyn",
+  "photos": [
+    {
+      "height": 2304,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107576589143997416395\">Union Hotel Brooklyn</a>"
+      ],
+      "photo_reference": "AcnlKN1v5uG67yXUu8PNKbPtCaEeQ0ue6WAdsg51Vc9KlWO4__h0mxtt_RG5Hsj0hZtc8gXuG0zA44gP-EU4L-42bJO1lKYUJEaEwdgRkfE6qLX8x1zgWmfaTtm0OIfgs1yCiUjeSCtMHHdIIuFpp8gTU1dRr0si-lXasxzN7BWhj9_8zrPK7cTl_HUqoQv0BqLB304MX3NosqvNfgOJ9oa_oZG3BILktjuWf4jOU-zPTrmH1fTjoH7pM5RTXAdcJIOHXNY3j1lBUrOd2PVUUhtTrOeEwgY1WvJhlD6ioTaz3UPByg",
+      "width": 2880
+    },
+    {
+      "height": 2304,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107576589143997416395\">Union Hotel Brooklyn</a>"
+      ],
+      "photo_reference": "AcnlKN2LnE4_2L7cSpzub09_Bn_yZsl31lsW-rqMaiHw4carcG06wEIGOoIaBXr0vnyTI0mUJnaF9C6SM8gs2uKFxbhYA7RAxzMro3d4Cb_188so9MeTvoT0DCt--urn3RLBh60rvkuK0dpS3UtzKX_QovEjZ0vTCewhwdHvV98nLB8KhzGm-eT0xJHn9SbxypEJ8DKA6kWFpXcg0XPeVq1EAqzzGdNZC39ar8SzlqxIV_ZopNrEsC2tJbOsFFroQRNcCzljgLXQUwBphz02rwU_vcBUjN39044cjBq3SKJRsm1Oww",
+      "width": 2880
+    },
+    {
+      "height": 2304,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107576589143997416395\">Union Hotel Brooklyn</a>"
+      ],
+      "photo_reference": "AcnlKN3tKI9xWDKVjxbH8-oUZR7e-QUj5InYtxQR741gecMQkZ9wvhMzmjYzkh2EJKa-hO1fMDoioWjFOhmYYjZ2-UZaFTb3f339-TFRxc9m6E6zPAf1sLhhC13gVagAAUQXWW1JoJ6XaAE1Weq4JiTCA42K0kLMjJxCjjw-EwMJkCSY31h0j_Xd6u-FWC8XwvlfGOb9flEZsksvrJt1RV_Mecopku8-Jnc5j69X7Pg_oMoXQth4PBoHJ4eZdPjTH6u31BsYQr6QrR_QWH3He9Hb7tIu3qa6Fo8DowjqoUKnbE4nbw",
+      "width": 2880
+    },
+    {
+      "height": 2304,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107576589143997416395\">Union Hotel Brooklyn</a>"
+      ],
+      "photo_reference": "AcnlKN3J50EGlvdpwZFN2gnORK459A-vGuQFM0jiMKejxoCrl0xngv9iB6zkydJu9cPgy_K89_c1KUJcNbxrE-Ns3p__7UhS0-eYAGcbDZK-svvmgK-_IlhHgTcFOC77okMSQucmIU8KrGcb1JQ7BLiU-FB3jVHe69lSSni_SGqOU3ktD4ZPt30dQ0LRU5xqavJpzeDqzGmzuGS9F5bWKMj5cTApvN0WrzMGExL23QlxnFWAXbxrIp8wVVyrwDP5CR8l001OWUi7UUxTEZ2lxdK8RBDWzK9uHhn55vS3ojM67kg8MA",
+      "width": 2880
+    },
+    {
+      "height": 2304,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107576589143997416395\">Union Hotel Brooklyn</a>"
+      ],
+      "photo_reference": "AcnlKN0R1GPY_r1NEfWjgLzIhqVfwHXackf9xWFQ7u_2gKQzpY1HnKnPU5iOl6hUrRpGteCQYrq8eUr3sdFzetWocze1k7lqDQ-APuNjWki9Q4HH7C9-Mo9c_QLyxNAMSvDUYg5juZzBb1T5a8K1Q7xZrtyZN_fEKWLojlqHYd1HXsOTh9Kj0xv6GLYoK_teIucY6uM0Jg5osMlgu7NBsGgycm9xTmguhh1roOD3Aj2XXK9Y1AY_Y2bHpcsaWJY58r-pqjFxjEPZlFSmNCQdzw_sIr-EoexCvY-4X8nUm6iamqTYWg",
+      "width": 2880
+    },
+    {
+      "height": 2304,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107576589143997416395\">Union Hotel Brooklyn</a>"
+      ],
+      "photo_reference": "AcnlKN23vBNZIuJ0ca_wJ690hWpOvZAvqXsRiW7mUYDqCepiXjmr8whK96xsuIY045kW4WoJrIZY9F4yPTMzd47zfpAGLvtAH3b1qE-Rm-Ahvb7MNDCB4M5Jui2FqosTlfJp39ijx0uCVp__lVonMeiY0EZ4M4Nnja0N9njAUEUfZSQJRG9GrhCjWt2soFmwWgCwG21CY26OBPxYM-u32eKfpeKpBhmEObkuFG94bIX7ujZ3OR4Tc5SOd8iUtWz0M1N-iE1L68NA1GMCIja_xNIOUnm2CvePC-C5YtLwVbb7-mUB2w",
+      "width": 2880
+    },
+    {
+      "height": 2304,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107576589143997416395\">Union Hotel Brooklyn</a>"
+      ],
+      "photo_reference": "AcnlKN2rpUWykHo2W6m7UuVXBbeevzSm7mOuIqaWVOWFkNUrwS8WJAmYZ_TXgChKGRUZmeG_6lGvZ0I5xrQSnRdNe5nwQu6__TNPAVqKwZ4MS1l2xC9HRuPKjpKq05kaXQbCFChqRtKelvl38hfFbPLLbxbk5euUhr8MAiSgNYlHcciyq7zrIsiq-070g71zkxIEDq5uujCieqwhgHb-QwqC2UINBQMMHW_IaU0x3zCryhPykXQ88ooTZjpehvX-H4F2bzu-4est0yA8QDtb3FxXXffNP_t9b_jn0oWzqKzno6uNgQ",
+      "width": 2880
+    },
+    {
+      "height": 1571,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107576589143997416395\">Union Hotel Brooklyn</a>"
+      ],
+      "photo_reference": "AcnlKN2SCFdGwN6nydkTtVDvm-9wK6mosIwr_Qs9eyw1ipN9cnr6D4E0drW-D_ciR2LnfZnLpr5W97vG-0VWzQOmcDGMaANo1GYtjqSTAEHndqCNgF54yg9FPMm0e1sOqw5UzZM3SQYx-xcWLeWJqj43yEGNUa3y03pXGmExUndqdrP62-rfaHbumrk9iWHfgTkAtQ-fIcPRK8VVXvab6XZTzDoADpxJMcGeZ1JksIpD9EA1S0M-GnENeA9wZ8LbXkzAQKEFKIPucKmf05-OKZD6jKVciLAbzV5QamDaEHN-eEwT1Q",
+      "width": 2000
+    },
+    {
+      "height": 2304,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107576589143997416395\">Union Hotel Brooklyn</a>"
+      ],
+      "photo_reference": "AcnlKN3CG_uxUa9Vi-FCz_Cy9UKLw3UdeDgR6yd9drOJRQdqCN17pXG-Oy7p1h28UDJ6b3954HldR2egpdf2ExUXq500min-hj51EVCyPirsBJSQ6-YPbPn-VkDO_0jHDraV-3eg0s0IVVUt-ZCGrN6uwXvxFw-ta54jTWbfOTjPIgu-TYPWEymBAXRZoNknq8Iw-HJIAFWREwqDiRHCC28hpcEqm4fFVpTO56iTSu80dfAO4Wg6j4Hl4cltAvaUfIPO2ZBqcGd-84yaLEpUbIPMraxswxOAODFnLT8LjBEVdPDwmg",
+      "width": 2880
+    },
+    {
+      "height": 2304,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107576589143997416395\">Union Hotel Brooklyn</a>"
+      ],
+      "photo_reference": "AcnlKN2UzsNS__WNZVt_5OfvVZswyyyYss7wdcIgIsqkeE-njsctXnIpLyy447yr44iXoLSZgWbE6OjYYJwBc6luyYPSSqAmtFQjUOmYv4FAa8LslCXv84GeKUIZud5ogTVrFdXdDJys99nYfY0Cgee-0mBNA-W4W3sCdIdywjy7ALzABisrjZhrx2J6IqS4tJsSuPVB4IRZf0E-gKXF6P8NfAYgfxUMa13fx_VPGXS4ymORo07sjIRS_usp5etNXBvL7r5yj-e82IKNpwYMuawstKlIlkVIgR-TlyG778tPTF04BQ",
+      "width": 2880
+    }
+  ],
+  "place_id": "ChIJNw_kzFRawokRESt-098Pb7Q",
+  "rating": 2.7,
+  "reference": "ChIJNw_kzFRawokRESt-098Pb7Q",
+  "reviews": [
+    {
+      "author_name": "A. N",
+      "author_url": "https://www.google.com/maps/contrib/115521737191105481982/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX-gNl96iedONkofX-AKPWoaREX5_9PUrx576zCxTpzob4hP_v1jQ=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 1,
+      "relative_time_description": "a week ago",
+      "text": "Didn't know if it was a closet or a room, surprisingly a bed and bathroom was there so I guess it was a room. Room to small, not even a chair could fit. I didnt bother looking in the tiny...sorry mini fridge. Place is for you if looking for small and to the point room but if you're not.... theres a possibility you will!!!!!! Had to shimmy between the bed and wall to get to other side of the bed SMH.",
+      "time": 1769087046,
+      "translated": false
+    },
+    {
+      "author_name": "Destiny Theriot",
+      "author_url": "https://www.google.com/maps/contrib/117123461562738978263/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLqdAYWvErwD-23TyEv06ltVCPjo4-g3Daz8tTiX7gveHRzuQ=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "in the last week",
+      "text": "Cheaper than most places. Nice colors, friendly staff 2 beds nice bathroom. Love it",
+      "time": 1769833141,
+      "translated": false
+    },
+    {
+      "author_name": "Ray Mack",
+      "author_url": "https://www.google.com/maps/contrib/102986721838020749816/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUl5pwKlQ1k8DFXth8pQ8N1XWRYhUZvGIYmF_QlP0e4g-DPh1LSEQ=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "It's basically down the block from the train station so it's very convenient but the room is extremely small, smaller than the closet",
+      "time": 1766238750,
+      "translated": false
+    },
+    {
+      "author_name": "Christine Ruksenas-Burton",
+      "author_url": "https://www.google.com/maps/contrib/111068272402516032768/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjW67zuyruY-iFcVwVqvjH4gJY_DpW_0PHRtYp3m0AeZODsE_wWF=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 2,
+      "relative_time_description": "7 months ago",
+      "text": "Way too small room with a great bed.\nBroken coffee maker.\nShower neefs upgrading, water trap comes loose when stepped on, replace shower curtain with a glass door.",
+      "time": 1751801145,
+      "translated": false
+    },
+    {
+      "author_name": "Sebastian Lys\u00e9n",
+      "author_url": "https://www.google.com/maps/contrib/105971703836469901985/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUmTAK60CC6jnseLNOfKD9wR-yeALc_JYbxeHzGn95V8k4T9M0p=s128-c0x00000000-cc-rp-mo",
+      "rating": 1,
+      "relative_time_description": "8 months ago",
+      "text": "I had put up one of my staff members for a night here. He couldn't stay the night due to other hotel guests screaming as if they were being tortured all night, and had to find other accommodation. The hotel staff seemed to not care, and Booking.com says they can't do anything to refund us.",
+      "time": 1749304964,
+      "translated": false
+    }
+  ],
+  "types": [
+    "bar",
+    "establishment",
+    "food",
+    "lodging",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=13001628103242296081",
+  "user_ratings_total": 650,
+  "utc_offset": -300,
+  "vicinity": "611 Degraw St, Brooklyn",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1v5uG67yXUu8PNKbPtCaEeQ0ue6WAdsg51Vc9KlWO4__h0mxtt_RG5Hsj0hZtc8gXuG0zA44gP-EU4L-42bJO1lKYUJEaEwdgRkfE6qLX8x1zgWmfaTtm0OIfgs1yCiUjeSCtMHHdIIuFpp8gTU1dRr0si-lXasxzN7BWhj9_8zrPK7cTl_HUqoQv0BqLB304MX3NosqvNfgOJ9oa_oZG3BILktjuWf4jOU-zPTrmH1fTjoH7pM5RTXAdcJIOHXNY3j1lBUrOd2PVUUhtTrOeEwgY1WvJhlD6ioTaz3UPByg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2LnE4_2L7cSpzub09_Bn_yZsl31lsW-rqMaiHw4carcG06wEIGOoIaBXr0vnyTI0mUJnaF9C6SM8gs2uKFxbhYA7RAxzMro3d4Cb_188so9MeTvoT0DCt--urn3RLBh60rvkuK0dpS3UtzKX_QovEjZ0vTCewhwdHvV98nLB8KhzGm-eT0xJHn9SbxypEJ8DKA6kWFpXcg0XPeVq1EAqzzGdNZC39ar8SzlqxIV_ZopNrEsC2tJbOsFFroQRNcCzljgLXQUwBphz02rwU_vcBUjN39044cjBq3SKJRsm1Oww&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3tKI9xWDKVjxbH8-oUZR7e-QUj5InYtxQR741gecMQkZ9wvhMzmjYzkh2EJKa-hO1fMDoioWjFOhmYYjZ2-UZaFTb3f339-TFRxc9m6E6zPAf1sLhhC13gVagAAUQXWW1JoJ6XaAE1Weq4JiTCA42K0kLMjJxCjjw-EwMJkCSY31h0j_Xd6u-FWC8XwvlfGOb9flEZsksvrJt1RV_Mecopku8-Jnc5j69X7Pg_oMoXQth4PBoHJ4eZdPjTH6u31BsYQr6QrR_QWH3He9Hb7tIu3qa6Fo8DowjqoUKnbE4nbw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3J50EGlvdpwZFN2gnORK459A-vGuQFM0jiMKejxoCrl0xngv9iB6zkydJu9cPgy_K89_c1KUJcNbxrE-Ns3p__7UhS0-eYAGcbDZK-svvmgK-_IlhHgTcFOC77okMSQucmIU8KrGcb1JQ7BLiU-FB3jVHe69lSSni_SGqOU3ktD4ZPt30dQ0LRU5xqavJpzeDqzGmzuGS9F5bWKMj5cTApvN0WrzMGExL23QlxnFWAXbxrIp8wVVyrwDP5CR8l001OWUi7UUxTEZ2lxdK8RBDWzK9uHhn55vS3ojM67kg8MA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0R1GPY_r1NEfWjgLzIhqVfwHXackf9xWFQ7u_2gKQzpY1HnKnPU5iOl6hUrRpGteCQYrq8eUr3sdFzetWocze1k7lqDQ-APuNjWki9Q4HH7C9-Mo9c_QLyxNAMSvDUYg5juZzBb1T5a8K1Q7xZrtyZN_fEKWLojlqHYd1HXsOTh9Kj0xv6GLYoK_teIucY6uM0Jg5osMlgu7NBsGgycm9xTmguhh1roOD3Aj2XXK9Y1AY_Y2bHpcsaWJY58r-pqjFxjEPZlFSmNCQdzw_sIr-EoexCvY-4X8nUm6iamqTYWg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN23vBNZIuJ0ca_wJ690hWpOvZAvqXsRiW7mUYDqCepiXjmr8whK96xsuIY045kW4WoJrIZY9F4yPTMzd47zfpAGLvtAH3b1qE-Rm-Ahvb7MNDCB4M5Jui2FqosTlfJp39ijx0uCVp__lVonMeiY0EZ4M4Nnja0N9njAUEUfZSQJRG9GrhCjWt2soFmwWgCwG21CY26OBPxYM-u32eKfpeKpBhmEObkuFG94bIX7ujZ3OR4Tc5SOd8iUtWz0M1N-iE1L68NA1GMCIja_xNIOUnm2CvePC-C5YtLwVbb7-mUB2w&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2rpUWykHo2W6m7UuVXBbeevzSm7mOuIqaWVOWFkNUrwS8WJAmYZ_TXgChKGRUZmeG_6lGvZ0I5xrQSnRdNe5nwQu6__TNPAVqKwZ4MS1l2xC9HRuPKjpKq05kaXQbCFChqRtKelvl38hfFbPLLbxbk5euUhr8MAiSgNYlHcciyq7zrIsiq-070g71zkxIEDq5uujCieqwhgHb-QwqC2UINBQMMHW_IaU0x3zCryhPykXQ88ooTZjpehvX-H4F2bzu-4est0yA8QDtb3FxXXffNP_t9b_jn0oWzqKzno6uNgQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2SCFdGwN6nydkTtVDvm-9wK6mosIwr_Qs9eyw1ipN9cnr6D4E0drW-D_ciR2LnfZnLpr5W97vG-0VWzQOmcDGMaANo1GYtjqSTAEHndqCNgF54yg9FPMm0e1sOqw5UzZM3SQYx-xcWLeWJqj43yEGNUa3y03pXGmExUndqdrP62-rfaHbumrk9iWHfgTkAtQ-fIcPRK8VVXvab6XZTzDoADpxJMcGeZ1JksIpD9EA1S0M-GnENeA9wZ8LbXkzAQKEFKIPucKmf05-OKZD6jKVciLAbzV5QamDaEHN-eEwT1Q&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3CG_uxUa9Vi-FCz_Cy9UKLw3UdeDgR6yd9drOJRQdqCN17pXG-Oy7p1h28UDJ6b3954HldR2egpdf2ExUXq500min-hj51EVCyPirsBJSQ6-YPbPn-VkDO_0jHDraV-3eg0s0IVVUt-ZCGrN6uwXvxFw-ta54jTWbfOTjPIgu-TYPWEymBAXRZoNknq8Iw-HJIAFWREwqDiRHCC28hpcEqm4fFVpTO56iTSu80dfAO4Wg6j4Hl4cltAvaUfIPO2ZBqcGd-84yaLEpUbIPMraxswxOAODFnLT8LjBEVdPDwmg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2UzsNS__WNZVt_5OfvVZswyyyYss7wdcIgIsqkeE-njsctXnIpLyy447yr44iXoLSZgWbE6OjYYJwBc6luyYPSSqAmtFQjUOmYv4FAa8LslCXv84GeKUIZud5ogTVrFdXdDJys99nYfY0Cgee-0mBNA-W4W3sCdIdywjy7ALzABisrjZhrx2J6IqS4tJsSuPVB4IRZf0E-gKXF6P8NfAYgfxUMa13fx_VPGXS4ymORo07sjIRS_usp5etNXBvL7r5yj-e82IKNpwYMuawstKlIlkVIgR-TlyG778tPTF04BQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg",
+    "photos/photo-6.jpg",
+    "photos/photo-7.jpg",
+    "photos/photo-8.jpg",
+    "photos/photo-9.jpg",
+    "photos/photo-10.jpg"
+  ]
+}

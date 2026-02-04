@@ -1,0 +1,31 @@
+PHONE PITCH SCRIPT - Little Saigon
+
+OPENING:
+"Hi, this is Lev calling. I noticed your business online and I'm reaching out because I help local restaurants in Orlando build professional websites."
+
+BUILD RAPPORT:
+"Your customers clearly love the food here - those reviews are impressive! With a 4.4-star rating from over 1,200 reviews, it's clear you know how to take care of customers."
+
+PRESENT THE OFFER:
+"I actually put together a free demo website for Little Saigon to show you what I can do. It's already live and ready for you to see."
+
+WEBSITE DETAILS:
+"You can see it at: https://locweb.vercel.app/web/little-saigon
+It includes your business info, hours, location, photo gallery, and those great customer reviews."
+
+EXPLAIN SERVICE:
+"I set up websites specifically for local businesses like yours. I handle everything - getting a custom domain (like littlesaigon.com), hosting, and ongoing maintenance."
+
+PRICING:
+"It's $45 one-time setup plus $5/month for hosting and maintenance. That's it - no hidden fees."
+
+CLOSE OR FOLLOW-UP:
+"If you're interested, I can have this live with your own domain this week. Or if you'd rather think about it, no problem at all. Can I answer any questions for you?"
+
+HANDLING OBJECTIONS:
+- If they already have a website: "That's great! How's it working for you? Many restaurants find having a dedicated site helps with SEO and customer trust."
+- If they're not interested: "Totally understand. Thanks so much for your time today. I'll follow up next week to see if anything changes."
+- If interested: "Great! Let's get you set up. I'll handle everything so you can focus on running your restaurant."
+
+THANK YOU AND CLOSE:
+"Thanks so much for your time, [Owner Name]. I'm excited to work with you!"
