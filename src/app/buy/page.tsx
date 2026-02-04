@@ -2,6 +2,7 @@ import { Metadata } from "next"
 import fs from "fs"
 import path from "path"
 import dns from "dns/promises"
+import { getUpfrontPrice, getMonthlyPrice, getContactEmail, getCompanyName } from "@/lib/config"
 
 interface BuyPageProps {
   searchParams: Promise<{ bus?: string }>
@@ -342,11 +343,11 @@ export default async function BuyPage({ searchParams }: BuyPageProps) {
               <p className="text-gray-500 mb-6">Get everything you need to launch today</p>
               
               <div className="flex justify-center items-baseline gap-2 mb-2">
-                <span className="text-5xl font-extrabold text-gray-900">$45</span>
+                <span className="text-5xl font-extrabold text-gray-900">{getUpfrontPrice()}</span>
                 <span className="text-xl text-gray-500 line-through decoration-red-500">$199</span>
               </div>
               <p className="text-sm font-medium text-amber-600 uppercase tracking-wide">One-time Setup Fee</p>
-              <p className="text-sm text-gray-500 mt-2">+ just $5/month for hosting & maintenance</p>
+              <p className="text-sm text-gray-500 mt-2">+ just {getMonthlyPrice()} for hosting & maintenance</p>
             </div>
 
             <button className="w-full bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold py-4 px-6 rounded-xl shadow-lg text-lg flex items-center justify-center gap-2 transition-all">
@@ -368,7 +369,12 @@ export default async function BuyPage({ searchParams }: BuyPageProps) {
 
         {/* Footer Info */}
         <div className="border-t border-gray-200 pt-12 text-center text-gray-500">
-           <p className="mb-4">LocWeb - Dedicated to helping local businesses grow.</p>
+           <p className="mb-4">{getCompanyName()} - Dedicated to helping local businesses grow.</p>
+           <div className="flex justify-center gap-6 text-sm mb-4">
+             <a href="/terms" className="hover:text-gray-900">Terms of Service</a>
+             <a href="/privacy" className="hover:text-gray-900">Privacy Policy</a>
+             <a href="/refund-policy" className="hover:text-gray-900">Refund Policy</a>
+           </div>
            <a href="/" className="inline-flex items-center text-amber-600 hover:text-amber-700 font-medium hover:underline">
              &larr; Back to Home
            </a>

@@ -1,10 +1,10 @@
 import Link from "next/link"
 import fs from "fs"
 import path from "path"
+import { getUpfrontPrice, getMonthlyPrice, getContactEmail, getCompanyName } from "@/lib/config"
+import GetStartedModal from "@/components/GetStartedModal"
 
 const BUSINESSES_DIR = path.join(process.cwd(), "public", "businesses")
-
-const OWNER_EMAIL = process.env.OWNER_EMAIL || "contact@locweb.example.com"
 
 function getAllBusinessSlugs(): string[] {
   if (!fs.existsSync(BUSINESSES_DIR)) {
@@ -54,6 +54,9 @@ export default function Home() {
               </a>
               <a href="#pricing" className="text-gray-600 hover:text-gray-900">
                 Pricing
+              </a>
+              <a href={`mailto:${getContactEmail()}`} className="text-gray-600 hover:text-gray-900">
+                Contact
               </a>
             </nav>
           </div>
@@ -176,11 +179,11 @@ export default function Home() {
                   Starter Package
                 </h4>
                 <div className="mb-6">
-                  <span className="text-5xl font-bold text-gray-900">$45</span>
+                  <span className="text-5xl font-bold text-gray-900">{getUpfrontPrice()}</span>
                   <span className="text-gray-500"> one-time</span>
                 </div>
                 <p className="text-gray-600 mb-6">
-                  plus <span className="font-semibold">$5/month</span> to keep it running. 
+                  plus <span className="font-semibold">{getMonthlyPrice()}</span> to keep it running. 
                   No long-term contracts.
                 </p>
                 <ul className="space-y-3 mb-8">
@@ -200,16 +203,11 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
-                <a
-                  href="#contact"
-                  className="block w-full bg-gray-900 text-white text-center py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors"
-                >
-                  Get Started
-                </a>
+                <GetStartedModal />
               </div>
             </div>
             <p className="text-center text-gray-500 mt-8 text-sm">
-              Optional add-ons: Online menu, email newsletter, booking system, and more.
+              Optional add-ons: Online menu, more details, embed map, and more.
             </p>
           </div>
         </section>
@@ -258,7 +256,7 @@ export default function Home() {
               Contact us today to get started.
             </p>
             <a
-              href={`mailto:${OWNER_EMAIL}`}
+              href={`mailto:${getContactEmail()}`}
               className="inline-block bg-white text-gray-900 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
             >
               Contact Us
@@ -273,17 +271,12 @@ export default function Home() {
             <p className="text-gray-500 text-sm">
               © {new Date().getFullYear()} LocWeb. All rights reserved.
             </p>
-            <div className="flex gap-6 text-sm text-gray-500">
-              <a href="#how-it-works" className="hover:text-gray-900">
-                How It Works
-              </a>
-              <a href="#pricing" className="hover:text-gray-900">
-                Pricing
-              </a>
-              <a href={`mailto:${OWNER_EMAIL}`} className="hover:text-gray-900">
-                Contact
-              </a>
-            </div>
+              <div className="flex gap-6 text-sm text-gray-500">
+                <a href="/terms" className="hover:text-gray-900">Terms of Service</a>
+                <a href="/privacy" className="hover:text-gray-900">Privacy Policy</a>
+                <a href="/refund-policy" className="hover:text-gray-900">Refund Policy</a>
+                <a href={`mailto:${getContactEmail()}`} className="hover:text-gray-900">Contact</a>
+              </div>
           </div>
         </div>
       </footer>
