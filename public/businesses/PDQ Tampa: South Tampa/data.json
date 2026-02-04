@@ -1,0 +1,289 @@
+{
+  "business_status": "OPERATIONAL",
+  "curbside_pickup": false,
+  "delivery": true,
+  "dine_in": true,
+  "formatted_address": "2207 S Dale Mabry Hwy, Tampa, FL 33629, USA",
+  "formatted_phone_number": "(813) 254-7373",
+  "geometry": {
+    "location": {
+      "lat": 27.9253872,
+      "lng": -82.5063669
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 27.9268392802915,
+        "lng": -82.50489481970848
+      },
+      "southwest": {
+        "lat": 27.92414131970849,
+        "lng": -82.5075927802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 813-254-7373",
+  "name": "PDQ Tampa: South Tampa",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 0,
+          "time": "2200"
+        },
+        "open": {
+          "day": 0,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 1,
+          "time": "2200"
+        },
+        "open": {
+          "day": 1,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2200"
+        },
+        "open": {
+          "day": 2,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2200"
+        },
+        "open": {
+          "day": 3,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2200"
+        },
+        "open": {
+          "day": 4,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2200"
+        },
+        "open": {
+          "day": 5,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2200"
+        },
+        "open": {
+          "day": 6,
+          "time": "1100"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Sunday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
+    ]
+  },
+  "photos": [
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112294115636340124759\">Phillip Hampton</a>"
+      ],
+      "photo_reference": "AcnlKN3L4sVE64jvJQKF0dMpK6s30ZZwgy8org2PfVSHmTuHsXMgft3qJbGJNBEXG8EzxUedQQm5vudRkbHnJS4y1-OhYTOJhgRqhhTblEXduUo47IUETWzNB4qYvCHhVSJvCFVs1lnU-mc9heMA5QkH3zYwGckHj6HKwEYcUhtEhgTT6DMqGijQW6AZe256o0lxO2wqINPWAq2n3EPUAHXNigbeub6_TNVjHGiJOaV1cbj2NoYtKGoRqchezmXqCcXT7cZksA-vr1r0ll5mEczqy9Eroe55v3VwQ4_kjJGO981UD0v369A9qFANWzecQh36nMWJr_ubBKxnp7pRsb9sBZ_x7o70OIOytEAhoIjjFpesYPbD8GtPHeWSCbUJLpH8EtDsblV0VgcuT5gKqtUiNcE_DObTllJEMY51ddmjP8s",
+      "width": 4032
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/115814541591347828873\">PDQ Tampa: South Tampa</a>"
+      ],
+      "photo_reference": "AcnlKN3P6YbaAbfldt91AQtlwJFr5weGSC_dUQ5GhpCmknt7lhzH2HHtuI3n8Hy-9yjlepGOv5ujatjNumlACZDs2wPY3D2YWunkxrEZp5NAEInV6O1hqDptdlqapLmQ_xejyYW9VslrV3Fe4dBBAia00ZZX6BDFompWSnzc57bjobK2in4oxJC2YkNlVRS88IC59xa-wHoutRe6TVv7rUEDv4uhmzw0__6ee6bG70WrsZI2py-kiGcFgs7vP4tKod4GXEC6BvwMFXvZpgJytJzd22_NzNPD0e4oDoSr_nBEn56epw",
+      "width": 3600
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/115814541591347828873\">PDQ Tampa: South Tampa</a>"
+      ],
+      "photo_reference": "AcnlKN1UQzFwbjccD3wy2OssTfRBTKUvzSiLm5vFRfs--9YI5RJoH0YbhZ6BzAdXjUb4O33Mom5E9utpF8mN1ccxNmNdTFEVTHaA4vaVFY3JC-jXDP04VXGWFFSclnBtcO8F_eGE7aylZURFE9XvT3Kan8Ag62yiIulXfgO-HcRbA3ne8oP1lOErQfEp2mYJX1-0egSZcPwUh7yraIlBz-l6mtH7ZnD5z5KrleGEphMw-p0ZgochOkklMqAPjKCx5ShXGXCm4DH76OT6JzTLQWW2IoceUmwiqKkL_mtNAJWNSpGaJQ",
+      "width": 3600
+    },
+    {
+      "height": 1080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107276330771997070303\">David Scott</a>"
+      ],
+      "photo_reference": "AcnlKN3hVBAc9hWOqnpTwzY-9DGVRwpOX2ofoEO7TuAwZMNJWO7qHtSaAp8D5xMblTKghuprfaT5Q2RQsQ0XG9z9iw-2ONpg4Xnx9fIlnHVwVFliyAP7lpSRVis3i1IiHLe4DC_hjM2m5hAQhLeqWzijtUTfQmQbqxH-YUg-UrGcwsGF_hRpjm1KWNotFEshRInAbGlzT7zwpbqbcjEviX_d_duWrMivNPSHKnffFm1YE3gRYyiuOAX5t8IoQ4EJWbNaNlMHY6i1tXCuHRjW4S_rEU17lBPfPNDslg9RO1FeWhaKzoSnyrc4fvPUNLQNV_fL0cnhaB2J1-Vebbgvp5ZmK55LSm-Ed6HdVNCQs8ci_fALUX5Uw1J_JmI5Lz8tz_RIgolbsiH2Bi9OVBeizD6Nk7GSxpbivt2dlQ0E3dnKZQ4byCHKNq81WXfFbHeQQwSR",
+      "width": 1440
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118167302967627538500\">Todd Curtis</a>"
+      ],
+      "photo_reference": "AcnlKN1dQk1hD5Pz0mIoTGYkadbWC8CHaGvMHnU_ojsQavjIKZC1qSJ0eLqsIBEvdH8b-6ypEcImDW9COmXENS7C51xvN7BG996SSYWDT726wB3mki8YM-NSLyNIbVBUTAzedahF31lmu43icVEKnJn0pD73oa9E6zK83Ee4ElRkcqhBp6UtjuautXlfj39oefm1IZ78ehkNP2D5li5V4vQEINdtEjbBetel3NNQ-F7BwgRjDDliETU3_k9OLnHhwKEtQyailgc_F0sMV5iJ8rfNS9iAGtjmn2pCc4ju5lGSSR8P_-Sez170BRcOeg8_o-PYoFiFDEhjEaqZtgfTyrtLcLnUaAuFgEAwvXIcdbOU1qSGFFXdqVg9TaXBcBKzUrbgMZ3rEg8k1-PnwhQMYn7qh6quZnVVMz6tFcKD192PiLgw4A",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106685249307593534168\">Max Haid</a>"
+      ],
+      "photo_reference": "AcnlKN2MRU35BEU3bqIVNnILdKdWzWYI-759Xi7CbKIo6OdhtMHpJnIzPlLHzPFl1CtWoOshXmVvJy4ETkzTO8b6f9UzlSc2TYr8d4xABa0ep-mAcSVasB1gy6KhMEkQvG3P6hVlGrxaaip5NTf2iRsCeUsLRtDHkMa2mqpz1moX4Ce5m0lX3jXm8wPBlJI_6Q1PAkOXzWYjK_6wB3qszw1pHvK4ybJHAqKJg88ZD5LWYv1IeDg6QzzbWl2cQn8ooFJ4YWUnr5AA6LQ1XbjHDyRaPYNNO5ojXVbuPlccTR-qhLyYKJOQ5vDkG0Gs7YqEtbhXhrGLLshNnM6LP-ChI2KQu68Ojxxe0jJ9DgtOUrFeyalDdfLV-gHmgeMsUHYCbw5ofqWl97w5gSQjltCYtsWYCqRgUR-FB9iHbwggYmOTOko",
+      "width": 3024
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/115814541591347828873\">PDQ Tampa: South Tampa</a>"
+      ],
+      "photo_reference": "AcnlKN2f06KxhkMTfeRQ6Phopsy7-KhU5wZcgoNTB1Hz7hUX0u50AwS0bW16i3tDgNccz1sFiE1DCOIYwYG3gXBOCCU031Hp2NlYwlHJN01R-JRXnuJQcnsd1h1h7rrjgJ_E7B_tN_ZKQiqFMI6eT972HdQh9gunxS4rrNht9Oq2xzDBx4o8H6bZOVA-XkoUOI5STBTvntQiIGlEPNyJBKouCrGCCxaKZYEPp9A79QMSEiUz5ZTVkP6xCQg7NsSSjVcjaD8c5QJKMn3c_CgjaoXmSh_OXI4Fnf78I5uLcA_eJtWM3Q",
+      "width": 3600
+    },
+    {
+      "height": 3072,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110982291021036827271\">Washea Barnett</a>"
+      ],
+      "photo_reference": "AcnlKN1QvQR1WgjygxQncav2emaSlRyhEiDHu9r0pSxYlbGyi3KH38KWoayOuO5YyABDZR0_kUmcsaydmAIOs1qpv05XWSAipUHt0FGTRtRnI4364TX0U2I44gls50sKdBf31IppBAdvLdn6tEFiHWuYzONoYuIpJuj5NijzEhIv1A8KekmtvM-qnpenAOkA2V6lnnbQWlfLVR-3xrGbJYAE1mAOkjxGSm82Fy_-D_XP6BMXvEXtvMEmrFtzW5Ss_FKkM3DShYREuZoQklouwpZ8tIQAGo__RxDTsDcT5DJUwwlDYLq-VO8CYkXvPoqfh_O5dQjMhmICVUMPRn65IQmA1DTBQg4SeUFk32Fjs_Goo3hDvP9Fm9VCfrV58ucaMkkNqyWrCCLJs1_SYFokTZsZNajTA95tHvM9sblvGsQVli3VSQ",
+      "width": 4080
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108484525486337681408\">leon perez</a>"
+      ],
+      "photo_reference": "AcnlKN1fWvb0WcpS3qiRRte1LHpGuz3nBNSS_XnBqWLJbdK1qa3gGXNoc0Vcn6AfaknXG8lBMKRyAVFCbGDPEoBEpCKdxV9akaxob1CNjyzfZi43Se_-IR-3Du3gZLnDqigg-iIgtST3vOaR2n6H0Hg2Pczo9Hq4g_P8yol-rrv2k563xSog9litlBF5ZYmSERPxzzVFoymIR9YivIy76uaJe2TXS97cC3B7-fPqxmU7X1Z_QmOzYldk8Aoi3NdCnFQAO24hJ7-xkGD6jlEHYKF-aQ6LRwTpiOn1EdVS0k_cbTg4cclqfS1GvwbmV0UtmN30bp_LqcleptlbN8MyWMYU9JRrF7rpC1MsgWKe38mYeNPC50iRhNgzWnXgFcZ8z4Db6VP-uxJnoU-CcjX59ijKsVlIxsgnc2qlSj2K_J0NBJYwig",
+      "width": 2700
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100766585126809205991\">Matthew Voke</a>"
+      ],
+      "photo_reference": "AcnlKN0Fag004PhVxmDCyPz8qqOs6yqy87JHkgn5L5uph6qU46D7s-ElrCwuKdU-IeTL7rLMwlG6FeloMeG7xP2D49fG7tFqi2jMz-zI-xeBAjXE6-KwRZ9twZQTx8qpeGfvXBId2tJZdh0ieHC8jOBTxBjrh3BuH5zdGntKH36WSvqhMQW0CtnJlUspIsgfYVcriJetJqDWu6O_M_SFV1YbgkbH1bYnTQoONTv7P1qxX6sbdUuE0RpnGUxDeieGaLtWMpvXIVKtwXE4Xg6UjK51krQ-vzJ7KikRGsI0iBFDXs06h5GcZrdGzQ0cBKIWEWn6rcRLaC1KKY31MJVe8e1jb6HcqslW1wAVRU35TlqQT9Ixm18cBQ_qHnHcJIg8STyx-Y_b3-_-d_82rO9I85AVG7pNztSp1Ffu8TGy954ntCk",
+      "width": 4032
+    }
+  ],
+  "place_id": "ChIJIY5nZjvDwogRMjxK34hhECE",
+  "price_level": 1,
+  "rating": 4.4,
+  "reference": "ChIJIY5nZjvDwogRMjxK34hhECE",
+  "reservable": true,
+  "reviews": [
+    {
+      "author_name": "Joshua Watkins",
+      "author_url": "https://www.google.com/maps/contrib/101577580057736231019/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWvFxJhptN3Fo3YarGZFnL_qBKlxAiMy8xdLFeVrwbGMa4wBLKb=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "3 weeks ago",
+      "text": "Food was made on time, quality of the food was excellent, perfect temp, and served with a smile. Love the politeness from the manager, Shawn, and as well from Jeremiah. Very attentive and showed me where I needed to pick up with utmost kindness. Also, loved how the rest of the staff are well coordinated and showing great teamwork. My first time actually eating here so definitely coming back again!",
+      "time": 1768312260,
+      "translated": false
+    },
+    {
+      "author_name": "David Hall",
+      "author_url": "https://www.google.com/maps/contrib/112342085134167113649/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXiPgSslS7fEYJqkrm5y8hwHjYBXs8h2ogtPf_M5ZL33nWIqbtW7Q=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "This was our very first visit here and we could not have been more pleased. We decided to eat inside instead of the drive through and we are so glad we did. The Manager Shawn made this lunch fantastic. He let us try a small bite before we ordered, both chicken and sauces, and even after we had ordered he brought out ALL of the sauces for us to sample! They were all delicious, but our favories were Korean BBQ, PDQ sauce and Honey Mustard!\nEverything was fresh, the people were more than friendly and we can only wish there was one closer to home!\nAgain Shawn was the icing on our chicken\ud83d\udc25He went above and beyond!",
+      "time": 1719082309,
+      "translated": false
+    },
+    {
+      "author_name": "J Mil",
+      "author_url": "https://www.google.com/maps/contrib/109269866231818880527/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX9zqc3ms7c7HEJnvvE8HCiAQelo3MeTMQJNxTunmCj-zq19Y0=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 4,
+      "relative_time_description": "a month ago",
+      "text": "Chicken was cooked perfectly and breading was a great texture,  they were a bit lazy on the sauce. I prefer when the sauce is evenly distributed rather then poured in little blotches.  Thier spiciest is decent spice level (equivalent to just under a Hot at Dave's Hot Chicken, or about the same spice as the hot stuff below Mango Habenro at BWW). This location was clean and the staff were kind.",
+      "time": 1765289449,
+      "translated": false
+    },
+    {
+      "author_name": "Jeff E",
+      "author_url": "https://www.google.com/maps/contrib/103443531096111486304/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXhrK2d-APxqkGWulcGujZ5AxmDQwQntkWAbj989ru4vivJ0OYS4A=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "2 months ago",
+      "text": "My first time ever there. My buddy told me that I had to try this place out. I was a bit skeptical but since he said he was going to buy my meal, I was like, okie dokie \ud83d\ude01. Show my conclusion is that I actually enjoyed the spicy chicken and the waffle fries with their signature sauce. I definitely recommend this place over Chick-fil-A in my opinion.",
+      "time": 1763910147,
+      "translated": false
+    },
+    {
+      "author_name": "Alisia C",
+      "author_url": "https://www.google.com/maps/contrib/103024191106048795325/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKTH7De2J6FRfrhh3wDg5s3eLMkry9A_22qOMTDPk4DtgTdiA=s128-c0x00000000-cc-rp-mo",
+      "rating": 3,
+      "relative_time_description": "a month ago",
+      "text": "Love Pdq meat quality however there spicy chicken sandwich is now the old Nashville sandwich. Please go back to the original style spicy chicken sandwich. We don't need Nashville sandwiches in Florida. Please in general stop changing your recipes and stick to one",
+      "time": 1765414666,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=2382511443368623154",
+  "user_ratings_total": 1695,
+  "utc_offset": -300,
+  "vicinity": "2207 S Dale Mabry Hwy, Tampa",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3L4sVE64jvJQKF0dMpK6s30ZZwgy8org2PfVSHmTuHsXMgft3qJbGJNBEXG8EzxUedQQm5vudRkbHnJS4y1-OhYTOJhgRqhhTblEXduUo47IUETWzNB4qYvCHhVSJvCFVs1lnU-mc9heMA5QkH3zYwGckHj6HKwEYcUhtEhgTT6DMqGijQW6AZe256o0lxO2wqINPWAq2n3EPUAHXNigbeub6_TNVjHGiJOaV1cbj2NoYtKGoRqchezmXqCcXT7cZksA-vr1r0ll5mEczqy9Eroe55v3VwQ4_kjJGO981UD0v369A9qFANWzecQh36nMWJr_ubBKxnp7pRsb9sBZ_x7o70OIOytEAhoIjjFpesYPbD8GtPHeWSCbUJLpH8EtDsblV0VgcuT5gKqtUiNcE_DObTllJEMY51ddmjP8s&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3P6YbaAbfldt91AQtlwJFr5weGSC_dUQ5GhpCmknt7lhzH2HHtuI3n8Hy-9yjlepGOv5ujatjNumlACZDs2wPY3D2YWunkxrEZp5NAEInV6O1hqDptdlqapLmQ_xejyYW9VslrV3Fe4dBBAia00ZZX6BDFompWSnzc57bjobK2in4oxJC2YkNlVRS88IC59xa-wHoutRe6TVv7rUEDv4uhmzw0__6ee6bG70WrsZI2py-kiGcFgs7vP4tKod4GXEC6BvwMFXvZpgJytJzd22_NzNPD0e4oDoSr_nBEn56epw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1UQzFwbjccD3wy2OssTfRBTKUvzSiLm5vFRfs--9YI5RJoH0YbhZ6BzAdXjUb4O33Mom5E9utpF8mN1ccxNmNdTFEVTHaA4vaVFY3JC-jXDP04VXGWFFSclnBtcO8F_eGE7aylZURFE9XvT3Kan8Ag62yiIulXfgO-HcRbA3ne8oP1lOErQfEp2mYJX1-0egSZcPwUh7yraIlBz-l6mtH7ZnD5z5KrleGEphMw-p0ZgochOkklMqAPjKCx5ShXGXCm4DH76OT6JzTLQWW2IoceUmwiqKkL_mtNAJWNSpGaJQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3hVBAc9hWOqnpTwzY-9DGVRwpOX2ofoEO7TuAwZMNJWO7qHtSaAp8D5xMblTKghuprfaT5Q2RQsQ0XG9z9iw-2ONpg4Xnx9fIlnHVwVFliyAP7lpSRVis3i1IiHLe4DC_hjM2m5hAQhLeqWzijtUTfQmQbqxH-YUg-UrGcwsGF_hRpjm1KWNotFEshRInAbGlzT7zwpbqbcjEviX_d_duWrMivNPSHKnffFm1YE3gRYyiuOAX5t8IoQ4EJWbNaNlMHY6i1tXCuHRjW4S_rEU17lBPfPNDslg9RO1FeWhaKzoSnyrc4fvPUNLQNV_fL0cnhaB2J1-Vebbgvp5ZmK55LSm-Ed6HdVNCQs8ci_fALUX5Uw1J_JmI5Lz8tz_RIgolbsiH2Bi9OVBeizD6Nk7GSxpbivt2dlQ0E3dnKZQ4byCHKNq81WXfFbHeQQwSR&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1dQk1hD5Pz0mIoTGYkadbWC8CHaGvMHnU_ojsQavjIKZC1qSJ0eLqsIBEvdH8b-6ypEcImDW9COmXENS7C51xvN7BG996SSYWDT726wB3mki8YM-NSLyNIbVBUTAzedahF31lmu43icVEKnJn0pD73oa9E6zK83Ee4ElRkcqhBp6UtjuautXlfj39oefm1IZ78ehkNP2D5li5V4vQEINdtEjbBetel3NNQ-F7BwgRjDDliETU3_k9OLnHhwKEtQyailgc_F0sMV5iJ8rfNS9iAGtjmn2pCc4ju5lGSSR8P_-Sez170BRcOeg8_o-PYoFiFDEhjEaqZtgfTyrtLcLnUaAuFgEAwvXIcdbOU1qSGFFXdqVg9TaXBcBKzUrbgMZ3rEg8k1-PnwhQMYn7qh6quZnVVMz6tFcKD192PiLgw4A&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

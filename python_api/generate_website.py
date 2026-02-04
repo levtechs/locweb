@@ -348,6 +348,16 @@ def generate_website_for_business(business_data, photo_paths=None, use_opencode=
     if success:
         print("OpenCode agent completed successfully")
         save_phone_pitch(folder_path, slug, business_data, name)
+        
+        # Cleanup AGENTS.md
+        agents_path = os.path.join(folder_path, "AGENTS.md")
+        if os.path.exists(agents_path):
+            try:
+                os.remove(agents_path)
+                print("Cleaned up AGENTS.md")
+            except Exception as e:
+                print(f"Error removing AGENTS.md: {e}")
+                
         print(f"Generated website for: {name}")
     else:
         print(f"OpenCode agent failed: {result}")

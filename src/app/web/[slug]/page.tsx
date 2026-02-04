@@ -40,10 +40,16 @@ function readHtmlContent(slug: string): string | null {
     try {
       let html = fs.readFileSync(indexFile, "utf-8")
       // Rewrite relative image paths to absolute paths
-      // Convert "photos/xxx" to "/businesses/slug/photos/xxx"
-      html = html.replace(/(src|href|background-image:\s*url\()['"]?(photos\/[^'"()\s]+)['"]?/g, 
+      // Handle src="photos/...", href="photos/...", and url('photos/...') including complex background-image
+      html = html.replace(/(src|href)=['"](photos\/[^'"]+)['"]/g, 
         (match, attr, imagePath) => {
-          return `${attr}'/businesses/${slug}/${imagePath}'`
+          return `${attr}="/businesses/${slug}/${imagePath}"`
+        }
+      )
+      // Handle background-image with url()
+      html = html.replace(/url\(['"]?(photos\/[^'")\s]+)['"]?\)/g, 
+        (match, imagePath) => {
+          return `url('/businesses/${slug}/${imagePath}')`
         }
       )
       return html
