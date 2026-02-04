@@ -1,0 +1,165 @@
+{
+  "business_status": "OPERATIONAL",
+  "dine_in": true,
+  "formatted_address": "1979 W 25th St, Cleveland, OH 44113, USA",
+  "geometry": {
+    "location": {
+      "lat": 41.4850398,
+      "lng": -81.70291739999999
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 41.48640553029149,
+        "lng": -81.7016870697085
+      },
+      "southwest": {
+        "lat": 41.4837075697085,
+        "lng": -81.7043850302915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "name": "Kimse",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 0,
+          "time": "1800"
+        },
+        "open": {
+          "day": 0,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 1,
+          "time": "1800"
+        },
+        "open": {
+          "day": 1,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2000"
+        },
+        "open": {
+          "day": 2,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2000"
+        },
+        "open": {
+          "day": 3,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2000"
+        },
+        "open": {
+          "day": 4,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2000"
+        },
+        "open": {
+          "day": 5,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2000"
+        },
+        "open": {
+          "day": 6,
+          "time": "1100"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Sunday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM"
+    ]
+  },
+  "photos": [
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107981150696142370531\">Shin Harin</a>"
+      ],
+      "photo_reference": "AcnlKN3z74MgeA8bF1iFT7O3RFcgjvSXqNpfQhuvaU6tAblZ9v2jsMsfoI_5F_PuZIEgsshJHLW3H_iUklZbdUV0cwiitGeeEcyJU014_htEsYfcVY1LNRA-tTpBTwjK-9AmmVeERdp1PeNrYR70P_GlwCHk31i6wcWInfkWUbXvyQ-IoMruyYvSk18XMhNXN45fTNa0ioUFhopnrk736_-TOi1yTonw9sHF3YwVohiP8O_6BfVR3W-Nr6SsEe9wBVQWLl1tM3qdXSk0Q03uAP1WoQy-48tiaMKhmbSwcTV1eTWCPusmvP1cQI6uztHs0kD8EvzohNzMOP_vzMAFoxoU0qhQAAqDafE5RuOQ1wcV23VbTrbt5CnheTWEAjW558sQ1nM_GG0uTJa51E9CjQMcTt9FZCkIEexktne9JDUnQ4OLQa0",
+      "width": 2268
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107981150696142370531\">Shin Harin</a>"
+      ],
+      "photo_reference": "AcnlKN0nrzsJiig5uIsubKBjlbpwkMecVruQ7vrBKjZweTpwdB3eZxPGPcXxy1QRmJWnb7EOPU8lVNgO6YK5p0a_yv0EqBbrmB-XOD7TOrAQt2M0JZj_cIdlHZwLZ_EthsNYHW_KaPtIL99lNUAnR-ji_uNc4yFC85pyP7ahrhb9WhfdVBlK8m12MQ-4nqXTeStFr2oo_n9GXaq_2vKLXuxZmlBLtwSjxRIMRXND10FnF1WtK33lg7kpHmIglP2140N3-e_iNOH8ZW15YNO2wdfubmz4jvaOHVECEafIrOdPE0xrkqLO38I8QY2FluaLwdFupuIxy3W39WcwMXB4lh0-JDcOcn3Ww5L1f0tj_5N15oThUvTEqYJTSQjbft6PbykUfYEig2XPTigsgf1Tw6WHB1gRfdwW0widwM7W8LKWE_bMrs_-",
+      "width": 2268
+    }
+  ],
+  "place_id": "ChIJnzfZu23wMIgRLN9p9ARu1ug",
+  "rating": 5,
+  "reference": "ChIJnzfZu23wMIgRLN9p9ARu1ug",
+  "reviews": [
+    {
+      "author_name": "Anthony Zaffiro",
+      "author_url": "https://www.google.com/maps/contrib/108808428478705937253/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUF3zOPM8p8iKoJhrB5mFG2bHauIFupLN1COpo7SVIAazA2CiIE=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "8 years ago",
+      "text": "Amazing food. The stuffed wings are delicious!",
+      "time": 1503765974,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=16777718429374865196",
+  "user_ratings_total": 2,
+  "utc_offset": -300,
+  "vicinity": "1979 W 25th St, Cleveland",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3z74MgeA8bF1iFT7O3RFcgjvSXqNpfQhuvaU6tAblZ9v2jsMsfoI_5F_PuZIEgsshJHLW3H_iUklZbdUV0cwiitGeeEcyJU014_htEsYfcVY1LNRA-tTpBTwjK-9AmmVeERdp1PeNrYR70P_GlwCHk31i6wcWInfkWUbXvyQ-IoMruyYvSk18XMhNXN45fTNa0ioUFhopnrk736_-TOi1yTonw9sHF3YwVohiP8O_6BfVR3W-Nr6SsEe9wBVQWLl1tM3qdXSk0Q03uAP1WoQy-48tiaMKhmbSwcTV1eTWCPusmvP1cQI6uztHs0kD8EvzohNzMOP_vzMAFoxoU0qhQAAqDafE5RuOQ1wcV23VbTrbt5CnheTWEAjW558sQ1nM_GG0uTJa51E9CjQMcTt9FZCkIEexktne9JDUnQ4OLQa0&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0nrzsJiig5uIsubKBjlbpwkMecVruQ7vrBKjZweTpwdB3eZxPGPcXxy1QRmJWnb7EOPU8lVNgO6YK5p0a_yv0EqBbrmB-XOD7TOrAQt2M0JZj_cIdlHZwLZ_EthsNYHW_KaPtIL99lNUAnR-ji_uNc4yFC85pyP7ahrhb9WhfdVBlK8m12MQ-4nqXTeStFr2oo_n9GXaq_2vKLXuxZmlBLtwSjxRIMRXND10FnF1WtK33lg7kpHmIglP2140N3-e_iNOH8ZW15YNO2wdfubmz4jvaOHVECEafIrOdPE0xrkqLO38I8QY2FluaLwdFupuIxy3W39WcwMXB4lh0-JDcOcn3Ww5L1f0tj_5N15oThUvTEqYJTSQjbft6PbykUfYEig2XPTigsgf1Tw6WHB1gRfdwW0widwM7W8LKWE_bMrs_-&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "business_status": "CLOSED_TEMPORARILY",
+  "delivery": true,
+  "formatted_address": "11016 US-80, Tyler, AL 36785, USA",
+  "formatted_phone_number": "(334) 875-7111",
+  "geometry": {
+    "location": {
+      "lat": 32.3149418,
+      "lng": -86.8777561
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 32.3163217302915,
+        "lng": -86.87640026970851
+      },
+      "southwest": {
+        "lat": 32.3136237697085,
+        "lng": -86.87909823029152
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 334-875-7111",
+  "name": "Hwy 80 Diner",
+  "photos": [
+    {
+      "height": 1275,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118391465475000081556\">Hwy 80 Diner</a>"
+      ],
+      "photo_reference": "AcnlKN3bnW0V1EnFViFDdxksZhW7MhCOtG-_yJnjZgR1WzLA713eL9y4GBQcU8CReDLhq4hGjB22-uLP49633tZ4bVJbArMRxaib02QRDzxbSetOEwz77Ixg6z7Ep45HXO_TKVfljE9rguU1SBoOTN2QqyceRyCkh3p1YIzLgWujOrcjP88btxtt2xCrh76wvFkUjJCxqEr598_Wp7Rw2KXdnGoP9Ra7dRHjQF6A3zyoi8V_O3vExp6a464n7y2Zt4dNEpjgvL5OLYB5xfeP71WBNXkk1BVuxDSq8eG4zkpigEzOlA",
+      "width": 1650
+    }
+  ],
+  "place_id": "ChIJ3cVRot5VjogRMLnWGouEApU",
+  "reference": "ChIJ3cVRot5VjogRMLnWGouEApU",
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=10737290194590284080",
+  "utc_offset": -360,
+  "vicinity": "11016 US-80, Tyler",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3bnW0V1EnFViFDdxksZhW7MhCOtG-_yJnjZgR1WzLA713eL9y4GBQcU8CReDLhq4hGjB22-uLP49633tZ4bVJbArMRxaib02QRDzxbSetOEwz77Ixg6z7Ep45HXO_TKVfljE9rguU1SBoOTN2QqyceRyCkh3p1YIzLgWujOrcjP88btxtt2xCrh76wvFkUjJCxqEr598_Wp7Rw2KXdnGoP9Ra7dRHjQF6A3zyoi8V_O3vExp6a464n7y2Zt4dNEpjgvL5OLYB5xfeP71WBNXkk1BVuxDSq8eG4zkpigEzOlA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg"
+  ]
+}

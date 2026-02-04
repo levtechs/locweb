@@ -1,0 +1,278 @@
+{
+  "business_status": "OPERATIONAL",
+  "delivery": true,
+  "dine_in": true,
+  "formatted_address": "747 Wolcott St, Waterbury, CT 06705, USA",
+  "formatted_phone_number": "(203) 596-7100",
+  "geometry": {
+    "location": {
+      "lat": 41.5623255,
+      "lng": -73.0112518
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 41.5636510302915,
+        "lng": -73.00979151970849
+      },
+      "southwest": {
+        "lat": 41.5609530697085,
+        "lng": -73.01248948029149
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 203-596-7100",
+  "name": "Happy Dragon Chinese Restaurant",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 0,
+          "time": "2130"
+        },
+        "open": {
+          "day": 0,
+          "time": "1200"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2130"
+        },
+        "open": {
+          "day": 2,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2130"
+        },
+        "open": {
+          "day": 3,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2130"
+        },
+        "open": {
+          "day": 4,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2130"
+        },
+        "open": {
+          "day": 5,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2130"
+        },
+        "open": {
+          "day": 6,
+          "time": "1100"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Closed",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u20099:30\u202fPM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u20099:30\u202fPM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u20099:30\u202fPM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u20099:30\u202fPM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u20099:30\u202fPM",
+      "Sunday: 12:00\u2009\u2013\u20099:30\u202fPM"
+    ]
+  },
+  "photos": [
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107594165751576177871\">adrianna</a>"
+      ],
+      "photo_reference": "AcnlKN241wMKaZsDLHPp_XEYzhpeX5RX-l7EVYsdPkkrD68VI0oJWzP5FWnZySNtqt9GpdZcoT3Fbfl96BpPF9XGVRWkSy9qZavRh_0p_QCNn9wNyS9uGCplG6m71cdn6804VcqW94NP7X03vy_Gk0C8KPRxA6ZfpLSclF4Gk3Qq-EP7LDeeF3TWjOPrTPjuS7m61H293yQAslhQ4E9OlDfWd4jFeYX0EOBoSUdpl-RGXnv_Dt5S0NZvcnuhKpsyBwFypLOkbP-2as-sABYXt9KdpS1_XGNnBKVAmgXFIUEi5S6uJWZgJwiTdJggk5YZZyD6HUmp_KTP6YIflIpyewueztmyY1tWLZnO7Ouv9LlJbqvFL_PvR8fqBNKWKiwmoGOMEW97d6ByPA4pZ2uXYyrVR1K0p9mi1XartW5unFmjWWQZ8_0",
+      "width": 4032
+    },
+    {
+      "height": 4080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102856371296699333158\">Rosana Cruz</a>"
+      ],
+      "photo_reference": "AcnlKN3DFh3A0_vWtiBv-NP3-KDaJkUSwMj3PfCuIWKtAccSbmVDqp1jtIPxw_jisBddUFnzvnZMWfxYR-quESt1dEv7ku6T-n8GTG-9ZCIN_X2H6kHpe2wJCqoIRMvmINCz6LQ1YsGXvTsg1b_rBFBlAovb1VvjWS8yfg-9e3j77fSJo7IlM2VoN8R9PYk-A2Xt0VPA2ez3JIQhFtXTRsQ5b_TNa0MH-C-QxQGNpwIdrTi2HrOzg5UybXlixqbX8dHbdnxEXtx3PYK_h5BfJwdBuxotwglxqj-kmNVbLWv04Glf7V0RBVAHZdBBdcQdg_peQ2LClM-3D-Nyv_7DfinXY-hP1OvMcfJikvvx2p3-nbilcvqckUyWTKs6ZGZ8MTnlbugC_lfStMcSfYa42x8w8eUxoHT00i6UGUXDH4Lw-TfLgA",
+      "width": 3060
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104465130078735462584\">Chenele Francis</a>"
+      ],
+      "photo_reference": "AcnlKN3mOZxTmVfPtRbtTf0Ccy2m6wLx4wMi_FIuwcQM3RvtA54axqBCD2h-Crvw5gnc2qvRkal-Urd4A6NABMtA9qQt2tuqZ1YirochQVRJIoI3YWR0ggPixKgO6vsKQ6HTFtJSsUJKfm626L4QEqULdgDyO7rqYzP4nW6VuwQ2mD6zL5ew7c14SrFMWWUxws2-YXKS28mCazkR92Dxga3f7sh2TupQaFUPZ2hBInQxnL7GZXH36e_-V2VuEDC2V3piMa3QztAOTTVl-tLyh-GC3aGSpJpC_t0XKvE-yDbj68drFS8gSjJzPEJRAaSBoqJmbVbYulXrYa55jPUSVkDbWYLUuhK4d1i03WNKp6A13H6S5LPkGMdozroiQ2fiOoDc9vwm7ELVP0oMrD9DgLMLLoXpRwjKes9RsVkLYpUfaDvsqvsq8x0rzfmHnu0yI93w",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107594165751576177871\">adrianna</a>"
+      ],
+      "photo_reference": "AcnlKN32Jh9_oJekON6oY5qKtL3UmEK7AWENCxA8D5-j_sITNNJ1JQDPLgDYYiYx7lgOl8MYYoL7gdeDlIN9XX6waRhwrCZ9V0kvorcMDm1qgNqjVbNKYxPt67Om-6mW8x9iQ_7lVriOBZvoISraGE9FaH7AQ9bkOydsGKqnVL8rPNyYt-5E35Iuh2DotJGYitdsql9nxxSbdZ4V-R8g9h5TLY9eS5mRJtZTood-VDkfD6bKovJl_zf4d99kDE1MW0b4C4WkwsDe3cSZ0zsMXztajcbnt08O14L4Bdt78zoGdl4u8aGv1nyZwYgKSLA2DDrM4AmqYYDu7PVVvbbVdlM4ey2pLUgXj2xRQ8GSyIYTQZnrE_TbQj4Q2IDZ7-RPdVT8nHXlaZLfEzJFvDIyN6DbQCxB1Q5AAgYs0HCa243yBWAc7Hv7",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104465130078735462584\">Chenele Francis</a>"
+      ],
+      "photo_reference": "AcnlKN2DyAiEHg0TNYPQjnQyrpvF636kpwJZ71tbwDJhBLJH2ZV8YeB4hOatHwTzC4rwP3jT4YvZZvpElNatowMcNzPtcHAQNsJL54Ts9nZXk6o0XrfBrdRjqeZGvCkdYCyfgcYggSTdugP94UVl80gjEDtcsRl7zD90NcyIeJpvNbnvY5hM2d2yaBKTnp7pKJf6d8m2KUZ7PKG6qA8bMmxbQVjS8aauWcFc0-P-AqHHq3ImOxxG0SoWSAY3rrlCtQVzW52San2rn0fhtydKJ3_rqO9DKqWqGalRJ38rePzgVI197TwTl1c4tTyiJhpLyPDikPZvbd8vSVFQdTcZPmFr3CEAk8a1CWcMJhpaPdJ7ukkA3pPyj-iooDTOUjAJdZqf8ySvuInzLIq63LF3Epu5uHSOt-xLPkVTHHkK-KZnuTOPrsJUmTAyszF79bOqK10_",
+      "width": 3024
+    },
+    {
+      "height": 3060,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104536904147834563917\">k c</a>"
+      ],
+      "photo_reference": "AcnlKN0wS7KLHArrh4MVe4viHLLZHYRaVFiJYq78dasFAxwOt72eDZ9k9hqWwzp7pCZRe8AUhckGAnpgaAH1OtB3UZtr-Yqrk64g3tuRoJxOGtbAL3ZS6OENKjYYo86tf5AXu9fQw6V9gO9MGQIBYsgh5N3EcCBxF9rvdz488tvzuEDVqoU5P715g5m5nhgiEwQvRLKmCf-k7yLGZhwlmyi8hmFY07iqM1DoA-MRFvQvaot1dFXkfHEJdzWpehdpqymHpS6i5vIZEbYxp1fpLKmdeXSCfKRhDcmKLVuYYfOARszC-D1SUQ_Icf8WpGl2gLFdr3ikCc094zotIAS_GFLpXuFKro6YP1D_cNqQcJRRqOptEgupycZ7jHceUkxgIH074WDrWOJxQ3PTeJVBRNaOhOOZJyRsR9QW4Q_zggSANkuHYcRL9N8rPr1bhyttGyUD",
+      "width": 4080
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107594165751576177871\">adrianna</a>"
+      ],
+      "photo_reference": "AcnlKN3IRI0i3MF3d2QURgbM50Naam5DEAPNUyLcSwZKVixvKFQ9FS-71RMOy4EatkFphkYMkXIFJ0lgO7G8lU8NoNwnEiH0Fmqnhit2Tsl7trbMhDcvV7K1h7vCw1DrvJFvawTFDheW0eDvbogODb76TVZSA4y2k6mmJxnMobh0vj9ZxK6X6Nk54HgSYmvW_HOjRauwXOwlTIMBJ78knwfUfGiLsLCX3YaGnsPJFq2grWQEB5YsCoPZdHUhuhC-mSgGjwJzXZj2BhMEFYcDfVjtmGQAGX7NSpxGAoRt7wkBqabUI3-11VbHOKZ6oKYuEJCG2rx_DsRykkA3NPwAO7FP4yPPqrCqSqDY7ZpKXg1O8g4FbMa1mkNfQhke1L4DRAsFqK2iTwomw504KFCklu1MfbfUabWg17hX10wsZB0MJzlaTRaS",
+      "width": 3024
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107564069848228584542\">Juno Dina</a>"
+      ],
+      "photo_reference": "AcnlKN1ePzxSqb7n0ng_1PSo838KOy1ICXjuFWgqS6-bYEw7Y-3Cusl1EfY6XCCXI9w7yh_V5oZ4SSCS_uD4qHW8-5Nw6Gv21JUEg5woXFvwWy-XBLjmWl_b2unzLyWaK3DbA1oKLwV5EkjuGe5keRrOzP-ahFfAQLn_JUi0wyepH7RVcfTiMIb-OREku1h_j_7TlY7gR0Blb5mkNrVYw687e9wa62DqJUe3v-eW2u6UgSkSc03JjlMEyN2YRaWFMNCkaf8xYZihl7z1OLZINnY4VKTR88a-bEdJlk3jdL7fi4sD_KuOWTbYWdXeuLyQOLzkkHbOC7wb3HwnAKWjRHFr5b-xNjvmcKnKJ7noVtwF8Qriv89bVqkKQyuyWZWeMj6I0cp4ITfTxBfJYG3qkxJlKpDv-C0SO1wWYJD1D4RsmLyVNeQ",
+      "width": 3000
+    },
+    {
+      "height": 3060,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104536904147834563917\">k c</a>"
+      ],
+      "photo_reference": "AcnlKN1jTWvJY07wQI7FyB5iZlLRD2CmFlUWgDqdjPu9q-Tcvv-y2UFlm4A62ODeCDoGw8Zc2uPf2hedSsAzbpu9wg-djOp8Tuy_DRRMhgTWeFiNfzol8Hl3XZ7ErdvlzV3AaCFvGW9eja6K_7v_bCKS0fN-jPtPVMNjvSMAw-pvlrcNLMzmnWWXIXk2UA-4-rZ0lDfyR2UyooOezRIbjqHeIq9c8JWZ3R-43S9BnT3T2EZDuX7PuthwSLhA0uiMCeuIx1LEz6SIv7m92aiCUGNK6J-yavjESEGFZc0rjAfkp8l29E5Ytb15HutoeptFfj_ZcRVxPhX_4sZa2LT-3tfv5NLIy7Q7fwWxC_imBk66HCXTKovfkl0OVlSDHDR6PbKiDpjchEoNA9fgH9QVL4G4BEYLMVU7sgEOoemi7gXW-2-IV8k1d1cj934dLOQYFQOA",
+      "width": 4080
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107564069848228584542\">Juno Dina</a>"
+      ],
+      "photo_reference": "AcnlKN0h5gKmHlLhY75h9wPQNWYUKrbzIHTTzeVjZVulm7khqe1jLCY21VplUyWHPKRrbdKts191LpNSoiIm-EN3HO29pzsjJGsjEv49xOMVX1D1hdg87PzqHCKpYnkqHDyzysG0e3LHRcCMLFRM41bB5akwXxUH66TRUXmQh-H3fVVUWuHG0K8WnSj8QY8v3PrK6h7dONQoeqAAvq4fTPh33vwo-QSVy7LSOJXcYeKWpifNEIRMbKp-kzwhBmWTyECJ1guRerId-6xJbKYWBHZ65t34BYePTpryWvkWfxjuWxl9Ur-SBH0BQtIS8azF5hiWgBhTZ6pP20I5XrnfAhT64D5pSgRNOu5VFdWf8XCbAm4yOor2wKdnL66kBYEQKlOA0H-oDi2WB3iRW1G7vd_3BY4fODTeENqMFr-PSXOZl_4mez2m",
+      "width": 3000
+    }
+  ],
+  "place_id": "ChIJn3jZrcTA54kRfvaG5842OnE",
+  "price_level": 1,
+  "rating": 4.2,
+  "reference": "ChIJn3jZrcTA54kRfvaG5842OnE",
+  "reviews": [
+    {
+      "author_name": "Chenele Francis",
+      "author_url": "https://www.google.com/maps/contrib/104465130078735462584/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWa5LwcqVe2XCi9Y8NivFCI5qo--hbIaBu567pT82KnV_Mpd-A4=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "4 months ago",
+      "text": "I\u2019m originally from NYC and was craving some Chinese food but was nervous about how it might taste here in CT. I googled Chinese food near me after I finished shopping and this place popped up first with great reviews so I said let\u2019s give it a try. So glad I took the leap of faith!! The food was very fresh, tasty and a great portion. I will definitely be returning to try another one of my NYC favorites.",
+      "time": 1757679803,
+      "translated": false
+    },
+    {
+      "author_name": "Kim BSingh",
+      "author_url": "https://www.google.com/maps/contrib/114732363034548592992/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKUnw6UMqrut-St3W53784V24-jT9JCg3InV1Kxa9w8GxW2qg=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "Best food in Waterbury! The food is always fresh & delicious. You must try the spring rolls / egg rolls they are perfection.. if you love spicy you must get some of the spicy hot oil sauce!  The owner is lovely!",
+      "time": 1765315813,
+      "translated": false
+    },
+    {
+      "author_name": "Juno Dina",
+      "author_url": "https://www.google.com/maps/contrib/107564069848228584542/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJ13xd1NtxHy2izxVMATgM7zzVyNVDCMv6xTF7qGY3hcEJCv5k=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "2 years ago",
+      "text": "CASH ONLY\u203c\ufe0f So no one wastes their time with a card! I do not eat Chinese food often. So when I do, I am very picky. I read their reviews like a book before ordering. I was not disappointed. The rice was not hard like so many places are, the eggroll was perfect, and I really liked the rib tips. The chicken wings didn't have a lot of flavor but it was no biggie, I used hot sauce. I would definitely try again and do recommend.",
+      "time": 1683567322,
+      "translated": false
+    },
+    {
+      "author_name": "B Lo",
+      "author_url": "https://www.google.com/maps/contrib/107526718373925633719/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLAhCEfdEHiBBNBtXKkpgCH5XoolI7JEdnfhFe-dIoYXKIcVw=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "Sean Queens NY\nI moved to the area 3 years ago and this is the best Chinese food in CT. Fresh food, very clean environment, and the owners are always welcoming. \u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f\u2b50\ufe0f",
+      "time": 1765123305,
+      "translated": false
+    },
+    {
+      "author_name": "Danielle Mcholland",
+      "author_url": "https://www.google.com/maps/contrib/110775721942453206494/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJIivvhG0h57Be-CAdHe6aM2XcPlgdqBo0hGfxsG9ZoUP0XDQ=s128-c0x00000000-cc-rp-mo",
+      "rating": 3,
+      "relative_time_description": "5 months ago",
+      "text": "Usually never a problem here ,but ordered later then I usually do because of working late ,spent $54 dollars and one of thr dishes I ordered had nothing but onions ,some carrots and that's all barely any shrimp ,rice tasted old and chicken tereakyi tasted burnt, I dont think I'll go back again I should have went home and made dinner instead of wasting over 50 dollars on shitty food .",
+      "time": 1755175698,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "meal_delivery",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=8158893937210619518",
+  "user_ratings_total": 131,
+  "utc_offset": -300,
+  "vicinity": "747 Wolcott St, Waterbury",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN241wMKaZsDLHPp_XEYzhpeX5RX-l7EVYsdPkkrD68VI0oJWzP5FWnZySNtqt9GpdZcoT3Fbfl96BpPF9XGVRWkSy9qZavRh_0p_QCNn9wNyS9uGCplG6m71cdn6804VcqW94NP7X03vy_Gk0C8KPRxA6ZfpLSclF4Gk3Qq-EP7LDeeF3TWjOPrTPjuS7m61H293yQAslhQ4E9OlDfWd4jFeYX0EOBoSUdpl-RGXnv_Dt5S0NZvcnuhKpsyBwFypLOkbP-2as-sABYXt9KdpS1_XGNnBKVAmgXFIUEi5S6uJWZgJwiTdJggk5YZZyD6HUmp_KTP6YIflIpyewueztmyY1tWLZnO7Ouv9LlJbqvFL_PvR8fqBNKWKiwmoGOMEW97d6ByPA4pZ2uXYyrVR1K0p9mi1XartW5unFmjWWQZ8_0&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3DFh3A0_vWtiBv-NP3-KDaJkUSwMj3PfCuIWKtAccSbmVDqp1jtIPxw_jisBddUFnzvnZMWfxYR-quESt1dEv7ku6T-n8GTG-9ZCIN_X2H6kHpe2wJCqoIRMvmINCz6LQ1YsGXvTsg1b_rBFBlAovb1VvjWS8yfg-9e3j77fSJo7IlM2VoN8R9PYk-A2Xt0VPA2ez3JIQhFtXTRsQ5b_TNa0MH-C-QxQGNpwIdrTi2HrOzg5UybXlixqbX8dHbdnxEXtx3PYK_h5BfJwdBuxotwglxqj-kmNVbLWv04Glf7V0RBVAHZdBBdcQdg_peQ2LClM-3D-Nyv_7DfinXY-hP1OvMcfJikvvx2p3-nbilcvqckUyWTKs6ZGZ8MTnlbugC_lfStMcSfYa42x8w8eUxoHT00i6UGUXDH4Lw-TfLgA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3mOZxTmVfPtRbtTf0Ccy2m6wLx4wMi_FIuwcQM3RvtA54axqBCD2h-Crvw5gnc2qvRkal-Urd4A6NABMtA9qQt2tuqZ1YirochQVRJIoI3YWR0ggPixKgO6vsKQ6HTFtJSsUJKfm626L4QEqULdgDyO7rqYzP4nW6VuwQ2mD6zL5ew7c14SrFMWWUxws2-YXKS28mCazkR92Dxga3f7sh2TupQaFUPZ2hBInQxnL7GZXH36e_-V2VuEDC2V3piMa3QztAOTTVl-tLyh-GC3aGSpJpC_t0XKvE-yDbj68drFS8gSjJzPEJRAaSBoqJmbVbYulXrYa55jPUSVkDbWYLUuhK4d1i03WNKp6A13H6S5LPkGMdozroiQ2fiOoDc9vwm7ELVP0oMrD9DgLMLLoXpRwjKes9RsVkLYpUfaDvsqvsq8x0rzfmHnu0yI93w&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN32Jh9_oJekON6oY5qKtL3UmEK7AWENCxA8D5-j_sITNNJ1JQDPLgDYYiYx7lgOl8MYYoL7gdeDlIN9XX6waRhwrCZ9V0kvorcMDm1qgNqjVbNKYxPt67Om-6mW8x9iQ_7lVriOBZvoISraGE9FaH7AQ9bkOydsGKqnVL8rPNyYt-5E35Iuh2DotJGYitdsql9nxxSbdZ4V-R8g9h5TLY9eS5mRJtZTood-VDkfD6bKovJl_zf4d99kDE1MW0b4C4WkwsDe3cSZ0zsMXztajcbnt08O14L4Bdt78zoGdl4u8aGv1nyZwYgKSLA2DDrM4AmqYYDu7PVVvbbVdlM4ey2pLUgXj2xRQ8GSyIYTQZnrE_TbQj4Q2IDZ7-RPdVT8nHXlaZLfEzJFvDIyN6DbQCxB1Q5AAgYs0HCa243yBWAc7Hv7&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2DyAiEHg0TNYPQjnQyrpvF636kpwJZ71tbwDJhBLJH2ZV8YeB4hOatHwTzC4rwP3jT4YvZZvpElNatowMcNzPtcHAQNsJL54Ts9nZXk6o0XrfBrdRjqeZGvCkdYCyfgcYggSTdugP94UVl80gjEDtcsRl7zD90NcyIeJpvNbnvY5hM2d2yaBKTnp7pKJf6d8m2KUZ7PKG6qA8bMmxbQVjS8aauWcFc0-P-AqHHq3ImOxxG0SoWSAY3rrlCtQVzW52San2rn0fhtydKJ3_rqO9DKqWqGalRJ38rePzgVI197TwTl1c4tTyiJhpLyPDikPZvbd8vSVFQdTcZPmFr3CEAk8a1CWcMJhpaPdJ7ukkA3pPyj-iooDTOUjAJdZqf8ySvuInzLIq63LF3Epu5uHSOt-xLPkVTHHkK-KZnuTOPrsJUmTAyszF79bOqK10_&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

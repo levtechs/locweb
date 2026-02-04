@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ginko Restaurant - Cleveland</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    .font-playfair { font-family: 'Playfair Display', serif; }
+    .font-inter { font-family: 'Inter', sans-serif; }
+    .hover-scale { transition: transform 0.3s ease; }
+    .hover-scale:hover { transform: scale(1.02); }
+    .fade-in { animation: fadeIn 0.6s ease-in-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body class="font-inter text-gray-900 bg-white">
+  <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <nav class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="#" class="font-playfair text-2xl font-bold text-gray-900">Ginko</a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#about" class="text-gray-700 hover:text-orange-600 transition">About</a>
+        <a href="#info" class="text-gray-700 hover:text-orange-600 transition">Info</a>
+        <a href="#gallery" class="text-gray-700 hover:text-orange-600 transition">Gallery</a>
+        <a href="#reviews" class="text-gray-700 hover:text-orange-600 transition">Reviews</a>
+        <a href="tel:+12162741202" class="bg-orange-500 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-orange-600 transition">Call Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="pt-24 pb-16 px-4 bg-gradient-to-b from-orange-50 to-white">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+      <div class="md:w-1/2 fade-in">
+        <h1 class="font-playfair text-5xl md:text-6xl font-bold text-gray-900 mb-4">Ginko Restaurant</h1>
+        <p class="text-xl text-gray-600 mb-6">Experience authentic Japanese sushi in an intimate, underground speakeasy setting in Cleveland.</p>
+        <div class="flex items-center gap-4 mb-8">
+          <div class="flex items-center">
+            <span class="text-yellow-500 text-2xl">★</span>
+            <span class="ml-1 font-semibold text-gray-900">4.6</span>
+            <span class="text-gray-500 ml-1">(567 reviews)</span>
+          </div>
+          <span class="text-gray-400">|</span>
+          <span class="text-gray-700 font-medium">$$$</span>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="tel:+12162741202" class="bg-orange-500 text-white px-7 py-3 rounded-lg font-semibold hover:bg-orange-600 transition shadow-lg hover:shadow-xl">Reserve a Table</a>
+          <a href="#info" class="bg-white text-gray-800 px-7 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-50 transition">Get Directions</a>
+        </div>
+      </div>
+      <div class="md:w-1/2">
+        <img src="photos/photo-1.jpg" alt="Ginko Restaurant interior" class="w-full h-96 object-cover rounded-2xl shadow-2xl hover-scale">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-16 px-4 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="font-playfair text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
+      <p class="text-lg text-gray-700 leading-relaxed mb-8">Ginko Restaurant brings the art of traditional Japanese sushi to Cleveland in a unique, intimate setting. Our skilled chefs craft each piece with precision and passion, offering both classic menu items and seasonal off-menu specials. Whether you're seeking authentic sashimi, creative rolls, or omakase experiences, Ginko delivers exceptional quality in a cozy, speakeasy atmosphere.</p>
+      <div class="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
+        <div class="text-center">
+          <span class="block text-3xl font-bold text-orange-500">★★★★★</span>
+          <span class="text-sm text-gray-600">Top Rated</span>
+        </div>
+        <div class="text-center">
+          <span class="block text-3xl font-bold text-orange-500">5★</span>
+          <span class="text-sm text-gray-600">Reviews</span>
+        </div>
+        <div class="text-center">
+          <span class="block text-3xl font-bold text-orange-500">$$$</span>
+          <span class="text-sm text-gray-600">Price Level</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="info" class="py-16 px-4 bg-orange-50">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="font-playfair text-4xl font-bold text-gray-900 text-center mb-12">Visit Us</h2>
+      <div class="grid md:grid-cols-2 gap-12">
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <h3 class="font-semibold text-xl mb-6 text-gray-900">Contact Information</h3>
+          <div class="space-y-4">
+            <div class="flex items-start gap-4">
+              <span class="text-orange-500 text-xl">📍</span>
+              <div>
+                <p class="font-medium text-gray-900">Address</p>
+                <p class="text-gray-600">2247 Professor Ave B, Cleveland, OH 44113</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="text-orange-500 text-xl">📞</span>
+              <div>
+                <p class="font-medium text-gray-900">Phone</p>
+                <a href="tel:+12162741202" class="text-orange-600 hover:text-orange-700">(216) 274-1202</a>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <span class="text-orange-500 text-xl">🍣</span>
+              <div>
+                <p class="font-medium text-gray-900">Cuisine</p>
+                <p class="text-gray-600">Japanese Sushi & Bar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <h3 class="font-semibold text-xl mb-6 text-gray-900">Hours</h3>
+          <div class="space-y-3">
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Monday</span>
+              <span class="text-gray-400">Closed</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Tuesday</span>
+              <span class="text-gray-900 font-medium">4:00 – 10:00 PM</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Wednesday</span>
+              <span class="text-gray-900 font-medium">4:00 – 10:00 PM</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Thursday</span>
+              <span class="text-gray-900 font-medium">4:00 – 10:00 PM</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Friday</span>
+              <span class="text-gray-900 font-medium">4:00 – 10:00 PM</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-700">Saturday</span>
+              <span class="text-gray-900 font-medium">4:00 – 10:00 PM</span>
+            </div>
+            <div class="flex justify-between py-2">
+              <span class="text-gray-700">Sunday</span>
+              <span class="text-gray-400">Closed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-16 px-4 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="font-playfair text-4xl font-bold text-gray-900 text-center mb-4">Gallery</h2>
+      <p class="text-gray-600 text-center mb-12">A glimpse into the Ginko experience</p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <img src="photos/photo-1.jpg" alt="Ginko Restaurant interior" class="w-full h-72 object-cover rounded-xl shadow-md hover-scale cursor-pointer">
+        <img src="photos/photo-2.jpg" alt="Sushi dishes" class="w-full h-72 object-cover rounded-xl shadow-md hover-scale cursor-pointer">
+        <img src="photos/photo-3.jpg" alt="Sushi presentation" class="w-full h-72 object-cover rounded-xl shadow-md hover-scale cursor-pointer">
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-16 px-4 bg-orange-50">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="font-playfair text-4xl font-bold text-gray-900 text-center mb-4">What Our Guests Say</h2>
+      <p class="text-gray-600 text-center mb-12">Don't just take our word for it</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl p-6 shadow-md">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-yellow-500">★★★★★</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"While visiting friends in Cleveland, we found this amazing underground/speakeasy style sushi spot!! Service was excellent and pictures speak for themselves for the food."</p>
+          <p class="font-semibold text-gray-900">— Cagan Sevinc</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-md">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-yellow-500">★★★★★</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Great stuff, worth checking out! Very strong fish list as a combination of both the regular menu and some off-menu seasonal specials. Generally nicely put together sushi."</p>
+          <p class="font-semibold text-gray-900">— Tom Szelag</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 shadow-md">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-yellow-500">★★★★☆</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"The food tasted pretty authentic, the sashimi especially. The service was great, the servers constantly checked up on us making us feel welcomed."</p>
+          <p class="font-semibold text-gray-900">— Caroline Wang</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white py-12 px-4 border-t border-gray-100">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="font-playfair text-2xl font-bold text-gray-900 mb-4">Ginko Restaurant</h3>
+      <p class="text-gray-600 mb-4">Authentic Japanese Sushi in Cleveland</p>
+      <div class="flex justify-center gap-6 mb-6">
+        <a href="tel:+12162741202" class="text-orange-600 hover:text-orange-700 font-medium">📞 (216) 274-1202</a>
+        <span class="text-gray-400">|</span>
+        <span class="text-gray-600">📍 2247 Professor Ave B, Cleveland</span>
+      </div>
+      <p class="text-sm text-gray-500">© 2025 Ginko Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+PHONE PITCH SCRIPT - Batista's Market
+
+=== OPENING ===
+"Hi [Business Name] owner? This is {owner_name} calling. Is this a good time to talk for just a minute?"
+
+=== INTRODUCTION ===
+"I wanted to reach out because I've been helping local businesses in the Waterbury area build simple, professional websites to help them get found online. I came across Batista's Market and noticed your business, and I thought it would be a great fit."
+
+=== PERSONALIZED COMMENT ===
+"With a {rating}-star rating and {review_count} reviews, it's clear you know how to take care of customers. I can see you're serving the community with quality groceries and prepared foods at your market and restaurant. That's impressive!"
+
+=== THE GIFT ===
+"I built a free, professional website for Batista's Market - a simple, clean landing page that showcases your business, hours, location, and those great customer reviews. It's completely free, no strings attached."
+
+=== WEBSITE DETAILS ===
+"The site includes:
+- Your business name and tagline
+- Your address, phone number, and hours
+- Customer reviews and rating
+- Easy click-to-call functionality
+- Mobile-friendly design"
+
+=== WEBSITE URL ===
+"You can see it at: [INSERT WEBSITE URL]"
+
+=== EASY OUT ===
+"No pressure at all - I just wanted to make sure you knew about it. If you like it, great! If not, no worries at all. I understand you're running a busy business."
+
+=== CLOSE ===
+"Does that sound okay? I'd love to hear what you think of the site when you get a chance to look it over. Feel free to reach out if you have any questions. Thanks so much for your time!"
+
+=== IF INTERESTED ===
+"Awesome! I'm glad you like it. If you'd like any changes or additions to the site, just let me know. And if you ever need help with anything else for your business online, I'm here to help."
+
+=== IF NOT INTERESTED ===
+"No problem at all! I appreciate your time. The site will stay up and running, so feel free to share it if you think it might help. Best of luck with Batista's Market!"
+
+=== CONTACT ===
+Questions? Email me at {owner_email}
+
+---
+NOTE: Replace [INSERT WEBSITE URL] with the actual website URL before calling.

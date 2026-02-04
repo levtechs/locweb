@@ -1,0 +1,204 @@
+{
+  "business_status": "CLOSED_TEMPORARILY",
+  "delivery": false,
+  "dine_in": true,
+  "formatted_address": "2179 W 11th St, Cleveland, OH 44113, USA",
+  "formatted_phone_number": "(216) 583-9999",
+  "geometry": {
+    "location": {
+      "lat": 41.4823947,
+      "lng": -81.6891814
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 41.4836683802915,
+        "lng": -81.68772281970848
+      },
+      "southwest": {
+        "lat": 41.48097041970851,
+        "lng": -81.6904207802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 216-583-9999",
+  "name": "Parallax",
+  "photos": [
+    {
+      "height": 802,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117535772467995380769\">Michael Lee</a>"
+      ],
+      "photo_reference": "AcnlKN2oAes_1tDHqpdvHVWdUg-6KVkJA9FpYAFJUdHfwXqVxiyaVwui83kNEkm-luPSTi11IbGNhW9J7JlC4c6IfM32jaLuFHprRxIRvhpiA4_YK2Prm-T96SzmyZSucnZr-6gcPSdo2TF97ooDoyi-9_vAzazFQqj7vd2X3j7px5oriq2MaUIRdm1KqBeemoFTasXUQrh-lLkf_LdoS9Y_wdJSEsSKF15mKj7hXi5RYcJURqI0V5hSZoXs3oMpSGMXv2p6qsDFPzgmkXQ2cdiBfU5dwX7CTWwPx0C9XG4gzL2tabyR0c5NMbhrlI7i5NtozWtH7AlJYo6u2bwJ9aGujJzbC9E_qg4JXrqcVflaCq11r7Slz2G_FL4kmYXlOpNjGMq39OX0CsaKn-jzPFVB_SmIQc1PRY9qL9ImA01P2TIIJo1i",
+      "width": 1080
+    },
+    {
+      "height": 4080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104629987664101141318\">Mathew Lorince</a>"
+      ],
+      "photo_reference": "AcnlKN0aPVG388SmRfWN-1JEo4_doYeAltP8vpBQMUAtHN9Gs8ozzJdofAcQ72G4_hezlqzFSnNynYcOTnkyBu6zKBpiH75HLCoDgf-XE0YfBl7HivUmW9mW-Q8WuVPGkWRbNe5sfhmmBdMyAzgEEjOaAZSBbjt9Mxg6nx7JyZyd4hrg7dkX97QZkeXQoxnl1b-ePz36NSAyYm-g41p7VCc-gjW82K_ddDoQ8yF5lUVmfGtvhTgrESTf6Du2I8IUtNEGhzejGcQRaL9i_yAN1YEsh6mVQq1PVJohX-u-zu7aHTADgXyYHUuiS-yumErSoqxKyCQx4KbC1f_g73aK39yCZ6LZkYooRkZwY5N5kii5zCq9bsUtiiPWox9q5pcSbL4J0CQBXcB9eKGXBnzOUxHhn2fA9dbU7WCL6qCsusXQJdYdeA",
+      "width": 3072
+    },
+    {
+      "height": 1392,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105133276453942097392\">Evan Schreiber</a>"
+      ],
+      "photo_reference": "AcnlKN3GqVI3zRDx-6N7trlPayNH79ewzJpoPZYZPegUONgycI_aeScSlg1GCzSC1Ylgm9M_QrpgiKZo1j6PgHwJHuq04NTdfhwJpfJp9Ic2rtN9Pj40G2jNcdNjuKmaOnsvyC6fBT1N1q3zv_HRA3O6XpVZUzZgNR4ceUywNFapavqFkauw3R-yhID3Ly9sL-oE9NWxfy1uX3e3nhRJ0m5vuE0uPtdepKrjfEUKX850LRfq0fJ3bCk5xQS8kfO8AlS9LMDakV9z7OXWtKoQekiuZ6AoAlP5xsA7NiK-L1rSIJAD_qxUfZ7z-gOtJI8Kp8hRZdbmFXVjvmtgO3PVrwsfBV2QLRCwSw3Cg2TZD3lZtWfTMnzNgQ0616QtgOem-8MKEneb8q5JfhsxgoP574tnTICY0k8ocfzgC5HW4tn4jSo_8g",
+      "width": 1856
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116071529141436873780\">Clay J</a>"
+      ],
+      "photo_reference": "AcnlKN08_1P6sVZMhxOqim93-Rj4XfHHMOMg3hJT3ocg0UhifE3haoEtnmJYtdj_3mcIS4AcEiRk9RlvfnVu3if2CXkbpcVrdAIQVMDpNFIyyMyK7aD6TIe9rlaMKm4LggICEXqVGPerEsN48fyseoDrZwWph7M7_e5FHC9Yru5Y0AaEXMW-PmS2X0zmHH91-7PycYkHZeUmm8Wl9UyQrHQPNjS1F3wJi9XyTqWIIxHxAwe4QnplIQO29k4kS5orKQPe3MTT5EONgELJPxn9GxgthTDjx8aJtm7nUAAIAGnjung4nkV91lCzbizl2K3y7sDENvfH4gHUHDL_KSZJZHp7GQyNa0IlCStQ6iB08UuggC2jDrEQb9BLZRzf9hzt9eiiDJexGD74GE-tsBgdSfHD56mObUab6I0f-ACKzHdphi_MzTE",
+      "width": 3024
+    },
+    {
+      "height": 3267,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110518811801132220678\">Rose L</a>"
+      ],
+      "photo_reference": "AcnlKN1NUBtUcMCJcR9UeFfBaNQXhBP1kNhySZR3F8ltOIdCfgi2XO_Q8h9IgZB2ZR1aA_EA794TZwfKeU-QndsVYH_8mgR3vnSwW8ciVrCeZPN9AoaTHtJCRr-3dQFf3aprgzbuzJ1oAwf7Vr0CwNdrJYdgUx1puFPBYoj7kOLBFIWlEVGU58w8TZVEh3ODfFh4O7gG6cSqURMPfN8KiM2biRaCJZCEawlcPRssn8d7SRXjYA1tg0VrUk9xkJ8tyPNIcZJK070n9u8rDFPJcGas640iZRuC7Ae0L8f5rCSsP5PCK5haL-1GmV_R6G34bQWI0lf91Cv9EthpGSR0tqlF_fMSbmNv8Xs73v8xZOX4prSNEnYM_vf7QzNu11El-GV7aiJyJJWrI105b1rEnQfYJaZ6DWJOh-LMaKq5VJQv1-HLzQ",
+      "width": 2614
+    },
+    {
+      "height": 3000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103000208408390145972\">Justin Wisniewski</a>"
+      ],
+      "photo_reference": "AcnlKN1T5HixL9SwUuZZ-gczw9Rl3p5JyxJ4cXu1RO98nW5OMJh3BeQYBSAvXsMxPdTkS3Z2Bn17xff9i2xVoBMlxKiwS_ZItBVoUWlb-Oot2TbN1qkH96nvsZYpHEssSl4vblxx3De-gaagHSdI0WCZIq5PNcMSzrPdigPrFt_Py46kebTL7JtctptwrVDdRCr7FZ-nJlYRqdqyPjJCq7XJX5HIGIebG4mj0FcKJyuOdicPAqO23uEn5ajgtsI6x7fmNF_lyIfk56kgttnDgNIZ9r1S3hm6lmm7XJODFy0XusA2l4GZBgYwGGcOmTE-OpV2vCAAjVfiQYkj_0a_qDM362HggrEf3AsJuPuxs8z1frkZ5nBWvDnfufP5BHPSWiv4nCgBQ7kJQ85BMrz8B1m9AkPVgMFzLvPJFuanxOLtz-QlfTmX",
+      "width": 4000
+    },
+    {
+      "height": 1885,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105133276453942097392\">Evan Schreiber</a>"
+      ],
+      "photo_reference": "AcnlKN1IKVoHMAQ35o4wQuaOHlz3JmARNrOoEZczHFkCt6S4HOfO44myivGZPscMkPU0JVAUwWqh0rmwUuCYJWHNwwyHgO1vkRqxpQEeU2HzSyQPbA5WDYwbY7meSWaSWPUrkdr4w27yohsxOT27ke90Q2jIfmOwdORONoVlwUBLRJDv-admlQ7fPnjA2ea3y851DCzxlziWTdZM9HUTZ2CPYt8g-WzAV_MAW7h4-axCMrFMYzfIU2qpm-y-FeYMTtgOK7HZHAf6XgR9ijXA-LJQXNInEQFPz1eKqyftq4isQgg_I0dYG0u8h-tIjlfE1rBbWU13l4ioFBV0wIARbyhA1LoR2e_D2Ws6Oc_CUsK8rp2GXD8ELQcUXtinPJMABvHvom4wCxy9QIHwCvDhXUBuwBLj6qMOC9ea4VzZm4OQCVk",
+      "width": 1414
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108034338647844269426\">Britany Crawford</a>"
+      ],
+      "photo_reference": "AcnlKN26XFeEZ1ca9qhj6h17TjpT3lUYQ9OED8k73kKXR_T3pfYFZLo4wDH94R0XHf60_mZuA98MoispoU4pF_HsZu4G1lf0ccG9r57o4Oqcml7mX49V29ZoEAh-fP0TIT_T4c7we0TQpOA0m0xa9K_-nHVqSTxjeNE1Nz5x_wtz9Zjrxp1yl40R3UGRZvTqMnovIa7THYc4s63uAy56ipIwCRTBY9Ww25RxKMNdR8T1rsiK16pv19Hy0Wgd5fpc4ZU1uUV-Cf4vdcldIHk11YpEjCPj50H2xjJ-NR0ZpMfXitRjWKw-sTTy6MI3X_fSNXik6H6NQSsW8KjG2yPCOxiSOzhNGA9gVFA0DLNl1I6q39tVv8CG2ZhXhdujOeGDba0v2ijgfEd1VHJOlAewvMgMm1NxLsciIkl8zyZcPtiogdbT9w",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108034338647844269426\">Britany Crawford</a>"
+      ],
+      "photo_reference": "AcnlKN0W0zp5L_YJWMNauE2qUMKLMViGZBGBGayESFYMb6LB45x97ePUFE6TNRXbHzFRts5Fh9x5wWU-JwIwP-KyuML-Gbwk62g-H-wJLfmgAlngafUdVf6FssWypQuTI8TG5kdmT1KEOGXBI_x7ZMAxDhd0XH8yHH_rJfKi-g6BtSwc6l8RUxd-jW5HkDMceMWlSf5xXbFIhE93-5NLtfUfMQd1i71IjY_3uhlKyd77pm-0lYAZDNCvlgJCzN1EKbHNxLp3W-vlLdaSKlpXkfbW3jD4izwGFi9irivtAb4JdLw6c8Qpjm6wWZi7H4HphjkGa-wTBotkJx5g2d_VGvkRj6OuScO3PPLVxWpWPf7YAYi2ceBW1isWsrFvTRthmJLFFDgj8onqvNBucufsbD7U_8QQJb6LJpCrPb8LR37wQifgug",
+      "width": 3024
+    },
+    {
+      "height": 3000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/114467188540500600995\">Jim Denaro</a>"
+      ],
+      "photo_reference": "AcnlKN0TWxjmxmx0F7IBdvhw0WAGJcnDTJ4cdcxq3F-iUnb6G7HIGaL2rvgTdI4CVkD3qxe8hSND4LHD5lrWBt-JtWlWIuhTVut1TxJrMSVeeX1NJtSS1WMrNEvk5gBoYITw4AIL1T3nFZO1wUaRSuZk0vURp3kUn4srYwoMWtyszE1LPhYPN-DPptg-DJiA6HsZ8lIh9hgUy2fohhOrBZAPVW0Fr23ZtUUISIjkXnCM8dy6mLR7KT6GwA28D9LR69wP5xB3kBdWApDWapPbS6xUijIUi6em35htNUcqNdzNvT6P1nzxmAShACVMGTd2eJVpROAhsk-5LNvXFkCGGGnDgcCmarEejqbNITift7Syjw74u9UEJuUKoXuqN8WSY3ufiBFr52fO1BZsn2-LEQe6pIKDwFRvrpYhihD_EbpI__w",
+      "width": 4000
+    }
+  ],
+  "place_id": "ChIJO2W2rZ_6MIgRwImdm6lF-yg",
+  "price_level": 3,
+  "rating": 4.5,
+  "reference": "ChIJO2W2rZ_6MIgRwImdm6lF-yg",
+  "reservable": true,
+  "reviews": [
+    {
+      "author_name": "Evan Schreiber",
+      "author_url": "https://www.google.com/maps/contrib/105133276453942097392/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVbpDK4lp3lftjig4-9CuPWuCQUQycvVR2ZtlkDGxj6kk2dDAyf=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "3 years ago",
+      "text": "I would recommend this restaurant for dinner, including to celebrate a special occasion.\n\nWe had a great experience here. Joel was an excellent server - very friendly and attentive. All the dishes came out quickly and were delicious. The Brussels sprouts were the star of the meal.\n\nWe also weren\u2019t expecting dinner and a show. We were sat at a table close to the kitchen, which is open and visible to the dining room. One of the chefs was doing his best Gordon Ramsey, swearing at (or at least in the faces of) the staff and being aggressive behind the line. We absolutely heard a plate crash in the kitchen after someone realized they had a dish they couldn\u2019t serve for whatever reason. It was striking at first, but we got used to it as we drank throughout our meal.\n\nIn all seriousness, that chef was pretty rude to the staff, and it was uncomfortable to watch. Otherwise, the service from Joel and the other staff who stopped by our table was great.\n\nOverall, despite the unexpected kitchen show, I would go back and would recommend this restaurant.",
+      "time": 1666647620,
+      "translated": false
+    },
+    {
+      "author_name": "Dom C",
+      "author_url": "https://www.google.com/maps/contrib/107139946056006457370/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWezOW_fW00_cgCKVLOFRR-GTOGFrcc5RV2uYbEa-iguYyA71IP0Q=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "3 years ago",
+      "text": "Great sushi. They do offer other food options but the sushi is where it's at. We ate outside and was nice. The atmosphere was very elegant as that's what some old lady called it. Come on Monday they do a sushi Monday deal that is awesome! We did spend a pretty penny here. A great lunch or dinner date option for your significant other. Only street parking available from what I've seen. Can be rough finding parking during the weekends. Bathrooms are very clean btw. Good job Parallax",
+      "time": 1658960720,
+      "translated": false
+    },
+    {
+      "author_name": "Mathew Lorince",
+      "author_url": "https://www.google.com/maps/contrib/104629987664101141318/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWoCLKtgh28Wz5f144IwQnfVSsQhnPVglkFdIr3_rlBrxsegfu6=s128-c0x00000000-cc-rp-mo-ba6",
+      "rating": 5,
+      "relative_time_description": "3 years ago",
+      "text": "A Tremont staple. Amazing sushi, fantastic sake. All of the food is top notch. They made some changes to half price sushi Mondays. I was a fan since it keeps the kitchen caught up and you get your food I'm 7 minutes instead of 90. You have to order hot food from the kitchen and an app to qualify for half price sushi which also does not include speciality roles.  I think this was great because I got to try things I probably wouldn't have. Like the brisket udon. Which was fantastical!",
+      "time": 1661783851,
+      "translated": false
+    },
+    {
+      "author_name": "Clay J",
+      "author_url": "https://www.google.com/maps/contrib/116071529141436873780/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIRSp1thoBZQhiFpOkRlBzocBd6bZ9c4H2MiUoX58E1ziOdSg=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "3 years ago",
+      "text": "As native Clevelanders, we are sad to admit that this was our first time going to Parallax - but  now we will add this to our regular list. The food was spectacular and top notch. Love the relaxed and chic vibe. Service was great too. Lots of options on the menu, next time we will definitely try the sushi.",
+      "time": 1651278778,
+      "translated": false
+    },
+    {
+      "author_name": "Dr. Oindrila De",
+      "author_url": "https://www.google.com/maps/contrib/116930941841796444996/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjV_I1SFe3TmvdSlr0u4JazLXv3-eYFycaejeKtvOeyqaCFWgW-WdA=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 2,
+      "relative_time_description": "4 years ago",
+      "text": "No complaints with the service but food is a terrible disappointment, quite overhyped & pretentious. They aspire to be fancy but the food is nowhere there & fails to capture the essence of delicate balance in French & Japanese cooking/influence. I say this as a person having experience with a hell lot of affordable as well as expensive high-end restaurants with amazing food in Cleveland & elsewhere. Not sure what the reviews are raving about. Had yellow tail & scallion hand roll, green dragon sushi roll, edamame, beef potstickers, sashimi salad, iceberg wedge salad, & sake. The yellow tail hand roll was simply wrapped into a cone/burrito with thick fish slices with no flavor at all. The green dragon sushi was good but way too huge, not bit sized (can barely even pick it up with chopsticks), thick rice layer & drenched in sauces - not typical of authentic sushi. Sashimi salad had huge thick slices of raw fish, some of which we had to cut ourselves bc we couldn't consume it & feared having that much quantity of raw fish (gave me a stomach ache next day). The edamame was drenched in a soup of butter. The iceberg wedge salad had massive chunks of lettuce & tomato that we had to chop & it was drenched in dressing along with thick slices of soft bacon (not crispy). The beef potstickers were really good & loved the sake. The staff was extremely warm & welcoming. But, the food needs a hell lot of improvement. Can excuse a few exceptions but issues with almost every dish is a big red flag to me. Even the complementary bread was served cold & tasted weird & it wasn't even sourdough or ciabatta or baguette, just some almost stale tasting bread. You can find much better quality of the same dishes elsewhere. Really appreciate the wine director helping us with our sake selection though & constantly being asked if we liked the food by the staff.",
+      "time": 1637675900,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=2953030575434074560",
+  "user_ratings_total": 614,
+  "utc_offset": -300,
+  "vicinity": "2179 W 11th St, Cleveland",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2oAes_1tDHqpdvHVWdUg-6KVkJA9FpYAFJUdHfwXqVxiyaVwui83kNEkm-luPSTi11IbGNhW9J7JlC4c6IfM32jaLuFHprRxIRvhpiA4_YK2Prm-T96SzmyZSucnZr-6gcPSdo2TF97ooDoyi-9_vAzazFQqj7vd2X3j7px5oriq2MaUIRdm1KqBeemoFTasXUQrh-lLkf_LdoS9Y_wdJSEsSKF15mKj7hXi5RYcJURqI0V5hSZoXs3oMpSGMXv2p6qsDFPzgmkXQ2cdiBfU5dwX7CTWwPx0C9XG4gzL2tabyR0c5NMbhrlI7i5NtozWtH7AlJYo6u2bwJ9aGujJzbC9E_qg4JXrqcVflaCq11r7Slz2G_FL4kmYXlOpNjGMq39OX0CsaKn-jzPFVB_SmIQc1PRY9qL9ImA01P2TIIJo1i&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0aPVG388SmRfWN-1JEo4_doYeAltP8vpBQMUAtHN9Gs8ozzJdofAcQ72G4_hezlqzFSnNynYcOTnkyBu6zKBpiH75HLCoDgf-XE0YfBl7HivUmW9mW-Q8WuVPGkWRbNe5sfhmmBdMyAzgEEjOaAZSBbjt9Mxg6nx7JyZyd4hrg7dkX97QZkeXQoxnl1b-ePz36NSAyYm-g41p7VCc-gjW82K_ddDoQ8yF5lUVmfGtvhTgrESTf6Du2I8IUtNEGhzejGcQRaL9i_yAN1YEsh6mVQq1PVJohX-u-zu7aHTADgXyYHUuiS-yumErSoqxKyCQx4KbC1f_g73aK39yCZ6LZkYooRkZwY5N5kii5zCq9bsUtiiPWox9q5pcSbL4J0CQBXcB9eKGXBnzOUxHhn2fA9dbU7WCL6qCsusXQJdYdeA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3GqVI3zRDx-6N7trlPayNH79ewzJpoPZYZPegUONgycI_aeScSlg1GCzSC1Ylgm9M_QrpgiKZo1j6PgHwJHuq04NTdfhwJpfJp9Ic2rtN9Pj40G2jNcdNjuKmaOnsvyC6fBT1N1q3zv_HRA3O6XpVZUzZgNR4ceUywNFapavqFkauw3R-yhID3Ly9sL-oE9NWxfy1uX3e3nhRJ0m5vuE0uPtdepKrjfEUKX850LRfq0fJ3bCk5xQS8kfO8AlS9LMDakV9z7OXWtKoQekiuZ6AoAlP5xsA7NiK-L1rSIJAD_qxUfZ7z-gOtJI8Kp8hRZdbmFXVjvmtgO3PVrwsfBV2QLRCwSw3Cg2TZD3lZtWfTMnzNgQ0616QtgOem-8MKEneb8q5JfhsxgoP574tnTICY0k8ocfzgC5HW4tn4jSo_8g&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN08_1P6sVZMhxOqim93-Rj4XfHHMOMg3hJT3ocg0UhifE3haoEtnmJYtdj_3mcIS4AcEiRk9RlvfnVu3if2CXkbpcVrdAIQVMDpNFIyyMyK7aD6TIe9rlaMKm4LggICEXqVGPerEsN48fyseoDrZwWph7M7_e5FHC9Yru5Y0AaEXMW-PmS2X0zmHH91-7PycYkHZeUmm8Wl9UyQrHQPNjS1F3wJi9XyTqWIIxHxAwe4QnplIQO29k4kS5orKQPe3MTT5EONgELJPxn9GxgthTDjx8aJtm7nUAAIAGnjung4nkV91lCzbizl2K3y7sDENvfH4gHUHDL_KSZJZHp7GQyNa0IlCStQ6iB08UuggC2jDrEQb9BLZRzf9hzt9eiiDJexGD74GE-tsBgdSfHD56mObUab6I0f-ACKzHdphi_MzTE&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1NUBtUcMCJcR9UeFfBaNQXhBP1kNhySZR3F8ltOIdCfgi2XO_Q8h9IgZB2ZR1aA_EA794TZwfKeU-QndsVYH_8mgR3vnSwW8ciVrCeZPN9AoaTHtJCRr-3dQFf3aprgzbuzJ1oAwf7Vr0CwNdrJYdgUx1puFPBYoj7kOLBFIWlEVGU58w8TZVEh3ODfFh4O7gG6cSqURMPfN8KiM2biRaCJZCEawlcPRssn8d7SRXjYA1tg0VrUk9xkJ8tyPNIcZJK070n9u8rDFPJcGas640iZRuC7Ae0L8f5rCSsP5PCK5haL-1GmV_R6G34bQWI0lf91Cv9EthpGSR0tqlF_fMSbmNv8Xs73v8xZOX4prSNEnYM_vf7QzNu11El-GV7aiJyJJWrI105b1rEnQfYJaZ6DWJOh-LMaKq5VJQv1-HLzQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.png",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

@@ -1,0 +1,20 @@
+Phone Pitch Script for Crepes de Luxe
+
+Opening:
+"Hi there! This is [Your Name] calling. I wanted to reach out because I've been looking at local businesses in the Cleveland area and I came across Crepes de Luxe at the West Side Market. I have to say, your reviews are really impressive!"
+
+Personalized Comment:
+"With a 4.8-star rating from 57 reviews, it's clear your customers absolutely love what you do. I saw multiple people raving about your Montreal-style crepes and Citron Creme - sounds delicious!"
+
+The Offer:
+"I actually build free, professional websites for local businesses as a way to introduce myself and hopefully work together in the future. I've put together a beautiful website for Crepes de Luxe that showcases your crepes, your hours, your location at the West Side Market, and those great customer reviews. It's completely free - no strings attached."
+
+Website URL:
+"You can see the website at: [Insert URL Here]"
+
+Response Handling:
+- If interested: "Great! I'd love to hear your thoughts. Feel free to share any feedback or let me know if you'd like any changes."
+- If not interested: "No problem at all! I understand. Thanks so much for your time, and I hope you have a wonderful day!"
+
+Closing:
+"If you ever need any updates to the site or want to chat about your business online, feel free to reach out. Thanks so much for your time!"

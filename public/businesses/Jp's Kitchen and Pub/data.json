@@ -1,0 +1,262 @@
+{
+  "business_status": "OPERATIONAL",
+  "delivery": false,
+  "dine_in": true,
+  "formatted_address": "38 N Shore Dr, Fountain City, WI 54629, USA",
+  "formatted_phone_number": "(608) 468-1040",
+  "geometry": {
+    "location": {
+      "lat": 44.13149840000001,
+      "lng": -91.7182826
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 44.1327758302915,
+        "lng": -91.7169870697085
+      },
+      "southwest": {
+        "lat": 44.1300778697085,
+        "lng": -91.71968503029152
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 608-468-1040",
+  "name": "Jp's Kitchen and Pub",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 0,
+          "time": "1430"
+        },
+        "open": {
+          "day": 0,
+          "time": "0930"
+        }
+      },
+      {
+        "close": {
+          "day": 1,
+          "time": "1800"
+        },
+        "open": {
+          "day": 1,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1500"
+        },
+        "open": {
+          "day": 2,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1800"
+        },
+        "open": {
+          "day": 3,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1800"
+        },
+        "open": {
+          "day": 4,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1930"
+        },
+        "open": {
+          "day": 5,
+          "time": "0830"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "1600"
+        },
+        "open": {
+          "day": 6,
+          "time": "0930"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Friday: 8:30\u202fAM\u2009\u2013\u20097:30\u202fPM",
+      "Saturday: 9:30\u202fAM\u2009\u2013\u20094:00\u202fPM",
+      "Sunday: 9:30\u202fAM\u2009\u2013\u20092:30\u202fPM"
+    ]
+  },
+  "photos": [
+    {
+      "height": 3060,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101858359917092300458\">steve steverson</a>"
+      ],
+      "photo_reference": "AcnlKN3oFFg9IIWqX4vXaRhYLjE3eAK1wfWMqL8DylbAsFwobcbBnLlgdOW-_z39K1Q8OuxWD5rXHgO1Rg8ciuPxHXUckw2-aC5DHiVV4N0IyB_vZWq6r8r8EXLgBQQ4X_btsTeSMeMEDlGSdysq0Wor8-f35ST3G3C8_ldZrahDMIEz6aj2R9gELhnOe8VB62dNQAArYvF_6waLWCX_PI7yTFntALT7bUdqI5g27tdRv1ySsQoOWTphiCeACn8N7tKaWAPWwyffrnjlJbx1ST-Gd22IknbXTpOK3eVpv8X3SkkhWUnJ2vGKlKMVsjrdY1TUUWUxkVOQojgfB-jViB3EOB5BvqcDimtdQxXnDmBqITdR9ov2ETLH0sGPwpZyIYYEGpljfv884GJJ0nkTBmChIZ2C0Cy5LVwksQOveDy63mkIQA",
+      "width": 4080
+    },
+    {
+      "height": 4080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101858359917092300458\">steve steverson</a>"
+      ],
+      "photo_reference": "AcnlKN3VPuPYcmEQuLPw4Qi2J46NoS7yCVPPscdIleU0TxL2u_0aSbVIojO-qX2Utg5YNK5tpRR46FTwPt3UBC4n210ylNqBnxY6hM23gO_bM060wzNuI2pt3fjzVqvMGqpEsAyQUurwcKMmwL78izRQemk_YeIK1Ga7RbTGhkzKx-6d591UOfQ4u4FY-veiTvWy5pmaALXXIgc_1XuPcwqXcwQBELJoabSPM4Kg4VqZ7u1RgZDd7L-Kdo1z37OCEIcfsP9jByBjmeZWStfmgvkUT3KdZXr-c5cfsdLgHK74S9iMpvGExe8MIsvHML9zTPt5x7zRnmj5Vs4sltZ4W9F9Gzos53eggY3RxcbRhO8MtJ5Wv4xm7sCdWU0SiV0MUNNcvobCXwA46S1IFiukH_JVqotqMXlfIIBdKs-mNj7hnijRRA",
+      "width": 3060
+    },
+    {
+      "height": 4080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101858359917092300458\">steve steverson</a>"
+      ],
+      "photo_reference": "AcnlKN3m1T9J8QA7WTXkjlo4NBCUE6D-7PnOb__MYbhUFzuNhaYhKz3THlFcKyF5yrzcnZRZ77AYLDi8LndeIkNQ3uMSpbA9ecSvfd-LZR0MECnhaCeJEvZiycxQDjcxlqir9LmEuFIwGQaPxhVaHRkwzd8tVK8YVKdhrelWUtwr4_AwWEvT4Y162uDRlZsrD9xJ32Ln8mTycS1Yf9Ke3oz6yisXwJkMTpYoMxPUaKGmAQBfmmCuFQE6AxU03PgCYxd5JTgx8kXnxIK8JZKAbutsbcqKgrn16fD5XcQtlVPhAFllezNkBZJxIeqoJNa9aEehRN9P8_2sOdYqj3Lerv5sR1fDdSm3JuIsAsu4dXim_aYrG7oGegmZSr4FDEkSVjUGQYCAZwk7s1VFHp96m_emopht1ECA_ZK8gxEAbzo-9ST2t1dX",
+      "width": 3060
+    },
+    {
+      "height": 4080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101858359917092300458\">steve steverson</a>"
+      ],
+      "photo_reference": "AcnlKN0B36GeIbQIH5ujrQM7Lvn84HgDjWwKzPf5k8ZsTKQ1WhBlTQ-mS2cykKjlWAZR9Yhi1Esu84XP5hRmj_aW7g9c4Qw1xP0JE6jKyfAfZfj3g64i8hZ2J1VG6oIk3ZxnXXtHr4DQD-fjZ2fdLIJZ8sjD39KqslQMXt-hVCNv1ndcPZX3xhNDe7JAGccY8rjlFedvkzY_PpWz88nsXP0pSH8QsZrRReawOUjAoT8fBT7Z7cvUM69tcgYXl2QAv4hhKilCfPIZmTXB7PWMqpcHeZF86FzzoYPAv9pLHMblIQi5HOLza9VUCLOV3qyoK53RqdD_ltQmVuTqZIdBfYkeEVvOzli6ixjNXKg0loVzgcIabwXFP-uY99mEUQqRsRPfoBB0lyrhNn9qf_LxGf1Hx7a1GYFgJljJ4O-0s6toiwplhSyT",
+      "width": 3060
+    },
+    {
+      "height": 4080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101858359917092300458\">steve steverson</a>"
+      ],
+      "photo_reference": "AcnlKN2Y9ly19v54tSCeszHgQ_i_yoks21RXg5E7b-TO4FR15eEkXR9uhsFNXygWYw_CK0g7xa3Co7bEveYeHHg78NHXFqv-CiSPt5SD3R-ckRQkkziwqlu-uGytTCyxtKytqh_yJwWhbD5Q0X6BuVacVZUdM1aBg8Oc_kiHP9OhnHPpuHVZrCQGDw1Mm2c6vQvnWyfdo5vhrTzB-YoYG1ElhLfbeUVsb7xBi-7xVURS93xpcgw4Eui1k3_1RfltFxPJICM7l7F9ZLWGbLH272WvMMiloL00gr2XKdYcWwzjhkrf0zRA5kQ2vkePO7DQHRiOPJb9dakjXEg7QfUEsRhtWxpgmxvCaj4C1rAH7XIlE0KaO6AalkY_MkIhCj-grJPmunwtZ88z00QkuL6Dl090kDhEDaZPDtUDYfm_pgm0MPSGgQ",
+      "width": 3060
+    },
+    {
+      "height": 4080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101858359917092300458\">steve steverson</a>"
+      ],
+      "photo_reference": "AcnlKN3xPh4j6K5wRloJwG4WLQU0MfoqwLFkojQYstovwgmLmqCuRpqXWQvB6SQcGRusB7IZuP_QxQ0v2drzsl8Tpkhxb1S64XKVV61by0IFRl0AMutR2mqZKRB75L56gKhh5vQEs3hlg19hMopJ4GdC1yVUbTy0pwYlOOpWELGEYC9FCgKLxI2_TwrKeo95b6Gy9zQGeMADcZikP6HHSK9V_0YyB6aw_SXQxGOUC0kUhuFTaUd9d6_QkawQxF2FdA6UkBMfFkJ3Z3of1TTjDxn4SsOv9tq81rR0wlOBMAx6Ltxkyo_ATh1FOlmumI1TcmQOR8gaYm2HwRmqV52odcaMMwbw0fSm53dGJ8hcUVgB1C0cx0Guj2y0K_N4OTedWtwdBJysKb6gVZUIQY6dusYUTY9nYCP4qhZfK0IylLin6fTy6g",
+      "width": 3060
+    },
+    {
+      "height": 4080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101858359917092300458\">steve steverson</a>"
+      ],
+      "photo_reference": "AcnlKN3tCMgw13MT-u9JHfMWcxrw74PmPNla15r99lrAgmqQbaVDLGsn_-mKz_FxWbd99jAxkoLPfxp5UT7VsAgwvSHjBiQ7MUg7aPSFgJ8orF7MI2d920s3nHrZXmogW_HxK8PjAiaMYP-3fveavYZPYGoyRfPRSHscmNJ5zsKbmNknUBPhvX6P6oTRIhZW5xh48xpxgp5__0iFSuyHsvacLcoovdrm-y0qeVJe0BLbknIdRmag8JBBry0oQNXrJjoSEbX2Y1ORFe-YKiAC6ewZtxDxIuns8fERVJ1PP3vogD7iFxLma701OaAIHSJJ9HvaJH4D3jAR-jH0kQ8mPKAC0iwHjIc3v8bBTgOUA6qVi7Vm9K4ogS_pNq7caZNT6ozEqCSXLsCX3cJtEpC5EKrE-AR-kftFf0J2O4bL-hyg7y73Df8",
+      "width": 3060
+    }
+  ],
+  "place_id": "ChIJm86jKA4N-YcRJmH34KC1qYE",
+  "rating": 4.9,
+  "reference": "ChIJm86jKA4N-YcRJmH34KC1qYE",
+  "reviews": [
+    {
+      "author_name": "LP",
+      "author_url": "https://www.google.com/maps/contrib/115143996063557152765/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocL6LSZz7Dzw_K58n3aS1ppqwZ_79B0PekBllugIpQB5chPQQbI=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "We ordered some cookie trays for our customers this Christmas.  They were absolutely perfect!  Great value for the cost and beautifully packaged and decorated.  The gentleman I spoke to was very kind and helpful.",
+      "time": 1765228318,
+      "translated": false
+    },
+    {
+      "author_name": "Clint Heitz",
+      "author_url": "https://www.google.com/maps/contrib/107635230790758454409/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUl7SpWfro1177Tus-oLCgFAFONVgfyUPCKTlHEpDusFP1H_Qh-=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "6 months ago",
+      "text": "Not a huge selection, but the homemade options are great. Enjoyed a nice soup and sandwich in a cute dining area, and the gal at the cash register was very friendly. Great place to pop in for a bite while I was passing through.",
+      "time": 1753809932,
+      "translated": false
+    },
+    {
+      "author_name": "Brenda edwards",
+      "author_url": "https://www.google.com/maps/contrib/113934834815469968476/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWyzu3Nt8L_0HQAh-9i6q1G7qTwJ8Jfxo9JvLSkjnWMKo-7YjsRMQ=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "3 months ago",
+      "text": "Excellent bakery items.  Lunch specials are always hot and delicious.",
+      "time": 1761694148,
+      "translated": false
+    },
+    {
+      "author_name": "Alicia Whitehead",
+      "author_url": "https://www.google.com/maps/contrib/100548468309443762263/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKinZ4s5etaadbl7GqDJ6N0sFL8vqOCZ8UuylJ87bSNZ362YQ=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "8 months ago",
+      "text": "Me and a group of friends rode our bikes to Fountain City for the weekend had a little celebration for a friends birthday call JP up and they made the cupcakes and even delivered them to the hotel for us.Thank you all for making the celebration even better the cupcakes were delicious.",
+      "time": 1749414777,
+      "translated": false
+    },
+    {
+      "author_name": "Candy S",
+      "author_url": "https://www.google.com/maps/contrib/104034862126355994189/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJVX1Kwq8hPIy9mjHXUL85dFdYUjnvsYwg1KcAq1XEvEzHElQ=s128-c0x00000000-cc-rp-mo-ba7",
+      "rating": 5,
+      "relative_time_description": "8 months ago",
+      "text": "Came for lunch. We had sandwiches and soup. The soup was really good. Nice little bakery with cookies, treats and bread. Friendly service, not busy when we came.",
+      "time": 1747933243,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=9343198604530508070",
+  "user_ratings_total": 27,
+  "utc_offset": -360,
+  "vicinity": "38 N Shore Dr, Fountain City",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3oFFg9IIWqX4vXaRhYLjE3eAK1wfWMqL8DylbAsFwobcbBnLlgdOW-_z39K1Q8OuxWD5rXHgO1Rg8ciuPxHXUckw2-aC5DHiVV4N0IyB_vZWq6r8r8EXLgBQQ4X_btsTeSMeMEDlGSdysq0Wor8-f35ST3G3C8_ldZrahDMIEz6aj2R9gELhnOe8VB62dNQAArYvF_6waLWCX_PI7yTFntALT7bUdqI5g27tdRv1ySsQoOWTphiCeACn8N7tKaWAPWwyffrnjlJbx1ST-Gd22IknbXTpOK3eVpv8X3SkkhWUnJ2vGKlKMVsjrdY1TUUWUxkVOQojgfB-jViB3EOB5BvqcDimtdQxXnDmBqITdR9ov2ETLH0sGPwpZyIYYEGpljfv884GJJ0nkTBmChIZ2C0Cy5LVwksQOveDy63mkIQA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3VPuPYcmEQuLPw4Qi2J46NoS7yCVPPscdIleU0TxL2u_0aSbVIojO-qX2Utg5YNK5tpRR46FTwPt3UBC4n210ylNqBnxY6hM23gO_bM060wzNuI2pt3fjzVqvMGqpEsAyQUurwcKMmwL78izRQemk_YeIK1Ga7RbTGhkzKx-6d591UOfQ4u4FY-veiTvWy5pmaALXXIgc_1XuPcwqXcwQBELJoabSPM4Kg4VqZ7u1RgZDd7L-Kdo1z37OCEIcfsP9jByBjmeZWStfmgvkUT3KdZXr-c5cfsdLgHK74S9iMpvGExe8MIsvHML9zTPt5x7zRnmj5Vs4sltZ4W9F9Gzos53eggY3RxcbRhO8MtJ5Wv4xm7sCdWU0SiV0MUNNcvobCXwA46S1IFiukH_JVqotqMXlfIIBdKs-mNj7hnijRRA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3m1T9J8QA7WTXkjlo4NBCUE6D-7PnOb__MYbhUFzuNhaYhKz3THlFcKyF5yrzcnZRZ77AYLDi8LndeIkNQ3uMSpbA9ecSvfd-LZR0MECnhaCeJEvZiycxQDjcxlqir9LmEuFIwGQaPxhVaHRkwzd8tVK8YVKdhrelWUtwr4_AwWEvT4Y162uDRlZsrD9xJ32Ln8mTycS1Yf9Ke3oz6yisXwJkMTpYoMxPUaKGmAQBfmmCuFQE6AxU03PgCYxd5JTgx8kXnxIK8JZKAbutsbcqKgrn16fD5XcQtlVPhAFllezNkBZJxIeqoJNa9aEehRN9P8_2sOdYqj3Lerv5sR1fDdSm3JuIsAsu4dXim_aYrG7oGegmZSr4FDEkSVjUGQYCAZwk7s1VFHp96m_emopht1ECA_ZK8gxEAbzo-9ST2t1dX&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0B36GeIbQIH5ujrQM7Lvn84HgDjWwKzPf5k8ZsTKQ1WhBlTQ-mS2cykKjlWAZR9Yhi1Esu84XP5hRmj_aW7g9c4Qw1xP0JE6jKyfAfZfj3g64i8hZ2J1VG6oIk3ZxnXXtHr4DQD-fjZ2fdLIJZ8sjD39KqslQMXt-hVCNv1ndcPZX3xhNDe7JAGccY8rjlFedvkzY_PpWz88nsXP0pSH8QsZrRReawOUjAoT8fBT7Z7cvUM69tcgYXl2QAv4hhKilCfPIZmTXB7PWMqpcHeZF86FzzoYPAv9pLHMblIQi5HOLza9VUCLOV3qyoK53RqdD_ltQmVuTqZIdBfYkeEVvOzli6ixjNXKg0loVzgcIabwXFP-uY99mEUQqRsRPfoBB0lyrhNn9qf_LxGf1Hx7a1GYFgJljJ4O-0s6toiwplhSyT&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2Y9ly19v54tSCeszHgQ_i_yoks21RXg5E7b-TO4FR15eEkXR9uhsFNXygWYw_CK0g7xa3Co7bEveYeHHg78NHXFqv-CiSPt5SD3R-ckRQkkziwqlu-uGytTCyxtKytqh_yJwWhbD5Q0X6BuVacVZUdM1aBg8Oc_kiHP9OhnHPpuHVZrCQGDw1Mm2c6vQvnWyfdo5vhrTzB-YoYG1ElhLfbeUVsb7xBi-7xVURS93xpcgw4Eui1k3_1RfltFxPJICM7l7F9ZLWGbLH272WvMMiloL00gr2XKdYcWwzjhkrf0zRA5kQ2vkePO7DQHRiOPJb9dakjXEg7QfUEsRhtWxpgmxvCaj4C1rAH7XIlE0KaO6AalkY_MkIhCj-grJPmunwtZ88z00QkuL6Dl090kDhEDaZPDtUDYfm_pgm0MPSGgQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

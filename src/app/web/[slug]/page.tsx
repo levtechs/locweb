@@ -98,15 +98,15 @@ export default async function BusinessPage({ params }: BusinessPageProps) {
         backgroundColor: "#fbbf24",
         color: "#000",
         textAlign: "center",
-        padding: "8px",
+        padding: "12px",
         fontSize: "14px",
-        fontWeight: 500,
+        fontWeight: 600,
         fontFamily: "system-ui, -apple-system, sans-serif",
-        position: "sticky",
-        top: 0,
-        zIndex: 1000,
         textDecoration: "none",
-        cursor: "pointer"
+        borderBottom: "1px solid #e5e7eb",
+        boxShadow: "0 1px 2px rgba(0,0,0,0.05)",
+        zIndex: 9999,
+        flexShrink: 0 // Prevent shrinking
       }}
       title="LocWeb - Professional websites for local businesses"
     >
@@ -115,10 +115,29 @@ export default async function BusinessPage({ params }: BusinessPageProps) {
   )
 
   // Always render with watermark (both for raw HTML and extracted HTML)
+  // Use an iframe to completely isolate the website styles and layout from the watermark
   return (
-    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+    <div style={{ 
+      display: "flex", 
+      flexDirection: "column", 
+      height: "100vh", 
+      width: "100vw",
+      overflow: "hidden" 
+    }}>
       {watermark}
-      <div style={{ flex: 1 }} dangerouslySetInnerHTML={{ __html: htmlContent }} />
+      <div style={{ flex: 1, width: "100%", position: "relative" }}>
+        <iframe 
+          srcDoc={htmlContent}
+          style={{ 
+            width: "100%", 
+            height: "100%", 
+            border: "none",
+            display: "block"
+          }}
+          title={`Website for ${decodedSlug}`}
+          sandbox="allow-scripts allow-same-origin allow-forms" // Enable generic capabilities
+        />
+      </div>
     </div>
   )
 }

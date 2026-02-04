@@ -1,0 +1,277 @@
+{
+  "business_status": "OPERATIONAL",
+  "dine_in": true,
+  "formatted_address": "3000 23rd Ave, Greeley, CO 80631, USA",
+  "formatted_phone_number": "(970) 356-4449",
+  "geometry": {
+    "location": {
+      "lat": 40.387807,
+      "lng": -104.7153184
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 40.3892279302915,
+        "lng": -104.7139925697085
+      },
+      "southwest": {
+        "lat": 40.3865299697085,
+        "lng": -104.7166905302915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 970-356-4449",
+  "name": "Pho Duy",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 1,
+          "time": "2000"
+        },
+        "open": {
+          "day": 1,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2000"
+        },
+        "open": {
+          "day": 2,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2000"
+        },
+        "open": {
+          "day": 3,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2000"
+        },
+        "open": {
+          "day": 4,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2000"
+        },
+        "open": {
+          "day": 5,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2000"
+        },
+        "open": {
+          "day": 6,
+          "time": "1100"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111422776914612938042\">Josh Gonzales</a>"
+      ],
+      "photo_reference": "AcnlKN1lH2OvURmozHC_E1AslsxgvG7xNFY3HGEj3cyfouXjjTsXzyoH5gSnEs3IDb8jKOtXoR-3OciQuwPTatj0gBVQCqy3QWOJ3Ky-G0TQVex-GqxXBwt7XWxAA7q-eGchi4F96l-6iTYzbOqjmj6zP7thP-Lpl4kNbiuxCDF628kWClLXfUwNPbKWnHV5xFaderNeBMYqqyd-x784o7_hNDAFRAwKfKWCjMd5C4YLwF3lGCD6GYEIgPPpvOu-cpBny2Non22Yx5n2C07fgf8RqTAmSWsdptkkFhKrgvWo0I4bYLVbbaNHVopYHVBm3YOYUhCi3ROQdjEf8MTqEF3Ll9luoK8ZZrZPHEKD-LD4hnVXkWNTXw5J8orCzWTeUFyyFirPiDNiElE2na_-PAYY2ZKmGQlo-iqgzgqA3pTEH2nMyA",
+      "width": 3024
+    },
+    {
+      "height": 1960,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111150184124274433467\">Sean Moriarty</a>"
+      ],
+      "photo_reference": "AcnlKN0j9fJJbxZSsoAlcHGnvcr_1oh5yjnN-nkxM-8SBTm_wo5frHsyPm8bEQHLbbKXbH4fIHoq6kUwyljY0mW5TVjJKCrEPBuD80Oen6PLFuCNlorFspZXMfeOI1E1KiAEayFeGH4JdcX4fmbf8ncGTBP4sg_JQD6qOAdLxb8UvyC7R88VN72w-BZHhw0ZA9dsOiu5PCD3FIB1wZyyPpHej87R-3fGYEWo5FnUPHLyuugnB_ljJ210mZPNvlV9ddMl09corkzQZ4obK-XH_pocx0zZKpG2VAak_ue5dgsmUnNGmtHbevWFJwWt6IkHxSRDmi48wKWzsxuv9ZHfVuXpH5ZIpcXY_VFJG99edkZtszp-mfgZSAYEGy1oqDkSvwhxER-jxApZrk__7ozhJXF8gZXFgKbHOto8BG_N05Y6Tiw",
+      "width": 4032
+    },
+    {
+      "height": 3924,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104925272186273928195\">Aka. Mike The Inspector</a>"
+      ],
+      "photo_reference": "AcnlKN05KI8-m9FAydKtoVBdBcA8srrnfCrO_4ihlW9VGLexcu4x5TAjSGsXm_u9UZmVxRWG1L6an7ewZadwihWYGgBJGDLRVwKqofNpLt6e3lcO3wVxYU3r6zBsPygduK9edqzfCXBmqcdNIVfQgWMTeatN3FBFFjDRjr3OQqsIZIZOqcxKaHbg48_S3ag-3fwaBv5ekyIuQbzTn9IuHw3MqKNI0rTZFMYcZE9LqLEPnlRVfxzGYtR41-XxJcEMVPZSeDJOhbQHWD3zM_14N_g0kTVnHfWXZYMppoMbYnVT8NFY_1d2pOKppQiBPr-UsTd_VzPweWU64t1nw_4Q5RAvnuNQC6gjNHpKF-QbxKLo6Ynv8d4pYNiXliNLdWGTK3SgRW76ZstO5sdeWk6bnCh062gMS4mPM31Yt8ECn1x9wRLsBTrQ2ven9M6UG9_bohNN",
+      "width": 3503
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108596008224538681076\">Foujan Sayeh</a>"
+      ],
+      "photo_reference": "AcnlKN1kFca42fO46nnYt2diWoDDmzNsJzI1dnsJ98xOsuxro9HZ8PSpP1UNKjo1Xx_8u3DHidKiiksNqrKrUK1o_TXv1iF1PdGz8zk90f8RdF2TdPUQTuCIFYNFM3_Lnj_vjjD-vzREipW1JsphAiJqJXl9HK-RHWcaPhjj9vz_E5tn3C2Bg9zaDwtI7imkel4yqG020BdcCyKzb5Ka-oeBD2ef9MWRadNiteAlJCNwxNSJsNgApinlk-hYxke8P83KdYQbmAAw4Q6JG-D2kabfLNKSNwL7kfoRNY9X6ge4HFAseLzS5ypmPcOU2rNc8VsMGCZHVfIbDSqWlT4oyjE9mYwBeWgsLv4dUkst5h0iZLJA1vQNa1w2cyDefPyXZoQl5qp__P4cSVJEqCGTVNzPyWWsYqGFEm10GysRAOD5p7wX0RMV4TOtgSti68Hw5w",
+      "width": 3024
+    },
+    {
+      "height": 3599,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117330796074605430860\">Brian Seifried</a>"
+      ],
+      "photo_reference": "AcnlKN0A8VtzMUNAYRb3i9sWQh3f4uZmuGuOwV4A52SP-5duEJUNwAxzruC1EYOsWc1sMCN2RhmCkbYd1Xhob-k2BqQmcVIufM0TRt9YYQbM2ER5xyQM9gWMZmfZzNZH8kDPv5ZrOtn0xMwGgsF6ySDt-wNwFDOMBHItIKUKD5NOW_RqMqq8FdmjByZ8lkKDegJK1wmjQY_XLxHj2dYyJxnxEGXdbtOVOgjTyTotme6BYoUqkq7NtfrzHnjlIWqy5GrbWjB8nHOuNmBhiKI6RRcbZSbCRAB1HmW5x4qOyeZ34tgXnLmDtTXyw4w7MQKf-Uabaq8cqZSmNLKisa2AIso7nCv2UGVUwPXwMim81gNYF7S9TS2f0IDLboUIwheGvkrXUylB7Di_5O0dNJyrTmgEalPf1LjAgxhOCXuvlmM6eA0lQBny-zt5-zBskx71TdYp",
+      "width": 4800
+    },
+    {
+      "height": 1800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111484504688710684714\">Tom Johnson</a>"
+      ],
+      "photo_reference": "AcnlKN1En98ghDdEwPSUzqxoZh8h5aMAO0TdFkS6WeDkgMhWJ2ytyYH7u3Q852V5aacYBNE_IOwiC2KP0YIgz_68zAmQpCcRAO1O1pZIJEFAcBJZZuaRvdZ2YZljahoTWk4OV1pG4H7Fq65N6W4MQneEyNzj_yXmRJUi8_AK5iskB92CTLrnJvBbgtRss0adTPzUeJ_tm-xHCaNL0RcH-Pbc58HxdaItRuUOoFV3OkL1XaP4SKtj4ZkZVVALJeflIAJcxqyUrwiRr7nLkP_gAUrsprw8LBVya016Co0J7hEZoacNqBiLxIySAHZRechSpia3PP-My0e3fa_ZxerzxclF0HG31LXxflNi9XUEvq79lKY8kgfo9wfMSHpbAZMLIL7bsDrr6mEC-NzXY9Q3Vh0tRlxvRtxXNkLnGSShxdHKq6weAIjG",
+      "width": 4000
+    },
+    {
+      "height": 2712,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117330796074605430860\">Brian Seifried</a>"
+      ],
+      "photo_reference": "AcnlKN13515UbdC3FX89YY7UigWuEMHO_bWJn7Y8cVAYNfmO2PwyXpdRgWhjbHtoBdWrTTo2qqf-x_6n-lRI-xNAtJdDbc_AZZT-P6_fgNHZYiJXf0zCPT5R7Zw2RttAqu_WJ2VevOs7xeLHicKGZPrgIac-dZeGV55U-LCbN8Cg3uXLgBbkiRONjGBuPDfVf07zWbG3IqyIvvokO7RX-mzBQz2iL_JYn4PyQGA9Gk07DkonOuVGCpl98_wljawlGqbJefheTLaktgbWJAkJNL4vK47cTufJAOBDWA9x1vx80mczlK814iHseheAuxerLTD-1agYZH95BcjRc4wrOWdkWiz7aaYP_hhvNtNmTVa7VyTyaunnSLhwd2xG4iNzZTV259VuPljzbEoXYEv_qeJwSqInD_zSOKuicLRFfCuvAsyrhgl6Drlk3LTCgZPH4wIk",
+      "width": 3618
+    },
+    {
+      "height": 4624,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/115654204456250165636\">A A</a>"
+      ],
+      "photo_reference": "AcnlKN2dwUMtTwqHnHxerWqLH-BLBhOynFqvvB_TNd59L1YTHA1xfUL-IIWCBXco9Z1FiQK3rqSJAe9o8Y1ALskUV1T0s9_vIJTfx33erX3JTmNhpLtGwIw0-CI4bQkv5idDODzrtgEhZwY5xDSAh4c7QZEcFc_qvyTCAINI_Q34DDDQVKq_a2DYfoHHl3nkPVPLId0dNnlwnq3rUCnKLXfDcqCqBuD5Z0rVnxLAOKAhqkPIqs9Z9uYBO7Dx2x2J4X7XzcsfQysq_QXTiffwqQAM5tgG8aVtNx1erk55HqLfMWEM5efPrXDviCWuBHcMngheza_8IDj-tJMCPgQOxEzz9Y4A1FQxaWhzRAVhWT59UkcLjJp-WUt-6ANMGptiJgplwEIJ1Dy51uHoB7GhJ_ARx-CMn8-FlmLQ7PnultpYoKa9k9M",
+      "width": 3468
+    },
+    {
+      "height": 348,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/113171528968869883383\">Kristin Bustamante</a>"
+      ],
+      "photo_reference": "AcnlKN2fagZztdA65Z3TkPQl9WhfNIlodzgJk4sPQn2hg3vHc5pYf2zt7PYd0VHNVQvOCcmXcNnTNunkpexSBYwBuH5Ycjx16MH50J6u26VsJ2DIZQodQaZ_T3-CIVN00O34ubxVwB4sta0tqI_NYr0FJsv0LAKPGSsf0QtMw_OPJaiq0jF1XLCjVp2Wpwi3dUfip2cbv5lydhqeN5ykIoTFzTRQd6-sIf1kjCQmiSafDZZ3RbRscN2y81em6Jn_bBDIfBFbQISGJAeD9PvNt1SNB19FMLcExSjyaa_vMD8aJ2EBsYpyCAQAdMFjJy0VIMEjDC04XiqA_vZGfzAWDB9s_XYnTgAy2fMsq3igkxDtsQV3V-EfljU-YVg2Y_jUJLBjATlAgxz8nSlNbG8CHe6QBpVeH4KByNBC0xy_juYuiaI3RA",
+      "width": 348
+    },
+    {
+      "height": 348,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/113171528968869883383\">Kristin Bustamante</a>"
+      ],
+      "photo_reference": "AcnlKN0EW65btHlHRSQK8E_54ydaaNF-8yhowuesC9yZDzx_o7u5bLf00_HpSGYmrJKuIwjcXNLm5cLhOQQOIgM-Z3_Ia8qC0Yps6hGjO5OOqV656WWxLvYN6dwm4TDKcOJwdsU9vSLiFKL2mv-Vs9tBRiSOad3ZafLtLI9P9QLpKFZLkyVID6NUhlemkNythpYZZzGLJkM_uqE7CrIJHHVpt_uCQanX6ezgoARR2QvaYlht4EvZBMJU9-7Gcgmn9W-zRw6nc0jACrhwh6hVRjbldp6qjLj5m5JnvP9-pUjg2w5nFeyGvTjkUyv8Kuy8c0ncMcfE3JkI27yBG8Y7K0Q-KNCNDC8FBy9DyHA9X4Su5RxYHDyFF534EQdCS0I0nvWQBUqMZI83cInYr7VqDaFe6uMBzXhPPDrdPTSSHWPg5y28yxGL",
+      "width": 348
+    }
+  ],
+  "place_id": "ChIJ7Q_dSg6hbocRKaZbQ-3-3VI",
+  "price_level": 1,
+  "rating": 4.6,
+  "reference": "ChIJ7Q_dSg6hbocRKaZbQ-3-3VI",
+  "reservable": false,
+  "reviews": [
+    {
+      "author_name": "Ruben A Buitrago",
+      "author_url": "https://www.google.com/maps/contrib/115154028197535295462/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVyZ-bwCEOUdiRENxX-ZaX113gbxdU1w6PdGGHtTVIa1Q3V0qFIGQ=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "Simple but delicious options of Pho with great service  and hot chili oil. The servers were courteous and fast paying attention to detail.",
+      "time": 1765511264,
+      "translated": false
+    },
+    {
+      "author_name": "Kelly Rickard",
+      "author_url": "https://www.google.com/maps/contrib/117240696270322537026/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXLvPh3B6vCHWQuZwCDaZnalon4r9Kc0lssCMJgtFJ3qmbWE6d-=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "11 months ago",
+      "text": "Cold winter day and we hit the jackpot. The restaurant was clean and well lit, we were immediately greeted and seated. Their pho is offered in three perfect sizes. The spring rolls and egg rolls were delicious. The brisket and steak pho was perfect - we have a new favorite spot.",
+      "time": 1739932621,
+      "translated": false
+    },
+    {
+      "author_name": "Tom Johnson",
+      "author_url": "https://www.google.com/maps/contrib/111484504688710684714/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVodISLzz5zmpc9Cttgbr3cO_WSCGgfrPXAWYv-qvh0uE3R2peO=s128-c0x00000000-cc-rp-mo-ba6",
+      "rating": 5,
+      "relative_time_description": "10 months ago",
+      "text": "Absolutely 5 stars for Pho Duy in Greeley! The pho was incredibly delicious\u2014rich broth, fresh ingredients, and perfectly cooked noodles. The service was friendly and fast, and the atmosphere was clean, welcoming, and relaxing. It\u2019s a great spot whether you're grabbing a quick bite or enjoying a warm bowl on a chilly day. I\u2019ll definitely be back!",
+      "time": 1742845740,
+      "translated": false
+    },
+    {
+      "author_name": "Foujan Sayeh",
+      "author_url": "https://www.google.com/maps/contrib/108596008224538681076/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX7MqR4Vl4ItCCBbGNHlpJZBvQi7ED-JYZ1SAkwErKPcXXhJnMbjA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "6 months ago",
+      "text": "Cane to Greeley for a conference and let\u2019s just say this place was the highlight of my trip! Authentic food, fresh and super tasty. Highly recommended",
+      "time": 1754615010,
+      "translated": false
+    },
+    {
+      "author_name": "Tyler Ryan",
+      "author_url": "https://www.google.com/maps/contrib/115307666320872057299/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVAuc1fLIIM-6iiJAkWDswLW_C2s_EVUYTF-ZzBCWKkA_fCqNU=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "2 months ago",
+      "text": "Pho Duy in Greeley is an easy place to rave about. The broth hits that perfect balance of depth and comfort. It was rich, bright, and super fragrant without feeling heavy. You can tell they take the time to do it right. The portions are generous, and the service has that warm, no-nonsense vibe that keeps you coming back.\n\nAnd seriously, don\u2019t skip the coffee. It\u2019s bold, sweet, and silky. This is one of those Vietnamese iced coffees you end up thinking about days later. All around, it\u2019s one of the most reliably satisfying spots in town for a steaming bowl of pho and a killer caffeine boost.",
+      "time": 1763776080,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=5971208975953929769",
+  "user_ratings_total": 1003,
+  "utc_offset": -420,
+  "vicinity": "3000 23rd Ave, Greeley",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1lH2OvURmozHC_E1AslsxgvG7xNFY3HGEj3cyfouXjjTsXzyoH5gSnEs3IDb8jKOtXoR-3OciQuwPTatj0gBVQCqy3QWOJ3Ky-G0TQVex-GqxXBwt7XWxAA7q-eGchi4F96l-6iTYzbOqjmj6zP7thP-Lpl4kNbiuxCDF628kWClLXfUwNPbKWnHV5xFaderNeBMYqqyd-x784o7_hNDAFRAwKfKWCjMd5C4YLwF3lGCD6GYEIgPPpvOu-cpBny2Non22Yx5n2C07fgf8RqTAmSWsdptkkFhKrgvWo0I4bYLVbbaNHVopYHVBm3YOYUhCi3ROQdjEf8MTqEF3Ll9luoK8ZZrZPHEKD-LD4hnVXkWNTXw5J8orCzWTeUFyyFirPiDNiElE2na_-PAYY2ZKmGQlo-iqgzgqA3pTEH2nMyA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0j9fJJbxZSsoAlcHGnvcr_1oh5yjnN-nkxM-8SBTm_wo5frHsyPm8bEQHLbbKXbH4fIHoq6kUwyljY0mW5TVjJKCrEPBuD80Oen6PLFuCNlorFspZXMfeOI1E1KiAEayFeGH4JdcX4fmbf8ncGTBP4sg_JQD6qOAdLxb8UvyC7R88VN72w-BZHhw0ZA9dsOiu5PCD3FIB1wZyyPpHej87R-3fGYEWo5FnUPHLyuugnB_ljJ210mZPNvlV9ddMl09corkzQZ4obK-XH_pocx0zZKpG2VAak_ue5dgsmUnNGmtHbevWFJwWt6IkHxSRDmi48wKWzsxuv9ZHfVuXpH5ZIpcXY_VFJG99edkZtszp-mfgZSAYEGy1oqDkSvwhxER-jxApZrk__7ozhJXF8gZXFgKbHOto8BG_N05Y6Tiw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN05KI8-m9FAydKtoVBdBcA8srrnfCrO_4ihlW9VGLexcu4x5TAjSGsXm_u9UZmVxRWG1L6an7ewZadwihWYGgBJGDLRVwKqofNpLt6e3lcO3wVxYU3r6zBsPygduK9edqzfCXBmqcdNIVfQgWMTeatN3FBFFjDRjr3OQqsIZIZOqcxKaHbg48_S3ag-3fwaBv5ekyIuQbzTn9IuHw3MqKNI0rTZFMYcZE9LqLEPnlRVfxzGYtR41-XxJcEMVPZSeDJOhbQHWD3zM_14N_g0kTVnHfWXZYMppoMbYnVT8NFY_1d2pOKppQiBPr-UsTd_VzPweWU64t1nw_4Q5RAvnuNQC6gjNHpKF-QbxKLo6Ynv8d4pYNiXliNLdWGTK3SgRW76ZstO5sdeWk6bnCh062gMS4mPM31Yt8ECn1x9wRLsBTrQ2ven9M6UG9_bohNN&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1kFca42fO46nnYt2diWoDDmzNsJzI1dnsJ98xOsuxro9HZ8PSpP1UNKjo1Xx_8u3DHidKiiksNqrKrUK1o_TXv1iF1PdGz8zk90f8RdF2TdPUQTuCIFYNFM3_Lnj_vjjD-vzREipW1JsphAiJqJXl9HK-RHWcaPhjj9vz_E5tn3C2Bg9zaDwtI7imkel4yqG020BdcCyKzb5Ka-oeBD2ef9MWRadNiteAlJCNwxNSJsNgApinlk-hYxke8P83KdYQbmAAw4Q6JG-D2kabfLNKSNwL7kfoRNY9X6ge4HFAseLzS5ypmPcOU2rNc8VsMGCZHVfIbDSqWlT4oyjE9mYwBeWgsLv4dUkst5h0iZLJA1vQNa1w2cyDefPyXZoQl5qp__P4cSVJEqCGTVNzPyWWsYqGFEm10GysRAOD5p7wX0RMV4TOtgSti68Hw5w&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0A8VtzMUNAYRb3i9sWQh3f4uZmuGuOwV4A52SP-5duEJUNwAxzruC1EYOsWc1sMCN2RhmCkbYd1Xhob-k2BqQmcVIufM0TRt9YYQbM2ER5xyQM9gWMZmfZzNZH8kDPv5ZrOtn0xMwGgsF6ySDt-wNwFDOMBHItIKUKD5NOW_RqMqq8FdmjByZ8lkKDegJK1wmjQY_XLxHj2dYyJxnxEGXdbtOVOgjTyTotme6BYoUqkq7NtfrzHnjlIWqy5GrbWjB8nHOuNmBhiKI6RRcbZSbCRAB1HmW5x4qOyeZ34tgXnLmDtTXyw4w7MQKf-Uabaq8cqZSmNLKisa2AIso7nCv2UGVUwPXwMim81gNYF7S9TS2f0IDLboUIwheGvkrXUylB7Di_5O0dNJyrTmgEalPf1LjAgxhOCXuvlmM6eA0lQBny-zt5-zBskx71TdYp&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

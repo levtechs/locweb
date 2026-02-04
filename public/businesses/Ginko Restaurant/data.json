@@ -1,0 +1,269 @@
+{
+  "business_status": "OPERATIONAL",
+  "delivery": false,
+  "dine_in": true,
+  "formatted_address": "2247 Professor Ave B, Cleveland, OH 44113, USA",
+  "formatted_phone_number": "(216) 274-1202",
+  "geometry": {
+    "location": {
+      "lat": 41.4815894,
+      "lng": -81.68644119999999
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 41.48288488029149,
+        "lng": -81.68516586970848
+      },
+      "southwest": {
+        "lat": 41.4801869197085,
+        "lng": -81.6878638302915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 216-274-1202",
+  "name": "Ginko Restaurant",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 2,
+          "time": "2200"
+        },
+        "open": {
+          "day": 2,
+          "time": "1600"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2200"
+        },
+        "open": {
+          "day": 3,
+          "time": "1600"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2200"
+        },
+        "open": {
+          "day": 4,
+          "time": "1600"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2200"
+        },
+        "open": {
+          "day": 5,
+          "time": "1600"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2200"
+        },
+        "open": {
+          "day": 6,
+          "time": "1600"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Closed",
+      "Tuesday: 4:00\u2009\u2013\u200910:00\u202fPM",
+      "Wednesday: 4:00\u2009\u2013\u200910:00\u202fPM",
+      "Thursday: 4:00\u2009\u2013\u200910:00\u202fPM",
+      "Friday: 4:00\u2009\u2013\u200910:00\u202fPM",
+      "Saturday: 4:00\u2009\u2013\u200910:00\u202fPM",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 398,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112516091187519232104\">Ginko Restaurant</a>"
+      ],
+      "photo_reference": "AcnlKN3nRkRhKpjVLAkwxUXI92LhzBUgjVIEeb2vdlvH-i187B882M7qYn3Wp_NWO-qyNmbqL23YrjdzaudcOGV9kHWf0yaxQJC7rjldn5btm8op5KjkVqySO9la2qB7dm93R8MhC9qvU066s7RDx5OQS3DjM8RR64tEpAp0cWke-mZl2EnkK1Pw8iRJ9jAMzAu0bpnG3e2ydUIAMbCjlFZiLBi-cATthiCbVCfK3Cf5yZpMmdspH1PznLJueDMz75jDCun8vUw5leobEHuV1UUcQvLKAYZHpytLeCCtciaH50uu7A",
+      "width": 642
+    },
+    {
+      "height": 2048,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100518805700766432475\">Review Places</a>"
+      ],
+      "photo_reference": "AcnlKN0BPQQHACnvdV7SXI07KlAZUm4vygb7rpyjlsEgFKF0TflUlY0vq_jSJr7hKu6DWERFg6a9hP7q0QN6pt32vly0DgCJ3WEq7RLlqEi32IFRBN1z3DN6iyXSzUhW4XOuJ0rFirInPD19kwkgEVRwmxqqGjkeLcyk4l_1HvC__ordVsHc8mqKUruQWzdq4xumo-Cf0RrzBy5t_X5HHb-EUWP-mUc1XKpRcFzkkeCUMdkrWRHo1I6NBpsV4T4juaLh7qwZ5LD1lTteyL4o2ChzeYSYufKuvHOTbh4sz3AeWn8FvoFMhyILN8CoDNq6YWt0krT1JJkDdph5hgAd7yHoDyfI1bqRqbnf_tyOUIVX1F3zY-CAGmut7zdwG4JVMycNhrdG-Qaz7OIbF_twPaPwpbNEm_ePy-iG3TKX-ebgXk-QKpvabRhg0-j0VrpuUMtS",
+      "width": 1536
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106143212350385891321\">ADRIANA LITVIN</a>"
+      ],
+      "photo_reference": "AcnlKN1d8380EykZLaJdzf3JjWj63CmqF8Fc_Ny3DfL7MsqWPB5DmwvwvL_KX8v4Ets_A9BEsQTH_fHg2fo0jRZaKaP6bVWm5wtWQFR6-by5LLKFMdSShAH8delRDCJk1SEGQPRWgVGeOUY2B-0n0CJ7ACPn3iLpzK3n0wMhCRvUIrVEeu-4k3Y13QgussjV6IMfiebiPIjOzXpPnnBHPlY1U71TcKAEVFk_kN7ZllSo72_FqX6s5LLE7i453l3zZocqiqosAcO9rDaOEgdzdIEN1Y4yyYlHqZk372EKv7t6kOZmqqjCsBJ8WbocYhARsjHbFL-FVmRuj_LHS37EkgGB9Vev5WVZrAe1WzQOmamc07yAP0ec6DZvOtUR0KnbwE_ptx0DGvowTrkl1FTu_3a7J3VFmtKsA6X-AjMQepOjSpxll4_RTF_V1ubuSa7VcR5C",
+      "width": 4032
+    },
+    {
+      "height": 2754,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108425340970108719334\">Tom Szelag</a>"
+      ],
+      "photo_reference": "AcnlKN1KIKPJ390ZOy34WeggP3CL1hIV2u7lkJuUdlPMzbqc8fTJa-OjwdN3wX-kxmbwU0sBRRcQJIKcZdKI0AWOqZqzJdvicj4jUG4-nZbTzCW42PCgUftf3I6neWtf11SJxpXTJbSAv7WIX7XQpHriYnKjLlaQXhjnIujSz1UQvG7SrKgNKf2IZpUgxhZWmjj1BcQicR_pCMA-vR2ssc3E_Kvd0ZF0soBov3tEJg9bKexT35N3aGJq8TcmYoC7FcJva2XRaOfGopwFNczKowg7hUOztPf_67E90IKv2R3xpeOdpcYCZWK9aLQAgcjeCI72VNHcWkeG3CmSQZ6RJ0xnJRuFQupo1wzii0TPw2dRUGOYTPJeTtCOUCi5x4BrA09m1YraAYMT8D6r-rAt6IZJ7TwS9ZS7EZe6G3YgXqwknPSVocfFJQYVEX5d8U5elNR2",
+      "width": 4131
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108492593676129997505\">Lenore Thomas</a>"
+      ],
+      "photo_reference": "AcnlKN03dilLVDlJi_E51OwgQGErP_swVDQxPc-YCxZx7NcZr8duDAZ8NezmEviaSuuDJwJNSStKbz5fU6oAIlu4cZCEPXNg47IPfeJq7CBRl1Ew4iQ2q8CiXMKNyFJkVYx9xGmlZkdvrW4WwBOlOFZPoZoB8PSPUZsMxNmmnRQaOPONAxB_a-RvekMneN361Hz6H4IumgFFKiNeD7MK0NY2ucDL015eeSHzGDWM3Sa0ClQCbH1bxTzZO--T_UbEF8ojxESD8lC8Ey8HvIpNE0R1rZdkrjjP5_qKVESACZN-ra2Y-POXCn8JCOaY31VVyCgTlzg1AEx5xfFv3bfMJb0eroSwSh1CYgZtzcXAJS1P9YrPi-9BssGhtwVqXD_sWG5rF5XNqF_EjmlffOPZdeAPpB4sk0erq9QQK_qoYlu3MYf3j98",
+      "width": 4032
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116766228631265998254\">Victoria Ridley</a>"
+      ],
+      "photo_reference": "AcnlKN3BtFDFIdkiUqEkutfUW2qPlds1oHobbAeqLba6xrHe9RFECgLqUbxOJpUrBOoduTQrxu3krtz8l5GdKXmTaplQKoh4n1AxTOD0svw9I_5AvQRgE9v-ofT92U3TqBrxtUANsoropxM974E1WSCzD6CroHoNSahxw0r__4k9SY1vx1q9qWZIs34zA7kwnlb1jRgBzrZjf1ZP6ulMiZfGjEGtGrr69uc0qv13-HuDGvLhX-qQXboASywJ2CxnZjWEql-av231kkbhsorufB_v5k3qLYQ6m_UAe4DAY_D8C5cE4Vit1LsOoaTEO5xXyWcTsdSPjdtMPBLKHAQ4tbgUzIh1twkdQjB_yfXCbGIfQuiWbng3kIDVloSofxxHsAtg_9biJCleQRmN9NgM3k2nzPJSYvo43xHFfH4YEwS0CViBSQ",
+      "width": 4032
+    },
+    {
+      "height": 2268,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117806990950553016700\">Be Pol</a>"
+      ],
+      "photo_reference": "AcnlKN1MVz-R_c1p0-ewVI755dvNSZwJK9OAEYVijKalr9A0FQ_DZlZQP2jsWjgYnTouX-34pM65Vf7cyIzRTDuGUElsep5i9UwrvfanbYJTpD322HM-6DoS0lEIRE-dbXGsivD4_Q51rV_fIMHJxc2PxMviNiD1wSDvy99HvoK0m1VtBDMB1jKnSNOlnVpACSz8Dv1A62nl5o8nmkbbI5uPoBb-9NhvRur-z3rxLwz5E1x9H1Hgp9yqvIWnl8P3NHWCPkqpGiuGlz514wTtXea9paUBLPfsWHYysiXc_dnB5u0dCZuDtHi8c2iLOez_409zUNWDJG88MiXRF8xMzuUUnbLNE6IWBRsM82QrV_Equ_29lOHBb3d6Hs3cjwO3KYsB7d_82ySyIDOTpqkAUIZmUTAKeKS-dxmkrGH1LkgjT5UzRlDdaoTzAoXIU1EsSQ",
+      "width": 4032
+    },
+    {
+      "height": 2268,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117806990950553016700\">Be Pol</a>"
+      ],
+      "photo_reference": "AcnlKN30Ygbuf0GGkVxps4GDBqblRdlOJqTVOFU3MsROqC2DjfEXxGcLoWoRwQfwONIQDzx_4VbCNOljq9S-3U33c1bCFx15k0k1JXpM69CjAMwOyWkPJgzRfBkX_DRE3Z3Jj2MffXeGofxaFh_j-PDw5-KrBTenM_S9abR78B2feOOjterLt9oV-FLWTw0DsRmb1I_5QEU3nB3Z3-qMM8Dn7Ck4qNINtYMJg0M6WxW5ixdzb1DruSQJLD9Df1VGE0OHrhM4ZgZ0cCrWANcUUQBNF_f2hqr7TkUm8nF5xctNS0VD0IaPS_D0JXTyt_W-RVcAw9nOokGB-vj9JBuL3emHkj5c-_YoN8vssMjXy9cucdnrfDrwn01vu-OxqFbgaKoZtl9GwsbHOec0NGWChvIc0dlrMjjf-3b82bLyBoN_ZnNc0rWK-Q7PlLJrosET0oew",
+      "width": 4032
+    },
+    {
+      "height": 2268,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117806990950553016700\">Be Pol</a>"
+      ],
+      "photo_reference": "AcnlKN23jQlpnvcIze0WbyqmTL-61TPQHuGkt-NifvRzCzdXRal8yfCiIKmUINJHA18JEy1ZXDM7V379cw7nprZkSfyoP8JU7BGAdemkjnlJ2ePfUN4Jo0woMOX6zCx2n8pMJvfpveVx9mBCpxqnxuiJdat_z-ZFBjmfhRqUnlwichDHPdzVMyxIswkOulQEfJSVbWERLtevqKMwXvnYbr1qn1aQ8Mf_zpqwcVfM2twmWqSmI81myxo7j3S6yAdwxfwEk9oO6CGfzD69aBK04WhrroXS5ebmF5hRuqc62Rsob4PI2AEVs3Y5Vk1TaNTFtToNgPA2tqqgf0bUeD4_ZghZpld5HS6-tAyN0C0587Wywl6gF1ZKKjOXAJTKZUGodXhrAJiM9ByEpC02vZS3RzcbnKD1xyWM3d3l3aQBhUN8C_dldNPOsl14bsdvvhO-rQ",
+      "width": 4032
+    },
+    {
+      "height": 1537,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/115657928693252897346\">Orangejuice</a>"
+      ],
+      "photo_reference": "AcnlKN1sFyD-QRVG7qAAxmwPqiVj2-Iww_sep7LZ-4KbZG2jXOIt30E3qXdpgQd_8NDHx48CWVUyrbl8R7PTcaAS9EBY8LdL9pKZcWnSRu80sZVXdwhm05Vrab3RC0vaurUB4Z3bJXNtcwKdL_mlJd2TqmHdX8LKf8tbKC48UJlgKgAg1rJ61GT2cBTzgHxCRFF8K-uFI4o-5TXOUuBzioeuoUBMJaK4yHc1a9WKpjcLirZU2grlWbn7QKai8qTZAoMMfF4_11G1atnApYDiPhXjZ4Fb3ZtAAwYzX9_8hMFOWQIUhAmIuEa4k7r29_bVqc-ThA5Y9bII4Bjysj8VIaJoInx8FVK-B-78ixU8oV-cY6dRrPlk5F1ptOSUIYdUW1NQj76-x_7zcoA6ajE00RcPuJ7XskUTBniPAj6RrExdS5cBW8Eu",
+      "width": 2305
+    }
+  ],
+  "place_id": "ChIJTVUrMZ_6MIgR1MtMzz-m4wo",
+  "price_level": 3,
+  "rating": 4.6,
+  "reference": "ChIJTVUrMZ_6MIgR1MtMzz-m4wo",
+  "reservable": true,
+  "reviews": [
+    {
+      "author_name": "Cagan Sevinc",
+      "author_url": "https://www.google.com/maps/contrib/107766499468395543887/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIVcg9cNMi3q0eANC0cRfSFLEkiEWa4TWw6ktnDXpRbbVPjKg=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "While visiting friend of ours in Cleveland, we found this amazing, underground/speakeasy style sushi spot!! Service was excellent and pictures would speak itself for the food. Highly recommend to anyone who\u2019s in the area, looking for some good sushi.",
+      "time": 1766488032,
+      "translated": false
+    },
+    {
+      "author_name": "Tom Szelag",
+      "author_url": "https://www.google.com/maps/contrib/108425340970108719334/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUg5mt2NxregXGVAL3Gk0lpkRjrAcIiNhRhnA0S3VmGFh20VlS1pw=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "Great stuff, worth checking out! I highly recommend making reservations, and well in advance, especially for prime time dining. It's a fairly small space so it books up quickly; I had to make mine over a week in advance.\n\nVery strong fish list as a combination of both the regular menu and some off-menu seasonal specials. You can do at least a couple rounds of nigiri without repeating. Generally nicely put together, proportioned, and garnished sushi.\n\nGood overall vibe and energy. Like I mentioned, a small space, but there's both seating at the sushi counter and tables as well.",
+      "time": 1767537976,
+      "translated": false
+    },
+    {
+      "author_name": "Caroline Wang",
+      "author_url": "https://www.google.com/maps/contrib/110137510088915540645/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX-I7lACYcCwCZwLr9s2Gk0wr0PWowJt0I1ejQxyn6cCR2aEUeA=s128-c0x00000000-cc-rp-mo",
+      "rating": 4,
+      "relative_time_description": "5 months ago",
+      "text": "The food tasted pretty authentic, the sashimi especially. The service was great, the servers constantly checked up on us making us feel welcomed. On the other hand, the music was very loud and overall it was really cacophonous. Though it makes sense for the bar atmosphere. The Ginko Omakase tasted excellent, though a little overpriced - expected slightly better for it. Unlike most restaurants, the items aren\u2019t overly salty or sweet to fit the westerner palette.\nWould definitely come again for the food!",
+      "time": 1755651295,
+      "translated": false
+    },
+    {
+      "author_name": "Clay Ball",
+      "author_url": "https://www.google.com/maps/contrib/117750860634616094333/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJN9itEsN4xAs2OvRdMuZMdcDLFpSi9mLzkiZypCYa2PaJRew=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "3 weeks ago",
+      "text": "From the hostess stand to the server to the chefs, it was such a great experience. Joey our server, was SO attentive to us, and explained every sushi roll that came out with great detail. Joey makes 10/10 drinks as well!!! We will 100% be coming back again! Fun clean atmosphere!",
+      "time": 1768099333,
+      "translated": false
+    },
+    {
+      "author_name": "Zitai Luo",
+      "author_url": "https://www.google.com/maps/contrib/110072835366562626403/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKGWNvoo34h-ztpHOvhbMuWmsaqtZYJfBpKa0KiIR-nuBmoW7Q=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "10 months ago",
+      "text": "Wagyu, uni, and foie gras are as good as they usually are.\nI like eye of the tiger. It\u2019s a mix of interesting flavor of acidic burdock root, savory mushroom and scallop. The blend makes scallop tastes more savory and sweet than scallop sashimi alone.\nThe salmon in salmon tartare tastes a bit lean. I like the tuna tartare better.\nThe flavor of tamagoyaki is different from what I used to have. It is fluffy and soft, and taste almost like a dessert.\nOverall I would say, this is not as good as the best ones I had in China, but it is one of the best in Cleveland.\nThe environment could get a bit loud with the music and people talking.",
+      "time": 1741820626,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "bar",
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=784653553083665364",
+  "user_ratings_total": 567,
+  "utc_offset": -300,
+  "vicinity": "2247 Professor Ave B, Cleveland",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3nRkRhKpjVLAkwxUXI92LhzBUgjVIEeb2vdlvH-i187B882M7qYn3Wp_NWO-qyNmbqL23YrjdzaudcOGV9kHWf0yaxQJC7rjldn5btm8op5KjkVqySO9la2qB7dm93R8MhC9qvU066s7RDx5OQS3DjM8RR64tEpAp0cWke-mZl2EnkK1Pw8iRJ9jAMzAu0bpnG3e2ydUIAMbCjlFZiLBi-cATthiCbVCfK3Cf5yZpMmdspH1PznLJueDMz75jDCun8vUw5leobEHuV1UUcQvLKAYZHpytLeCCtciaH50uu7A&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0BPQQHACnvdV7SXI07KlAZUm4vygb7rpyjlsEgFKF0TflUlY0vq_jSJr7hKu6DWERFg6a9hP7q0QN6pt32vly0DgCJ3WEq7RLlqEi32IFRBN1z3DN6iyXSzUhW4XOuJ0rFirInPD19kwkgEVRwmxqqGjkeLcyk4l_1HvC__ordVsHc8mqKUruQWzdq4xumo-Cf0RrzBy5t_X5HHb-EUWP-mUc1XKpRcFzkkeCUMdkrWRHo1I6NBpsV4T4juaLh7qwZ5LD1lTteyL4o2ChzeYSYufKuvHOTbh4sz3AeWn8FvoFMhyILN8CoDNq6YWt0krT1JJkDdph5hgAd7yHoDyfI1bqRqbnf_tyOUIVX1F3zY-CAGmut7zdwG4JVMycNhrdG-Qaz7OIbF_twPaPwpbNEm_ePy-iG3TKX-ebgXk-QKpvabRhg0-j0VrpuUMtS&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1d8380EykZLaJdzf3JjWj63CmqF8Fc_Ny3DfL7MsqWPB5DmwvwvL_KX8v4Ets_A9BEsQTH_fHg2fo0jRZaKaP6bVWm5wtWQFR6-by5LLKFMdSShAH8delRDCJk1SEGQPRWgVGeOUY2B-0n0CJ7ACPn3iLpzK3n0wMhCRvUIrVEeu-4k3Y13QgussjV6IMfiebiPIjOzXpPnnBHPlY1U71TcKAEVFk_kN7ZllSo72_FqX6s5LLE7i453l3zZocqiqosAcO9rDaOEgdzdIEN1Y4yyYlHqZk372EKv7t6kOZmqqjCsBJ8WbocYhARsjHbFL-FVmRuj_LHS37EkgGB9Vev5WVZrAe1WzQOmamc07yAP0ec6DZvOtUR0KnbwE_ptx0DGvowTrkl1FTu_3a7J3VFmtKsA6X-AjMQepOjSpxll4_RTF_V1ubuSa7VcR5C&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1KIKPJ390ZOy34WeggP3CL1hIV2u7lkJuUdlPMzbqc8fTJa-OjwdN3wX-kxmbwU0sBRRcQJIKcZdKI0AWOqZqzJdvicj4jUG4-nZbTzCW42PCgUftf3I6neWtf11SJxpXTJbSAv7WIX7XQpHriYnKjLlaQXhjnIujSz1UQvG7SrKgNKf2IZpUgxhZWmjj1BcQicR_pCMA-vR2ssc3E_Kvd0ZF0soBov3tEJg9bKexT35N3aGJq8TcmYoC7FcJva2XRaOfGopwFNczKowg7hUOztPf_67E90IKv2R3xpeOdpcYCZWK9aLQAgcjeCI72VNHcWkeG3CmSQZ6RJ0xnJRuFQupo1wzii0TPw2dRUGOYTPJeTtCOUCi5x4BrA09m1YraAYMT8D6r-rAt6IZJ7TwS9ZS7EZe6G3YgXqwknPSVocfFJQYVEX5d8U5elNR2&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN03dilLVDlJi_E51OwgQGErP_swVDQxPc-YCxZx7NcZr8duDAZ8NezmEviaSuuDJwJNSStKbz5fU6oAIlu4cZCEPXNg47IPfeJq7CBRl1Ew4iQ2q8CiXMKNyFJkVYx9xGmlZkdvrW4WwBOlOFZPoZoB8PSPUZsMxNmmnRQaOPONAxB_a-RvekMneN361Hz6H4IumgFFKiNeD7MK0NY2ucDL015eeSHzGDWM3Sa0ClQCbH1bxTzZO--T_UbEF8ojxESD8lC8Ey8HvIpNE0R1rZdkrjjP5_qKVESACZN-ra2Y-POXCn8JCOaY31VVyCgTlzg1AEx5xfFv3bfMJb0eroSwSh1CYgZtzcXAJS1P9YrPi-9BssGhtwVqXD_sWG5rF5XNqF_EjmlffOPZdeAPpB4sk0erq9QQK_qoYlu3MYf3j98&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

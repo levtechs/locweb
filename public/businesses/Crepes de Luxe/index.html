@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crepes de Luxe - Authentic Crepes at West Side Market</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    .fade-in { animation: fadeIn 0.6s ease-in-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .hover-zoom { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .hover-zoom:hover { transform: scale(1.03); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-900">Crepes de Luxe</h1>
+      <nav class="hidden md:flex gap-6">
+        <a href="#about" class="text-gray-700 hover:text-orange-600 transition">About</a>
+        <a href="#info" class="text-gray-700 hover:text-orange-600 transition">Info</a>
+        <a href="#gallery" class="text-gray-700 hover:text-orange-600 transition">Gallery</a>
+        <a href="#reviews" class="text-gray-700 hover:text-orange-600 transition">Reviews</a>
+      </nav>
+      <a href="tel:+12166212479" class="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-lg font-medium transition">Call Us</a>
+    </div>
+  </header>
+
+  <section class="bg-white py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Fresh & Delicious Crepes</h2>
+      <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Experience authentic French-style crepes at Cleveland's iconic West Side Market. Sweet and savory options made fresh daily!</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="#info" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-medium transition">Visit Us</a>
+        <a href="#gallery" class="bg-gray-100 hover:bg-gray-200 text-gray-900 px-6 py-3 rounded-lg font-medium transition">View Gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">About Crepes de Luxe</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-lg text-gray-700 leading-relaxed mb-4">
+            Welcome to Crepes de Luxe, your destination for handcrafted crepes at the historic West Side Market in Cleveland! Since opening our stand, we've been serving up delicious sweet and savory crepes made fresh to order.
+          </p>
+          <p class="text-lg text-gray-700 leading-relaxed mb-4">
+            Our customers love our signature <strong>Montreal-style crepes</strong> and <strong>Citron Creme</strong> - both have become local favorites. Whether you're craving a classic sweet treat or a satisfying savory option, we have something for everyone.
+          </p>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            With vegetarian options available and reasonable prices, Crepes de Luxe is perfect for a quick snack or a delicious meal during your market visit.
+          </p>
+        </div>
+        <div class="bg-gray-100 rounded-2xl p-8">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="text-center p-4 bg-white rounded-xl shadow-sm">
+              <div class="text-3xl font-bold text-orange-500">4.8★</div>
+              <div class="text-sm text-gray-600">Customer Rating</div>
+            </div>
+            <div class="text-center p-4 bg-white rounded-xl shadow-sm">
+              <div class="text-3xl font-bold text-orange-500">$$</div>
+              <div class="text-sm text-gray-600">Price Level</div>
+            </div>
+            <div class="text-center p-4 bg-white rounded-xl shadow-sm">
+              <div class="text-3xl font-bold text-orange-500">57</div>
+              <div class="text-sm text-gray-600">Reviews</div>
+            </div>
+            <div class="text-center p-4 bg-white rounded-xl shadow-sm">
+              <div class="text-3xl font-bold text-orange-500">✓</div>
+              <div class="text-sm text-gray-600">Dine-in & Takeout</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="info" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Visit Us</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-sm hover-zoom">
+          <div class="text-3xl mb-4">📍</div>
+          <h3 class="text-xl font-semibold mb-3 text-gray-900">Location</h3>
+          <p class="text-gray-700">The West Side Market<br>Stand C<br>1979 W 25th St #2<br>Cleveland, OH 44113</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm hover-zoom">
+          <div class="text-3xl mb-4">📞</div>
+          <h3 class="text-xl font-semibold mb-3 text-gray-900">Contact</h3>
+          <p class="text-gray-700 mb-3">Phone: (216) 621-2479</p>
+          <a href="tel:+12166212479" class="text-orange-500 hover:text-orange-600 font-medium">Call Now →</a>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm hover-zoom">
+          <div class="text-3xl mb-4">🕐</div>
+          <h3 class="text-xl font-semibold mb-3 text-gray-900">Hours</h3>
+          <div class="text-gray-700 space-y-1">
+            <p>Monday: 10:00 AM - 2:00 PM</p>
+            <p class="text-gray-400">Tuesday: Closed</p>
+            <p>Wednesday: 10:00 AM - 2:00 PM</p>
+            <p class="text-gray-400">Thursday: Closed</p>
+            <p>Friday: 8:00 AM - 4:00 PM</p>
+            <p>Saturday: 8:00 AM - 4:00 PM</p>
+            <p>Sunday: 10:00 AM - 4:00 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Photo Gallery</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="rounded-xl overflow-hidden shadow-sm hover-zoom">
+          <img src="photos/photo-1.jpg" alt="Crepes de Luxe - Delicious crepes" class="w-full h-64 object-cover">
+        </div>
+        <div class="rounded-xl overflow-hidden shadow-sm hover-zoom">
+          <img src="photos/photo-2.jpg" alt="Crepes de Luxe - Fresh crepes display" class="w-full h-64 object-cover">
+        </div>
+        <div class="rounded-xl overflow-hidden shadow-sm hover-zoom">
+          <img src="photos/photo-3.jpg" alt="Crepes de Luxe - Sweet crepes" class="w-full h-64 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">What Our Customers Say</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow-sm hover-zoom">
+          <div class="flex items-center mb-3">
+            <div class="text-yellow-400 text-lg">★★★★★</div>
+            <span class="text-gray-500 text-sm ml-2">5 stars</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Absolutely love this crepes store! We go back like 3 times in 1 week. Love quality... price is reasonable... clean... friendly staff. Totally Recommend !!"</p>
+          <p class="font-medium text-gray-900">— Traveling with The Lowing's</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm hover-zoom">
+          <div class="flex items-center mb-3">
+            <div class="text-yellow-400 text-lg">★★★★★</div>
+            <span class="text-gray-500 text-sm ml-2">5 stars</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Montreal is ridiculously good. Citron curds was delicious. A must have when hitting the West Side Market."</p>
+          <p class="font-medium text-gray-900">— Tim Sullivan</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm hover-zoom">
+          <div class="flex items-center mb-3">
+            <div class="text-yellow-400 text-lg">★★★★★</div>
+            <span class="text-gray-500 text-sm ml-2">5 stars</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Love the crepes here! A great mix of savory and sweet options. Good for vegetarians too! We come to the market for the crepes here!"</p>
+          <p class="font-medium text-gray-900">— Sarah Gale</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm hover-zoom">
+          <div class="flex items-center mb-3">
+            <div class="text-yellow-400 text-lg">★★★★☆</div>
+            <span class="text-gray-500 text-sm ml-2">4 stars</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Had the Citron Creme this time, looking forward to trying a savory one next. The second floor is just too warm in summer, though."</p>
+          <p class="font-medium text-gray-900">— HE Wu</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white py-10 border-t border-gray-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <h3 class="text-xl font-bold mb-4 text-gray-900">Crepes de Luxe</h3>
+          <p class="text-gray-700">Handcrafted crepes made fresh daily at West Side Market. Sweet & savory options for everyone!</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4 text-gray-900">Hours</h3>
+          <div class="text-gray-700 space-y-1">
+            <p>M/W: 10:00 AM - 2:00 PM</p>
+            <p>Tu/Th: Closed</p>
+            <p>F/Sa: 8:00 AM - 4:00 PM</p>
+            <p>Su: 10:00 AM - 4:00 PM</p>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-4 text-gray-900">Contact</h3>
+          <p class="text-gray-700 mb-2">The West Side Market</p>
+          <p class="text-gray-700 mb-2">Stand C, 1979 W 25th St #2</p>
+          <p class="text-gray-700 mb-2">Cleveland, OH 44113</p>
+          <p class="text-gray-700 font-medium">(216) 621-2479</p>
+        </div>
+      </div>
+      <div class="text-center pt-8 border-t border-gray-200 text-gray-600">
+        <p>© 2025 Crepes de Luxe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

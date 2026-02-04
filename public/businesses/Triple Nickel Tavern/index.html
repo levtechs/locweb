@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triple Nickel Tavern - Colorado Springs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hover-lift {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hover-lift:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    }
+    .gallery-img {
+      transition: transform 0.4s ease;
+    }
+    .gallery-img:hover {
+      transform: scale(1.03);
+    }
+    .stars {
+      color: #f59e0b;
+    }
+  </style>
+</head>
+<body class="text-gray-900 font-sans antialiased">
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold tracking-tight">Triple Nickel Tavern</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#about" class="text-gray-700 hover:text-orange-600 transition font-medium">About</a>
+        <a href="#hours" class="text-gray-700 hover:text-orange-600 transition font-medium">Hours</a>
+        <a href="#gallery" class="text-gray-700 hover:text-orange-600 transition font-medium">Gallery</a>
+        <a href="#reviews" class="text-gray-700 hover:text-orange-600 transition font-medium">Reviews</a>
+      </nav>
+      <a href="tel:+17192034225" class="bg-orange-500 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-orange-600 transition shadow-md">
+        Call Now
+      </a>
+    </div>
+  </header>
+
+  <section class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center gap-10">
+        <div class="md:w-1/2">
+          <h2 class="text-4xl md:text-5xl font-bold mb-5 leading-tight">
+            Your Local Dive Bar in Colorado Springs
+          </h2>
+          <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+            Welcome to Triple Nickel Tavern — the neighborhood bar with punk attitude, cheap drinks, and incredible pizza. Experience authentic dive bar vibes with great music and even better company.
+          </p>
+          <div class="flex flex-wrap gap-3 mb-6">
+            <span class="stars text-lg">★★★★★</span>
+            <span class="font-semibold text-gray-800">4.5/5</span>
+            <span class="text-gray-600">(477 reviews)</span>
+          </div>
+          <div class="flex flex-wrap gap-4">
+            <a href="tel:+17192034225" class="bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition shadow-md inline-block">
+              Call Us
+            </a>
+            <a href="#location" class="bg-white text-gray-800 border-2 border-gray-200 px-6 py-3 rounded-lg font-semibold hover:border-gray-400 transition inline-block">
+              Get Directions
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2 grid grid-cols-2 gap-3">
+          <img src="photos/photo-1.jpg" alt="Triple Nickel Tavern interior" class="rounded-lg shadow-md hover-lift w-full h-48 object-cover">
+          <img src="photos/photo-2.jpg" alt="Triple Nickel Tavern bar scene" class="rounded-lg shadow-md hover-lift w-full h-48 object-cover mt-6">
+          <img src="photos/photo-3.jpg" alt="Triple Nickel Tavern drinks" class="rounded-lg shadow-md hover-lift w-full h-48 object-cover">
+          <img src="photos/photo-4.jpg" alt="Triple Nickel Tavern pizza" class="rounded-lg shadow-md hover-lift w-full h-48 object-cover mt-6">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="bg-white py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">About Triple Nickel Tavern</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-100">
+          <h3 class="text-xl font-semibold mb-3">Great Drinks, Great Prices</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Enjoy cheap draft beers and dive bar styled cocktails at wallet-friendly prices. Try our famous $2.50 Tecate cans or explore our selection of craft beers and spirits.
+          </p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-100">
+          <h3 class="text-xl font-semibold mb-3">Legendary Pizza</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Our on-site Mojo's Pizza is a local favorite — customers rave about the pizza being "100% masters of their art." Don't leave without trying it!
+          </p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-100">
+          <h3 class="text-xl font-semibold mb-3">Authentic Dive Vibes</h3>
+          <p class="text-gray-700 leading-relaxed">
+            With punk dive energy and a strong local following, Triple Nickel reminds patrons of favorite NYC haunts. Great music, friendly bartenders, and zero pretensions.
+          </p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl border border-gray-100">
+          <h3 class="text-xl font-semibold mb-3">Perfect Location</h3>
+          <p class="text-gray-700 leading-relaxed">
+            Located at 103 S Wahsatch Ave #106 in downtown Colorado Springs, we're easily accessible and ready to welcome you seven days a week.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hours" class="bg-gray-50 py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Hours & Location</h2>
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="md:w-1/2 bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+          <h3 class="text-xl font-semibold mb-4 flex items-center">
+            <svg class="w-5 h-5 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            Opening Hours
+          </h3>
+          <ul class="space-y-2 text-gray-700">
+            <li class="flex justify-between py-2 border-b border-gray-100">
+              <span>Monday</span>
+              <span class="font-medium">12:00 PM – 2:00 AM</span>
+            </li>
+            <li class="flex justify-between py-2 border-b border-gray-100">
+              <span>Tuesday</span>
+              <span class="font-medium">12:00 PM – 2:00 AM</span>
+            </li>
+            <li class="flex justify-between py-2 border-b border-gray-100">
+              <span>Wednesday</span>
+              <span class="font-medium">12:00 PM – 2:00 AM</span>
+            </li>
+            <li class="flex justify-between py-2 border-b border-gray-100">
+              <span>Thursday</span>
+              <span class="font-medium">12:00 PM – 2:00 AM</span>
+            </li>
+            <li class="flex justify-between py-2 border-b border-gray-100">
+              <span>Friday</span>
+              <span class="font-medium">12:00 PM – 2:00 AM</span>
+            </li>
+            <li class="flex justify-between py-2 border-b border-gray-100">
+              <span>Saturday</span>
+              <span class="font-medium">12:00 PM – 2:00 AM</span>
+            </li>
+            <li class="flex justify-between py-2">
+              <span>Sunday</span>
+              <span class="font-medium">12:00 PM – 2:00 AM</span>
+            </li>
+          </ul>
+        </div>
+        <div class="md:w-1/2 bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+          <h3 class="text-xl font-semibold mb-4 flex items-center">
+            <svg class="w-5 h-5 mr-2 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            Find Us
+          </h3>
+          <p class="text-gray-700 mb-4">103 S Wahsatch Ave #106<br>Colorado Springs, CO 80903</p>
+          <a href="tel:+17192034225" class="flex items-center text-orange-600 hover:text-orange-700 font-medium mb-2">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+            </svg>
+            (719) 203-4225
+          </a>
+          <a href="https://maps.google.com/?q=103+S+Wahsatch+Ave+Colorado+Springs+CO" target="_blank" class="inline-flex items-center bg-orange-500 text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-orange-600 transition shadow-md mt-2">
+            Get Directions
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">Photo Gallery</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+        <img src="photos/photo-1.jpg" alt="Triple Nickel Tavern interior" class="gallery-img rounded-lg shadow-md w-full h-40 object-cover cursor-pointer">
+        <img src="photos/photo-2.jpg" alt="Triple Nickel Tavern bar scene" class="gallery-img rounded-lg shadow-md w-full h-40 object-cover cursor-pointer">
+        <img src="photos/photo-3.jpg" alt="Triple Nickel Tavern drinks" class="gallery-img rounded-lg shadow-md w-full h-40 object-cover cursor-pointer">
+        <img src="photos/photo-4.jpg" alt="Triple Nickel Tavern pizza" class="gallery-img rounded-lg shadow-md w-full h-40 object-cover cursor-pointer">
+        <img src="photos/photo-5.jpg" alt="Triple Nickel Tavern atmosphere" class="gallery-img rounded-lg shadow-md w-full h-40 object-cover cursor-pointer">
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="bg-gray-50 py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-8 text-center">What Our Customers Say</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover-lift">
+          <div class="flex items-center mb-3">
+            <div class="stars text-lg">★★★★★</div>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"GF and I (early 50s) spent a few hours here on Sat afternoon. 555 has just the right kind of punk dive vibe, and a strong local following... reminded me of some of my favorite NYC haunts. Cheap draft beers made us plenty happy."</p>
+          <p class="font-semibold text-gray-900">— Michael Anda</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover-lift">
+          <div class="flex items-center mb-3">
+            <div class="stars text-lg">★★★★★</div>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Random night in Colorado Springs and I couldn't have stumbled across a more badass place. Fantastic music, and the crew in charge of making the pizza were 100% masters of their art. Highly, HIGHLY recommend."</p>
+          <p class="font-semibold text-gray-900">— Steve Hartwick</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover-lift">
+          <div class="flex items-center mb-3">
+            <div class="stars text-lg">★★★★★</div>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Great divebar in the eastern outskirt of Downtown. Service is great, divebar styled cocktails are good too. $2.50 Tecate in a can."</p>
+          <p class="font-semibold text-gray-900">— Mario Rodas</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover-lift">
+          <div class="flex items-center mb-3">
+            <div class="stars text-lg">★★★★★</div>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"If you ride the Triple Nickel in southeast Ohio, ya gotta stop by the Triple Nickel Tavern for a drink... Built by the owner and serving beer, soft drinks and some snacks it's a must visit for our group of riders when we are in the area."</p>
+          <p class="font-semibold text-gray-900">— Terry Geer Sr</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white py-10 border-t border-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <h4 class="text-xl font-bold mb-4">Triple Nickel Tavern</h4>
+          <p class="text-gray-700 mb-2">Your local Colorado Springs dive bar with punk attitude, cheap drinks, and legendary pizza.</p>
+          <div class="flex space-x-3 mt-4">
+            <a href="tel:+17192034225" class="text-gray-500 hover:text-orange-600 transition">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            </a>
+            <a href="https://maps.google.com/?q=103+S+Wahsatch+Ave+Colorado+Springs+CO" target="_blank" class="text-gray-500 hover:text-orange-600 transition">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-xl font-bold mb-4">Hours</h4>
+          <ul class="text-gray-700 space-y-1">
+            <li>Mon-Sun: 12:00 PM – 2:00 AM</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-xl font-bold mb-4">Contact</h4>
+          <p class="text-gray-700 mb-2">103 S Wahsatch Ave #106</p>
+          <p class="text-gray-700 mb-2">Colorado Springs, CO 80903</p>
+          <p class="text-orange-600 font-medium">(719) 203-4225</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-100 pt-6 text-center text-gray-600">
+        <p>&copy; 2025 Triple Nickel Tavern. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

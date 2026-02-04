@@ -99,6 +99,7 @@ def run_opencode_session(business_name, prompt, timeout=120):
         
         print("Waiting for OpenCode agent to complete...")
         start_time = time.time()
+        last_question_time = 0
         
         while time.time() - start_time < timeout:
             time.sleep(3)
@@ -112,9 +113,27 @@ def run_opencode_session(business_name, prompt, timeout=120):
                 if messages and len(messages) > 0:
                     last_msg = messages[-1]
                     msg_type = last_msg.get("info", {}).get("type", "")
+                    
                     if msg_type == "assistant":
                         print(f"OpenCode agent completed")
                         return True, last_msg
+                    
+                    # Handle questions - auto-answer to continue execution
+                    if msg_type == "question":
+                        current_time = time.time()
+                        # Avoid flooding with answers - only answer once per 10 seconds per question
+                        if current_time - last_question_time > 10:
+                            print("  Agent asked a question - answering automatically...")
+                            last_question_time = current_time
+                            
+                            # Send custom answer to continue autonomously
+                            answer_response = requests.post(
+                                f"{OPENCODE_BASE_URL}/session/{session_id}/custom-answer",
+                                json={"answer": "I cannot answer questions. Work autonomously and use your best judgment to make decisions. Do not ask for clarification - proceed with reasonable assumptions."}
+                            )
+                            
+                            if answer_response.status_code != 200:
+                                print(f"  Failed to send answer: {answer_response.status_code}")
             
             print(f"  Still working...")
         
@@ -244,6 +263,7 @@ Follow the detailed instructions in AGENTS.md to create a professional HTML webs
 - Only modify index.html and create phone_pitch.txt
 - Follow AGENTS.md instructions exactly
 - CRITICAL: Use the local photo paths provided in data.json, NOT the Google Maps URLs
+- CRITICAL: DO NOT ASK QUESTIONS. Make all decisions autonomously. Do not stop to ask for clarification. If information is missing, make a reasonable assumption and proceed.
 
 After modifying index.html and creating phone_pitch.txt, verify everything is complete and professional."""
     return prompt

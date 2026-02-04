@@ -1,0 +1,161 @@
+{
+  "business_status": "OPERATIONAL",
+  "delivery": false,
+  "formatted_address": "1015 W Main St #2620, Waterbury, CT 06708, USA",
+  "formatted_phone_number": "(475) 235-2709",
+  "geometry": {
+    "location": {
+      "lat": 41.5566592,
+      "lng": -73.05862139999999
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 41.5581000302915,
+        "lng": -73.05727026970848
+      },
+      "southwest": {
+        "lat": 41.5554020697085,
+        "lng": -73.05996823029149
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+  "icon_background_color": "#4B96F3",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shoppingcart_pinlet",
+  "international_phone_number": "+1 475-235-2709",
+  "name": "Batista's Market",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 0,
+          "time": "2100"
+        },
+        "open": {
+          "day": 0,
+          "time": "0600"
+        }
+      },
+      {
+        "close": {
+          "day": 1,
+          "time": "2100"
+        },
+        "open": {
+          "day": 1,
+          "time": "0600"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2100"
+        },
+        "open": {
+          "day": 2,
+          "time": "0600"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2100"
+        },
+        "open": {
+          "day": 3,
+          "time": "0600"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2100"
+        },
+        "open": {
+          "day": 4,
+          "time": "0600"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2100"
+        },
+        "open": {
+          "day": 5,
+          "time": "0600"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2130"
+        },
+        "open": {
+          "day": 6,
+          "time": "0600"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 6:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+      "Tuesday: 6:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+      "Wednesday: 6:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+      "Thursday: 6:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+      "Friday: 6:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+      "Saturday: 6:00\u202fAM\u2009\u2013\u20099:30\u202fPM",
+      "Sunday: 6:00\u202fAM\u2009\u2013\u20099:00\u202fPM"
+    ]
+  },
+  "place_id": "ChIJ66Lzc7TB54kRWzpqVHv4fpM",
+  "rating": 4.7,
+  "reference": "ChIJ66Lzc7TB54kRWzpqVHv4fpM",
+  "reviews": [
+    {
+      "author_name": "Vito Pepice",
+      "author_url": "https://www.google.com/maps/contrib/111820696863724361626/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjU65njjKiX74R07GZj60uOhyQV7AJMtVfBimCEb1SCpLOiB5mPR=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "4 years ago",
+      "text": "",
+      "time": 1640176154,
+      "translated": false
+    },
+    {
+      "author_name": "Juan Mejicanos",
+      "author_url": "https://www.google.com/maps/contrib/113853462426105543275/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIc58sjzW9yA2aJcMKiycRUjNg2jf6n26jTb45LGm9LjeUnUQ=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 4,
+      "relative_time_description": "6 years ago",
+      "text": "",
+      "time": 1569606527,
+      "translated": false
+    },
+    {
+      "author_name": "Robert Matteau jr",
+      "author_url": "https://www.google.com/maps/contrib/107394183805525872343/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWPhDeJLhK_godXGj-URDbVda5HlcDQlNPR9K-daducMa2Q_KiH=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "7 years ago",
+      "text": "",
+      "time": 1538937345,
+      "translated": false
+    }
+  ],
+  "types": [
+    "establishment",
+    "food",
+    "grocery_or_supermarket",
+    "point_of_interest",
+    "restaurant",
+    "store"
+  ],
+  "url": "https://maps.google.com/?cid=10628205379221863003",
+  "user_ratings_total": 3,
+  "utc_offset": -300,
+  "vicinity": "1015 W Main St #2620, Waterbury",
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": []
+}
