@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
-import { getCompanyName } from "@/lib/config"
+import { getCompanyName, getCompanyUrl } from "@/lib/config"
 
 export default function GetStartedModal() {
   const [isOpen, setIsOpen] = useState(false)
@@ -11,6 +11,7 @@ export default function GetStartedModal() {
   const [isLoading, setIsLoading] = useState(false)
   const router = useRouter()
   const companyName = getCompanyName()
+  const companyUrl = getCompanyUrl()
 
   useEffect(() => {
     if (isOpen) {
@@ -105,7 +106,7 @@ export default function GetStartedModal() {
               type="text"
               value={websiteUrl}
               onChange={(e) => setWebsiteUrl(e.target.value)}
-              placeholder={`https://${companyName.toLowerCase().replace(/\s+/g, '')}.com/web/business-name`}
+              placeholder={`${companyUrl}/web/business-name`}
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent outline-none mb-4 text-gray-900 placeholder-gray-400"
               autoFocus
             />

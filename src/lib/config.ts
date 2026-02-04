@@ -62,6 +62,10 @@ export function getCompanyName(): string {
   return businessConfig.company.name
 }
 
+export function getCompanyUrl(): string {
+  return businessConfig.company.url
+}
+
 export function getRefundDays(): number {
   return businessConfig.refund.days
 }
