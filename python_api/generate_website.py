@@ -59,12 +59,13 @@ def ensure_opencode_server_running():
         print("Error: opencode CLI not found. Install from https://opencode.ai/")
         return False
 
-def run_opencode_session(business_name, prompt, timeout=120):
+def run_opencode_session(business_name, prompt, timeout=600):
     session_id = None
     try:
         session_response = requests.post(
             f"{OPENCODE_BASE_URL}/session",
-            json={"title": f"Generate website for {business_name}"}
+            json={"title": f"Generate website for {business_name}"},
+            timeout=10
         )
         
         if session_response.status_code != 200:
@@ -79,7 +80,8 @@ def run_opencode_session(business_name, prompt, timeout=120):
             json={
                 "model": {"providerID": "opencode", "modelID": "minimax-m2.1-free"},
                 "parts": [{"type": "text", "text": prompt}]
-            }
+            },
+            timeout=30
         )
         
         print(f"Message response status: {message_response.status_code}")
@@ -105,7 +107,8 @@ def run_opencode_session(business_name, prompt, timeout=120):
             time.sleep(3)
             
             messages_response = requests.get(
-                f"{OPENCODE_BASE_URL}/session/{session_id}/message"
+                f"{OPENCODE_BASE_URL}/session/{session_id}/message",
+                timeout=10
             )
             
             if messages_response.status_code == 200:

@@ -25,7 +25,7 @@ def download_photos_locally(photo_urls, business_name):
     os.makedirs(photos_dir, exist_ok=True)
 
     local_paths = []
-    for i, url in enumerate(photo_urls[:10]):
+    for i, url in enumerate(photo_urls[:5]):
         try:
             response = requests.get(url, timeout=10)
             if response.status_code == 200:
@@ -91,7 +91,7 @@ class GoogleMapsClient:
         
         if "photos" in result and isinstance(result["photos"], list):
             photo_urls = []
-            for photo in result["photos"][:10]:
+            for photo in result["photos"][:5]:
                 photo_ref = photo.get("photo_reference")
                 if photo_ref:
                     photo_url = f"https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference={photo_ref}&key={self.api_key}"
