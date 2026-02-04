@@ -1,0 +1,204 @@
+{
+  "business_status": "CLOSED_TEMPORARILY",
+  "delivery": true,
+  "dine_in": true,
+  "formatted_address": "135 Broadway, San Diego, CA 92101, USA",
+  "formatted_phone_number": "(619) 233-3072",
+  "geometry": {
+    "location": {
+      "lat": 32.7155222,
+      "lng": -117.1631917
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 32.71693533029149,
+        "lng": -117.1618267197085
+      },
+      "southwest": {
+        "lat": 32.7142373697085,
+        "lng": -117.1645246802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 619-233-3072",
+  "name": "Sushi 2",
+  "photos": [
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116890191186377705866\">Anitha</a>"
+      ],
+      "photo_reference": "AcnlKN1QbKfLESWCc9xSvCT8LH6zWtG5l4fDr9GtB23NaozEL3ITNnae8UHrOWECz7Q1LQb9SNpLjo54CKvp7GdXfrxOeJilUaXj1QClpzvo11XfGo4VlLocoRILZjbp2aWGUg8wxHx1t-fNuKDiJH01hJJsbCan--kmcXkLEORfe1nrpTiZt8p4XKSFsuySqwD2ra9agWl-iWCrY4-SkM5mxStIREynRpZE1LNgo7EkkFDAMGO9u6N797q7CAR26bBBa_qETbphRv-HFvKkz8arPJVaYPwpCy1opHP4Lwmg1UVQsrYjHbj50SVLoMYzaFyEXA6cihTPQvOFbui30QTtRsK85Ou1894t4Lyfv-2bGKCtQA6llWqfEOWyBtXfAExoC7IS99_JLtIn7_9vV6UnMV_1F3Mmpj5FWBP9YOuG9s_qvQ",
+      "width": 4032
+    },
+    {
+      "height": 2268,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101889181863595004022\">Salvatore McCarty</a>"
+      ],
+      "photo_reference": "AcnlKN3uaIs9kHmUv4hGVeS7_SBARe8_V6Y3170LOihVESc9ri8ajab31cICkieUu2mODv8x_RXxKb5PYUdBxnzKPnsti_W6logNMHMUb7ynG6pCdtVQXtzDbfUhviaEPzuzuXUNBBq3QnF2oDCJOntV8OKDqYzaS0BEzHQUVPbpGDlQr01vLbV-D3LBO99BkKPL1GQ3qlpGZ8klgWTytwePuRmf3v5KZ1M9D6TA2nW_5RC5duwkpse7p8VgvRl9yDCks9YmGXL79-FWIyv6eO4lNQqpkMs8Tf_QJFI2tLFobcxnHiwK4zGvZ37AMdwaSchzioK5WJv4-A6E8bvxnDEZ8QoP36Fa2Rj9smHEP_mSD4tK-MIGrXM_Ow5-UxD47UI_J66EmplTauILQr2hJFm82_5VkczOemhby98oaJRikuEkEMS0",
+      "width": 4032
+    },
+    {
+      "height": 2000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111667661274842520645\">Danny Real</a>"
+      ],
+      "photo_reference": "AcnlKN3IPu0T_z7cF10yC1EOZ4w7rRRBprCgSa2Qy0Df-juh24KcgYmN4uIUwohqNeaCJBptKvNweHVsCAw19I7czjss30PTrsFLkRfU24KLMlyCXSPje_vzNrDRjHLXITZMbG3UoppF98fY3k-N6ZjbQrrYgAB4TmZ0coaH8K_B3KI_mhK32prVGHmoDUKm3nNffON0LCv8GBzMSBzN9ldQfvQV33JNVrTSYO3RJD5NCafv_eE70V_MfGqzkAW2-ExpImNXZ2l94Gf57c-kBGme-a0_tV3AV9pdQZ--8Di-lav34Ev2HSx2gbBPXL33BqFlAN4cEHibBAizpYeyrJT4wxxCCPmf0CltB3diXvB_gD0uxw6wlYkGlQPoaoU5AdVCgcitMQvr84FToTMF4dJtV5odwDw4U5gKncCK2vqcK6Elntn1lgz-Cc0w20_3MQ",
+      "width": 1125
+    },
+    {
+      "height": 1250,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105132163943220529708\">Bubba Binx</a>"
+      ],
+      "photo_reference": "AcnlKN1gKZSHfE75PnUog-QP394HH55-JOkqfSxuBkJyD7EzyjHpZqEWkGGIovaK0WGcnIbd57l0O--2DqERUhx_z7aRmg1N7CRVBj4gWEanIvA7K467ijHjYlWomP3eas0FvxnRh0V3pOcvtf8XUuzDBG0BhrZ_a3JB_nDuYOUSwOsvWyOwytJUH7P1klCPO0o9nn0z6b7ZY9NraDKnOMYPSBHevD9I1908_gOoMIDgj3MwIQ6SbEQYGgwlwTpmYBNiO_Ra0J4yDVpT2xyaRc3XDFtj1mPcNpnBZkltM_s27vOMS54Aeeu9u2Ws7q-xJ7Zx8bahd7iryaY27BTZAlHSlRBCsmPCl8oULS0h5J2p5JCiPS2tnVF-3JBKRKoMAf2LPQSFzJQosHI7xkcKQ4DdZrA2AfRrd6gGUbtn9VnUd-wjNcu8",
+      "width": 937
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111667661274842520645\">Danny Real</a>"
+      ],
+      "photo_reference": "AcnlKN1Pqwsya4Wko8w3X6b_Wbg0nhVty9FGhTg0RLSVnmrW5QuveSmc2TBL18Te2-RlP7jizn1_lHpp9MJuYcVAbaurEqq3NJHY-hA1NSyXxKfF1Cd5MdWH4vJnH4shVT35MKtZJ8uJskW6_flF97kZacYOdTODFE0zPhr28KJ2G-wDDFdo5GAkxiT3XjdT6guswKle3itlm7GWm81B1ap3kLj4V7ir_fbp-QJijKl5fOeFB70ndofPrOHfa5oBaPGcqINb65uoANn7D3VidzADL7GZMBos_N9ISinKj2pJFvza1-bvHmZ4kOauNovpjP7k7YXwtIpZQevuWioIpG6wmph58rnGPqLFodVmYwow15ye2UT0ov28zNZB2EfUvU0z_X7myr2laQbqT6iPTL3Kqcn5g0irj-7IkPQzhA2g5BdfuUWGpAIdniq3Ve5Lj_gv",
+      "width": 2268
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/114474162045114360768\">Anthony Michalski</a>"
+      ],
+      "photo_reference": "AcnlKN3NUjqKd-xP2DS3ldO0mNRxDgY4fNCKtlEc_3BZ81exG7FfYHpDjqAadvZ_fvODx98utcp61sJARKqGG27eHA6fWpQ0B2vxyViCe9Du-XgM9Nxtkbvpw38jth39CbmphKJsgTUeER4vBWTdPVwHjjXjrOa5nFlc7y4AlqE7FYFuU-J9RwhWgeC5R_xs5RXYmjLanfLi1cN37bgFnARK5cbaAjQTM52LUpYGSt4UvHKNYVYCarcEDUH-AwD69qWFaKdZhdrniunaeKQX9ifMj6jmKUfLF7OSxCx3olmIkNFrtqc-_51ipydMyNvfOj2-hJokOO7v9p8v2fB8F83K2QCy18pou7-YCdFsWUdWCzQTmq36GFypkKR8ACbd4HlsOwRtU6Gpl4Fb7sES7KOyINXn6vnOx3h1uIcRH9ddzVWeLg",
+      "width": 3024
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104354882934974912614\">Eileen S</a>"
+      ],
+      "photo_reference": "AcnlKN3gHQxfl7hWxrChwMhSxsMZCtmSn7AieVumegNO89b1M7Chb-WQ9rLcSiBofRepX0RgevIqHixzx-7PxU1fI9TZ12o-JnjSLyJ-A6tO6tVfxmB0mWFqxnqtZjqgb9AvfoYs7uxcH7ITzu9bMdMWEMKPtYiq3hwUymxkcQINevGMuiNXdlNEPctCAkqCo5YbVguZIEM1PKPr-zny_iWP9uc3kmMuRCVGzdQncKhnsPsa874I3Im5OtaaPhzyIyBLMjDlrrO4W-KmAYGeKMPLQwy9gw8k-02fYk6wGx-NvDftsuCnWwtc7TaHHQqjU9DBiuZrrD1LyMMtkgyal4ifwKyDlYhH-BmK2T59etFnQ8Gs8Vl4Y3dMZKFrY4o7bD-t6EXGEgZCcIVM8quXtHUC31MNVK6ltmEnU1kydBcE1vXqPA",
+      "width": 4032
+    },
+    {
+      "height": 1080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104602472603460219231\">James Bryant</a>"
+      ],
+      "photo_reference": "AcnlKN1sLssRnsKuIJpbCdmprPebCaEw3DyG3KbHaUdz4yw5nZf9Fb7OVMi1itGKoAs2L5jWJEVTsBQeiwIGzADsYuBYG0LKk6h3E2HL8--Nnz8mW-KA9bg1pIXabf4kUE-U-oBrqdajC5BIp5kMZuoJ6RWzxbK9RT9MXWuRVf7Uf9t6n6QUlC7bP4rDGPnT0ntLBjXWA3BaHrQO9YfhwpaY-HLG96p1u4I8yofXmiAuUCKwnFqZHbKcf9Xly4moFwrTcTe_7RX7xZqqi6Itau4N7w3U90ueTCLHC-01HJYNVj8D5P8RmbuE40q3cdqLinUe7Okle6V--JRVR5dVIrfWtUA1g6ERRfGIjQ3bqUgiAupDO7h2rz06g_bUa_qjx1mBdMwALQ7tRIu1iYVZOibt4dPj67vyxEhd8Hp6fITm7GQ7h9e5",
+      "width": 1920
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108512949321858099757\">Kent Cypert</a>"
+      ],
+      "photo_reference": "AcnlKN0drkuuciSVbdQ9AIb0oQT_IhioOGhTTH3h5VtyfrXk7I4QVzArp7UgbESp37E4rzEu_ULWjiKGu8UTeCeQZHwhg4F8y1wMyf29YRpXeJjnYSXarknGIYaKiDqEwkhOR7leYlcaoCxGI2wAMvvdHtGabGZT2rSVUZe_3iBthp1EhLpw6cXSDuEPU5glrvxUGhjb31FP7qi1ahDx2QIA5myOobjEuLZibvfpjYqU6rgvxUHDGh2OZjxdJuk7BZ58UwWZdQ8UKZ_YB7cllCMFLFA0T-yHkaZ4CaxOFB3ZyRi5mJZ097hWcgLsWyc9U8_UXqZ4rJc2fvSumZ8LevI3U1QWptvznkOhmOkaWd2HkSccmfQnoiKRzPfnQj_KYckGyylj1wIhZ-lOqzoonGadQImgwVZTxmq1rp9pgI8fWvA",
+      "width": 3024
+    },
+    {
+      "height": 3072,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104167085354246322458\">Gabi</a>"
+      ],
+      "photo_reference": "AcnlKN1xwTrisBfzYZ6hEMw9wyC5FJ_W_ogB1VwxqeDVVVhM6RbdyZn6K-qlC50ieNWQs3pJWCWmsf1j4emvS-rIG89IvwWo7zEf9OdaLnmwcNFkxHMKJkrsA18dy2x-fYI96GZDmCuLeo16GaV03qt3G_HVJqVjLkQpYeL65jNJ_0CWXPEA0at60PyVwdM8GIG2Y7rSciyYStpZIt0bMOPZuOAkVuii17273eCUAQsazZvuKb9HmkZWvielT0uQd6dbm1B_LkBtmmIneje2xB5CTjtOXX8rx9bLfhekBILmomjknxriGg9xKkLPJUUldpP5X7kBvNFy0MMzL89-_Z6mfq1tYmioxX4pqfKGAE_qqVch9ME2p53cEHwtydbYnowI28P7MJaT-THVqu4FdQxrb87aFt079RNOtsnKKxdcZHH1dVE",
+      "width": 4080
+    }
+  ],
+  "place_id": "ChIJXZhOFahU2YARqLi4i4r1P6w",
+  "price_level": 1,
+  "rating": 4.2,
+  "reference": "ChIJXZhOFahU2YARqLi4i4r1P6w",
+  "reservable": false,
+  "reviews": [
+    {
+      "author_name": "Danny Real",
+      "author_url": "https://www.google.com/maps/contrib/111667661274842520645/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWXaRF4eLHqbbt8BxUwDWnthBtKZyUVgQ-d3EfX0CeKSW4IXnc=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "2 months ago",
+      "text": "Sushi Deli good sushi at reasonable price. Been going here for last 18 years. Recommend.",
+      "time": 1763767781,
+      "translated": false
+    },
+    {
+      "author_name": "Anthony Michalski",
+      "author_url": "https://www.google.com/maps/contrib/114474162045114360768/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWjkZKM_Ia7NOgJi2BC-0VDdkYKD9En0ULq0BsIztIKWasGpJhR=s128-c0x00000000-cc-rp-mo-ba6",
+      "rating": 4,
+      "relative_time_description": "3 years ago",
+      "text": "I like the stateside crazy sushi rolls and this place has a lot of great one to chose from. You order first at the front counter and pay then you grab a seat. A lot of great craft beers on tap and they have a bunch of craft beers in cans in the fridge to chose from too. Really cool place to grab a roll and a beer won\u2019t disappoint.",
+      "time": 1652088948,
+      "translated": false
+    },
+    {
+      "author_name": "Rafael Buelna (Rafael)",
+      "author_url": "https://www.google.com/maps/contrib/102070349868371996757/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVfIclbJgYlbToLFztWleTxPpMLyzzydpGLEeFW53Y0I9zzJem2uw=s128-c0x00000000-cc-rp-mo-ba7",
+      "rating": 5,
+      "relative_time_description": "4 years ago",
+      "text": "My wife and I ordered a couple of bento boxes and some drinks while visiting Comic-con Special Edition. We love the flavor, from the chicken teriyaki to the rice and rolls. Service was excellent too. We will come back when in the area. We also like the outdoor dinning option",
+      "time": 1638399155,
+      "translated": false
+    },
+    {
+      "author_name": "Justin Newell",
+      "author_url": "https://www.google.com/maps/contrib/103703672942367307104/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjU_3OjO20M4RbTju5YZH6ZUKHyM6MadEFCh_j7sYX3eLvHbPFFC=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "4 years ago",
+      "text": "I grew up in San Diego going to Sushi Deli and could not wait to take my wife here while we were on vacation. First of all, the value is incredible. The price you pay for the amount and quality of food is amazing. We live in Boise, Idaho where sushi is expensive and still mediocre and Sushi Deli was every bit as good as I remember. I hadn't been here in over 10 years and we will be making it a priority every time we're back in town. Thank you for the wonderful experience.",
+      "time": 1636569993,
+      "translated": false
+    },
+    {
+      "author_name": "Monica L Cholico",
+      "author_url": "https://www.google.com/maps/contrib/102656662021148537346/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjV04tT2A-88505n71VVSm8-9-cQCeVkT8FnK76Qr-vpwk5baRn7=s128-c0x00000000-cc-rp-mo-ba6",
+      "rating": 2,
+      "relative_time_description": "3 years ago",
+      "text": "It was a good place with good service. Something happened because the food and the service fell extremely down. It was empty, just a couple of other tables with people and it took more than 30 minutes to get my order. It was a Bomba dynamite that it's not a big nor complicated plate. And it wasn't as good as it was before. The nuggets in the inside probably were unfrozen. I'm not sure but definitely I don't get how it took so much. The place is super dirty and the servers trying to do their job but still a very poor experience. I think this was the last time that I visit this place. I absolutely do not recommend it.",
+      "time": 1656746625,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=12411909073454807208",
+  "user_ratings_total": 1653,
+  "utc_offset": -480,
+  "vicinity": "135 Broadway, San Diego",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1QbKfLESWCc9xSvCT8LH6zWtG5l4fDr9GtB23NaozEL3ITNnae8UHrOWECz7Q1LQb9SNpLjo54CKvp7GdXfrxOeJilUaXj1QClpzvo11XfGo4VlLocoRILZjbp2aWGUg8wxHx1t-fNuKDiJH01hJJsbCan--kmcXkLEORfe1nrpTiZt8p4XKSFsuySqwD2ra9agWl-iWCrY4-SkM5mxStIREynRpZE1LNgo7EkkFDAMGO9u6N797q7CAR26bBBa_qETbphRv-HFvKkz8arPJVaYPwpCy1opHP4Lwmg1UVQsrYjHbj50SVLoMYzaFyEXA6cihTPQvOFbui30QTtRsK85Ou1894t4Lyfv-2bGKCtQA6llWqfEOWyBtXfAExoC7IS99_JLtIn7_9vV6UnMV_1F3Mmpj5FWBP9YOuG9s_qvQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3uaIs9kHmUv4hGVeS7_SBARe8_V6Y3170LOihVESc9ri8ajab31cICkieUu2mODv8x_RXxKb5PYUdBxnzKPnsti_W6logNMHMUb7ynG6pCdtVQXtzDbfUhviaEPzuzuXUNBBq3QnF2oDCJOntV8OKDqYzaS0BEzHQUVPbpGDlQr01vLbV-D3LBO99BkKPL1GQ3qlpGZ8klgWTytwePuRmf3v5KZ1M9D6TA2nW_5RC5duwkpse7p8VgvRl9yDCks9YmGXL79-FWIyv6eO4lNQqpkMs8Tf_QJFI2tLFobcxnHiwK4zGvZ37AMdwaSchzioK5WJv4-A6E8bvxnDEZ8QoP36Fa2Rj9smHEP_mSD4tK-MIGrXM_Ow5-UxD47UI_J66EmplTauILQr2hJFm82_5VkczOemhby98oaJRikuEkEMS0&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3IPu0T_z7cF10yC1EOZ4w7rRRBprCgSa2Qy0Df-juh24KcgYmN4uIUwohqNeaCJBptKvNweHVsCAw19I7czjss30PTrsFLkRfU24KLMlyCXSPje_vzNrDRjHLXITZMbG3UoppF98fY3k-N6ZjbQrrYgAB4TmZ0coaH8K_B3KI_mhK32prVGHmoDUKm3nNffON0LCv8GBzMSBzN9ldQfvQV33JNVrTSYO3RJD5NCafv_eE70V_MfGqzkAW2-ExpImNXZ2l94Gf57c-kBGme-a0_tV3AV9pdQZ--8Di-lav34Ev2HSx2gbBPXL33BqFlAN4cEHibBAizpYeyrJT4wxxCCPmf0CltB3diXvB_gD0uxw6wlYkGlQPoaoU5AdVCgcitMQvr84FToTMF4dJtV5odwDw4U5gKncCK2vqcK6Elntn1lgz-Cc0w20_3MQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1gKZSHfE75PnUog-QP394HH55-JOkqfSxuBkJyD7EzyjHpZqEWkGGIovaK0WGcnIbd57l0O--2DqERUhx_z7aRmg1N7CRVBj4gWEanIvA7K467ijHjYlWomP3eas0FvxnRh0V3pOcvtf8XUuzDBG0BhrZ_a3JB_nDuYOUSwOsvWyOwytJUH7P1klCPO0o9nn0z6b7ZY9NraDKnOMYPSBHevD9I1908_gOoMIDgj3MwIQ6SbEQYGgwlwTpmYBNiO_Ra0J4yDVpT2xyaRc3XDFtj1mPcNpnBZkltM_s27vOMS54Aeeu9u2Ws7q-xJ7Zx8bahd7iryaY27BTZAlHSlRBCsmPCl8oULS0h5J2p5JCiPS2tnVF-3JBKRKoMAf2LPQSFzJQosHI7xkcKQ4DdZrA2AfRrd6gGUbtn9VnUd-wjNcu8&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1Pqwsya4Wko8w3X6b_Wbg0nhVty9FGhTg0RLSVnmrW5QuveSmc2TBL18Te2-RlP7jizn1_lHpp9MJuYcVAbaurEqq3NJHY-hA1NSyXxKfF1Cd5MdWH4vJnH4shVT35MKtZJ8uJskW6_flF97kZacYOdTODFE0zPhr28KJ2G-wDDFdo5GAkxiT3XjdT6guswKle3itlm7GWm81B1ap3kLj4V7ir_fbp-QJijKl5fOeFB70ndofPrOHfa5oBaPGcqINb65uoANn7D3VidzADL7GZMBos_N9ISinKj2pJFvza1-bvHmZ4kOauNovpjP7k7YXwtIpZQevuWioIpG6wmph58rnGPqLFodVmYwow15ye2UT0ov28zNZB2EfUvU0z_X7myr2laQbqT6iPTL3Kqcn5g0irj-7IkPQzhA2g5BdfuUWGpAIdniq3Ve5Lj_gv&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

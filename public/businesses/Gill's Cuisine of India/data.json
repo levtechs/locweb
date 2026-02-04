@@ -1,0 +1,279 @@
+{
+  "business_status": "OPERATIONAL",
+  "curbside_pickup": true,
+  "delivery": true,
+  "dine_in": true,
+  "formatted_address": "838 S Grand Ave, Los Angeles, CA 90017, USA",
+  "formatted_phone_number": "(213) 623-1050",
+  "geometry": {
+    "location": {
+      "lat": 34.0447555,
+      "lng": -118.2585503
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 34.0462255302915,
+        "lng": -118.2573104197085
+      },
+      "southwest": {
+        "lat": 34.0435275697085,
+        "lng": -118.2600083802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 213-623-1050",
+  "name": "Gill's Cuisine of India",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 0,
+          "time": "2100"
+        },
+        "open": {
+          "day": 0,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 1,
+          "time": "2100"
+        },
+        "open": {
+          "day": 1,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2100"
+        },
+        "open": {
+          "day": 2,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2100"
+        },
+        "open": {
+          "day": 3,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2100"
+        },
+        "open": {
+          "day": 4,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2100"
+        },
+        "open": {
+          "day": 6,
+          "time": "1100"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+      "Friday: Closed",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM",
+      "Sunday: 11:00\u202fAM\u2009\u2013\u20099:00\u202fPM"
+    ]
+  },
+  "photos": [
+    {
+      "height": 1732,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112908084113648393184\">Gill&#39;s Cuisine of India</a>"
+      ],
+      "photo_reference": "AcnlKN2A7RzVGk1sXxXFesSuwBun23XydDvEYLXNIFxKVoMwxksHoBUM2d3W3_k_oo5M722ySGFB8byKDmg4q31scTKbXXym3P8FlgP2mcTBztdtZgskHZGSN_wERGv5ECdfMq5xbLlwirv1btKdx1VRJFEKEQR7GVZcyL4jhb2VYKOaHca8soVIKHhpUX0paIZTrjDB7d0m03ZfKfO3Ffy25sEhs4MYrJNk7orhGTpi_DjIT__3BCwt4-8bg0Qf7ctRHzuM8QSeLdIarhkRVH0Jra1hQIwaR2u-RmIqUQTtvmFrBg",
+      "width": 2598
+    },
+    {
+      "height": 3200,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112908084113648393184\">Gill&#39;s Cuisine of India</a>"
+      ],
+      "photo_reference": "AcnlKN1blsQPZ_ix4nkQQBWF-gHD3JKeYEx8PQHmY_WkeZrjPrCSLTVQoxT_fFvRPW3t7xnsVJSA5xsuzWOHVBHODeI_JaI8_ue4LwVGU_NNz95nlNMJBZV2bTKPYQSuNXQmaFG_l5p_JLWkzwYledPuIxPBOetX9NInSPMOZO3AZy8SRaDO1gHkyaI4x2pfCKLH1bOJu_Oj9QaxrutRTRbjP-FpKUEY7wueiAfCnHTE3SLLV_0DukuKz0LWlpIPn_JMaGUfv8ZZHghvmPkkEY4k8UCsaKkG84d-NFD29sxB3cxdaw",
+      "width": 4800
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110193188563869282171\">VERA YEH</a>"
+      ],
+      "photo_reference": "AcnlKN05CN10Vy_e7msJepv0iZO5XR2CXmmOGfIcB--JVAszfpRJVhJ4CiN1r4ywmAXOE3wD4ufVmkDeLsyeGhtIdV6cXtqa4kmefsh1PU0OoUAkvIIHItjn6UtV54DFqAYKAQrW9f7cqYAKWRkyHXhLITg9wWyN-6CI8b1-zGpyBplDbAGohrzH26256TXzQG1CVlbir_SOaCy32TUMqEyD_ct18UDjiarlIGzuy5t4rwJ0XumjKvxL7gZltBEPZE6TfUNZdMvT6vDWBrFSgr9PgUXdWtYnzMplpjRZA_bdv97D09uO34vramN20TqnZt7TFk8vtJpQ9oil-Gk_odaOUfBtwrzqd5Y4b4GrwHORwFZVO-orFyCHsNy9LAka40WKxcLxVfTYyJbGjBbZfUObv6nhvTAJM-_LWwI8T-QgGSfJitYG",
+      "width": 4032
+    },
+    {
+      "height": 1200,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112908084113648393184\">Gill&#39;s Cuisine of India</a>"
+      ],
+      "photo_reference": "AcnlKN3MKwNDGcQybzXEIMqFbOUXvLkWeHHcsr2vOGyOPDtZztZ4Hpdmm3cb_Aes33VR9Rp37lP7Jlui7-welUORaAUnAaMtvftNu0roxhwtuX0uwY3F9mN2cL9NKkHS9BzWYKHWwBflNePNr3hqwxaVSYMVm6-4B6aqWX-WiFbMgpUe4B4FPUI1XT8Lwf6gUctinb8cIN5sl-AZUpkxcy4n-dpLZP-OKurMFmH4sdifJBMS_KKy5RPGmY-3r7otiQq-NRWWZfC4--JvSD_1yYeLkw1x07Mqe34ScZNQBsJqEv1YGg",
+      "width": 1800
+    },
+    {
+      "height": 3468,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106369386585493738252\">Rut Patel</a>"
+      ],
+      "photo_reference": "AcnlKN1-p1B-QYk46kCOG5KG6mBO5twNIYOw6mJmqCUavK48xKWTflcaozW0xkf0qALRtM5UqDRKJ-BMQWPx0Y9bMi_tz2Xjk75w6DDDIvYinTNAq2SOZ73nnkB5VZtqYamkyBN-v3uV8dP1-zq1UiBEWpRNJdkU1Pnzm5LniffvMmivKGwWmyyPCKWaC-fgLtOuO_qO8ucDSl_HpZUk3Hmf4vxTnwc2RZVQ22JOCqzWhkfHPbIzbWWbRdRk1oYZONC2OPeCoAJm1VHgcTHbhSkXEsPcMEZ313IlCEn034QWDwK7paEPcHq1mHMoDJfGO777gNS19zn13prvj2js9Yg2UYBWTErBd6qY03PRLc5LN7y_biz6CA658HKT1E6xGysdXjfQWkpppLukTJk-GqOISV_-D5IQzDVXHncHlHfdlEPzCeeYRz4NelUei_hpCQ",
+      "width": 4624
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108451828152375802823\">Deepak Batra</a>"
+      ],
+      "photo_reference": "AcnlKN35ttSPOg8tJ6ERvd6g6nAW3I8XlATgsQIup-ZYjOQVRfamKEDBgzdRfMD2_-_qatqufjOvg0veG7GqickYm6YsqNtz5GIsuNk4yL1ZgMaA2Z5xoRJn66Q2Ts-NEK1IRmua8V_dZ3PVIysjjYVuL6Akvf99aK56oDH223WKyqgt26spS_oOgROe_ZrPXkoaLyo5PCqRdTlIXzIZDsky2Ua_Iwwx8b9kkJkVENAUpAheHg5TEm6pnkYef-zkyNZIIJwo-n2YAtiOmFjEf1mQOzVCxFFlVXN1olcZIIH_GAZpeVxwqVkxY3nL77HnPUTFBcPeoX-JV8UajxoHCAMtAlQ9y8IwKj9PaCwszbJhfQFXpY4lcxTtfxCHKWd7pvFKB4_684JMc4JkHvlYSPonvwLl5GkCgxIhO7TcL-s8LmYlaK4_ilNiJoHW3qOATA",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110193188563869282171\">VERA YEH</a>"
+      ],
+      "photo_reference": "AcnlKN1cgycCGlvhPkItt7F4kagFkyyVwPlU_FlbRqZex8RTrcxiqm00ZWx7K_nCT1ZViihg4Ns27727rLHfQ5Df1eMF1Ngn8DkVbIXgr2OMojmdZZZEK4EZd8POJt7my3bhF-FVqTEOYYcVMOqBnoBfgHWa7ubglAlRoDoIGoXHfbs1N6fYq-_Ox9Db4w-YFzNR5R24JkVGrADuIQAhMnmlChCsYtavpB-TNtDXG8CtCdxWqBClL6pWFouT9Ff9wO3f2t2r1dTp4huMHeV-OPmiig_3a7APilVcIpdbEgx3RR48imHKlEMHmaOw8h_QFFjO8wp1pohF_bP0KlbnFHMfoazUMRDS0JzrKOB2QtmDqqIVK6m-GjY7PGPGcSGAH-U72DpLBRfFfXihJEJsy_Qy5bzoYNCakweDx1E8CjuPyfrFxA",
+      "width": 3024
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117099377086066700410\">Achal Dhoj Adhikari</a>"
+      ],
+      "photo_reference": "AcnlKN2SLfOuKDJfqWZT27PcMeVtr6nWuqPCzVVMUqgybB3UIcherasH_xH3NSUssC_LQjQvKNZPZOxHKh8ChYNtUkEj5NT-QsdR71SA7Y1kSDVLF4X1kSY93BfeP6T2NcSXC9ay2kGfOL8aPK02Ih0ldSsI4Z7utRmxay3Vd7Zjgx7-fxSFVB71KMXOeREA485-x8EW2VA1-TGgk_XPJJdXoGvvmAvaOuvPJUGjBp3zomMkQB2Mm0FN7yVKKlQ-i7zvKewvTieQ2dZ-aqU9qV1tA-48dSwHuom1b1JPoFCEXvjIWlqk3c5i1_n-ErwZORSgBS1c2pcsLJLyoDxjx7UKNepISaN4MLQ2tK53oc8fc1ZmMay0H-c3-kDLbFF2IvopIX_S4t-lOWsuKLpypYLhaku1y8FekpYfg8rVudGYERqHTAPO1zVbwLIjENn1LQ",
+      "width": 4032
+    },
+    {
+      "height": 2016,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/115320017441243615808\">Aidah A</a>"
+      ],
+      "photo_reference": "AcnlKN0UmLJjK1aCK0jtvV_TWlCkIhIGBPR0dKTLSWOqSJe-p8WWppBAArB2l5PhAXfApLRY5icleCn812jvdk1R6wpbNgGeopR_q1dTTBj9pg9Gn3I8j44CIKuRrfQXsg-9lNFakvZpQNLCx_atHgVwLA4YgP5qWX6F3J3ieBPAjQ7Gv_btoXEpTldzm5cmRy3kEUMYdC_ZyPgbry1RbdpqBNnbAzcHgJ_h6sLpDW0hritPfI9wlclvJl-5LDbmFz2__22Jzi-vtmN0UxnsZMWy20raq-SEsxlm_ufKA8NT46BgU9c_mbtDqO_NfhCmcgLOBxXraFWjneGGYtPRVS7Kc780CypRpyix5f0_9neSssNeaahqw-YbFgwnGkq1iUT9M7IXNGdWSTLZ2jEW2pzyrPD7bWRxA0T-OOGmZgJUZv2keQ",
+      "width": 1512
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/114086165149956921468\">Amanda Golling</a>"
+      ],
+      "photo_reference": "AcnlKN2lB_fBwFDcU9BdskAEbNJXj82vo-lRTo7Wapv4FB-AvhZcMgBFSKnBmh2oyB0cS3qtdPFMr0E1ZMPHpMrrRnANIA2bd9PliWSZ9uW46d0_UG2Yo_azi2f8N3Q_2OnLIsl4rPZaFR8jplHpN7sa34PlXnmIeg7fPJHtmzEDU0XnXFwm6H1xKuQrUDDOQ-kLX5QQYdmW1DKnzM5CttuMqhDDfcA6cvWb307Ze8fJKia8DXeQjQuB3DJBAXu4138SSNfoyEVT-JwrmXGjbqARmGIlY00SYC2EOzU_EgzkLoCDHYTjW-oamjAA_u7jlDW9qYbp_07QdcUhScJhglyLpaKLejCch8vH0M9glkNdAHk0ZYJDig_xtV_Vp4Q8KCxyBk1QBiubOAIlocY1B_KBUh9qSHUizpI8kQFCr04kubTysg",
+      "width": 3024
+    }
+  ],
+  "place_id": "ChIJ1cPnCrbHwoARDW_eYnwS8uY",
+  "price_level": 2,
+  "rating": 4.3,
+  "reference": "ChIJ1cPnCrbHwoARDW_eYnwS8uY",
+  "reservable": true,
+  "reviews": [
+    {
+      "author_name": "Rabbani Batra",
+      "author_url": "https://www.google.com/maps/contrib/103676528403362274119/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWqJszZAOKjQugjQ7vONGwY0CGjOFbqZgOsPmtBhC8LA6uSdQNV=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "2 months ago",
+      "text": "The food was absolutely incredible and the prices were so reasonable and amazing. We enjoyed our time here a lot and the service was so welcoming and warm. Definitely recommend!!!",
+      "time": 1764389711,
+      "translated": false
+    },
+    {
+      "author_name": "Chris Cgopat",
+      "author_url": "https://www.google.com/maps/contrib/115499763265397214523/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLk51RGopG05GaSwPcPNzZ84MTySjyn32hSklwb5D6K1s_Jrw=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "2 months ago",
+      "text": "I've been going to Gill's for years.  Everything I've had here has been over the top good.  The flavors are amazing.  The tandoori chicken is perfectly seasoned and smoky.  All the curry based dishes are incredibly tasty.  The coconut chicken is spot on.  The average dish is $12-$15...what a deal!  The restaurant is way in the back of the very old Stillwell Hotel.  I happened to walk in once when they were unloading their groceries.  LOTS of boxes of fresh produce.  Not a bunch of canned and frozen stuff.  That explains a lot of why the food is so good here.  If you like Indian food, this is the place to go...and such a bargain!",
+      "time": 1764146281,
+      "translated": false
+    },
+    {
+      "author_name": "Deepak Batra",
+      "author_url": "https://www.google.com/maps/contrib/108451828152375802823/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVMACMN2arRgt3lK5hDvyJPTI3aWZ5TukIUdp4UGg6b_Go00qIZ=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "2 months ago",
+      "text": "Food was so delicious and the service was amazing as well. Such a welcoming atmosphere, I would definitely recommend!",
+      "time": 1764389826,
+      "translated": false
+    },
+    {
+      "author_name": "Cecilia Rius",
+      "author_url": "https://www.google.com/maps/contrib/117634042287618991951/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX9qI5njl2YreZNboyi2IgnY8MOBHRwvkiz1HYE2UaKlYicbqUxNw=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "2 years ago",
+      "text": "This place is located in an office building all the way at the end of the hall. My friends and I went to the restaurant near closing and were treated with so much care.\n\nWe decided to get a few items on the menu to share! We went with an appetizer, the dinner deal (which includes rice and 2 sides) and 2 dishes. The Samosas were great! Wish we had ordered more. For the dinner deal, we got the Black Lentil Dal and the Bergen. Then we ordered the Shahi Paneer and the Aloo Gobi (one of my favorite dishes). We got some garlic Naan and Aloo Paratha, I would recommend the ladder!\n\nThis restaurant is so underrated! This place has high quality food in a low-key place. The flavors of each dish were delicious!! Great Indian cuisine in DTLA!",
+      "time": 1683213550,
+      "translated": false
+    },
+    {
+      "author_name": "Aidah A",
+      "author_url": "https://www.google.com/maps/contrib/115320017441243615808/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIxZR1VlDfFlWaZRwRn2-pc1BH9pCbdsJftXvsgiXYAnLBx4w=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "The food was super delicious! I ordered the special lunch with two options: butter chicken and aloo gobi. Both tasted great, but the butter chicken was exceptional. We also enjoyed chatting with Jeevan, who served us the delicious food. We\u2019ll definitely be coming back!",
+      "time": 1728002757,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=16641383898531393293",
+  "user_ratings_total": 119,
+  "utc_offset": -480,
+  "vicinity": "838 S Grand Ave, Los Angeles",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2A7RzVGk1sXxXFesSuwBun23XydDvEYLXNIFxKVoMwxksHoBUM2d3W3_k_oo5M722ySGFB8byKDmg4q31scTKbXXym3P8FlgP2mcTBztdtZgskHZGSN_wERGv5ECdfMq5xbLlwirv1btKdx1VRJFEKEQR7GVZcyL4jhb2VYKOaHca8soVIKHhpUX0paIZTrjDB7d0m03ZfKfO3Ffy25sEhs4MYrJNk7orhGTpi_DjIT__3BCwt4-8bg0Qf7ctRHzuM8QSeLdIarhkRVH0Jra1hQIwaR2u-RmIqUQTtvmFrBg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1blsQPZ_ix4nkQQBWF-gHD3JKeYEx8PQHmY_WkeZrjPrCSLTVQoxT_fFvRPW3t7xnsVJSA5xsuzWOHVBHODeI_JaI8_ue4LwVGU_NNz95nlNMJBZV2bTKPYQSuNXQmaFG_l5p_JLWkzwYledPuIxPBOetX9NInSPMOZO3AZy8SRaDO1gHkyaI4x2pfCKLH1bOJu_Oj9QaxrutRTRbjP-FpKUEY7wueiAfCnHTE3SLLV_0DukuKz0LWlpIPn_JMaGUfv8ZZHghvmPkkEY4k8UCsaKkG84d-NFD29sxB3cxdaw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN05CN10Vy_e7msJepv0iZO5XR2CXmmOGfIcB--JVAszfpRJVhJ4CiN1r4ywmAXOE3wD4ufVmkDeLsyeGhtIdV6cXtqa4kmefsh1PU0OoUAkvIIHItjn6UtV54DFqAYKAQrW9f7cqYAKWRkyHXhLITg9wWyN-6CI8b1-zGpyBplDbAGohrzH26256TXzQG1CVlbir_SOaCy32TUMqEyD_ct18UDjiarlIGzuy5t4rwJ0XumjKvxL7gZltBEPZE6TfUNZdMvT6vDWBrFSgr9PgUXdWtYnzMplpjRZA_bdv97D09uO34vramN20TqnZt7TFk8vtJpQ9oil-Gk_odaOUfBtwrzqd5Y4b4GrwHORwFZVO-orFyCHsNy9LAka40WKxcLxVfTYyJbGjBbZfUObv6nhvTAJM-_LWwI8T-QgGSfJitYG&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3MKwNDGcQybzXEIMqFbOUXvLkWeHHcsr2vOGyOPDtZztZ4Hpdmm3cb_Aes33VR9Rp37lP7Jlui7-welUORaAUnAaMtvftNu0roxhwtuX0uwY3F9mN2cL9NKkHS9BzWYKHWwBflNePNr3hqwxaVSYMVm6-4B6aqWX-WiFbMgpUe4B4FPUI1XT8Lwf6gUctinb8cIN5sl-AZUpkxcy4n-dpLZP-OKurMFmH4sdifJBMS_KKy5RPGmY-3r7otiQq-NRWWZfC4--JvSD_1yYeLkw1x07Mqe34ScZNQBsJqEv1YGg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1-p1B-QYk46kCOG5KG6mBO5twNIYOw6mJmqCUavK48xKWTflcaozW0xkf0qALRtM5UqDRKJ-BMQWPx0Y9bMi_tz2Xjk75w6DDDIvYinTNAq2SOZ73nnkB5VZtqYamkyBN-v3uV8dP1-zq1UiBEWpRNJdkU1Pnzm5LniffvMmivKGwWmyyPCKWaC-fgLtOuO_qO8ucDSl_HpZUk3Hmf4vxTnwc2RZVQ22JOCqzWhkfHPbIzbWWbRdRk1oYZONC2OPeCoAJm1VHgcTHbhSkXEsPcMEZ313IlCEn034QWDwK7paEPcHq1mHMoDJfGO777gNS19zn13prvj2js9Yg2UYBWTErBd6qY03PRLc5LN7y_biz6CA658HKT1E6xGysdXjfQWkpppLukTJk-GqOISV_-D5IQzDVXHncHlHfdlEPzCeeYRz4NelUei_hpCQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

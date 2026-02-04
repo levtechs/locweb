@@ -1,0 +1,336 @@
+{
+  "business_status": "OPERATIONAL",
+  "dine_in": true,
+  "formatted_address": "2750 Glenwood Dr, Boulder, CO 80304, USA",
+  "formatted_phone_number": "(303) 449-1657",
+  "geometry": {
+    "location": {
+      "lat": 40.0323458,
+      "lng": -105.2596408
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 40.0337018302915,
+        "lng": -105.2582068697085
+      },
+      "southwest": {
+        "lat": 40.0310038697085,
+        "lng": -105.2609048302915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 303-449-1657",
+  "name": "Korea House Restaurant",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 1,
+          "time": "1400"
+        },
+        "open": {
+          "day": 1,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 1,
+          "time": "2100"
+        },
+        "open": {
+          "day": 1,
+          "time": "1500"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1400"
+        },
+        "open": {
+          "day": 2,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2100"
+        },
+        "open": {
+          "day": 2,
+          "time": "1500"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1400"
+        },
+        "open": {
+          "day": 3,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2100"
+        },
+        "open": {
+          "day": 3,
+          "time": "1500"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1400"
+        },
+        "open": {
+          "day": 4,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2100"
+        },
+        "open": {
+          "day": 4,
+          "time": "1500"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1400"
+        },
+        "open": {
+          "day": 5,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2100"
+        },
+        "open": {
+          "day": 5,
+          "time": "1500"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "1400"
+        },
+        "open": {
+          "day": 6,
+          "time": "1200"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2100"
+        },
+        "open": {
+          "day": 6,
+          "time": "1500"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 11:30\u202fAM\u2009\u2013\u20092:00\u202fPM, 3:00\u2009\u2013\u20099:00\u202fPM",
+      "Tuesday: 11:30\u202fAM\u2009\u2013\u20092:00\u202fPM, 3:00\u2009\u2013\u20099:00\u202fPM",
+      "Wednesday: 11:30\u202fAM\u2009\u2013\u20092:00\u202fPM, 3:00\u2009\u2013\u20099:00\u202fPM",
+      "Thursday: 11:30\u202fAM\u2009\u2013\u20092:00\u202fPM, 3:00\u2009\u2013\u20099:00\u202fPM",
+      "Friday: 11:30\u202fAM\u2009\u2013\u20092:00\u202fPM, 3:00\u2009\u2013\u20099:00\u202fPM",
+      "Saturday: 12:00\u2009\u2013\u20092:00\u202fPM, 3:00\u2009\u2013\u20099:00\u202fPM",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 2340,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102733192952861608647\">Mateus CB</a>"
+      ],
+      "photo_reference": "AcnlKN0enn05D7ma1Rpe92DO49Z-5TD-t5S0Xx6TDKrDdyRSpazVHHjgIcLHeuFplJ6fKOZ_gUg7DgHhvwS2zUcQwQ8v4zGZTFfYTCIRN_-8XKz28myhouwY5hvy7JLgG3iAtiM7xmzla3DUUpnr4uDCBBCAp6t_yKn0FAUFxvlAnYRZeHLrTEmkXLAxN2aRT34vDXKdBROz6rWM15DOqu6tEqWgMSld5dDng3eLKZdCqbiReC-FnMaDp_kuEHX622AHq-QePg5UhPXrgrROVXFBCQiVzvw-Ji1n87638HRwLddxG7F5NMv3y92nPRV1RzRLVGsFw-1yH0A7OfW3g5CqM0mLEbio1AheSoKQzCdbJvic9XGChP4KZoWE8lWnN_1ijp9GPfYlKCD5VnUdx6AW_U_t995khlJJVdBqXacWvhsOVg",
+      "width": 4160
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118433183916755884441\">Shivendra Agrawal</a>"
+      ],
+      "photo_reference": "AcnlKN2OFvUS09MsyaHljhqJJFfHiMybHaKdBPqI3h4A3v4U4vsWd-qzFougdQqXVi-ytkRentoZLf2FPpIYO4AK9SAPH3agOQjXxTj3xWzNPKgsQ6dUvkEZuQhjTF_IWRHEUEElhTdXhfAmNE93_xgXZkoqzGKLuUXa4crvQvvLwIvAPmYkUJOX67W2EGRRISgVnM0Geu9-C7Oq4OPSckY5fK3KyuLU0jJ69NjqhaqPzl2OaFIMPQvuqGkOIk2nwN8L2GgqrGl5ezUgZNrXXSTOeow7el82NsJhBsE1QNCmG_v3pZ9VFGH2RfpjBSDskGC61dY6FkJLS9XsvjjU0ireNNIxzfkf3bY5As1vtGikeIRd2F3zTJmdF7MopMoxInva3MmnMb0RYnRVvoRibGvEbo_Uo5cVMEdOnW5uL-UMf5-Fsg",
+      "width": 4032
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106770518360074230101\">Sudarat K.</a>"
+      ],
+      "photo_reference": "AcnlKN22GTDOsYhNBP8QDVSOyB_6UNheBEUQMQyR66ag3avE-dxuJXa0QZIgT3_hf8g5i_D6S7m4SqJGzVvGHIth4vZsrpDXf8Z9f7s4EmMRGJ0ykZD40B4OYyAvNEgUsczTmEhUjqvFUwNa6S0-8QkmhWm120n4yCe1OM0n1WXvTVpAEGincM-oRnf82t_b0tiP90Cylfp2rhboCfY_tKa-ADJ2clwrBJ-lyj5okzpC2uKp5Usisr0ihqUssDHFTxSU0UrMAvdjUysDtR3Q9st7ysiQyKjjm_cjxJKr4f4LVkH4smwEqmyyi5pAsCbx_yO5aa_Gk8W3uPaoLfaaVB3nYEpEA3jGIvc8el60XaWR-_4BLUk53jJhHN9BJb9BQQqBMKEiCOektjGUhnPl4SmDqHSNRh02JrKW6joCKU9ketY8WypMWy15-VbQNrivXg",
+      "width": 3600
+    },
+    {
+      "height": 2608,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117389073663143911234\">Craig Shatswell</a>"
+      ],
+      "photo_reference": "AcnlKN3YokVnKfLw_zeTDvTzz19JgzF7c9CfslViH9jnVjZmaSCUkSxBAIy9XIc2hEO_dhGX5cyGh3bXO_TloVm48TSU2CE4MU3DUH77t5vwylNYm_ZeRDTzEl9XR-J4-ieQd8GMPhN03mcfc4MaGZ2YP7oZ3WNU7rBXFlMdmALXIiH-HQUQaeQIIdoaRmAy4uK2FyIYw4jgAqCKnf2wnf0tlmJjgAmKqYf76wKbTP4axaKDUMz7AfWPlatQKeNDK6YqejzR3ss7yVQa7fMGucONrpYiRtSYcnrDOBsUN5QHP7fenjSTwDlPXCLXFiZvAMD4hRoDC3jyppVNjO0Fr-3qioMiYB-X3CSLxcZCPmSudXEDozF3HguJ4uWu_eY4wuU_psNl4pYkVKnUuF7DUz-n3rQ4hd0vj6b50RZknlz-yw0",
+      "width": 4624
+    },
+    {
+      "height": 4080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100962612967271975357\">Aija Gudkova</a>"
+      ],
+      "photo_reference": "AcnlKN2gjVGa3TBwklsXjNnlKvRwWpU1N_kjBWlwrQUsSiPK1bKHgH2hvCoRZtRdmZTE27GeAhju-Du64BKEO5IXt5H0wpYuTb2SLlve4c_g9zi2RTamgKuhmMvWV-qG7pS1YDZMwbI8oV4PlRwHELuE6F4Ao1NjQaq5fZUwcT0iP0bGV4laLsfh4nGROUupP3HnyUoI5imKW_jvWufaTq4EC6ZRtWEkVxSKyr1UMleU1741h2r56PfbRMgBL8urHwxT7JXq2kuqVNOvNkhxY1j9jmQnShnPGRECtSISc-wSXDipbDvpffAFP0WrFAIo_aa7uGDu6m0mJLA2NlNMK5Vl-ikPF1tjfbkYsxJsjxvUF14IAyZFZqIC7-tjKgYSrcvBeM_xJEIvVaKZbY_YddnKdrH386pjkYhc0FQDaEZnO7QnjdY4OLP6-DcQFtxaq5Bl",
+      "width": 2296
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110594788238777354970\">Vishwa Seneviratne</a>"
+      ],
+      "photo_reference": "AcnlKN0SFFp8Vb3nfMr21rDpWQevbk90E5PNNN5yxO_xxZO2FaA3o-AMyXFA1wPOaJ-3gItigb9PMq9DFvCYe7czdPNgzf2P4hQ9F-EJGTB41ts9021yt18I2OfICPn6BKzGFSWRONh2nqGYAegpqSlxjl7_7OzY9_irjPh-cbKij3ZrQXsREqBvmwx41QgdTrN-8IgvBwY0fSudk64ZsJSQG4E7Mq1InsSb0L4Pm_X8kKAG-XarrYa2KRpDyzY1nwIfWTGcVJD0OZ0teOyVF3vYzNUMej-BR5mE7S_CM8bYybOUO3-SDk30xJUWMLhOlva2xW8agIpB33dIbyGmRXLowyeWGHBZ5n0x7V6lwjCKWLpfeVgH5i2JFGM0h2Sh89qjNpQ0s0Z8pc5y3OwPzX1f17WBM5n61J-8xwEDWQEJOeGhNIZC",
+      "width": 4032
+    },
+    {
+      "height": 2268,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101252595736534460494\">Patricia Valderrama</a>"
+      ],
+      "photo_reference": "AcnlKN10vSN5rKMCYSHufcCA8rhpzIz1xBU2mMnz5GhEkg0lUCIfKNkiIthJDaPJowOjxWzpxdDY2R_CxKdJUpEDkPyhedx7DlkBDO9egb7ILiT3V2S_81HxfhUBTqEB-2FKPDX7z5eUlpNkg1M8DxoCbeYcjTpAdaPT8OkpxylLkHlGzlFt7jZWs4gbJlVT_XzUGvCvd50L1eQlcCD-T4pun2A901xHrUbSsPAwgWxeiybXmcRMtyZ1Ym-NCPitPXlF4VolY9l7tqa79c7zuqZIOlLr958iTxCQQ1NnxPn0HZ_f8OfOc5hjtBPmWnlR7WdDFNiJok3_4OVfnSyU6JKF9L-PHBfn1tw8e2SEiMROLHGfjy0IKJzw3NZfhcNS9u4YZ1VJOd3qTvDH7k3TAdqTnccOy6OvX4GW6v11ZwhBXrT-5M4",
+      "width": 4032
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110594788238777354970\">Vishwa Seneviratne</a>"
+      ],
+      "photo_reference": "AcnlKN1ECZSBmc8U_a62RhqDvi6P6yAebtuQcoExDp2F8_E2O34YToAzL9Kk42cTrY2ljodD981Uvh7yaJz9Tv20IE8QsIVai6BEdWjj7kQmJ8kswCVk1pkxjlmv_s3YisrjNsBospKfQHXK_769WuwfIXO6T-JPs_Xyxw_GJijePsFAmnkklca3KtGiIRloXRJN3OPTXN0kmg8xnaEf9gl6ZpSbIXENWmsJAv3RpOXA0IDSqhmfFlV8DukdFIMJCqeM24gVpWYhfW2zaX69gpOUiifmjvaKZrr3Gi3X6FF1A9V0CigCGo4bVsD8Z3F8yFZ5sNWR6dnnrKD-DSJY8rwxNFpJF2ROItNsmi5tDacW4xJr-QmRGPxiTTZehngtp6Dv3HUXaTU1ZYxA0HvgAzWAcJKCBPk-2FdobL2JodxjffMOZg",
+      "width": 4032
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110401106722104644781\">Amy M.</a>"
+      ],
+      "photo_reference": "AcnlKN161HsUd79EjAnzdjZGzLxWr1KpSQMag4JTPL0o-D1bddMIVJXZH1IOcwQ3O6x6u0JRrKazKkr8EEG5we-SLrM7MkegaDW-5BVmWWlqwLtsXhi0hHm2qTn0yKhpAEYruIKN7j0dit_APZczuZJiwAYfpCCJAVsRpR_mnf5J2Ab7nbTm0XQViURs7K4c-H_11yVDC-5V5rz3wOGhe4Whx-H9JYygvUPjf1EO3m77mNOjmHXHhhvlUgl-8wvOSevT9ln20HRMwEAK2yj3HQhyIWHWQrPsG9PkB_IdFXSfrpZXVadn3cTT68ctFKUJyZnW2e5swN7qZP1v2N4kDCRePrywYk1ES-W6HJ-eV_ajcRSOoFQa3isdy2w0TkASMwAVp0KSaxf6W6Ni0sDSTjrpoSO_i08nqVPTjNmlYgTpwRTmVg",
+      "width": 3024
+    },
+    {
+      "height": 3464,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/114154412067887514759\">eric webb</a>"
+      ],
+      "photo_reference": "AcnlKN25V7yxZzg9PFDeowBx1JFSmKmT4h0WgRfTveme1T7zGnH8lEYttM8qnedQDmnfp4tltfoLdTaRubsscUn7dXIHhhnHE6Syni03tUlJ6-nsqqUzHVGZTqrEkg5U8RBoxHYqnC_DLfBwP-F-k7YFBqYR-vnze5f7zOYuU3DtfLsyjabA5hYVJjvOeOlzBCDjT9uQ1m5LPjLbw9G0ezrN4JbnzbmAh7G0o6AH6oeF0n4xDGg0ZfM_EdadvC9Bv8BtJ7ln_pXpbHc3uLHSfSJMk9Y4YS_plh7Um6J0Ze5AHKTQdShF6XkNeSUqzsNCyjzq1-_tsgdKGr0i3Zt0JrbQb_fzABzgmIHEVVD_xNn3gkIlQ7WzgyTpQ0-8U7w90D1Fy6btlGfOjqL12YKQWrU-CdvsiDfYqDVgapvya-4N7ZbrMg",
+      "width": 4618
+    }
+  ],
+  "place_id": "ChIJofFPaHvua4cRVlrb-tn9cl4",
+  "rating": 4.2,
+  "reference": "ChIJofFPaHvua4cRVlrb-tn9cl4",
+  "reservable": true,
+  "reviews": [
+    {
+      "author_name": "Oliver Franklin",
+      "author_url": "https://www.google.com/maps/contrib/115805475411214268968/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocI8FjQRgA1gQWWWA46qLKmsvc4-BC3DacFruUXuNnGwoNsLgpM=s128-c0x00000000-cc-rp-mo",
+      "rating": 2,
+      "relative_time_description": "2 months ago",
+      "text": "I don't ever leave reviews, but the service here was so shockingly rude today that I really need them to know that this isn't how you run a restaurant. We weren't informed when we were seated that the restaurant would be closing in about a half hour. Their hours are not posted on the door; we checked after being rudely shooed out by the owner.\n\nHe dropped the check while my elderly mother was still eating; fine and good. Some places are fast paced. Then he came by and tapped on the check in a very passive-aggressive manner. Then he began obviously bustling around and signaling \"get out\" vibes before telling us, while my mom was still chewing \"we close at two!\"\n\nThey didn't let us know how little time we had to eat when we were seated, OR when we ordered. They didn't give a ten minute warning. They didn't even offer a BOX for the remaining bites on my mom's plate. There were so many ways they could have flagged that they understood the inconvenience and tried to make us feel accomodated. I have never felt less welcome in a restaurant.\n\nThe food was also thoroughly mediocre. I SO want there to be a decent Korean restaurant in Boulder, but I will never go back.",
+      "time": 1762555147,
+      "translated": false
+    },
+    {
+      "author_name": "Aija Gudkova",
+      "author_url": "https://www.google.com/maps/contrib/100962612967271975357/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKyai8nmcZ45cu_sQ93cAxaP_3z7DMRPOa-ndAYU6PC_BYyKA=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "relative_time_description": "6 months ago",
+      "text": "Amazing restaurant, felt like second home for me for the few months I spent in Boulder, the owner is the kindest heart, owning this place for many many years. True korean experience, authentic taste. Will miss this place pretty much",
+      "time": 1753041155,
+      "translated": false
+    },
+    {
+      "author_name": "Finn Feldman",
+      "author_url": "https://www.google.com/maps/contrib/116557388892895278266/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUWwr73ehY4qrCKsMqEyzUFD49nO_BwVcfG_D4TamzPKq7u59gQwg=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "2 years ago",
+      "text": "This is absolutely the most authentic Korean food in the boulder area. Every single dish here is so mouth watering good, and there is something for everyone. The server is a extremely nice man (dont believe the 1 star reviews) and always recognizes us when we come in! I can not recommend the veggie mandoo dumplings enough. They are my favorite dumplings of all time! You can't go wrong with anything there though.",
+      "time": 1701397469,
+      "translated": false
+    },
+    {
+      "author_name": "Vishwa Seneviratne",
+      "author_url": "https://www.google.com/maps/contrib/110594788238777354970/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX0DTGTfmxR002Ypzdd4mX5VSNn3urf2ofB_CSxXs0PDUD9fbgiZg=s128-c0x00000000-cc-rp-mo-ba6",
+      "rating": 5,
+      "relative_time_description": "4 years ago",
+      "text": "The food is really good. More than that the decorations are astonishing. I got the box which with variety of meat and other things. The meat was so delicious. The prices were very reasonable and they should definitely be a place to try when you visit Boulder. They have a variety of different Korean and Japanese drinks to try on. You will not regret going to this place.",
+      "time": 1634619203,
+      "translated": false
+    },
+    {
+      "author_name": "shane chatfield",
+      "author_url": "https://www.google.com/maps/contrib/116467979504252590101/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWSGH3Pij_3AOLhqmo4yk-adw3bKHFhWCkszlQKq9K9MZXlb7QzVA=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "7 months ago",
+      "text": "You know the first time we tried this place my daughter was visiting from Las Vegas so I was too distracted to take any pictures but I've been really wanting to come back because it was so good that first time! Both visits I had combination bento box which is really an amazing meal at a reasonable price. I ate my items one at a time because they were each so delicious and I saved the ribs for last with good reason- hands down the best galbi short ribs I've had, ANY WHERE! I'm not kidding they are so tender they melt in your mouth and packed full of flavor! The dumplings were crispy on the outside and not chewy but tender inside. The bulgogi was tender and flavorful, not grisly like can be common in the places that serve AYCE. The chicken even made me smile. Red and purple kimchi have been floating in my memories waiting for my return. And the server is such a pleasant man- he remembered us from our last visit when we asked him to record a video birthday greeting for my step mom who couldn't eat with us that day. It's been 3 months since our last visit because we have been busy and it really is about a 25 minute drive for us but I promise it won't take so long for our next visit. Thank you so much!",
+      "time": 1750384650,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=6805781099568650838",
+  "user_ratings_total": 491,
+  "utc_offset": -420,
+  "vicinity": "2750 Glenwood Dr, Boulder",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0enn05D7ma1Rpe92DO49Z-5TD-t5S0Xx6TDKrDdyRSpazVHHjgIcLHeuFplJ6fKOZ_gUg7DgHhvwS2zUcQwQ8v4zGZTFfYTCIRN_-8XKz28myhouwY5hvy7JLgG3iAtiM7xmzla3DUUpnr4uDCBBCAp6t_yKn0FAUFxvlAnYRZeHLrTEmkXLAxN2aRT34vDXKdBROz6rWM15DOqu6tEqWgMSld5dDng3eLKZdCqbiReC-FnMaDp_kuEHX622AHq-QePg5UhPXrgrROVXFBCQiVzvw-Ji1n87638HRwLddxG7F5NMv3y92nPRV1RzRLVGsFw-1yH0A7OfW3g5CqM0mLEbio1AheSoKQzCdbJvic9XGChP4KZoWE8lWnN_1ijp9GPfYlKCD5VnUdx6AW_U_t995khlJJVdBqXacWvhsOVg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2OFvUS09MsyaHljhqJJFfHiMybHaKdBPqI3h4A3v4U4vsWd-qzFougdQqXVi-ytkRentoZLf2FPpIYO4AK9SAPH3agOQjXxTj3xWzNPKgsQ6dUvkEZuQhjTF_IWRHEUEElhTdXhfAmNE93_xgXZkoqzGKLuUXa4crvQvvLwIvAPmYkUJOX67W2EGRRISgVnM0Geu9-C7Oq4OPSckY5fK3KyuLU0jJ69NjqhaqPzl2OaFIMPQvuqGkOIk2nwN8L2GgqrGl5ezUgZNrXXSTOeow7el82NsJhBsE1QNCmG_v3pZ9VFGH2RfpjBSDskGC61dY6FkJLS9XsvjjU0ireNNIxzfkf3bY5As1vtGikeIRd2F3zTJmdF7MopMoxInva3MmnMb0RYnRVvoRibGvEbo_Uo5cVMEdOnW5uL-UMf5-Fsg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN22GTDOsYhNBP8QDVSOyB_6UNheBEUQMQyR66ag3avE-dxuJXa0QZIgT3_hf8g5i_D6S7m4SqJGzVvGHIth4vZsrpDXf8Z9f7s4EmMRGJ0ykZD40B4OYyAvNEgUsczTmEhUjqvFUwNa6S0-8QkmhWm120n4yCe1OM0n1WXvTVpAEGincM-oRnf82t_b0tiP90Cylfp2rhboCfY_tKa-ADJ2clwrBJ-lyj5okzpC2uKp5Usisr0ihqUssDHFTxSU0UrMAvdjUysDtR3Q9st7ysiQyKjjm_cjxJKr4f4LVkH4smwEqmyyi5pAsCbx_yO5aa_Gk8W3uPaoLfaaVB3nYEpEA3jGIvc8el60XaWR-_4BLUk53jJhHN9BJb9BQQqBMKEiCOektjGUhnPl4SmDqHSNRh02JrKW6joCKU9ketY8WypMWy15-VbQNrivXg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3YokVnKfLw_zeTDvTzz19JgzF7c9CfslViH9jnVjZmaSCUkSxBAIy9XIc2hEO_dhGX5cyGh3bXO_TloVm48TSU2CE4MU3DUH77t5vwylNYm_ZeRDTzEl9XR-J4-ieQd8GMPhN03mcfc4MaGZ2YP7oZ3WNU7rBXFlMdmALXIiH-HQUQaeQIIdoaRmAy4uK2FyIYw4jgAqCKnf2wnf0tlmJjgAmKqYf76wKbTP4axaKDUMz7AfWPlatQKeNDK6YqejzR3ss7yVQa7fMGucONrpYiRtSYcnrDOBsUN5QHP7fenjSTwDlPXCLXFiZvAMD4hRoDC3jyppVNjO0Fr-3qioMiYB-X3CSLxcZCPmSudXEDozF3HguJ4uWu_eY4wuU_psNl4pYkVKnUuF7DUz-n3rQ4hd0vj6b50RZknlz-yw0&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2gjVGa3TBwklsXjNnlKvRwWpU1N_kjBWlwrQUsSiPK1bKHgH2hvCoRZtRdmZTE27GeAhju-Du64BKEO5IXt5H0wpYuTb2SLlve4c_g9zi2RTamgKuhmMvWV-qG7pS1YDZMwbI8oV4PlRwHELuE6F4Ao1NjQaq5fZUwcT0iP0bGV4laLsfh4nGROUupP3HnyUoI5imKW_jvWufaTq4EC6ZRtWEkVxSKyr1UMleU1741h2r56PfbRMgBL8urHwxT7JXq2kuqVNOvNkhxY1j9jmQnShnPGRECtSISc-wSXDipbDvpffAFP0WrFAIo_aa7uGDu6m0mJLA2NlNMK5Vl-ikPF1tjfbkYsxJsjxvUF14IAyZFZqIC7-tjKgYSrcvBeM_xJEIvVaKZbY_YddnKdrH386pjkYhc0FQDaEZnO7QnjdY4OLP6-DcQFtxaq5Bl&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

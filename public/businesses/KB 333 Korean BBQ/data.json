@@ -1,0 +1,290 @@
+{
+  "business_status": "OPERATIONAL",
+  "curbside_pickup": false,
+  "delivery": false,
+  "dine_in": true,
+  "formatted_address": "333 Alameda St #305, Los Angeles, CA 90013, USA",
+  "formatted_phone_number": "(213) 617-0306",
+  "geometry": {
+    "location": {
+      "lat": 34.0452804,
+      "lng": -118.2385635
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 34.0464475802915,
+        "lng": -118.2370497197085
+      },
+      "southwest": {
+        "lat": 34.0437496197085,
+        "lng": -118.2397476802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 213-617-0306",
+  "name": "KB 333 Korean BBQ",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 0,
+          "time": "2300"
+        },
+        "open": {
+          "day": 0,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 1,
+          "time": "2300"
+        },
+        "open": {
+          "day": 1,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2300"
+        },
+        "open": {
+          "day": 2,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2300"
+        },
+        "open": {
+          "day": 3,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2300"
+        },
+        "open": {
+          "day": 4,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "0000"
+        },
+        "open": {
+          "day": 5,
+          "time": "1130"
+        }
+      },
+      {
+        "close": {
+          "day": 0,
+          "time": "0000"
+        },
+        "open": {
+          "day": 6,
+          "time": "1130"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 11:30\u202fAM\u2009\u2013\u200911:00\u202fPM",
+      "Tuesday: 11:30\u202fAM\u2009\u2013\u200911:00\u202fPM",
+      "Wednesday: 11:30\u202fAM\u2009\u2013\u200911:00\u202fPM",
+      "Thursday: 11:30\u202fAM\u2009\u2013\u200911:00\u202fPM",
+      "Friday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Saturday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Sunday: 11:30\u202fAM\u2009\u2013\u200911:00\u202fPM"
+    ]
+  },
+  "photos": [
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117126782990247929414\">KB 333 Korean BBQ</a>"
+      ],
+      "photo_reference": "AcnlKN3tJlKaMPSpotN9veykCjeSPsujggC_o4cOJf2ArDw3NzI9P-8ZyQWGD8IVlYRPaOcuXMfGmr6q1FAgxnzkwKeoS0p9TBdthiAHxfgTnhnLRn8cWO6jdbe1GBc2ziLvnsHS9Yvnk54WChMcLm2FnpCQ7r8mhumG0ZZNqiDFzO53NDAyWoa5KF5wCPuBv66nSr3_vhbpltLJHsWvP598QAn4W-UyGlUS3lpQmjcsxeDkPBqz1ncx8B0hTMTxUSILZ-T-f78lxb1CbLd69pN447DGgqSxiVU5T3DtF7XFoVJIew",
+      "width": 3200
+    },
+    {
+      "height": 2048,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117126782990247929414\">KB 333 Korean BBQ</a>"
+      ],
+      "photo_reference": "AcnlKN33kxqUaw4FNlYxKGgh0QsJtIZQbtZoZqxBQ7O71ZSG4khiOkUV_T2hp9uyF4mVssHqQl74imIERPiz_2OTt7hQWKkM8R6d6dMnHUvskok1VApHOLZJvVp9DtWyEuu09TiwAHpG3LPwT5WLpguEsLsRGiIbrzmyBKFRTtivrG2CKHBL2cCm8HKxZdU0GdEq8w8oqp0NX7OJv3bnNsmCBC1jPG2ZvTK5HaaH4yCkjbI0pz4swpwi_7veWcEPkFYUgaqKBFpRsxviBeiJ7K5NTeyEoCjjKvCbZZjS5RrG8ikwYA",
+      "width": 1365
+    },
+    {
+      "height": 2048,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110614406653635487630\">PHOEBE CHEN</a>"
+      ],
+      "photo_reference": "AcnlKN2DycWsD-FiLfZA0ACtp4ltzfU2eKsSFjsIkS5cm_bM8paNm9IHu5i91RTB7NBaYFoqKnzku3LLMWDakIE1Pn_mRwZurmVLxWXro9vGVA-Gg9q4qWkWzi1rf_l4b5JrcDeonrQKI2VdvB9zKHjsHmxDjoyw3kfD0-hpOHW5xK80xVTJLx2yzkYaPdTutwYoVn6xhHE_-3m0KAnhB8nPZd3QVruSTfQFyS7NiychBq2cnpP4QKvmfJcat8sFwaR8ywxm-SRPylbPS2dMM5dv_yo-DydvYT0WkVce6Si32nEErtrFdrndaACr-Jgc4w7Nlt88V3GmrHKePuqBCf8YBo-mJguTTpjsh_i8aujIrfegwjzyH8nCe4VPZMXcMQCb2sWKkIGdkG4Lyx7x4WYigxMMR67xoGzpE3qh_MqLu1xizJYw",
+      "width": 1536
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/114220081484267024583\">B L</a>"
+      ],
+      "photo_reference": "AcnlKN2Haq_mBY0uc0f4p1z878ZOmqlBjIwcS1IUA3qIodAji2XMZTHUlgr4eKiDoGpudZ1zFwVyAhoJ3dwdRXDs1U4rV5yq8HkNwH4Jyu9zeVgtfmYTIXokHPmZsjcvnBX54jEz2kyfyt--teSOH-pVV--31kRZT4GOS2aVqTYB0rQSKL-AkAZdknVgm8pPlYsoTyQd1MDrlcgxjRubFfyr-Z2iFoDo_FAHIwckvrqkPxkcJqQM2basEPw2vDvniWnZz_QXwmBZ1oKJmBuMG5_G1Fe2BWweKE10KqZjYfFW0TR9rOyxyHuAT8dzwFJE1zsqfiHmRIQYc3MxoUkgb-ZHqyGpQqTEg_SIwhgN4zsV3zjUvOAP9iBFHQbjiZvU_mZTUA_VgA0fDpPLGDjoP4EYbpuZFEjBeLWaaSSNrXTQyYtaztRXO7LjSzWGyTrNfA",
+      "width": 3024
+    },
+    {
+      "height": 1080,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105658037420815392483\">susan lee</a>"
+      ],
+      "photo_reference": "AcnlKN1dBU1PWON2fdfCeuKIjgT40FEyQML6bIiViMFF6I3cpqeuFfeR8CfLod4svFAeMYhv16oCtQ4GxbhKSVHwy7gIdmkt5qZrW1KMORR95fwqQd_oTYqPtMTGdb3ektY99CNl9J3G4rSv6BryC-TVWat_PN2Vi2QOYBPVn9dpdVnL73iZEakFWYvROMoHfcm0ZdS2OJZBYEwqk7VCESb9Inbzudj3AJwIGoX_6qnzEGxRbMyK89PEJWZBRq21uCgplnP8HU65r6D0mNAGC5sEFMBW-1XrS17ZYeXBfs68Pxq1j_jftyoUxB69PtRqK7Zcccfr42Cg2_9FG58Lu8xZDkTyRcO4iwy-Lk7XDc7UulSPyw0klnGZrhxW4wMwG1cE3CPjpCo5Gr45xSlFYi9N7uKGcFu33TVsiO0EkpxJtrD7pC_GqV_bLvyNjcL2XA",
+      "width": 1616
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100899904439617888603\">Lorenzo Warfel</a>"
+      ],
+      "photo_reference": "AcnlKN3t6RO_v6lvSU8XQldhEKfHf1MlCJhe7oSY5lr2PXbiiHYjL-iEaqkILaU6JBbCJ1fXcSWAytguDx3Iw61bstuSmbyMQpHabRaHimX1DEEaLJuW7qsmDKhCfpBvrfMZXQANV2Vndc8mmGKaVU4a_ACYF1daHydYnUl0Ae7Wl7Jtyh8r_7CvkrltzUMJbp3nSx7Yyx33Q-WHfU0m21h9ZsAcLXcl2yVHYoupG9vl-L_xJzhXIEA4XrSvwsm6rFM7rR83q0IYx4M-SIr8EW1KULK7Xar0uaavqLdnu18_3buEHbO-_OV-QLfk6qfDhtYBgaOVHTRASGAdXeR8AmT_e-nj6Q_KcJ_xdrAyt_vtxQsQkZpY00gF4foudnA0yDhbIpR415Zovpn-VUUxb1zEKkJR3GQltKHPShGR7Fy1qmjRjm4r5k0QtjQ_AvhEe4uS",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107140478356346645603\">Iris Chen</a>"
+      ],
+      "photo_reference": "AcnlKN0gXnR9omLQsxyfAwd2LaT33awVuHPrPF47yBaT2llFdOIjoqeT7T7kjgMsl9PLQuc86YAFOFQQ9qWtEXqG-bqJBWUzzAtKNExFFWW4LlNKIFY0aMx7yKi756nEz2qzghPnDYAuYWkCuzqMwc9cFP6s99xuGRcJt8boA9_PHFPEIo84Z1kWyFXZ20JGdSPc701wuZAKSuC2xLXtnmAtoqkmeZQcgq4PzFaGwmCGYPxc6-FAtcu1Ke2AeOIV5Ddxb0oS3GakWd-dcONB7UjL5Pp40Ptbf-_bT9oUSRayjIGPZikY0KG3p7MHu23pwzbHva2V9zoiKXqAzQZPW190HMC8Ac_CsoV_ad3iI6pKmN8hF92Okv2q9YvsBRYdtE1ZFNfoUlJgIdCiXQtdE1OEt93TgwA5VEfUPWWXzaApkALWQw",
+      "width": 3024
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100899904439617888603\">Lorenzo Warfel</a>"
+      ],
+      "photo_reference": "AcnlKN3PB24Jk1AJ1hAw-OlDfpVAPCwhsJdbLOX7i-W9wFaslPe86ymaTIqpfX078RioxL6ML7q_S1vy6Yxyj9y7sBpXTu3bLkt1ffqYJtWE4PTGObWG9cMNzOEoNPp8bCQgltQoeAy5_426Hlq2qa-qE2RdPgHwYdnFIzWI_y48qUHtriz5FVskt9VpjU6laKJPGrKWpK6xvKmG7v1jWXbhr1Bp-MKak9sIdj5heFG9FuRErXQSnRa5hJ_L1uKHV1rbZjgflA8W0Vlw_Su9_RXvHuuqanFp9JrFygI6ur2fEZmYhig3nMXYkE43QMqLTsXtMAHYV8eShmDIpC78zr7pQhmcHzpk-ZOIXtYKBsg_udSRiT9n3uDTKewObvzAGcUu89AlAHnqY6oIJUwvVrg5mt0IgYpNfvCDZu-SVkXE2wv1nJPMXp2M81fsPSnzDJNM",
+      "width": 4032
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117126782990247929414\">KB 333 Korean BBQ</a>"
+      ],
+      "photo_reference": "AcnlKN1sB6sUxnM9jU3bOWtOkBvvT88NwaT4A_shd0FJwlq1mIKrcYwFzyjbcxOhN16BaxCsqFnAKy-FBjfLWP2HcCyUXsuA-6GWXWD16-AnWvkh7gpnWXeAGi6DmgC34WdoegxMxUk0G8UFaXH1g2-FxG9L3CYQJnWH2qt4I5aAQAd3ttZ62cR7QiXzPA-xV8scCbWE7S0rHJwuWq5LjK6mvADkYE93tY7IF3KPpOMbiPTO7adUSNvXpvE0VrLP_wKUYMIIPqh1kWFbcYZG8E56hXx3ntAt9KSKytYwUpo10nJzyQ",
+      "width": 3200
+    },
+    {
+      "height": 563,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104875846968542777620\">Sapat Lang</a>"
+      ],
+      "photo_reference": "AcnlKN3c4kbqrqg3D_dkzcqyBseJ6TdAQ9emum9tEjVLJjBvWhaoSpDpQBzMN3EkCQhhvMTsEM2vFcaCWEdxPTYJqqXhc2To5ZIdg6MKljKxumajOkBNUEJxcyvtQ2DuFX0zP8B-PjG13nM9HECcHzfbMRjw-9Y7acIYt67BeBxumauiqXWedBkYhMyROij6F97OJbdh8qMNsgty28fPx3_9c0Nsh34OhdgtEV-yRcJdEhaSoitNO9dK_3YfMs80Tnw5XBC-XRZ_iATM4uxx_dPL2xdN0i89aAYtGRPeYyoN2RSR5Vok9gw9W1mic2dKbWt3TawgC1YVEapfzHpG0UImy1DVNlNYnQiJ1960fnf8xWy07ztDsC_GMRpkSRz_xZKOCn2veNPrMnCRgtNawi8d98OnETc8t0PdkczBKpSyXLJoQw",
+      "width": 750
+    }
+  ],
+  "place_id": "ChIJyy_0pjnGwoARLeLkpRPb5x0",
+  "price_level": 2,
+  "rating": 4,
+  "reference": "ChIJyy_0pjnGwoARLeLkpRPb5x0",
+  "reservable": true,
+  "reviews": [
+    {
+      "author_name": "Annette Garay",
+      "author_url": "https://www.google.com/maps/contrib/116902771026851095030/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjV_R3Lx50LF8tbnBNSBGM0cTcvJEXkVjkFPD9rpl8rgMpqNJ42O=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "4 months ago",
+      "text": "KB333 BBQ in Los Angeles is my top recommendation for Korean BBQ, especially if you\u2019re near Didger stadium ir downtown. They serve high-quality meats (I loved the pork belly, brisket, and the tender, flavorful rib fingers) and offer a full salad bar, appetizers, sides, and even sushi. The staff is super friendly and helpful \u2014 perfect if you\u2019re still learning the ropes of KBBQ. They also have cocktails for just $8, which are delicious and a great deal. Plus, there\u2019s free parking with validation for up to three hours at the Little Tokyo Galleria Mall. If you\u2019re looking for great Korean BBQ with amazing service, tasty drinks, and a welcoming vibe, this is the place to go! I highly recommend it.",
+      "time": 1758845458,
+      "translated": false
+    },
+    {
+      "author_name": "serhat Tasyurek",
+      "author_url": "https://www.google.com/maps/contrib/115524764529053949372/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjV3CgTn1rkJvfljpK6_1ySsmQM-mTLdR1Bc70_Tj1q94Bxvs8s=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "This is a place we come to all the time. The quality of the meat is excellent and the taste is always consistent. Fast service, clean environment, and friendly staff. A must-try spot for anyone who loves Korean BBQ. Highly recommended.",
+      "time": 1767245146,
+      "translated": false
+    },
+    {
+      "author_name": "Steven Tri",
+      "author_url": "https://www.google.com/maps/contrib/115443345882984520504/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXk7z7kSciJ1RZv6BTDzu5jafLKK_cc81mLX7wLtppU08S4omFt=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "4 months ago",
+      "text": "I was visiting Little Tokyo and craved KBBQ. Stumbled upon this place and it did not disappoint. Parking is easy, you just park at the garage and they will validate 3 hours for you. Service is quick, you click the button whenever you need your server and the meats came out pretty fast too! Meat quality is amazing for the price. My friend and I also tried their new cocktails. Be careful, these are dangerously delicious!! Definitely a hidden gem in Little Tokyo!",
+      "time": 1758584650,
+      "translated": false
+    },
+    {
+      "author_name": "Chris",
+      "author_url": "https://www.google.com/maps/contrib/100504082504076568007/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUe7sjhZSBUQSw5vFQb0uwelQkcmz8kElBSvDVjL0aNM-xV8uwupg=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "4 months ago",
+      "text": "\ud83d\udd25 If you\u2019re looking for an all-you-can-eat KBBQ spot in Little Tokyo that actually delivers on both meat quality and price, KB333 is a must-try. \ud83d\udc4c\n\nWe went with the Premium Black option ($48.99) and it was worth every bite. The spread included:\n\ud83e\udd69 2x Prime Beef Brisket\n\ud83e\udd69 Angus Ribeye Steak\n\ud83e\udd69 Giant Rib (juicy + tender)\n\ud83c\udf44 Mushrooms\n\ud83e\uddc0 Cheese Fondue\n\ud83e\udd5a Steamed Egg\n\ud83e\udd90 Shrimp\n\ud83e\udd69 Marinated Short Ribs\n\ud83e\udd69 Marinated Galbi\n\nWhat really stood out:\n\u2705 A buffet-style bar loaded with sides and extras to balance the meats\n\u2705 Excellent quality cuts for the price point\n\nThe service was smooth, meats came out quickly, and the portions were generous. If you love loading up the grill with a mix of premium cuts + fun extras, this is the spot.\n\n\ud83d\udccd KB333 \u2013 Little Tokyo, Los Angeles",
+      "time": 1757481619,
+      "translated": false
+    },
+    {
+      "author_name": "M A",
+      "author_url": "https://www.google.com/maps/contrib/101893155874055327291/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWF-QUQrsNTE-v8W8eJtNHWfND9-BbuCGkC0NPtkI2Oye9AYqcCmg=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 2,
+      "relative_time_description": "2 weeks ago",
+      "text": "Meat eaters will adore it.\n\nYes, I know it\u2019s a Korean bbq=meat lovers.\n\nNot much options for people who don\u2019t eat meat (yes sometimes we don\u2019t want to be a pain when a group want to eat there, we just follow) so there should be more option because from the moment you seat there you have to pay for in full , if you eat or if you don\u2019t, you pay basically \u201cto be there\u201d so at least have a few more option for non meat eaters or have the option to just buy one meal instead of a whole buffet.\n\nI can\u2019t say much about the food obviously, other than don\u2019t get dressed fancy and prepare for a shower literally right after because you\u2019re gonna smell grease. Don\u2019t take your girl there if you try to score lol",
+      "time": 1768963568,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "bar",
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=2154931824154173997",
+  "user_ratings_total": 1487,
+  "utc_offset": -480,
+  "vicinity": "333 Alameda St #305, Los Angeles",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3tJlKaMPSpotN9veykCjeSPsujggC_o4cOJf2ArDw3NzI9P-8ZyQWGD8IVlYRPaOcuXMfGmr6q1FAgxnzkwKeoS0p9TBdthiAHxfgTnhnLRn8cWO6jdbe1GBc2ziLvnsHS9Yvnk54WChMcLm2FnpCQ7r8mhumG0ZZNqiDFzO53NDAyWoa5KF5wCPuBv66nSr3_vhbpltLJHsWvP598QAn4W-UyGlUS3lpQmjcsxeDkPBqz1ncx8B0hTMTxUSILZ-T-f78lxb1CbLd69pN447DGgqSxiVU5T3DtF7XFoVJIew&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN33kxqUaw4FNlYxKGgh0QsJtIZQbtZoZqxBQ7O71ZSG4khiOkUV_T2hp9uyF4mVssHqQl74imIERPiz_2OTt7hQWKkM8R6d6dMnHUvskok1VApHOLZJvVp9DtWyEuu09TiwAHpG3LPwT5WLpguEsLsRGiIbrzmyBKFRTtivrG2CKHBL2cCm8HKxZdU0GdEq8w8oqp0NX7OJv3bnNsmCBC1jPG2ZvTK5HaaH4yCkjbI0pz4swpwi_7veWcEPkFYUgaqKBFpRsxviBeiJ7K5NTeyEoCjjKvCbZZjS5RrG8ikwYA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2DycWsD-FiLfZA0ACtp4ltzfU2eKsSFjsIkS5cm_bM8paNm9IHu5i91RTB7NBaYFoqKnzku3LLMWDakIE1Pn_mRwZurmVLxWXro9vGVA-Gg9q4qWkWzi1rf_l4b5JrcDeonrQKI2VdvB9zKHjsHmxDjoyw3kfD0-hpOHW5xK80xVTJLx2yzkYaPdTutwYoVn6xhHE_-3m0KAnhB8nPZd3QVruSTfQFyS7NiychBq2cnpP4QKvmfJcat8sFwaR8ywxm-SRPylbPS2dMM5dv_yo-DydvYT0WkVce6Si32nEErtrFdrndaACr-Jgc4w7Nlt88V3GmrHKePuqBCf8YBo-mJguTTpjsh_i8aujIrfegwjzyH8nCe4VPZMXcMQCb2sWKkIGdkG4Lyx7x4WYigxMMR67xoGzpE3qh_MqLu1xizJYw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2Haq_mBY0uc0f4p1z878ZOmqlBjIwcS1IUA3qIodAji2XMZTHUlgr4eKiDoGpudZ1zFwVyAhoJ3dwdRXDs1U4rV5yq8HkNwH4Jyu9zeVgtfmYTIXokHPmZsjcvnBX54jEz2kyfyt--teSOH-pVV--31kRZT4GOS2aVqTYB0rQSKL-AkAZdknVgm8pPlYsoTyQd1MDrlcgxjRubFfyr-Z2iFoDo_FAHIwckvrqkPxkcJqQM2basEPw2vDvniWnZz_QXwmBZ1oKJmBuMG5_G1Fe2BWweKE10KqZjYfFW0TR9rOyxyHuAT8dzwFJE1zsqfiHmRIQYc3MxoUkgb-ZHqyGpQqTEg_SIwhgN4zsV3zjUvOAP9iBFHQbjiZvU_mZTUA_VgA0fDpPLGDjoP4EYbpuZFEjBeLWaaSSNrXTQyYtaztRXO7LjSzWGyTrNfA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1dBU1PWON2fdfCeuKIjgT40FEyQML6bIiViMFF6I3cpqeuFfeR8CfLod4svFAeMYhv16oCtQ4GxbhKSVHwy7gIdmkt5qZrW1KMORR95fwqQd_oTYqPtMTGdb3ektY99CNl9J3G4rSv6BryC-TVWat_PN2Vi2QOYBPVn9dpdVnL73iZEakFWYvROMoHfcm0ZdS2OJZBYEwqk7VCESb9Inbzudj3AJwIGoX_6qnzEGxRbMyK89PEJWZBRq21uCgplnP8HU65r6D0mNAGC5sEFMBW-1XrS17ZYeXBfs68Pxq1j_jftyoUxB69PtRqK7Zcccfr42Cg2_9FG58Lu8xZDkTyRcO4iwy-Lk7XDc7UulSPyw0klnGZrhxW4wMwG1cE3CPjpCo5Gr45xSlFYi9N7uKGcFu33TVsiO0EkpxJtrD7pC_GqV_bLvyNjcL2XA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

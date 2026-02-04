@@ -1,0 +1,267 @@
+{
+  "business_status": "OPERATIONAL",
+  "delivery": true,
+  "dine_in": true,
+  "formatted_address": "444 Flower St, Los Angeles, CA 90071, USA",
+  "formatted_phone_number": "(213) 627-3262",
+  "geometry": {
+    "location": {
+      "lat": 34.0519234,
+      "lng": -118.2553644
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 34.05317248029149,
+        "lng": -118.2542397197085
+      },
+      "southwest": {
+        "lat": 34.05047451970849,
+        "lng": -118.2569376802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 213-627-3262",
+  "name": "Mendocino Farms",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 1,
+          "time": "1930"
+        },
+        "open": {
+          "day": 1,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1930"
+        },
+        "open": {
+          "day": 2,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1930"
+        },
+        "open": {
+          "day": 3,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1930"
+        },
+        "open": {
+          "day": 4,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1930"
+        },
+        "open": {
+          "day": 5,
+          "time": "1000"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+      "Tuesday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+      "Wednesday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+      "Thursday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+      "Friday: 10:00\u202fAM\u2009\u2013\u20097:30\u202fPM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 2268,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100985100496816722524\">L Chaffinii</a>"
+      ],
+      "photo_reference": "AcnlKN3dURtMbzg5a1NzUVtfWWUZAgJpnBnuW3lsqwUVAg09kwYFJ46aBrmJuntAkHk5-FMzgcT-TC6aNWPJ-UN2wAMI0SrEfzfZ99rXLPFnbxsYFf8xgkIBcGIQRqlXnCv8ydL3xsPF92_5w8dvp74jadipoNOCf1IojAsjgrBtw4U7K7XMtaPLIo7s7sns3fmUxiKGLQF-Tkerz0Q-11jb8rl8QnLHphvKq1mCgFfIqqb7TdJ35-kUriFWEsIOXQo7Z1p0jBVbWxxcgEHNMID9A4b9O4XBm3PBxI9kP5DQSGJv7Q_fYQmv223q-o-ytQ3qMIBm_Clt85ddItH6PRmwmt5y91_oYKh_ZtKYqcUHAKXZmAVigKqAAdMtT_hLPGrYSkJzi1WlBmnxOLY7pNmWSw0-TVc4JOsZdBeHkE3pRELlOw",
+      "width": 4032
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100617550280586122864\">Iben Rodriguez</a>"
+      ],
+      "photo_reference": "AcnlKN0V84z0ALgDTrGQ6cS1uCg_zw3s_l3eVxRngEPrM_Dy64SRHhuV_soyOptXktvC9BAZKNQXXx7nOlDffbVtfbPtkVvRicYGugjI-OAt3pZOQ70EIVp6xVXdrQMRPh_YTjJS1OiN7HRjgpVMU4cExOozhDjlWvjMWw6WUWNrgvPUlqK4f82qE39nxOxZrMGNR1-o4ohYNzA70usuaKqCUyLwisib-MXvkFnM-QpA72TRtXZcO9KpnPItTmJzNZGxQc1STcK1S93JWLO5jDAwAc4OCz6Tf930Fu0oayKB6qkxLZ-OLOY9JqFbAfbPRfrTz2CPcCakTEObF2ueLqUv95AmNK73AUvwWRyKBzepxCKukmGkiJQ3UviwhJppj_6ATXjSJXzTQVXgk8nreoi3i4oKFfat_XQ1yXu3jEi80IZEQUibYWiN8C6xA118pfqi",
+      "width": 4032
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108980284740580063383\">Nils H\u00fcnerf\u00fcrst</a>"
+      ],
+      "photo_reference": "AcnlKN18rmENjM7r5PQGLppeeZDdYhlB6152iqCi9sTg6mpgSYn7aWPZp-XUKfjnpIzfQTScUbVGYH_qJrPHzHoq77txOvQCakJWt8cJbAZVL6E25MugcvmjFxLlzEiDoRz1TqWWxBSqsE6PtqS4mW0wigaqtR89XuYvJATuw4fxCdTS4SSW7byxATY3Lq8jD9QXkl4sUJUJrOicg4Bzl_XdzStbyVeyfKHc2X7K3fkzGKPuwcXAupO4Ojpza-xRztGMEgm43xH_VUCETtybuNe_mBKGnJZYyZpTXrjoPlEnuwXK8ZwXtOfv5y6CmAq5qEYU9sP15M7FRGr-cmkIr9u4_y-yOWNBDGSCEB-Ho7RX35fK8UUgU9fqBa6-Aqdpv4u6D48XKg2UmuktJJabrs2daOuUQedoVsVst4GXocLxFeu2QJTG85uCRcX_mmlEJ8-R",
+      "width": 3600
+    },
+    {
+      "height": 3738,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117669792729552166397\">W O&#39;Brien</a>"
+      ],
+      "photo_reference": "AcnlKN2wwSVr63UXIFoilXy8P_Dp8BwFpyc9LOMh7YiOB9udOoL5QE-SKXVIjpL4c2hiJjDNQr1IeBcMH63pc6fXznd9W_6b16H83TONQKCYnPAuOfUyrAUiz78cPJkAKR7auSxQgyySjPaenEDbF-W6p9SXvjuTyoYuvaXnku20lk7Y8FyzaD2kE9OEz58m_eg9z8X28H4q0Y1u1GUPf44ctbZUmHbAXcoF6gL4vs-JBPFHKhc2dGtrMslG7zxWfdNZRuUucpdFV66NZT4WG8DlN9pDthuwTUQ5u1TtORfFnQ7hNlhHSKHKlCxFepcndc6I8S6yNEAxnC2UZvq9GElbfM7eaJyLjsBqQXYgjw0OK_Qku24xOg-tUnxkY-jVsb338pJD6uNsS-BQm4oI6awp1E7byenjgwjOaEndbD5EFOuCDSuvrNgE51nig4Yil7_X",
+      "width": 4800
+    },
+    {
+      "height": 3000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116511544511618459443\">CHILO</a>"
+      ],
+      "photo_reference": "AcnlKN1fuQWXiP75c_WmU60L4VcpzlqoQfbcsM_2sDLK63p7idndlT3xj_GiNj47Q_bII3oZLLlyTvBRuhmRpMt978s8_41DiIE7NUiGR36rXMw7oRvyAb4_ObKsJrBPCpOzSgRHjLxPd9mc29GmwaPGzTr-ba5OWpiPBM3Tr6EVB_-0lub3C5aV0A73JSDtiZ-xKmfKDX7oOmDHsnx4TKP4fb7ixVuuCAVhAaJYhYrU9HiVkCkeNZjuz_S4e_n0Lqgb-QSsYw4O-3fvSsQUZt5InL0vVz-iwiQajxvzWj3D_2FdDCSwF38ypPJG9KbZp6BIM7Qbm1pC6L_ky4aLJaQPpE95-usGaRdUTsowvKtLPOi8MVh0sUJY_oQmsKSqHxdCQ52G7uftQ7YZAfXMqvbXnMCwVnYULWzoY1j3YiBpesrvlqI1kCmNGlcjHcdAiw",
+      "width": 3000
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100617550280586122864\">Iben Rodriguez</a>"
+      ],
+      "photo_reference": "AcnlKN0SuRpr6MPBzRBXnGSmgd7P07n2A7TlENTU7AfqeRg8fgHylXelvBXKXzwuY7mTuOfADlrbyTgS_QpSfj40HSSOLkuOKlcSXRrzPldYazFGY_dgnhUdrecZ7hh4E0jENUnDOmF0gu0A6vuBoapgl6-6OfQUwAPXorvJu_ujj4Xc57A139sDEtl2PtGibFDEEW0-WBZJHCS9rntob3rTQIzk_qjB06daJgOfU02CWr2P621xEJb2DpgbpYwTZAxLYjEGvXxIjag4bri_b24vkT51tjDEc56RKv54VLuJS0DuPdy00iVXlbP8Ut9AXzXPSfsZYytX_1l-fQd5av-Jd2tZufTB5B6sU4x738LVDW-Fv2wnMUlaR6YsWd9FiAXJD7Elxa1yE4hTnOpzuf7IV8fqD4f1qQ5Twh7iBFc-V6deyFsu2kCsf0sI9f4EDnfo",
+      "width": 4032
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/104929431459579715965\">Christopher Hughes</a>"
+      ],
+      "photo_reference": "AcnlKN3yHTGU1DkWfMgx93bNTGO5OmNypIjHJXwC6rmlBmq1FBCfFQGelbFtzyibnhs1IiS66d91wdUghl5arjl7XMJERDT3kTXDRUC0YbHppu2Lwqb8HDQqEPgR082wnU0XrNeISP-0pRLlZVog-NA3JGF13r-kys88dMta0ZG32OCEXOHgg8IUM53cBKopZSrUCMiFXT8vJ8x23CqTa_m6-WJj5dVdkv7FkFQOYATLccPplK5UPqy_uof5V8f1scthR4yhLWkyLCjao9XQsCP-BA5Y4eHCdcrPxHacNLeXe6syUSpOxHQWoEocCJG-fx02MTIpDhJWBWiE-0dKPu-EA1uA2lN-1uPsx4hzNXIbgaEAnPNhcOqXlBZOgBKaUrHWo-AffeGmS8mLe6uJpML7qY2XdDT2jas_RDJJ5Lu5Yx2AbJN3",
+      "width": 4032
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117621384126831676862\">Rodrigo \u201cfunning\u201d</a>"
+      ],
+      "photo_reference": "AcnlKN2WjAs2adb_iz9Yy76QxP9g58iGCPbpHg6PpNv1abMN81JeZTZjkP7cIUXI8kx-ebruDeZeiX1syUQJryCQvQvhcxTy-5HQ2xQ9egPoLcwMm0tkfF-9TbDXafql4D9LjGGkoll6oSTEdJABbXrIjZQjGncB42MDGkYf7VVyd_7Rag44yQLe6eUuEbgSCpefiLJ7pZ3s9Ad-nOarBJ4zDLAu70SJyu7Rqh1dt5oNsASp16GAmekrxjzzEoPIYRpNEAHrkvGJI1ni5M_jzzaHykqfAwA3fRvwep_mHCDyVrPECBsBJ61jHV7-_wlHbgAgS6WX9PmaivbD_K9h7FvOI4jwDRUstH5PCaeZKL2AtU64XtfJFyqbHJz92MRQYbE2ZSE_CjlvzArAMhQ4HxpP7nWZXJZQRg_KSKWM6p5CrSE1OMQG",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101666190488809778461\">Emad Awad</a>"
+      ],
+      "photo_reference": "AcnlKN30qzvaxMb0lqLPxdk3moE6n2PR8MNCTSdMfPpF--BC7HeMDK6NVYy6273MtTTd7BB1xHyVYw1CV-zAeWNBgUxL9qTiTPArpl_OWT0HNeBl6S9fbIVVnHswxQPh2cSq0V_0hf0AEXfaansR3_Lw6ZVaDiIgNyYpAQyhGwhXlh4knuR3S9oC0t189mOromiGpffC9q6Uxl1XcdrPMZR0EGt_enPM7aVhUILIMeF8x_nCVs9WyGL4dW-euI3Xhc_nVcoHqA4rdI3QGd6ZvJ80zFBmY2R2C6H1eWY0-NwB8RdfpEhWXZ_sVHDgUQWgHNj0Y7a0DovcHslK6KNmhNX3i2MvkoHBi_Xm6QD6B-LyH9N9c5VuMqWEP0Mfkp3TWzWy49VbJkiXOBz0rO15fFYsGqXbktGXs9YKE7IrYtLwXLdZNZAi",
+      "width": 3024
+    },
+    {
+      "height": 1198,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/114415861027882176583\">AC9</a>"
+      ],
+      "photo_reference": "AcnlKN0TmR1GLsCv7ELPjGGFOq_xtXhnRHmf9j0kLUx3XRnl3ksPNNedU8iDR2VzFe3g3Nn79tewhXfqy0Dgp707GldWoiaQCEbc9BSAHauIYnZpM4lc8dpv8awywWqYeYLdJ7wTet6Gr7LL1qYWr3KgeC-d4wFQqXQ_qXPxrY0iyubqrEiyny29CRtbjfkCiNBgnbeeZFTkURrhgSlLr6uNQSZc4L9z2ZYcfT3oZw6K6Boq0XgnAePzB0Ptv10MmqN0kBUBwK02FxkSlf2U-6zWOF0luV0KUXlJEN-gaTCSCKXkGLYMJBw4tXYNeYYX0LLZDdt7kjZsqruV373UC1l0zJW8bSeKEWb20YhesDx-MuY2Vch7Df68fF0cwm97sB3l_XL_k6Rp-JYLX_E9tlbETp_s27Mo5Dau_pg0b2c6RttjCPY-TejjQXGfi8YY0QpV",
+      "width": 1119
+    }
+  ],
+  "place_id": "ChIJk-PEBrPHwoAR6H2cNHvlT9w",
+  "price_level": 2,
+  "rating": 4.6,
+  "reference": "ChIJk-PEBrPHwoAR6H2cNHvlT9w",
+  "reviews": [
+    {
+      "author_name": "AC9",
+      "author_url": "https://www.google.com/maps/contrib/114415861027882176583/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWiFfpOc9nsCcCI97_K0ntJYjx5NEVbNmjYETYfc21YuGhkhUgC=s128-c0x00000000-cc-rp-mo-ba6",
+      "rating": 5,
+      "relative_time_description": "2 months ago",
+      "text": "Got their chicken Cesar wrap for $18.55 (2025) Probably in my top 2 Cesar wraps in LA so far. Veggies were fresh, good amount of chicken and dressing inside, nice crunchy quinoa bits that didn\u2019t get soggy, and the tortilla was chewy and crisp in some areas cuz I also had it panini pressed. The workers there were pretty nice and it was pretty busy. Lots of people getting Togo orders.",
+      "time": 1763000837,
+      "translated": false
+    },
+    {
+      "author_name": "Tim Laws",
+      "author_url": "https://www.google.com/maps/contrib/115221151594943290592/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXOMUVTRVI5x-s5iY-pW_FcXaMnNfWPFtX5A3DbiXSdTXz3VKQn=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "5 months ago",
+      "text": "Great deli with outstanding food! We were very pleased with the two sandwiches we ordered. They were the Farm Club and the Chicken Pesto Caprese. Come and get it \ud83d\ude0b",
+      "time": 1757096532,
+      "translated": false
+    },
+    {
+      "author_name": "Eee Zee",
+      "author_url": "https://www.google.com/maps/contrib/103314957400807540332/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKiaIwTGynIyZ0L-N-8MszpNSXSWZQ6OuRoVM2yZslB9Ih7Jw=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "relative_time_description": "3 weeks ago",
+      "text": "I was able to place my order over the phone and it was ready at the time promised \ud83d\ude42\nI added 2 tomato soups and got to try the Guava \"lemonar\u00e9d\" everything was delicious! There's lots of space to rat outdoors too. Thank u for my lunch!",
+      "time": 1767909613,
+      "translated": false
+    },
+    {
+      "author_name": "Rodrigo \u201cfunning\u201d",
+      "author_url": "https://www.google.com/maps/contrib/117621384126831676862/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVjJOFsXUDGw-Zp39ummfTAL8ihJ_8cHhxZ9cdBAeMZ5pH8-XGhlg=s128-c0x00000000-cc-rp-mo-ba7",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "I got an order to go and got the Mama\u2019s Chen\u2019s Chinese chicken salad. It was delicious, crispy and flavorful.\n\nI got the extra dressing to make it even more phenomenal. Probably one of the best Chinese chicken salads I\u2019ve ever had.\n\nI\u2019d definitely come back again to try their other menu items.",
+      "time": 1724169862,
+      "translated": false
+    },
+    {
+      "author_name": "Nick Chiarchiaro",
+      "author_url": "https://www.google.com/maps/contrib/111031519528387311623/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXohtliYKQvnF099uFNQ5y9APaSf9mhPy8SEilx-zwvscKJKSev=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "2 years ago",
+      "text": "Out in Los Angeles on a project and needed a quick sandwich for lunch.  Mendocino farms was recommended to me and to try the chimichuri steak sandwich.\n\nI was very surprised at how tender the steak was, the sauce was super flavorful, the sesame bun perfectly toasted and a good size portion !\n\nThe atmosphere is hectic and they do a brisk business just by all the to go orders being seen\n\nThe staff was very friendly, helpful and all had a smile while helping customers.\n\nNeedless to say when back at this site, if I need a sandwich - I will definitely be back !",
+      "time": 1689708411,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=15875159528830696936",
+  "user_ratings_total": 205,
+  "utc_offset": -480,
+  "vicinity": "444 Flower St, Los Angeles",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3dURtMbzg5a1NzUVtfWWUZAgJpnBnuW3lsqwUVAg09kwYFJ46aBrmJuntAkHk5-FMzgcT-TC6aNWPJ-UN2wAMI0SrEfzfZ99rXLPFnbxsYFf8xgkIBcGIQRqlXnCv8ydL3xsPF92_5w8dvp74jadipoNOCf1IojAsjgrBtw4U7K7XMtaPLIo7s7sns3fmUxiKGLQF-Tkerz0Q-11jb8rl8QnLHphvKq1mCgFfIqqb7TdJ35-kUriFWEsIOXQo7Z1p0jBVbWxxcgEHNMID9A4b9O4XBm3PBxI9kP5DQSGJv7Q_fYQmv223q-o-ytQ3qMIBm_Clt85ddItH6PRmwmt5y91_oYKh_ZtKYqcUHAKXZmAVigKqAAdMtT_hLPGrYSkJzi1WlBmnxOLY7pNmWSw0-TVc4JOsZdBeHkE3pRELlOw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0V84z0ALgDTrGQ6cS1uCg_zw3s_l3eVxRngEPrM_Dy64SRHhuV_soyOptXktvC9BAZKNQXXx7nOlDffbVtfbPtkVvRicYGugjI-OAt3pZOQ70EIVp6xVXdrQMRPh_YTjJS1OiN7HRjgpVMU4cExOozhDjlWvjMWw6WUWNrgvPUlqK4f82qE39nxOxZrMGNR1-o4ohYNzA70usuaKqCUyLwisib-MXvkFnM-QpA72TRtXZcO9KpnPItTmJzNZGxQc1STcK1S93JWLO5jDAwAc4OCz6Tf930Fu0oayKB6qkxLZ-OLOY9JqFbAfbPRfrTz2CPcCakTEObF2ueLqUv95AmNK73AUvwWRyKBzepxCKukmGkiJQ3UviwhJppj_6ATXjSJXzTQVXgk8nreoi3i4oKFfat_XQ1yXu3jEi80IZEQUibYWiN8C6xA118pfqi&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN18rmENjM7r5PQGLppeeZDdYhlB6152iqCi9sTg6mpgSYn7aWPZp-XUKfjnpIzfQTScUbVGYH_qJrPHzHoq77txOvQCakJWt8cJbAZVL6E25MugcvmjFxLlzEiDoRz1TqWWxBSqsE6PtqS4mW0wigaqtR89XuYvJATuw4fxCdTS4SSW7byxATY3Lq8jD9QXkl4sUJUJrOicg4Bzl_XdzStbyVeyfKHc2X7K3fkzGKPuwcXAupO4Ojpza-xRztGMEgm43xH_VUCETtybuNe_mBKGnJZYyZpTXrjoPlEnuwXK8ZwXtOfv5y6CmAq5qEYU9sP15M7FRGr-cmkIr9u4_y-yOWNBDGSCEB-Ho7RX35fK8UUgU9fqBa6-Aqdpv4u6D48XKg2UmuktJJabrs2daOuUQedoVsVst4GXocLxFeu2QJTG85uCRcX_mmlEJ8-R&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2wwSVr63UXIFoilXy8P_Dp8BwFpyc9LOMh7YiOB9udOoL5QE-SKXVIjpL4c2hiJjDNQr1IeBcMH63pc6fXznd9W_6b16H83TONQKCYnPAuOfUyrAUiz78cPJkAKR7auSxQgyySjPaenEDbF-W6p9SXvjuTyoYuvaXnku20lk7Y8FyzaD2kE9OEz58m_eg9z8X28H4q0Y1u1GUPf44ctbZUmHbAXcoF6gL4vs-JBPFHKhc2dGtrMslG7zxWfdNZRuUucpdFV66NZT4WG8DlN9pDthuwTUQ5u1TtORfFnQ7hNlhHSKHKlCxFepcndc6I8S6yNEAxnC2UZvq9GElbfM7eaJyLjsBqQXYgjw0OK_Qku24xOg-tUnxkY-jVsb338pJD6uNsS-BQm4oI6awp1E7byenjgwjOaEndbD5EFOuCDSuvrNgE51nig4Yil7_X&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1fuQWXiP75c_WmU60L4VcpzlqoQfbcsM_2sDLK63p7idndlT3xj_GiNj47Q_bII3oZLLlyTvBRuhmRpMt978s8_41DiIE7NUiGR36rXMw7oRvyAb4_ObKsJrBPCpOzSgRHjLxPd9mc29GmwaPGzTr-ba5OWpiPBM3Tr6EVB_-0lub3C5aV0A73JSDtiZ-xKmfKDX7oOmDHsnx4TKP4fb7ixVuuCAVhAaJYhYrU9HiVkCkeNZjuz_S4e_n0Lqgb-QSsYw4O-3fvSsQUZt5InL0vVz-iwiQajxvzWj3D_2FdDCSwF38ypPJG9KbZp6BIM7Qbm1pC6L_ky4aLJaQPpE95-usGaRdUTsowvKtLPOi8MVh0sUJY_oQmsKSqHxdCQ52G7uftQ7YZAfXMqvbXnMCwVnYULWzoY1j3YiBpesrvlqI1kCmNGlcjHcdAiw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}
