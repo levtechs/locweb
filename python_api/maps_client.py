@@ -1,9 +1,57 @@
 import requests
 import time
 import random
+import os
+from urllib.parse import urlparse
+from dotenv import load_dotenv
+
+load_dotenv()
+
+PUBLIC_BUSINESSES_DIR = os.path.join(
+    os.path.dirname(os.path.dirname(__file__)),
+    "public",
+    "businesses"
+)
 
 DEFAULT_LAT = 42.312
 DEFAULT_LNG = -71.213
+
+def sanitize_folder_name(name):
+    return "".join(c if c.isalnum or c in " -_" else "_" for c in name).strip()[:50]
+
+def download_photos_locally(photo_urls, business_name):
+    slug = sanitize_folder_name(business_name)
+    photos_dir = os.path.join(PUBLIC_BUSINESSES_DIR, slug, "photos")
+    os.makedirs(photos_dir, exist_ok=True)
+
+    local_paths = []
+    for i, url in enumerate(photo_urls[:5]):
+        try:
+            response = requests.get(url, timeout=10)
+            if response.status_code == 200:
+                ext = ".jpg"
+                if response.headers.get("content-type", "").startswith("image/"):
+                    content_type = response.headers["content-type"]
+                    if "png" in content_type:
+                        ext = ".png"
+                    elif "webp" in content_type:
+                        ext = ".webp"
+
+                filename = f"photo-{i + 1}{ext}"
+                filepath = os.path.join(photos_dir, filename)
+
+                with open(filepath, "wb") as f:
+                    f.write(response.content)
+
+                local_path = f"photos/{filename}"
+                local_paths.append(local_path)
+                print(f"    Downloaded photo {i+1}: {local_path}")
+            else:
+                print(f"    Failed to download photo {i+1}: HTTP {response.status_code}")
+        except Exception as e:
+            print(f"    Error downloading photo {i+1}: {e}")
+
+    return local_paths
 
 class GoogleMapsClient:
     def __init__(self, api_key):

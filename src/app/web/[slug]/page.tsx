@@ -6,22 +6,23 @@ interface BusinessPageProps {
   params: Promise<{ slug: string }>
 }
 
-const CODE_FILE = path.join(process.cwd(), "src", "lib", "code.json")
+const BUSINESSES_DIR = path.join(process.cwd(), "public", "businesses")
 
 export async function generateStaticParams() {
-  if (!fs.existsSync(CODE_FILE)) {
+  if (!fs.existsSync(BUSINESSES_DIR)) {
     return []
   }
   
   try {
-    const codeData = JSON.parse(fs.readFileSync(CODE_FILE, "utf-8"))
     const slugs = new Set<string>()
+    const entries = fs.readdirSync(BUSINESSES_DIR, { withFileTypes: true })
     
-    for (const key of Object.keys(codeData)) {
-      // Look for either .html or .page files
-      if (key.endsWith(".html") || key.endsWith(".page")) {
-        const slug = key.replace(/\.(html|page)$/, "")
-        slugs.add(slug)
+    for (const entry of entries) {
+      if (entry.isDirectory()) {
+        const indexFile = path.join(BUSINESSES_DIR, entry.name, "index.html")
+        if (fs.existsSync(indexFile)) {
+          slugs.add(entry.name)
+        }
       }
     }
     
@@ -31,15 +32,26 @@ export async function generateStaticParams() {
   }
 }
 
-function readCodeData(): Record<string, string> {
-  if (!fs.existsSync(CODE_FILE)) {
-    return {}
+function readHtmlContent(slug: string): string | null {
+  const businessDir = path.join(BUSINESSES_DIR, slug)
+  const indexFile = path.join(businessDir, "index.html")
+  
+  if (fs.existsSync(indexFile)) {
+    try {
+      let html = fs.readFileSync(indexFile, "utf-8")
+      // Rewrite relative image paths to absolute paths
+      // Convert "photos/xxx" to "/businesses/slug/photos/xxx"
+      html = html.replace(/(src|href|background-image:\s*url\()['"]?(photos\/[^'"()\s]+)['"]?/g, 
+        (match, attr, imagePath) => {
+          return `${attr}'/businesses/${slug}/${imagePath}'`
+        }
+      )
+      return html
+    } catch {
+      return null
+    }
   }
-  try {
-    return JSON.parse(fs.readFileSync(CODE_FILE, "utf-8"))
-  } catch {
-    return {}
-  }
+  return null
 }
 
 export async function generateMetadata({ params }: BusinessPageProps): Promise<Metadata> {
@@ -56,55 +68,9 @@ export async function generateMetadata({ params }: BusinessPageProps): Promise<M
 export default async function BusinessPage({ params }: BusinessPageProps) {
   const { slug } = await params
   const decodedSlug = decodeURIComponent(slug)
-  const codeData = readCodeData()
   
-  // Try to get HTML content first (new format)
-  let htmlContent = codeData[`${decodedSlug}.html`]
-  let isRawHtml = true
-  
-  // Fallback to old React format if needed
-  if (!htmlContent) {
-    const pageCode = codeData[`${decodedSlug}.page`]
-    if (pageCode) {
-      isRawHtml = false
-      // Extract HTML from React code (legacy format)
-      const startMarker = 'export const html = \\`'
-      const startIdx = pageCode.indexOf(startMarker)
-      
-      if (startIdx !== -1) {
-        const contentStart = startIdx + startMarker.length
-        const endPattern = /\n\\`/g
-        let match
-        let lastMatchIdx = -1
-        
-        while ((match = endPattern.exec(pageCode)) !== null) {
-          lastMatchIdx = match.index
-        }
-        
-        if (lastMatchIdx > contentStart) {
-          htmlContent = pageCode.substring(contentStart, lastMatchIdx)
-          
-          // Extract only body content
-          const bodyMatch = htmlContent.match(/<body[^>]*>([\s\S]*?)<\/body>/i)
-          if (bodyMatch) {
-            htmlContent = bodyMatch[1]
-          } else {
-            const bodyContentMatch = htmlContent.match(/<body[^>]*>([\s\S]*)/i)
-            if (bodyContentMatch) {
-              htmlContent = bodyContentMatch[1]
-            }
-          }
-          
-          // Unescape
-          htmlContent = htmlContent.replace(/\\\\`/g, '`')
-          htmlContent = htmlContent.replace(/\\`/g, '`')
-          htmlContent = htmlContent.replace(/\\n/g, '\n')
-          htmlContent = htmlContent.replace(/\\"/g, '"')
-          htmlContent = htmlContent.replace(/\\\\/g, '\\')
-        }
-      }
-    }
-  }
+  // Read HTML from the business folder
+  const htmlContent = readHtmlContent(decodedSlug)
   
   if (!htmlContent) {
     return (
@@ -144,9 +110,9 @@ export default async function BusinessPage({ params }: BusinessPageProps) {
 
   // Always render with watermark (both for raw HTML and extracted HTML)
   return (
-    <>
+    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       {watermark}
-      <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
-    </>
+      <div style={{ flex: 1 }} dangerouslySetInnerHTML={{ __html: htmlContent }} />
+    </div>
   )
 }

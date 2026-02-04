@@ -1,15 +1,13 @@
 import os
-import csv
 import sys
 import random
 import json
 from urllib.parse import unquote
 from dotenv import load_dotenv
-from maps_client import GoogleMapsClient, DEFAULT_LAT, DEFAULT_LNG
+from maps_client import GoogleMapsClient, download_photos_locally, sanitize_folder_name, DEFAULT_LAT, DEFAULT_LNG
+from generate_website import generate_website_for_business, PUBLIC_BUSINESSES_DIR
 
 load_dotenv()
-
-CSV_FILE = "businesses.csv"
 
 def get_random_coordinates():
     api_key = os.environ.get("GOOGLE_MAPS_API_KEY")
@@ -74,165 +72,30 @@ US_AREAS = [
     {"city": "San Antonio, TX", "lat": 29.4241, "lng": -98.4936},
 ]
 
-def sanitize_folder_name(name):
-    return "".join(c if c.isalnum or c in " -_" else "_" for c in name).strip()[:50]
+def get_already_curated_slugs():
+    slugs = set()
+    if os.path.exists(PUBLIC_BUSINESSES_DIR):
+        for item in os.listdir(PUBLIC_BUSINESSES_DIR):
+            slug_path = os.path.join(PUBLIC_BUSINESSES_DIR, item)
+            if os.path.isdir(slug_path):
+                data_file = os.path.join(slug_path, "data.json")
+                if os.path.exists(data_file):
+                    slugs.add(item)
+    return slugs
 
-def load_existing_csv():
-    if not os.path.exists(CSV_FILE):
-        return [], set()
-    
-    with open(CSV_FILE, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        rows = list(reader)
-        fields = set(reader.fieldnames) if reader.fieldnames else set()
-    return rows, fields
-
-def business_key(business):
-    name = business.get("name", "").lower().strip()
-    address = business.get("vicinity", "").lower().strip()
-    return f"{name}|{address}"
-
-def format_business_for_csv(business):
-    row = {}
-    for key, value in business.items():
-        if isinstance(value, dict):
-            row[key] = str(value)
-        elif isinstance(value, list):
-            if key == "photo_urls":
-                row[key] = "|||".join(str(v) for v in value)
-            else:
-                row[key] = str(len(value)) + " items"
-        else:
-            row[key] = value if value is not None else ""
-    row["website?"] = "yes" if business.get("website") else "no"
-    return row
-
-def save_businesses_to_csv(all_businesses):
-    all_fields = set()
-    for b in all_businesses:
-        all_fields.update(b.keys())
-    
-    for b in all_businesses:
-        if b.get("curated"):
-            all_fields.add("curated")
-        elif "curated" in b:
-            all_fields.add("curated")
-    
-    sorted_fields = sorted(all_fields)
-    
-    with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=sorted_fields, extrasaction="ignore")
-        writer.writeheader()
-        for business in all_businesses:
-            row = {}
-            for field in sorted_fields:
-                value = business.get(field)
-                if value is not None:
-                    if isinstance(value, dict):
-                        row[field] = str(value)
-                    elif isinstance(value, list):
-                        if field == "photo_urls":
-                            row[field] = "|||".join(str(v) for v in value)
-                        else:
-                            row[field] = str(len(value)) + " items"
-                    else:
-                        row[field] = str(value)
-                else:
-                    row[field] = ""
-            writer.writerow(row)
-
-def merge_and_save(new_businesses, existing_rows):
-    existing_by_key = {business_key(row): row for row in existing_rows}
-    
-    filtered_new = [b for b in new_businesses if b.get("name")]
-    filtered_existing = [r for r in existing_rows if r.get("name")]
-    
-    existing_by_key = {business_key(row): row for row in filtered_existing}
-    
-    for business in filtered_new:
-        key = business_key(business)
-        if key in existing_by_key:
-            existing = existing_by_key[key]
-            if existing.get("curated"):
-                business["curated"] = existing["curated"]
-    
-    all_businesses = filtered_new + [
-        row for key, row in existing_by_key.items()
-        if business_key(row) not in {business_key(b) for b in filtered_new}
-    ]
-    
-    save_businesses_to_csv(all_businesses)
-    return all_businesses
-
-def update_business_slug(business_name, slug):
-    existing_rows, _ = load_existing_csv()
-    
-    for row in existing_rows:
-        if row.get("name", "").lower().strip() == business_name.lower().strip():
-            if not row.get("curated"):
-                row["curated"] = slug
-                save_businesses_to_csv(existing_rows)
-                return True
-    
-    return False
-
-def run_website_generation(businesses):
-    try:
-        from generate_website import generate_website_for_business
-    except ImportError:
-        print("Error: Could not import generate_website module")
-        return []
-    
-    businesses_to_curate = [b for b in businesses if not b.get("website") and not b.get("curated")]
-    
-    if not businesses_to_curate:
-        print("No businesses need websites curated")
-        return businesses
-    
-    updated_businesses = []
-    curated_count = 0
-    failed_count = 0
-    
-    for business in businesses_to_curate:
-        print(f"\nCurating website for: {business.get('name')}")
-        slug = generate_website_for_business(business, use_opencode=True)
-        
-        if slug:
-            business["curated"] = slug
-            curated_count += 1
-            print(f"  Curated: {slug}")
-        else:
-            failed_count += 1
-            print(f"  Failed to curate")
-        
-        updated_businesses.append(business)
-    
-    print(f"\nCuration complete: {curated_count} succeeded, {failed_count} failed")
-    return updated_businesses
-
-def load_code_file():
-    code_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), "src", "lib", "code.json")
-    if os.path.exists(code_file):
-        try:
-            with open(code_file, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except:
-            return {}
-    return {}
-
-def print_sales_emails_from_code():
+def print_phone_pitches():
     print("\n" + "=" * 60)
-    print("SALES EMAILS")
+    print("PHONE PITCHES")
     print("=" * 60)
     
-    code_data = load_code_file()
-    for key in code_data:
-        if key.endswith(".email"):
-            slug = key.replace(".email", "")
+    curated = get_already_curated_slugs()
+    for slug in sorted(curated):
+        pitch_file = os.path.join(PUBLIC_BUSINESSES_DIR, slug, "phone_pitch.txt")
+        if os.path.exists(pitch_file):
             name = unquote(slug).replace("-", " ").replace("+", " ")
-            print("\n--- " + name + " ---")
-            print(code_data[key])
-            print()
+            print(f"\n--- {name} ---")
+            with open(pitch_file, "r") as f:
+                print(f.read())
 
 def process_area(client, lat, lng, area_name, keyword):
     print(f"\nSearching in {area_name}")
@@ -246,20 +109,15 @@ def process_area(client, lat, lng, area_name, keyword):
     
     print(f"\nFound {len(businesses_to_curate)} businesses without websites out of {len(all_businesses)} total")
     
-    existing_rows, _ = load_existing_csv()
-    merged_businesses = merge_and_save(all_businesses, existing_rows)
+    curated_slugs = get_already_curated_slugs()
+    new_businesses = [b for b in businesses_to_curate if sanitize_folder_name(b.get("name", "")) not in curated_slugs]
     
-    print(f"\nCSV updated")
-    print(f"Total businesses: {len(merged_businesses)}")
-    
-    uncurated = [b for b in merged_businesses if not b.get("website") and not b.get("curated")]
-    
-    if not uncurated:
-        print(f"All businesses in {area_name} have websites!")
+    if not new_businesses:
+        print(f"All found businesses already have websites curated!")
         return False
     
-    print(f"\n{len(uncurated)} businesses without websites:")
-    for i, b in enumerate(uncurated, 1):
+    print(f"\n{len(new_businesses)} new businesses to curate:")
+    for i, b in enumerate(new_businesses, 1):
         print(f"  {i}. {b.get('name')}")
     
     print()
@@ -267,15 +125,28 @@ def process_area(client, lat, lng, area_name, keyword):
     
     if response == "y" or response == "yes":
         print("\nCurating websites...")
-        run_website_generation(merged_businesses)
         
-        websites_dir = os.path.join(os.path.dirname(__file__), "content", "websites")
-        if os.path.exists(websites_dir):
-            import shutil
-            shutil.rmtree(websites_dir)
-            print(f"\nCleaned up {websites_dir}")
+        for business in new_businesses:
+            name = business.get("name", "Unknown")
+            print(f"\nProcessing: {name}")
+            
+            photo_urls = business.get("photo_urls", [])
+            if photo_urls:
+                print(f"  Downloading {len(photo_urls)} photos...")
+                local_paths = download_photos_locally(photo_urls, name)
+                print(f"  Downloaded {len(local_paths)} photos")
+            else:
+                local_paths = []
+                print("  No photos to download")
+            
+            slug = generate_website_for_business(business, photo_paths=local_paths, use_opencode=True)
+            
+            if slug:
+                print(f"  ✓ Curated: {slug}")
+            else:
+                print(f"  ✗ Failed to curate")
         
-        print_sales_emails_from_code()
+        print_phone_pitches()
         
         print("\nCommitting and pushing changes...")
         commit_and_push_changes()
@@ -286,7 +157,6 @@ def process_area(client, lat, lng, area_name, keyword):
         return False
 
 def commit_and_push_changes():
-    """Commit and push code.json changes to git"""
     try:
         import subprocess
         import os
@@ -314,13 +184,13 @@ def commit_and_push_changes():
         stats = result.stdout.strip()
         
         result = subprocess.run(
-            ["git", "add", "src/lib/code.json"],
+            ["git", "add", "-A"],
             cwd=repo_dir,
             capture_output=True,
             text=True
         )
         
-        commit_message = f"""Automated commit: Updated code.json
+        commit_message = f"""Automated commit: Updated business websites
 
 Changes: {stats}
 

@@ -2,25 +2,27 @@ import Link from "next/link"
 import fs from "fs"
 import path from "path"
 
-const CODE_FILE = path.join(process.cwd(), "src", "lib", "code.json")
+const BUSINESSES_DIR = path.join(process.cwd(), "public", "businesses")
 
 function getAllBusinessSlugs(): string[] {
-  if (!fs.existsSync(CODE_FILE)) {
+  if (!fs.existsSync(BUSINESSES_DIR)) {
     return []
   }
   
   try {
-    const codeData = JSON.parse(fs.readFileSync(CODE_FILE, "utf-8"))
     const slugs = new Set<string>()
+    const entries = fs.readdirSync(BUSINESSES_DIR, { withFileTypes: true })
     
-    for (const key of Object.keys(codeData)) {
-      if (key.endsWith(".html") || key.endsWith(".page")) {
-        const slug = key.replace(/\.(html|page)$/, "")
-        slugs.add(slug)
+    for (const entry of entries) {
+      if (entry.isDirectory()) {
+        const dataFile = path.join(BUSINESSES_DIR, entry.name, "data.json")
+        if (fs.existsSync(dataFile)) {
+          slugs.add(entry.name)
+        }
       }
     }
     
-    return Array.from(slugs)
+    return Array.from(slugs).sort()
   } catch {
     return []
   }

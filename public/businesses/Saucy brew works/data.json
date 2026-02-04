@@ -1,0 +1,40 @@
+{
+  "business_status": "OPERATIONAL",
+  "dine_in": true,
+  "formatted_address": "Ohio City, OH 45874, USA",
+  "geometry": {
+    "location": {
+      "lat": 40.7714367,
+      "lng": -84.6155134
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 40.7727858302915,
+        "lng": -84.61414531970848
+      },
+      "southwest": {
+        "lat": 40.7700878697085,
+        "lng": -84.61684328029149
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "name": "Saucy brew works",
+  "place_id": "ChIJYf483Cc_PogRLH_3SZzdkWQ",
+  "reference": "ChIJYf483Cc_PogRLH_3SZzdkWQ",
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=7246816938741432108",
+  "utc_offset": -300,
+  "vicinity": "Ohio City",
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": []
+}

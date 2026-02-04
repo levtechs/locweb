@@ -1,0 +1,288 @@
+{
+  "business_status": "OPERATIONAL",
+  "delivery": true,
+  "dine_in": true,
+  "formatted_address": "158-38 Cross Bay Blvd, Howard Beach, NY 11414, USA",
+  "formatted_phone_number": "(718) 323-8827",
+  "geometry": {
+    "location": {
+      "lat": 40.6597637,
+      "lng": -73.8403052
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 40.66111773029149,
+        "lng": -73.8388694697085
+      },
+      "southwest": {
+        "lat": 40.6584197697085,
+        "lng": -73.8415674302915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 718-323-8827",
+  "name": "Sakura",
+  "opening_hours": {
+    "open_now": true,
+    "periods": [
+      {
+        "close": {
+          "day": 0,
+          "time": "2200"
+        },
+        "open": {
+          "day": 0,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 1,
+          "time": "2200"
+        },
+        "open": {
+          "day": 1,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "2200"
+        },
+        "open": {
+          "day": 2,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "2200"
+        },
+        "open": {
+          "day": 3,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2200"
+        },
+        "open": {
+          "day": 4,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2200"
+        },
+        "open": {
+          "day": 5,
+          "time": "1100"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2200"
+        },
+        "open": {
+          "day": 6,
+          "time": "1100"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Sunday: 11:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
+    ]
+  },
+  "photos": [
+    {
+      "height": 1008,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111322364192988956665\">Alrick collins Sr.</a>"
+      ],
+      "photo_reference": "AcnlKN17kzZbU_YLmKtwle2UT6xOwyH_dE8x7sZRjubO1y4kyPsn-SeY_UBNmfuCxr1dy0NqxcMX8JaqGK1ZiJAY_qWMxTn1fOKNbY7JfFBSx0weM63j0ue-G_FXD9WF2iYgezIk0rUxtnKmcds3XKtvjlFZvdljeXAgFJL0ydCF4KgOik46C8Iw4Sttx1e6KrE1T8Rx3z5c9koxoJHI0DSHvUt60fFCCW08T9zaQ5RM88DBU6FJD6s2IZT5Aw1nV0d2pTdJr1u19zo3WUJkBJ705F_B6IxSFKWwBZR3qybk68EbEnaB9j0PM3wIDtYUUW9ScjofOjom8AOTIXag3AKnDXG_idFwf-bS5nSOctYaR7aizIAm50sBKPGakysY27WYtb4vnuyWwILsPGPn7jF0q8Yo9307Ji5YPVgnU8GLi0NPCrhAnEMMjZTxB926WmxQ",
+      "width": 2244
+    },
+    {
+      "height": 1836,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111053363524729139089\">Elaine K</a>"
+      ],
+      "photo_reference": "AcnlKN1bjSdBzryN0vcpSGfBVECy60Wx1C6RD2Y16w_9GkCaGY3ekPoQaxPgGDAvcYfP3_c5hMzW6gz5a3vPOx29Y5rHKebs8LQCTbiB7SRbtFslQc-k07Gu-CTAX6kM9XCK-rCR-PVcoVV6dm24IO2dCJEwNjw84slQLOHPmxgVTLxMHRbmkasQ_uTWrB3bdUr9F9pl_bACKdeeu1DkhqTgEgkCZ4jN_NNBwSEfsRSxe_UTsesJ2CglK3mx4k24o7HPJ0bpp8OR6qtU-tmiJwOWEpTXGiaT_SOa0GxOUQzrL_MfzJTBsO79WZyGQcaKB-qVg4sdrPm1g_Z704pzt0ZLBMMnysWuTZuDmObLGcBpPfbwTXw5wYn6eRm6Kmk8JUskF_AtasJf-Qg8nr4iaG7BAWV8w12hQdFVFo7pi8p6956ia24",
+      "width": 3264
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112779109492411401158\">Ana Martinez</a>"
+      ],
+      "photo_reference": "AcnlKN0W9sYrVMxolYPzNlYStzekOHIWm_jztUFdTST_MsZs8ySn2Y66RoTpdmyzntNpys4C5ogLpWkuHZgCr2sPejijqCT9SCqy9dMMd9QjW73SCymIbQhu2akBbr3zAVbqeTEDceBuYG7gqaYEJXukAFlZ2Dhqegj8zRTNy1lm8nQ8bz7o0SB88NIPsYx0Q2f4ApP7Xu9RVfylBO2KFBBd6uXlfGspUTReuyhvWRUH6P1mVmOMwedO1yAdVx3_1qi9_z_KleHUtpyb7AqbGIwj-useLpmpR2RSIH9LFCBxz1Aci1LtaLZOAfSQy_Y6apr3WIiVPUdbb-pwW7_SMYoHHcJQ74e1dj4NRo9oV6fvLCG-q4wEWmuDc_LuBFB7bA5a_g5n-S4Ujwd1EDI3tg9XmyviFaJtCTMoLZpCAPMeS6HbiQ",
+      "width": 4032
+    },
+    {
+      "height": 1800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117697113295693973616\">Ely Figueroa</a>"
+      ],
+      "photo_reference": "AcnlKN1ep_n6Mq72WdAQfchrXEzMDELn0VLZSB6JmyGF6oMF__ihQEUwScEDcypIFL13PswRgh9kr7yU8IK0UWAk-YyIB6CHZ2YctJyo96eycbPljlqrYQsE9AXziKji1IALRNl7px3M-3IVlBelMehYjpdXG8uhXSj64jt1ILXVlM3kwuuoy00_qI4MsLZ7C6tlP4K1EXoGBW_bVTS-GBf7t-yPVvVzWe7hF88Lp3tWh6JFQEvt1l8HYG0hCHZI7sz1Tfh8E4Zr10afaKn3fS-73cAvAP8S5Ck079wKK085XEOu3bZSafX199rpJB49qmYzeqD5XmCcHwliX8evoaWk8IeS-ecW7Z4bQggT4et5YRUsQGBdldjUucIE_sN_b2-yK7NZB14OIzFkX6QwGaXhhSuXcR62n279UwElxIL-EVvN-w",
+      "width": 4000
+    },
+    {
+      "height": 1800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117697113295693973616\">Ely Figueroa</a>"
+      ],
+      "photo_reference": "AcnlKN2pdxbQE4jFHUVq_WkaI8lwgxEjZ_ZvqQ7tOvxyqV416VXApTliETmTHYytgCdHfYyrnf045mr3ifqnLlMRnx_Jb-WO3nSMi5uOeCkHzvLfq1c4TOfTZXEijCvT2dyRrFgVemH7cVtsa94cp-cqb_IBMvPfHOj9U2XNlnRyI8Gu5k57P6so5KpI-u0NKWO1nL7xt4a68pHs39dYQe8MHVfZBdkwAOagRs9FqWU7cOcfuPUVV2KoGMzvRq5D6dY1N6SMlklwlpc5d-FxTuIxldhGL8W4c1nKQB-O94gc-0xdS5cGW_LouA9oV_XAUtbmFMozrW6Baw98QQxZaukRm2u2ZpH-tx3C6a6F_BQGqYadGGOk4eaTdn_Efz9-VUlWgXTTG5QO-ETC3yhJdv0kVrN1xL92eeI4Y5DB0Ay7S-OopCy2",
+      "width": 4000
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/107747260796095554866\">Zoey Chen</a>"
+      ],
+      "photo_reference": "AcnlKN1HRrQK4x_fbAVHVXorcK3A91KiDArbC9Sbq8TvMJlj2nurOXHfOWUQAfKoazJElIcWmGUGmEY7fdf9Udz64inmN6l24jvrfLIGnmMAGdCdOzf_HAbU4OEH4_BkxDeSDxHKUIU38iEdl0pVL0_v5c-ju-5Vk4AgxkQPdfQSZcow9pLl0nBYjWHI0s0qTqvOHq17LLAygo8sPewVHGU80IGsLVvp22PvDQQ_rHXRYHt2QxPTbzC1XXI3EvxRGPUaubskJ88eMJmzPtSt-WfsD019EfpIYkoD_ySlx0gHv7m-s8TSI4L_CHpFsmYVTEwZVSuaRMRIYkmYDe3HaaebuLqjModtXDDEyOD-isJBZVKrWrw70jJxRnWbBXLgiWzObBp8y_X6T-KaXHc5bWt8_yBnM4lPb3pd_puh9me2Z1iBDg0",
+      "width": 3024
+    },
+    {
+      "height": 3000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/108708394367138255981\">Ken Lee</a>"
+      ],
+      "photo_reference": "AcnlKN3c26bW68QvuSPVsOhUJ0TqKHG1yII2pFzoer456ioaekV3MGQ7M09CThOYQ4dpiQcV2b3W_zYzNvLdSyCc1WnLDUo4Hc0JsbFN5n7sWWglSx6x7je9mSaQ_NqxjpyqqyCc9DGswo24lYhKhjlQz3A6xiNtdUFn2u3E6Yi_a_V70ju5ttpyzxHh1KokBxHI5WBQJdod_U_wpMYUY1DldJ4kU2rH07MysPpaUNKRNrNxx-LpfnH1MzNIp8bErd624IChEQXxBXtyswtd8pJkIWAqAUINRKOTL25Si10fD8YpgNg0pGLI9cUwj_ROCTdDCzsl47a1rJu2MTk8NlXIogop0UGttkYNEntKSJLSBODujrKFehss7q5cH5R-xkniUFUh7MWCNBb0-lqF8gf7w_cIDJJXIuvvMzixj4yWCg6_MAg",
+      "width": 4000
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117106742817380710641\">Bella Milazzo</a>"
+      ],
+      "photo_reference": "AcnlKN3GYp83D-mhCWg97-LH30z2vsvNDaJmK_YEFonilXw9jM3gkPk4QL8Ytn5RUjqcgYUlKNOTgfyhHC0eUq7d19xI992s7qC2J7Hq_9YciHKyb-VOgUR6FVvdT3pZP3WbQbskM8r0TFXtkDX1qGkhrKr5RDeiH866PRVBfbWUj56wIQ_2rZ_YjQaqv2LursyQe7ebQuFcbPgpAX-D2Cl_BsE7p7H3aDNVPsRLbWHpSai4QE0LqIsdysJNolmDCcb2di4viDxSJAjqimQlkMvV5i0kAnr88q2fsX0aVuIdCN3lXLGDSTM8m9K64BDv7D9wUyvPQCLgnLZ2iGvMSkMwSWIwpiCSkkx5alamNQ-DrsEo8q2lMHHnv8ThGGH_DLngyon5a9nV7ftzlWXy7IxJSVLRvhOhCYa5ak3CGEfpIChJ0EET",
+      "width": 3024
+    },
+    {
+      "height": 2628,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105201329821495092575\">M R</a>"
+      ],
+      "photo_reference": "AcnlKN08WNuvCm9iiGEj9ydhXNOUjsvSYSofYaHgFxkBMhUgRle2nQCdWENeT_X2rzu4yzBILrZyr_QmpN8dzFdzxA5p40CijJNDZvJ7jrvpenN3_SPKUfMJRDfzFKJsvZkBfoVEL0EZh_jFsGzTa9zd6difPimNLIzkwy32Fr7o9a73NPGgmn_Yw61Mkn9txz3BRLK3pTdDak8ssCTJyR1jjJiDcIP98JZ-cvHDOmDwYzOEpRw0z01aVl_0xcVdsNtmtfCTJDIY4Hrp4XDhKBuG1IjI5DnublD_py8bPtwRqVmHLJWmUSAr8zxWFW1wOyF8VZD3IjIWY13bGiTbR6rnFpi9cMlT_0e_qVgCJ4MC2v1pwmEw9L-K-B6VPAnez2seJiF8wgHOeBpXa7VSQMpSOkI3Jmo5XqUDtVL1yHXEw7ltFeou",
+      "width": 3193
+    },
+    {
+      "height": 2700,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/105169494554407033416\">DaFinest Auto life</a>"
+      ],
+      "photo_reference": "AcnlKN1OwhHUX5mDGnlyvfrjScMrTFTgcqdEMYLdv6uz6R_bX8e8OKpLLcjlo_Eb9DnlZWI2-eYEV4_PBfkI7Z0w9__H4C0Yo88haMnH5h4-wF4pBx5FUVMRCQ2Q6DqbjdG13m0zbMcl5-EdJJf05YgtCQIpPL58vjiFYE6BB21ZUplYQ2Q_KBRsx3YcOlCXD0XD--0Gmx7Y7hzHZeBs1gcwTEqt31qnPKOL2foKOdtLhoWt107an1OGZFvUrMKx63vCXa8hBsf8vZew0M7bbfd4_x8tMfRiVlRCPeT4UHjbQys0SVxdIo50XN0RDEhNuEEqzj6mrLo-x3z0_8BHN0xgqqHdCJrC1XfUI5JhVcCNQ3g0zb5Y6HkgTE0ZNT21QHSdxB2hSIP20DUI_CUwzOTI6BcDBb7-8gDYWtawC4MXUORACg",
+      "width": 4800
+    }
+  ],
+  "place_id": "ChIJt62WbX5nwokR3boTgxPCzIk",
+  "price_level": 2,
+  "rating": 4.1,
+  "reference": "ChIJt62WbX5nwokR3boTgxPCzIk",
+  "reviews": [
+    {
+      "author_name": "Neha Desai",
+      "author_url": "https://www.google.com/maps/contrib/106854667513923058598/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocL88zzf--SpYshbXFRTF4lj0ASBrrj59DLkf8qaxt8O5mUpDw=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 3,
+      "relative_time_description": "4 years ago",
+      "text": "I usually enjoyed the previous orders I had, except once where one of the appetizers was mushy and disgusting and then the delivery guy gave me attitude, but overall the food was good the times I had ordered besides those 2 times. I decided I was craving sushi and felt like I would support a local business but I got home and my sushi is falling apart. I\u2019m disappointed.",
+      "time": 1616977341,
+      "translated": false
+    },
+    {
+      "author_name": "Mubin",
+      "author_url": "https://www.google.com/maps/contrib/100436413004919094232/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUBIkQ8pVH_Lr0Sh6CMws1MCzRwX63a1likaCW7XSJYIMYsPctl=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 2,
+      "relative_time_description": "4 years ago",
+      "text": "Quick delivery. Very pricy for the area and quality. Not impressed by any of the rolls, the sashimi rolls where not flavorful at at (tuna was horrible). For the cost would not order again, if so just stick with the sushi rolls.",
+      "time": 1634619995,
+      "translated": false
+    },
+    {
+      "author_name": "Tsedol B",
+      "author_url": "https://www.google.com/maps/contrib/107424771715707081869/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIbRr6F4guM5zovhRZj9JrXL-5HE554L7EjC26gCjw0gNTj68c=s128-c0x00000000-cc-rp-mo",
+      "rating": 1,
+      "relative_time_description": "7 months ago",
+      "text": "went there today, had 2 special roll, unagi don with rice, udon soup, tuna pizza & kani salad. food was okay. I\u2019ve had much better sushis in much more reasonable price. The server there looked very unwelcoming. long story short, we were charged 18% service fee for 2 adults & 1 child included in the bill. I\u2019ve been to so many restaurants and never had a service fee (tip) for 2 people. i understand if we were a party of 6+. if i were given the choice to tip, i always leave a 20% minimum regardless.\n\nand when i paid for the bill, i received another receipt with a section for tip and a pen, pretending like tip was not included. they didn't even notify me about the service fee beforehand. if you go here, look at your receipt carefully for all the charges. they trying to act slick. will not go back again.",
+      "time": 1751761478,
+      "translated": false
+    },
+    {
+      "author_name": "Terence King",
+      "author_url": "https://www.google.com/maps/contrib/116872971704549700229/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJZhG1ZDQ9v0eDL7ID-Ypq5uCL_2nHxJke9YQ0r0GPN4mSuqw=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 4,
+      "relative_time_description": "6 years ago",
+      "text": "Solid sushi place in a neighborhood with limited variety!\n\nHowever, my most recent take out order (30 minutes ago) came with the 2 soups divided as the photo shows. Be prepared to check your order to prevent this from a happening.",
+      "time": 1568249467,
+      "translated": false
+    },
+    {
+      "author_name": "Huyuni",
+      "author_url": "https://www.google.com/maps/contrib/105282110069101748048/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXti4X9ohbxwXf9Je5Ji9ATpPhcod-VjoKuonaFq5nZPnOi98NU=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 4,
+      "relative_time_description": "7 years ago",
+      "text": "The bento box was very good and filling. However I wish they would let vegetarian people switch out the shumai and California rolls for no extra cost.",
+      "time": 1523308915,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "meal_delivery",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=9929524667504376541",
+  "user_ratings_total": 331,
+  "utc_offset": -300,
+  "vicinity": "158-38 Cross Bay Blvd, Howard Beach",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN17kzZbU_YLmKtwle2UT6xOwyH_dE8x7sZRjubO1y4kyPsn-SeY_UBNmfuCxr1dy0NqxcMX8JaqGK1ZiJAY_qWMxTn1fOKNbY7JfFBSx0weM63j0ue-G_FXD9WF2iYgezIk0rUxtnKmcds3XKtvjlFZvdljeXAgFJL0ydCF4KgOik46C8Iw4Sttx1e6KrE1T8Rx3z5c9koxoJHI0DSHvUt60fFCCW08T9zaQ5RM88DBU6FJD6s2IZT5Aw1nV0d2pTdJr1u19zo3WUJkBJ705F_B6IxSFKWwBZR3qybk68EbEnaB9j0PM3wIDtYUUW9ScjofOjom8AOTIXag3AKnDXG_idFwf-bS5nSOctYaR7aizIAm50sBKPGakysY27WYtb4vnuyWwILsPGPn7jF0q8Yo9307Ji5YPVgnU8GLi0NPCrhAnEMMjZTxB926WmxQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1bjSdBzryN0vcpSGfBVECy60Wx1C6RD2Y16w_9GkCaGY3ekPoQaxPgGDAvcYfP3_c5hMzW6gz5a3vPOx29Y5rHKebs8LQCTbiB7SRbtFslQc-k07Gu-CTAX6kM9XCK-rCR-PVcoVV6dm24IO2dCJEwNjw84slQLOHPmxgVTLxMHRbmkasQ_uTWrB3bdUr9F9pl_bACKdeeu1DkhqTgEgkCZ4jN_NNBwSEfsRSxe_UTsesJ2CglK3mx4k24o7HPJ0bpp8OR6qtU-tmiJwOWEpTXGiaT_SOa0GxOUQzrL_MfzJTBsO79WZyGQcaKB-qVg4sdrPm1g_Z704pzt0ZLBMMnysWuTZuDmObLGcBpPfbwTXw5wYn6eRm6Kmk8JUskF_AtasJf-Qg8nr4iaG7BAWV8w12hQdFVFo7pi8p6956ia24&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0W9sYrVMxolYPzNlYStzekOHIWm_jztUFdTST_MsZs8ySn2Y66RoTpdmyzntNpys4C5ogLpWkuHZgCr2sPejijqCT9SCqy9dMMd9QjW73SCymIbQhu2akBbr3zAVbqeTEDceBuYG7gqaYEJXukAFlZ2Dhqegj8zRTNy1lm8nQ8bz7o0SB88NIPsYx0Q2f4ApP7Xu9RVfylBO2KFBBd6uXlfGspUTReuyhvWRUH6P1mVmOMwedO1yAdVx3_1qi9_z_KleHUtpyb7AqbGIwj-useLpmpR2RSIH9LFCBxz1Aci1LtaLZOAfSQy_Y6apr3WIiVPUdbb-pwW7_SMYoHHcJQ74e1dj4NRo9oV6fvLCG-q4wEWmuDc_LuBFB7bA5a_g5n-S4Ujwd1EDI3tg9XmyviFaJtCTMoLZpCAPMeS6HbiQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1ep_n6Mq72WdAQfchrXEzMDELn0VLZSB6JmyGF6oMF__ihQEUwScEDcypIFL13PswRgh9kr7yU8IK0UWAk-YyIB6CHZ2YctJyo96eycbPljlqrYQsE9AXziKji1IALRNl7px3M-3IVlBelMehYjpdXG8uhXSj64jt1ILXVlM3kwuuoy00_qI4MsLZ7C6tlP4K1EXoGBW_bVTS-GBf7t-yPVvVzWe7hF88Lp3tWh6JFQEvt1l8HYG0hCHZI7sz1Tfh8E4Zr10afaKn3fS-73cAvAP8S5Ck079wKK085XEOu3bZSafX199rpJB49qmYzeqD5XmCcHwliX8evoaWk8IeS-ecW7Z4bQggT4et5YRUsQGBdldjUucIE_sN_b2-yK7NZB14OIzFkX6QwGaXhhSuXcR62n279UwElxIL-EVvN-w&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2pdxbQE4jFHUVq_WkaI8lwgxEjZ_ZvqQ7tOvxyqV416VXApTliETmTHYytgCdHfYyrnf045mr3ifqnLlMRnx_Jb-WO3nSMi5uOeCkHzvLfq1c4TOfTZXEijCvT2dyRrFgVemH7cVtsa94cp-cqb_IBMvPfHOj9U2XNlnRyI8Gu5k57P6so5KpI-u0NKWO1nL7xt4a68pHs39dYQe8MHVfZBdkwAOagRs9FqWU7cOcfuPUVV2KoGMzvRq5D6dY1N6SMlklwlpc5d-FxTuIxldhGL8W4c1nKQB-O94gc-0xdS5cGW_LouA9oV_XAUtbmFMozrW6Baw98QQxZaukRm2u2ZpH-tx3C6a6F_BQGqYadGGOk4eaTdn_Efz9-VUlWgXTTG5QO-ETC3yhJdv0kVrN1xL92eeI4Y5DB0Ay7S-OopCy2&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.png",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

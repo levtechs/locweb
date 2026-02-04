@@ -1,19 +1,15 @@
 import os
-import csv
 import subprocess
 import time
 import requests
 import json
 import shutil
-from urllib.parse import unquote, quote
 from dotenv import load_dotenv
 
 load_dotenv()
 
 TEMPLATE_DIR = os.path.join(os.path.dirname(__file__), "template")
-WEBSITES_DIR = os.path.join(os.path.dirname(__file__), "content", "websites")
-CODE_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "src", "lib", "code.json")
-CSV_FILE = os.path.join(os.path.dirname(__file__), "businesses.csv")
+PUBLIC_BUSINESSES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "public", "businesses")
 
 OPENCODE_API_KEY = os.environ.get("OPENCODE_API_KEY")
 OPENCODE_HOST = os.environ.get("OPENCODE_HOST", "127.0.0.1")
@@ -25,21 +21,6 @@ OPENCODE_BASE_URL = f"http://{OPENCODE_HOST}:{OPENCODE_PORT}"
 
 def sanitize_folder_name(name):
     return "".join(c if c.isalnum or c in " -_" else "_" for c in name).strip()[:50]
-
-def load_code_file():
-    if os.path.exists(CODE_FILE):
-        try:
-            with open(CODE_FILE, "r", encoding="utf-8") as f:
-                return json.load(f)
-        except:
-            return {}
-    return {}
-
-def save_code_file(code_data):
-    os.makedirs(os.path.dirname(CODE_FILE), exist_ok=True)
-    with open(CODE_FILE, "w", encoding="utf-8") as f:
-        json.dump(code_data, f, indent=2)
-    print(f"Saved code to {CODE_FILE}")
 
 def is_opencode_server_running():
     try:
@@ -81,7 +62,6 @@ def ensure_opencode_server_running():
 def run_opencode_session(business_name, prompt, timeout=120):
     session_id = None
     try:
-        # Create session with business name
         session_response = requests.post(
             f"{OPENCODE_BASE_URL}/session",
             json={"title": f"Generate website for {business_name}"}
@@ -97,7 +77,7 @@ def run_opencode_session(business_name, prompt, timeout=120):
         message_response = requests.post(
             f"{OPENCODE_BASE_URL}/session/{session_id}/message",
             json={
-                "model": {"providerID": "opencode", "modelID": "grok-code"},
+                "model": {"providerID": "opencode", "modelID": "minimax-m2.1-free"},
                 "parts": [{"type": "text", "text": prompt}]
             }
         )
@@ -113,8 +93,9 @@ def run_opencode_session(business_name, prompt, timeout=120):
                 pass
         
         if message_response.status_code not in [200, 202]:
-            print(f"Response: {message_response.text[:200]}")
-            return False, f"Failed to send message: {message_response.status_code}"
+            error_msg = message_response.text[:500] if message_response.text else "No response body"
+            print(f"OpenCode error response: {error_msg}")
+            return False, f"OpenCode request failed (status {message_response.status_code}): {error_msg}"
         
         print("Waiting for OpenCode agent to complete...")
         start_time = time.time()
@@ -146,7 +127,6 @@ def run_opencode_session(business_name, prompt, timeout=120):
         return False, str(e)
     
     finally:
-        # Clean up session if it was created
         if session_id:
             try:
                 delete_response = requests.delete(f"{OPENCODE_BASE_URL}/session/{session_id}")
@@ -217,7 +197,7 @@ def generate_prompt_for_opencode(business_data, folder_path, slug):
     review_texts = ""
     if isinstance(positive_reviews, list) and len(positive_reviews) > 0:
         sample_reviews = positive_reviews[:3]
-        review_texts = "\nPositive customer reviews (4+ stars):\n"
+        review_texts = "\n**Positive customer reviews (4+ stars):**\n"
         for r in sample_reviews:
             author = r.get("author_name", "Customer")
             text = r.get("text", "")[:200]
@@ -226,9 +206,10 @@ def generate_prompt_for_opencode(business_data, folder_path, slug):
     else:
         review_texts = "\nNo positive reviews available."
     
+    local_photos = business_data.get("local_photos", [])
     photos_section = ""
-    if photo_urls:
-        photos_section = f"\n**Business Photos ({len(photo_urls)} available):**\n" + "\n".join([f"- {url}" for url in photo_urls[:3]])
+    if local_photos:
+        photos_section = f"\n**Local Photos ({len(local_photos)} available - USE THESE PATHS):**\n" + "\n".join([f"- {url}" for url in local_photos[:3]])
     
     prompt = f"""You are an expert web developer creating a complete HTML website for a local business.
 
@@ -244,10 +225,6 @@ def generate_prompt_for_opencode(business_data, folder_path, slug):
 
 **IMPORTANT: Work in this directory: {folder_path}**
 
-    **Website URL:**
-    When creating the email, use this placeholder for the website URL:
-    https://locweb.vercel.app/web/{slug}
-
 **Your Task:**
 
 Follow the detailed instructions in AGENTS.md to create a professional HTML website.
@@ -258,104 +235,89 @@ Follow the detailed instructions in AGENTS.md to create a professional HTML webs
 - Include hero section, business info, photo gallery, footer
 - Use Tailwind CSS for all styling
 - Make it responsive and professional
-- Use real photo URLs from data.json
+- Use LOCAL photo paths from data.json (e.g., "photos/photo-1.jpg") - NOT Google Maps URLs
 - Make all links functional
 
 **Critical Rules:**
-- DO NOT create additional files EXCEPT email.txt
+- DO NOT create additional files EXCEPT phone_pitch.txt
 - DO NOT delete existing files
-- Only modify index.html and create email.txt
+- Only modify index.html and create phone_pitch.txt
 - Follow AGENTS.md instructions exactly
+- CRITICAL: Use the local photo paths provided in data.json, NOT the Google Maps URLs
 
-After modifying index.html and creating email.txt, verify everything is complete and professional."""
+After modifying index.html and creating phone_pitch.txt, verify everything is complete and professional."""
     return prompt
 
-def create_temp_workspace(business_data, slug):
-    temp_dir = os.path.join(WEBSITES_DIR, f".temp_{slug}")
-    os.makedirs(temp_dir, exist_ok=True)
+def create_business_folder(business_data, slug, photo_paths):
+    folder_path = os.path.join(PUBLIC_BUSINESSES_DIR, slug)
+    os.makedirs(folder_path, exist_ok=True)
+    os.makedirs(os.path.join(folder_path, "photos"), exist_ok=True)
     
-    # Add owner info to business data for email template
     business_data["owner_email"] = OWNER_EMAIL
     business_data["owner_name"] = OWNER_NAME
+    business_data["local_photos"] = photo_paths
     
-    # Create data.json with business info
-    with open(os.path.join(temp_dir, "data.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(folder_path, "data.json"), "w", encoding="utf-8") as f:
         json.dump(business_data, f, indent=2)
     
-    # Copy the HTML template and AGENTS.md
     index_src = os.path.join(TEMPLATE_DIR, "index.html")
     agents_src = os.path.join(TEMPLATE_DIR, "AGENTS.md")
     
     if os.path.exists(index_src):
-        shutil.copy2(index_src, os.path.join(temp_dir, "index.html"))
+        shutil.copy2(index_src, os.path.join(folder_path, "index.html"))
     
     if os.path.exists(agents_src):
-        shutil.copy2(agents_src, os.path.join(temp_dir, "AGENTS.md"))
+        shutil.copy2(agents_src, os.path.join(folder_path, "AGENTS.md"))
     
-    return temp_dir
+    return folder_path
 
-def parse_generated_code(temp_dir, slug):
-    code_data = load_code_file()
+def save_phone_pitch(folder_path, slug, business_data, name):
+    pitch_file = os.path.join(folder_path, "phone_pitch.txt")
     
-    index_file = os.path.join(temp_dir, "index.html")
+    website_url = f"https://locweb.vercel.app/web/{slug}"
+    phone = business_data.get("formatted_phone_number") or business_data.get("international_phone_number") or ""
     
-    if os.path.exists(index_file):
-        with open(index_file, "r", encoding="utf-8") as f:
-            code_data[f"{slug}.html"] = f.read()
-            print(f"Saved generated HTML to code.json")
-    
-    email_file = os.path.join(temp_dir, "email.txt")
-    email_content = None
-    if os.path.exists(email_file):
-        with open(email_file, "r", encoding="utf-8") as f:
-            email_content = f.read()
-        code_data[f"{slug}.email"] = email_content
-        print(f"Saved email to code.json")
-    
-    save_code_file(code_data)
-    print(f"Saved generated code to code.json")
-    return email_content
+    pitch = f"""Phone Call Script for {name}
+================================
 
-def cleanup_temp_workspace(temp_dir):
-    if os.path.exists(temp_dir):
-        shutil.rmtree(temp_dir)
-        print(f"Cleaned up temp directory")
+**Call Goal:** Schedule a brief 10-minute call to present the free website and gauge interest.
 
-def update_csv_slug(business_name, slug, email_content=None):
-    if not os.path.exists(CSV_FILE):
-        return False
-    
-    businesses = []
-    all_fields = set()
-    
-    with open(CSV_FILE, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            businesses.append(row)
-            all_fields.update(row.keys())
-    
-    updated = False
-    for row in businesses:
-        if row.get("name", "").lower().strip() == business_name.lower().strip():
-            if not row.get("curated"):
-                row["curated"] = slug
-                updated = True
-                break
-    
-    if updated:
-        all_fields.add("curated")
-        sorted_fields = sorted(all_fields)
-        
-        with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=sorted_fields, extrasaction="ignore")
-            writer.writeheader()
-            for row in businesses:
-                writer.writerow(row)
-        print(f"Updated CSV: {business_name} -> {slug}")
-    
-    return updated
+**Opening:**
+"Hi, is this {name}? My name is {OWNER_NAME} from LocWeb. I'm calling because I noticed you don't have a website yet, and I thought every great local business deserves to be found online."
 
-def generate_website_for_business(business_data, use_opencode=True):
+**If they ask what LocWeb is:**
+"We're a local initiative helping small businesses get online with professional websites - completely free as a gift to support the community."
+
+**If they ask why I'm calling:**
+"I was looking at your business on Google and I have to say - your reviews are impressive! With a {business_data.get('rating')}-star rating, it's clear you know how to take care of customers. I thought: why isn't this amazing business showing up online?"
+
+**The Offer:**
+"I put together a free professional website for {name} - it showcases your photos, your reviews, your location, everything that makes people want to visit you. I'd love to show it to you!"
+
+**Website URL:** {website_url}
+
+**If they're interested:**
+"Great! I can walk you through it right now if you have 2 minutes, or I can send you the link and we can schedule a quick call this week."
+
+**If they're not interested:**
+"No problem at all! I just wanted to make sure you knew about this resource. If you change your mind, here's the website anyway - it's yours to keep: {website_url}"
+
+**Closing:**
+"Thanks so much for your time today! I'll send you a quick text with the website link. Have a great day!"
+
+---
+Owner: {OWNER_NAME}
+Owner Email: {OWNER_EMAIL}
+Website: {website_url}
+"""
+    
+    with open(pitch_file, "w", encoding="utf-8") as f:
+        f.write(pitch)
+    
+    print(f"Saved phone pitch to {pitch_file}")
+    return pitch
+
+def generate_website_for_business(business_data, photo_paths=None, use_opencode=True):
     name = business_data.get("name") or "Unknown Business"
     slug = sanitize_folder_name(name)
     
@@ -366,8 +328,9 @@ def generate_website_for_business(business_data, use_opencode=True):
     print(f"Curating website for: {name} (slug: {slug})")
     
     if not use_opencode or not OPENCODE_API_KEY:
-        os.makedirs(os.path.join(WEBSITES_DIR, slug), exist_ok=True)
-        print(f"Folder created at {WEBSITES_DIR}/{slug}")
+        folder_path = os.path.join(PUBLIC_BUSINESSES_DIR, slug)
+        os.makedirs(folder_path, exist_ok=True)
+        print(f"Folder created at {folder_path}")
         if not OPENCODE_API_KEY:
             print("Note: OPENCODE_API_KEY not set - website not generated")
         return None
@@ -376,86 +339,27 @@ def generate_website_for_business(business_data, use_opencode=True):
         print("Could not start OpenCode server, skipping AI customization")
         return None
     
-    temp_dir = create_temp_workspace(business_data, slug)
-    print(f"Created temp workspace: {temp_dir}")
+    folder_path = create_business_folder(business_data, slug, photo_paths or [])
+    print(f"Created business folder: {folder_path}")
     
-    prompt = generate_prompt_for_opencode(business_data, temp_dir, slug)
+    prompt = generate_prompt_for_opencode(business_data, folder_path, slug)
     success, result = run_opencode_session(name, prompt)
     
     if success:
         print("OpenCode agent completed successfully")
-        email_content = parse_generated_code(temp_dir, slug)
-        print(f"Calling update_csv_slug for: {name}")
-        updated = update_csv_slug(name, slug, email_content)
-        print(f"update_csv_slug returned: {updated}")
-        if updated:
-            print(f"Updated CSV with slug: {slug}")
+        save_phone_pitch(folder_path, slug, business_data, name)
+        print(f"Generated website for: {name}")
     else:
         print(f"OpenCode agent failed: {result}")
-        print("Keeping temp directory for debugging")
-        cleanup_temp_workspace(temp_dir)
         return None
     
-    cleanup_temp_workspace(temp_dir)
     return slug
-
-def load_all_businesses_from_csv():
-    if not os.path.exists(CSV_FILE):
-        print(f"CSV file not found: {CSV_FILE}")
-        return []
-    
-    businesses = []
-    with open(CSV_FILE, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            if not row.get("website") and not row.get("curated"):
-                businesses.append(row)
-    
-    return businesses
-
-def print_sales_emails():
-    print("\n" + "=" * 60)
-    print("SALES EMAILS")
-    print("=" * 60)
-    
-    code_data = load_code_file()
-    for key in code_data:
-        if key.endswith(".email"):
-            slug = key.replace(".email", "")
-            name = unquote(slug).replace("-", " ").replace("+", " ")
-            print("\n--- " + name + " ---")
-            print(code_data[key])
-            print()
 
 def main():
     print("Website Generator for Local Businesses")
     print("=" * 50)
-    
-    businesses = load_all_businesses_from_csv()
-    
-    if not businesses:
-        print("No businesses without websites found in CSV")
-        return
-    
-    print(f"Found {len(businesses)} businesses needing websites")
-    
-    use_opencode = bool(OPENCODE_API_KEY)
-    if not use_opencode:
-        print("Note: OPENCODE_API_KEY not set")
-        return
-    
-    for i, business in enumerate(businesses, 1):
-        print(f"\n[{i}/{len(businesses)}] Processing: {business.get('name', 'Unknown')}")
-        generate_website_for_business(business, use_opencode=use_opencode)
-    
-    print(f"\nDone! Curated {len(businesses)} websites")
-    
-    websites_dir = os.path.join(os.path.dirname(__file__), "content", "websites")
-    if os.path.exists(websites_dir):
-        shutil.rmtree(websites_dir)
-        print(f"Cleaned up {websites_dir}")
-    
-    print_sales_emails()
+    print("Using minimax-m2.1-free model")
+    print(f"Output directory: {PUBLIC_BUSINESSES_DIR}")
 
 if __name__ == "__main__":
     main()
