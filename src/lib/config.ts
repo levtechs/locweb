@@ -8,11 +8,13 @@ export const businessConfig = {
       amount: 45,
       currency: "USD",
       display: true,
+      stripePriceId: process.env.STRIPE_SETUP_FEE_PRICE_ID || "",
     },
     monthly: {
       amount: 5,
       currency: "USD",
       display: true,
+      stripePriceId: process.env.STRIPE_MONTHLY_PRICE_ID || "",
     },
   },
   refund: {
