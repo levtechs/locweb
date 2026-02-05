@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation"
 import Link from "next/link"
 import { loadStripe } from "@stripe/stripe-js"
 import { EmbeddedCheckoutProvider, EmbeddedCheckout } from "@stripe/react-stripe-js"
-import { getUpfrontPrice, getMonthlyPrice, getCompanyName } from "@/lib/config"
+import { getCompanyName } from "@/lib/config"
 
 const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY || "")
 
@@ -44,27 +44,42 @@ export default function BuyContent({
   }, [domainResults])
 
   const companyName = getCompanyName()
-  const upfrontPrice = getUpfrontPrice()
-  const monthlyPrice = getMonthlyPrice()
 
   const displayDomain = selectedDomain === "other" ? (customDomain || "other") : selectedDomain
 
   useEffect(() => {
-    if (!selectedDomain) return
-    
-    fetch("/api/checkout", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        businessSlug: slug,
-        customerEmail: "",
-        selectedDomain: displayDomain,
-      }),
-    })
-      .then((res) => res.json())
-      .then((data) => setClientSecret(data.clientSecret))
-      .catch((err) => console.error("Error fetching checkout session:", err))
-  }, [slug, selectedDomain, displayDomain])
+    if (!displayDomain || displayDomain === "other") return
+
+    const controller = new AbortController()
+    const timeoutId = setTimeout(() => {
+      fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          businessSlug: slug,
+          customerEmail: "",
+          selectedDomain: displayDomain,
+        }),
+        signal: controller.signal,
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.clientSecret) {
+            setClientSecret(data.clientSecret)
+          }
+        })
+        .catch((err) => {
+          if (err.name !== "AbortError") {
+            console.error("Error fetching checkout session:", err)
+          }
+        })
+    }, 500)
+
+    return () => {
+      controller.abort()
+      clearTimeout(timeoutId)
+    }
+  }, [slug, displayDomain])
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white font-sans text-gray-900">

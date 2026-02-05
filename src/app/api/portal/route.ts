@@ -14,8 +14,16 @@ export async function POST(request: NextRequest) {
 
     if (sessionId) {
       const checkoutSession = await stripe.checkout.sessions.retrieve(sessionId)
+      
+      if (typeof checkoutSession.customer !== "string") {
+        return NextResponse.json(
+          { error: "Could not find customer for this session" },
+          { status: 400 }
+        )
+      }
+      
       session = await stripe.billingPortal.sessions.create({
-        customer: checkoutSession.customer as string,
+        customer: checkoutSession.customer,
         return_url: returnUrl || process.env.NEXT_PUBLIC_BASE_URL,
       })
     } else if (customerId) {
@@ -34,7 +42,7 @@ export async function POST(request: NextRequest) {
   } catch (error: any) {
     console.error("Stripe portal error:", error)
     return NextResponse.json(
-      { error: error.message || "Failed to create portal session" },
+      { error: "Failed to create portal session" },
       { status: 500 }
     )
   }

@@ -1,6 +1,6 @@
 import { Metadata } from "next"
 import Link from "next/link"
-import { getCompanyName, getCompanyUrl } from "@/lib/config"
+import { getCompanyName, getCompanyUrl, getContactEmail } from "@/lib/config"
 
 export const metadata: Metadata = {
   title: "Payment Successful - Thank You!",
@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 export default function SuccessPage() {
   const companyName = getCompanyName()
   const companyUrl = getCompanyUrl()
+  const contactEmail = getContactEmail()
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white font-sans text-gray-900 flex items-center justify-center p-6">
@@ -45,7 +46,7 @@ export default function SuccessPage() {
         </div>
 
         <p className="text-sm text-gray-500 mb-6">
-          Questions? Contact us at smolsky.lev@gmail.com
+          Questions? Contact us at {contactEmail}
         </p>
 
         <div className="flex flex-col gap-3 justify-center">
