@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indigo - Natural Hair Care & Beauty Salon in Richmond</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    .fade-in { animation: fadeIn 0.8s ease-in-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    .hover-lift { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .hover-lift:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+    .photo-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+  <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="#" class="text-2xl font-bold text-indigo-600">Indigo</a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#about" class="text-gray-700 hover:text-indigo-600 transition">About</a>
+        <a href="#services" class="text-gray-700 hover:text-indigo-600 transition">Services</a>
+        <a href="#gallery" class="text-gray-700 hover:text-indigo-600 transition">Gallery</a>
+        <a href="#reviews" class="text-gray-700 hover:text-indigo-600 transition">Reviews</a>
+        <a href="#contact" class="bg-white border-2 border-indigo-600 text-indigo-600 px-5 py-2 rounded-full hover:bg-indigo-600 hover:text-white transition font-medium">Book Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="relative min-h-screen flex items-center justify-center bg-gray-50 pt-20">
+    <div class="absolute inset-0 overflow-hidden">
+      <img src="photos/photo-1.jpg" alt="Indigo Salon Interior" class="w-full h-full object-cover opacity-10">
+    </div>
+    <div class="relative max-w-4xl mx-auto px-4 text-center py-20 fade-in">
+      <h1 class="text-5xl md:text-6xl font-bold mb-6 text-gray-900">Welcome to Indigo</h1>
+      <p class="text-xl md:text-2xl text-gray-700 mb-8 max-w-2xl mx-auto">Your sanctuary for natural hair care and holistic beauty. Experience the love and care that makes every client feel like family.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#contact" class="bg-indigo-600 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-indigo-700 transition shadow-lg hover:shadow-xl">Book Your Appointment</a>
+        <a href="#gallery" class="bg-white text-indigo-600 px-8 py-4 rounded-full text-lg font-medium border-2 border-indigo-600 hover:bg-indigo-50 transition">View Our Space</a>
+      </div>
+      <div class="mt-10 flex items-center justify-center gap-2">
+        <div class="flex">
+          <svg class="w-6 h-6 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          </svg>
+          <svg class="w-6 h-6 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          </svg>
+          <svg class="w-6 h-6 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          </svg>
+          <svg class="w-6 h-6 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          </svg>
+          <svg class="w-6 h-6 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+          </svg>
+        </div>
+        <span class="text-xl font-semibold text-gray-800">4.6</span>
+        <span class="text-gray-600">(10 reviews)</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-4xl font-bold mb-6 text-gray-900">Where Hair Care Meets Soul Care</h2>
+          <p class="text-lg text-gray-700 mb-6">At Indigo, we believe that caring for your hair is an act of self-love. Founded and operated by the incredible Ife, our salon offers a holistic approach to natural hair care that nurtures both your strands and your spirit.</p>
+          <p class="text-lg text-gray-700 mb-6">Unlike other salons, we believe in giving each client our full attention. No overbooking means no waiting, and no rushing. When you're with Ife, you're the only person that matters.</p>
+          <p class="text-lg text-gray-700 mb-8">From the moment you step through our doors, you'll be greeted with warm tea, soothing conversation, and the calming energy that has made Indigo a beloved destination for so many in our community.</p>
+          <div class="flex flex-wrap gap-4">
+            <div class="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-lg">
+              <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span class="text-gray-800">Natural Hair Specialists</span>
+            </div>
+            <div class="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-lg">
+              <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span class="text-gray-800">One Client at a Time</span>
+            </div>
+            <div class="flex items-center gap-2 bg-gray-50 px-4 py-2 rounded-lg">
+              <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              <span class="text-gray-800">Holistic Approach</span>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="photos/photo-2.jpg" alt="Indigo Salon Interior" class="rounded-2xl shadow-2xl hover-lift">
+          <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl">
+            <div class="flex items-center gap-2 mb-2">
+              <svg class="w-6 h-6 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <span class="text-2xl font-bold text-gray-900">4.6</span>
+            </div>
+            <p class="text-gray-600 text-sm">Based on 10 reviews</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">Our Services</h2>
+      <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">We specialize in natural hair care and styling, creating beautiful looks that celebrate your unique beauty.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-sm hover-lift">
+          <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
+            <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-gray-900">Natural Hair Care</h3>
+          <p class="text-gray-600">Expert care and styling for all hair types, with products tailored to your specific needs and lifestyle.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-sm hover-lift">
+          <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
+            <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-gray-900">Personal Consultations</h3>
+          <p class="text-gray-600">One-on-one consultations to understand your hair goals and create a customized care plan just for you.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-sm hover-lift">
+          <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
+            <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-gray-900">Relaxing Atmosphere</h3>
+          <p class="text-gray-600">Experience a calming environment with warm tea, soothing music, and genuine care for your wellbeing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">Our Space</h2>
+      <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Take a glimpse into our peaceful oasis in the heart of Richmond.</p>
+      <div class="photo-gallery">
+        <div class="relative overflow-hidden rounded-2xl shadow-lg hover-lift aspect-[4/3]">
+          <img src="photos/photo-1.jpg" alt="Indigo Salon Interior" class="w-full h-full object-cover">
+        </div>
+        <div class="relative overflow-hidden rounded-2xl shadow-lg hover-lift aspect-[4/3]">
+          <img src="photos/photo-2.jpg" alt="Indigo Salon Services" class="w-full h-full object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">What Our Clients Say</h2>
+      <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Don't just take our word for it - hear from the people who experience Indigo every day.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-sm hover-lift">
+          <div class="flex gap-1 mb-4">
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Indigo is one of the few places on earth where men can find comfort, support, strength and love. Sister Ife knows how to love men... each time she completes her ministry to me I leave clairvoyant, strengthen, affirm, establish, rooted and built upon."</p>
+          <p class="font-semibold text-gray-900">— Dr. Ellis O Henderson</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-sm hover-lift">
+          <div class="flex gap-1 mb-4">
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"This lady is magnificent, and the atmosphere of her business is reminiscent of a pure oasis. The utopian aura that permeates your senses begins at the storefront glass where you can see plants soaking up the sun... you'll know that you will want to come back."</p>
+          <p class="font-semibold text-gray-900">— JaBrie Lindsey</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-sm hover-lift">
+          <div class="flex gap-1 mb-4">
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Wonderful. Professional. Calm. Creative. Those words describe Ife, the owner and stylist. She sees her clients one at a time - no overbooking - so she can connect with each one... I left with a beautiful style feeling renewed and well put together."</p>
+          <p class="font-semibold text-gray-900">— Sherida Haughton</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-4xl font-bold text-center mb-4 text-gray-900">Visit Us</h2>
+      <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Ready to experience the Indigo difference? Get in touch to schedule your appointment.</p>
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <div class="bg-gray-50 p-8 rounded-2xl mb-6">
+            <h3 class="text-xl font-semibold mb-4 text-gray-900">Contact Information</h3>
+            <div class="space-y-4">
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-900">Address</p>
+                  <p class="text-gray-600">323 N 2nd St<br>Richmond, VA 23219</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center flex-shrink-0">
+                  <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                </div>
+                <div>
+                  <p class="font-medium text-gray-900">Phone</p>
+                  <p class="text-gray-600"><a href="tel:+18043540974" class="hover:text-indigo-600 transition">(804) 354-0974</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-50 p-8 rounded-2xl">
+            <h3 class="text-xl font-semibold mb-4 text-gray-900">Hours</h3>
+            <p class="text-gray-600">Please call for current hours and availability.</p>
+          </div>
+        </div>
+        <div class="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-lg">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.639290621062!2d-77.4393879!3d37.5452141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b1114c4c4c4c4c%3A0x4c4c4c4c4c4c4c4c!2s323%20N%202nd%20St%2C%20Richmond%2C%20VA%2023219!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="absolute inset-0"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-50 py-12 border-t border-gray-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <h3 class="text-2xl font-bold text-indigo-600 mb-4">Indigo</h3>
+          <p class="text-gray-600">Your sanctuary for natural hair care and holistic beauty in Richmond, VA.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-gray-900 mb-4">Quick Links</h4>
+          <ul class="space-y-2">
+            <li><a href="#about" class="text-gray-600 hover:text-indigo-600 transition">About</a></li>
+            <li><a href="#services" class="text-gray-600 hover:text-indigo-600 transition">Services</a></li>
+            <li><a href="#gallery" class="text-gray-600 hover:text-indigo-600 transition">Gallery</a></li>
+            <li><a href="#reviews" class="text-gray-600 hover:text-indigo-600 transition">Reviews</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-gray-900 mb-4">Contact</h4>
+          <ul class="space-y-2 text-gray-600">
+            <li>323 N 2nd St, Richmond, VA 23219</li>
+            <li><a href="tel:+18043540974" class="hover:text-indigo-600 transition">(804) 354-0974</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-gray-200 pt-8 text-center text-gray-600">
+        <p>&copy; 2025 Indigo. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

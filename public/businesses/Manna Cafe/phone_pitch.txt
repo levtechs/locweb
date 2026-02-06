@@ -1,0 +1,36 @@
+PHONE PITCH SCRIPT - Manna Cafe
+
+---
+
+OPENING:
+"Hi, this is [YOUR NAME] calling. I'm a local web developer here in Richmond. I wanted to reach out because I noticed Manna Cafe on E Main Street and I have to say, your reviews are fantastic!"
+
+BUILD RAPPORT:
+"Your customers clearly love the food here - those 5-star reviews are impressive! I saw Kyle mentioned going through your entire menu in four months - that's dedication! And Jonathan said you're lucky to have this little cafe in downtown RVA. That's exactly the kind of buzz I love to see for a local business."
+
+PRESENT THE FREE DEMO:
+"I actually built you a FREE demo website to show what I can do for Manna Cafe. It's live right now at https://locweb.vercel.app/web/manna-cafe - you can check it out on your phone right now if you want."
+
+EXPLAIN THE SERVICE:
+"What I offer is simple: I set up a professional website for your business with your own custom domain name. So instead of locweb.vercel.app, you'd have something like mannacafe.com or mannacafarichmond.com - whatever you want. And I handle all the ongoing maintenance and hosting for you."
+
+PRICING:
+"It's just $45 one-time setup fee, then $5 per month for hosting and maintenance. That's it - no hidden fees, no contracts, cancel anytime. I can have it live with your own domain this week."
+
+HANDLE INTEREST:
+"That sounds great! Let me get your email so I can send over the details and we can get your custom domain set up."
+
+HANDLE HESITATION/Uninterested:
+"No problem at all! I completely understand. I just wanted to make sure you knew this option was available. If you ever want to chat about it or see the demo site again, feel free to reach out. Best of luck with Manna Cafe!"
+
+---
+
+KEY POINTS TO EMPHASIZE:
+- 5.0 star rating with 11 reviews
+- Customer loyalty and word-of-mouth praise
+- "Best deal in Shockoe Bottom" box lunch
+- Homemade soups getting rave reviews
+- Perfect for downtown workforce
+
+WEBSITE URL: https://locweb.vercel.app/web/manna-cafe
+PRICING: $45 setup + $5/month

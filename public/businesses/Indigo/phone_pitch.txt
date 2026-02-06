@@ -1,0 +1,19 @@
+PHONE PITCH SCRIPT - INDIGO
+
+Opening:
+"Hi, is this Ife? This is Lev calling. I came across Indigo while researching local businesses in Richmond, and I had to reach out."
+
+Rapport Building:
+"With a 4.6-star rating and so many glowing reviews, it's clear you know how to take care of people. The way your clients describe the experience - feeling renewed, welcomed like family, the calming atmosphere - that's rare these days."
+
+The Offer:
+"I actually built a free demo website for Indigo to show what I could do for local businesses. It's live right now at https://locweb.vercel.app/web/indigo - I'd love for you to take a look."
+
+The Service:
+"I help small businesses get professional websites that bring in more customers. I handle everything - setting up a custom domain like indigo.com, ongoing maintenance, keeping it fast and up-to-date."
+
+Pricing:
+"It's $45 one-time setup plus $5/month for hosting and maintenance. Super affordable, and you own the site outright."
+
+Closing:
+"No pressure at all - I just wanted to share what I've created for you. If you like the demo, great! If not, no hard feelings. Can I send you the link so you can see what you think?"

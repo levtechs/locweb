@@ -1,0 +1,267 @@
+{
+  "business_status": "OPERATIONAL",
+  "delivery": false,
+  "dine_in": true,
+  "formatted_address": "1111 E Main St, Richmond, VA 23219, USA",
+  "formatted_phone_number": "(804) 644-1082",
+  "geometry": {
+    "location": {
+      "lat": 37.5365546,
+      "lng": -77.4349088
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 37.5381298802915,
+        "lng": -77.43326381970849
+      },
+      "southwest": {
+        "lat": 37.5354319197085,
+        "lng": -77.43596178029149
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+  "icon_background_color": "#FF9E67",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+  "international_phone_number": "+1 804-644-1082",
+  "name": "Manna Cafe",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 1,
+          "time": "1330"
+        },
+        "open": {
+          "day": 1,
+          "time": "0700"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1330"
+        },
+        "open": {
+          "day": 2,
+          "time": "0700"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1330"
+        },
+        "open": {
+          "day": 3,
+          "time": "0700"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1330"
+        },
+        "open": {
+          "day": 4,
+          "time": "0700"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1330"
+        },
+        "open": {
+          "day": 5,
+          "time": "0700"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 7:00\u202fAM\u2009\u2013\u20091:30\u202fPM",
+      "Tuesday: 7:00\u202fAM\u2009\u2013\u20091:30\u202fPM",
+      "Wednesday: 7:00\u202fAM\u2009\u2013\u20091:30\u202fPM",
+      "Thursday: 7:00\u202fAM\u2009\u2013\u20091:30\u202fPM",
+      "Friday: 7:00\u202fAM\u2009\u2013\u20091:30\u202fPM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 3487,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106434796036040792928\">Seung Lee</a>"
+      ],
+      "photo_reference": "AcnlKN2cEIqpyr45Pp6xW_d8erdHYQDesd3NZIf8TS_1syalD8shBNmqJ_0SaOnLlOuRkOV037_GrqEcPD8wUg0gKNkXJfrGPFI8-SEhf7jZGNhuooIVB-yhIMhQCivt6j2e0UL8w7869QEFjHV0VZny0zL-B_tx0B8uWVtAxov8-aGwHgOtnhqoh3KsKJ68oNQLj89JXKM15t5qfjtBodP2jBUP0u8uX35l4-wBTWki-ccyMHIBHUqd-aH2Q45kzrbX4iJe-SuyrnErmk0-Ub67yaUWlU-_7jDEToHC3yvomt3R5-rpbOS_m4rBLfoivW2mMF_CaQ5JjmqR7C-pMD56T5gfl4456JorE4bDl49pGS20wfciJjjEzW0ujkK_UqXvFQlqTWoDrRmckGd30BDVo44mvp5dxB0i56BzMmvaGV_FiI6f",
+      "width": 3169
+    },
+    {
+      "height": 1748,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106434796036040792928\">Seung Lee</a>"
+      ],
+      "photo_reference": "AcnlKN1H6m1ZJ_3D3HPJk2mP93D5ic7Fc7YPndTKSwEJZVHJewBqGR7r2ofcqPfoCSH_Y5YAtzNNdJuy-HKeegpEGr36KE76_qEEMmQhhvombVDC3l05TsOXo2MgQ5T95_eRH_vgGdwidVw_Cm3BKGj2Icqqi4mzZ38gsC26JH8FjCHqqc0DeM1UsVTw1oyD2NVJ-pwUyF52WhMEbyuXKDzdlOOnB3izIGRX5JehrPLNNNYCm5DSYs360F6t5kzqKgjvY50l7IOPBcd19JFZz4LWQv5LT_lt2DzdZCkepMVDnk0irdsd5eiMJqYCIZnfk-SGif-NQGUrKqFgI3J-uGGldqWnf0-71dm3qdG_H1zD1U0jK-FnrDAWLGhpNdsg2pjjf3RQfKRXLDNkz2s1QgPvi-ekAHgG3J4qbpe6PTsUi5FSzA",
+      "width": 2024
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101757680978799817291\">Kyle Carline</a>"
+      ],
+      "photo_reference": "AcnlKN3P6wIhahCx6ggUVsjUSwvbGWJLdWrTJfjyMtKnXy9Z75y26ERyoTJrOIUokGPsWXol9WGmXnYVPT1x1FQcEhM0A_nSVIIHSR7OfVu3E40kOGvoe3v-RmIBrPYrDbqtzhy2RLXqRw57XFv866cwUNHX9OtVHjlMb4g_h0oR-qjyJ5uZZ_Ctnj1tZehJuC-O0FZ8KbcgG1vT2j7AC8P8eyDoKX7FLqY_jYSLZG5koHfS5q1qjh6iYjvZlErJtfx9_DtfxOU0GHsS23Z8_TTF0ksdcHzahY5vQeW-0cktV7CTDFeNz8trb1BX0KEYyqXL6lea_oGHp9dzzfjB-bn2KypAYvLUgHJo4NX68RlLEDwPD8FLPknMKGifWecrIxVWo2WMKbrwBpp4AjM44h4XPZKkjFGgoFD6-UZ-yxFNEBkuqQ",
+      "width": 4032
+    },
+    {
+      "height": 1708,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106434796036040792928\">Seung Lee</a>"
+      ],
+      "photo_reference": "AcnlKN2hEDSBdHC5meOBVokM7-roKmMtU3k6BR68mgPH2fhvUT7lFh-gJ-Mi6Z484sTs0t9TLafe8EO7vr-TxsjNIkrQamotjF4BgTaXBWq_O76B87ZQF2jhB4DPNx9T25u-fYWyUjIM42s0kprgOwfCcM6tV0vvp4DrmAPHODqTmQqaWuD9N0DfcjJ_sK_Xp5qi2-K-dkgUmj4JsnAbS0EDmqMlViyfasv9qlJ_RLL9aeVIAGOeZQAUpBT61wHiJPbUjzmxqX7Q3oKdi2ddfjdiBT62TkABjtrKapcs4BUAfKd0fDSgwpf5lwJjPWjKiWm_rvQeKix-D-dmB7NjMlWHaMDPIZ4Z-pRJeIM01-N8CTlEtKCACan28aJw7UEhlULfwqK0Je6GlV6-tShKNCGPUw_P0rZOXPzkQEujE41kKzVBxg",
+      "width": 1890
+    },
+    {
+      "height": 1700,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106434796036040792928\">Seung Lee</a>"
+      ],
+      "photo_reference": "AcnlKN3QGL0-llefb_-C8kgEUIoPk8gAzg1-BowkFBpnDnoSkhrQQLfQ9tYxL-m50FkzlZegbcY2D4SsqZg0otFzOWy5KxnigfWGdVuQwlwmKQjCSts_1r-sdyPd_aNsPAajFsEVADjnIpeqhKGh_-hFkXdyQ31TDYf-BYBm6SHBVZBDwynM3YP0TOcEvXgXAmkoXDbQe87soy6eomgJPOPahFg9JPqiUtzHoIEReVeJVWD3nLteKGQ7Zo-Qpn5GeDJPTbqLs--isCkJALKeIuvDQYLx5U_hc0dOShrJF1Ka_fGeMJw3zDnsXL1HC8isakwZxrmZEx25jCjR6r2huld90ph6XohZDfoeCrrJshxXlx7f-ndadb6Ug_vFdMvtbAGootp2PDVmGiJK3uMwrCZ-qRfYSEUUrQW1aEI5aG2MyhZhcaH2",
+      "width": 2247
+    },
+    {
+      "height": 3537,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106434796036040792928\">Seung Lee</a>"
+      ],
+      "photo_reference": "AcnlKN3ZbE26ON-v5e05a12UNoP4bqJPmRImhDeUYlpuOgATNqK8DvtHM_jmC_jizSpDEMOiudRGP0BMalR3WSDUai3KbeXigRZYRlfTKrxx0-xY6737USybXua4NsOr-oI3uxJd9k2ZdRnx25H3ckUf58l9eO4Hj_tZyigMkS-IQYOWwVi_qlDyBuCRJGGQXNm494wOkpmrjeBmRnUNGgxltFfbnvNV8iVdq3G0qKT9xVFIG_juYWB6IXmtHtyXtdZJDYP3U35yDcGSSHUgLmr9_6g7kQy59yOQrUvlRa-U_aXPS1bCPboj2gDnaPMbMzJyT92aCJ4NpT5y0MC04hAaOKcBsxYTNp0NXFFniKmZWPUu7s8dqHtETs0pkoHldxg8uBFwtCShqS2ZjFuyIxkLNqyjC7cX4dunX83tKzo5K8ixSQ",
+      "width": 3190
+    },
+    {
+      "height": 1536,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/114030594686247856893\">Martin Lloyd</a>"
+      ],
+      "photo_reference": "AcnlKN00gJuP4mojXS_I4e9DBgqq-feWeVpiDs1-lRdiLlvNxKn1HUAS0cjmGNpf1p7Vn1Wjbp7a57dZmROjsNCFEA5pUqxEzF6gnVqLJgS72ZuGAy9pIZZU6z5bd14WYNnpIIrDRPHWBkshf7xKeGUYtbNobDSf1mIZq5EMK480xfDhulWIBZ9VwO_ZOg3XyZ06vQkhYX75LWw1A0QF_WYBhZOd2cxLRleW9oCzPmxF6879gH_1-g_AF319sJu4o9rbfXfTFoXE4NrU4ieoT41FAaeLgOZtHtuUv56wn9KReD_WSA-K38Kpc_l_1bQxqLPMKiNov2TcyzDgXVGWKWy_sFuXjwTQ_0PU7sn-s9uKYIK_YlaIHXU-bx-l8AcGCoBSZu1OSPF-CvAY73Gx-CzJXa2TkbNL6s4kWgU-wXTas1ewbw",
+      "width": 2048
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101757680978799817291\">Kyle Carline</a>"
+      ],
+      "photo_reference": "AcnlKN3gqt7Kk-RVj1qquwhiYuKYDpV4yYufmyuf5AzAMWjnjmjD0NZBHThsXf33NxMgexZvaFp2rnTH0ZoBHRTLxKfAzk2v_V4xUQ5AyXcZjr1j_A6vZFr4ZQvZrtloi_inSRP1xTKhFOHazSUIyZ2C0yOalrDwBBA-NzGEgW_nl1lreL3SEU1YSAxbHhSPN4RZNmc2mS9x6t33_CBcYi9P-kE41jpNNQzZZ4I_y_jDJhuLreD1yVmxz__CBVH3Y5khfK2jep45Rc91npBqVLzcCpEOBaSDaMB8meGX0SpIklyheCjNjNZbXWOakPUBJyWOp4zKu58uUTMC4Z40yYn5lSkd9nBsvxzKoEwOUnkpHq53jyZgJMlRY-5bY8qZ1_1OsWCF9iz77nDbduzw57flWdrOVp22NlN_ZlPcl5uw6atJE2U",
+      "width": 3024
+    },
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/101757680978799817291\">Kyle Carline</a>"
+      ],
+      "photo_reference": "AcnlKN1YX7B-zz9L3zJ_5fPqxtZ89ERfr_Wi0GVxc3mAeQ9tyF8A791DYiB7oslKUZJMm0KSAxcZSNiElnEc8eWOLtBaKsxeHDVFxUNNQgErEOEvWQw93IkowN4Eykra_yhCiJcdE1bv9yBlexrPPUhiwmA1UmiB1IPY0s8WDSIVNvKB2aer7QRaxO1G598QES41ICViGNRZMoOf8IEvsfZ5SNqzCzI6JmXdz-1AZokgL6RrcfNITjP_IzAZrrRq83Eos6hNuWFYNxaYGXZjr3lpEy3NJ62IDYuSi-DIefXPMj5mwlFmaMbNVi21OaZfg6svafI4hcUCEVSXCikYMOJ85ryoCAid9VWWk5CPWD7UZpIdX-BPvQWcMGZpY0JshvGNktnJfW4O__aYIyHFb3JxWivMBsa8rpsSK7JoOJFdlN8xSJUb",
+      "width": 4032
+    },
+    {
+      "height": 1024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/106434796036040792928\">Seung Lee</a>"
+      ],
+      "photo_reference": "AcnlKN3IkNGJShhO-Ds-r36APIZnDxt65VdO7J1QQNaZbhzroHPz2M_UA_CeZo2Y7Wy4C_SSk_DJzJDNemWaiE3UhyGIQr3T_8bMouD5bBSI8bpTrZMBJOf6Z2QNdC-8X_3Eabar1n9WOECXyPTAsiLAStcnuIyAb3vvhUzoLrDdA_fMpg6BecGMHK55gJslWk1UNwbitwBPD8KJ1XqPPvO0xNNrbcJ4JK5gPXPvnYm9vnbIj1qg-o4j4ZVJYjaxQAoN7bfG76bTmaiJ_UnSTNVRiffCxKWHgM8JJCk2gPIaDQTuf6mZmQcN4MnaXo37YCcJ7o6hAjc8oXEabEd7siAY0h4fnEBss1IJLcu6DRK9zVMr-3aBOuJc_y40vs7GXJmzLt8NN0REqIH4Qe1-lXk5x0eciE9Cu0iaugm9Lf9NsDz-pG6Y",
+      "width": 1024
+    }
+  ],
+  "place_id": "ChIJW7iNPRgRsYkRmpjDMQdZaJc",
+  "rating": 4.2,
+  "reference": "ChIJW7iNPRgRsYkRmpjDMQdZaJc",
+  "reservable": false,
+  "reviews": [
+    {
+      "author_name": "Kyle Carline",
+      "author_url": "https://www.google.com/maps/contrib/101757680978799817291/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVSLF06VtWYHkdH6UlaOVUF6Fnp7jBgV9yu4paV32bE2qBUbESG=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "5 years ago",
+      "text": "I have had every sandwich, sub, and wrap on the Manna Cafe menu. I did this in four months and spent roughly $350 on 40 lunches. It was a delicious and satisfying lunch food adventure. The place may not get the credit it deserves for serving superb lunches to the downtown area.\n\nTips for Beginners:\n- Location! It\u2019s in the corner of the main lobby floor in the Bank of America building. East Cary Street side, next to the escalators.\n- If Bulgogi is on the specials menu for the day. There is likely no Steak & Cheese available. Always check the specials board for notices.\n- The egg salad is heavily mayonnaised. Beware. Nevertheless, still a good flavor.\n- The Veggie Wrap was better than I expected. Quite refreshing and filling.\n- For the amount of food and value, getting the box lunch is the best deal in Shockoe Bottom. You can box-lunch any sandwich, sub, or wrap option. It comes with chips, a cookie, and can soda.\n\nThey don\u2019t just serve sandwiches, you can also get soups, salad and snacks! The turkey chili is a spicy, heart-warming cup of joy. The place seems targeted for the downtown workforce, but anyone is welcome to grab some good eats.",
+      "time": 1582823227,
+      "translated": false
+    },
+    {
+      "author_name": "Jonathan Sanford",
+      "author_url": "https://www.google.com/maps/contrib/102961198423452676110/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKMzfEqaXh3BFNq1u9UKeA9f_xVhsC53Pd1u7OBBlfDUg2kHnYi=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "2 years ago",
+      "text": "I've gotta agree with Kyle, we are lucky to have this little cafe in downtown RVA.\n\nFor the price you pay I think this place serves up some excellent quality lunches. Their sandwiches aren't going to win any awards for being revolutionary and no menu item will ever turn the culinary world upside down, but if you want a good sandwich that brings you back to the ole days of Drugstore Counter style sandwiches, this is your place.",
+      "time": 1691155711,
+      "translated": false
+    },
+    {
+      "author_name": "Tauryn Lafelle",
+      "author_url": "https://www.google.com/maps/contrib/111281775838091926003/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJncPDK8SfDej3dUz8Vn0XgS4cum58PKcjH8xUEbaKJIeAFXA=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "relative_time_description": "5 years ago",
+      "text": "So .... this place is a bit odd to understand. But in a good way.   The main stock in trade appears to be sandwiches.  But they have no cooking hood and do stuff on hot plates. I have had the sandwiches and they are superb.  In addition, they do offer these incredible heated kegs of the most tremendous soups.  Turkey rice, chicken noodle, chicken pot pie, chili...to die for!  I don\u2019t know if its pre prepared or what?  But the best soup in perhaps all of the world!  Thank you for your exceptional work Manna people.",
+      "time": 1581396459,
+      "translated": false
+    },
+    {
+      "author_name": "AJ Stribling",
+      "author_url": "https://www.google.com/maps/contrib/108874522476015248895/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUmAqI8A3uYJmptX5nutG1C-zdiixP5bjNR1f4PtKEPSVSL1pIy=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 1,
+      "relative_time_description": "3 years ago",
+      "text": "CHECK YOUR ORDER BEFORE YOU LEAVE. I ordered an Italian sub and when I walked back to the hotel I found they'd given me an American (I can't eat turkey because it gives me gout and American cheese makes my pants explode). Threw it away.",
+      "time": 1660821899,
+      "translated": false
+    },
+    {
+      "author_name": "L PA",
+      "author_url": "https://www.google.com/maps/contrib/115409858061248422997/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjW2KYPXiQzPp_z3hXI8CsY5ZHqU9uMaWUBTD5TsMch1BYbztnzHYQ=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 4,
+      "relative_time_description": "2 years ago",
+      "text": "The food was good. I got the special. Lots of choices. The setting area was nice to enjoy the food.",
+      "time": 1698575523,
+      "translated": false
+    }
+  ],
+  "takeout": true,
+  "types": [
+    "establishment",
+    "food",
+    "point_of_interest",
+    "restaurant"
+  ],
+  "url": "https://maps.google.com/?cid=10910067984739571866",
+  "user_ratings_total": 11,
+  "utc_offset": -300,
+  "vicinity": "1111 E Main St, Richmond",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2cEIqpyr45Pp6xW_d8erdHYQDesd3NZIf8TS_1syalD8shBNmqJ_0SaOnLlOuRkOV037_GrqEcPD8wUg0gKNkXJfrGPFI8-SEhf7jZGNhuooIVB-yhIMhQCivt6j2e0UL8w7869QEFjHV0VZny0zL-B_tx0B8uWVtAxov8-aGwHgOtnhqoh3KsKJ68oNQLj89JXKM15t5qfjtBodP2jBUP0u8uX35l4-wBTWki-ccyMHIBHUqd-aH2Q45kzrbX4iJe-SuyrnErmk0-Ub67yaUWlU-_7jDEToHC3yvomt3R5-rpbOS_m4rBLfoivW2mMF_CaQ5JjmqR7C-pMD56T5gfl4456JorE4bDl49pGS20wfciJjjEzW0ujkK_UqXvFQlqTWoDrRmckGd30BDVo44mvp5dxB0i56BzMmvaGV_FiI6f&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1H6m1ZJ_3D3HPJk2mP93D5ic7Fc7YPndTKSwEJZVHJewBqGR7r2ofcqPfoCSH_Y5YAtzNNdJuy-HKeegpEGr36KE76_qEEMmQhhvombVDC3l05TsOXo2MgQ5T95_eRH_vgGdwidVw_Cm3BKGj2Icqqi4mzZ38gsC26JH8FjCHqqc0DeM1UsVTw1oyD2NVJ-pwUyF52WhMEbyuXKDzdlOOnB3izIGRX5JehrPLNNNYCm5DSYs360F6t5kzqKgjvY50l7IOPBcd19JFZz4LWQv5LT_lt2DzdZCkepMVDnk0irdsd5eiMJqYCIZnfk-SGif-NQGUrKqFgI3J-uGGldqWnf0-71dm3qdG_H1zD1U0jK-FnrDAWLGhpNdsg2pjjf3RQfKRXLDNkz2s1QgPvi-ekAHgG3J4qbpe6PTsUi5FSzA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3P6wIhahCx6ggUVsjUSwvbGWJLdWrTJfjyMtKnXy9Z75y26ERyoTJrOIUokGPsWXol9WGmXnYVPT1x1FQcEhM0A_nSVIIHSR7OfVu3E40kOGvoe3v-RmIBrPYrDbqtzhy2RLXqRw57XFv866cwUNHX9OtVHjlMb4g_h0oR-qjyJ5uZZ_Ctnj1tZehJuC-O0FZ8KbcgG1vT2j7AC8P8eyDoKX7FLqY_jYSLZG5koHfS5q1qjh6iYjvZlErJtfx9_DtfxOU0GHsS23Z8_TTF0ksdcHzahY5vQeW-0cktV7CTDFeNz8trb1BX0KEYyqXL6lea_oGHp9dzzfjB-bn2KypAYvLUgHJo4NX68RlLEDwPD8FLPknMKGifWecrIxVWo2WMKbrwBpp4AjM44h4XPZKkjFGgoFD6-UZ-yxFNEBkuqQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2hEDSBdHC5meOBVokM7-roKmMtU3k6BR68mgPH2fhvUT7lFh-gJ-Mi6Z484sTs0t9TLafe8EO7vr-TxsjNIkrQamotjF4BgTaXBWq_O76B87ZQF2jhB4DPNx9T25u-fYWyUjIM42s0kprgOwfCcM6tV0vvp4DrmAPHODqTmQqaWuD9N0DfcjJ_sK_Xp5qi2-K-dkgUmj4JsnAbS0EDmqMlViyfasv9qlJ_RLL9aeVIAGOeZQAUpBT61wHiJPbUjzmxqX7Q3oKdi2ddfjdiBT62TkABjtrKapcs4BUAfKd0fDSgwpf5lwJjPWjKiWm_rvQeKix-D-dmB7NjMlWHaMDPIZ4Z-pRJeIM01-N8CTlEtKCACan28aJw7UEhlULfwqK0Je6GlV6-tShKNCGPUw_P0rZOXPzkQEujE41kKzVBxg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3QGL0-llefb_-C8kgEUIoPk8gAzg1-BowkFBpnDnoSkhrQQLfQ9tYxL-m50FkzlZegbcY2D4SsqZg0otFzOWy5KxnigfWGdVuQwlwmKQjCSts_1r-sdyPd_aNsPAajFsEVADjnIpeqhKGh_-hFkXdyQ31TDYf-BYBm6SHBVZBDwynM3YP0TOcEvXgXAmkoXDbQe87soy6eomgJPOPahFg9JPqiUtzHoIEReVeJVWD3nLteKGQ7Zo-Qpn5GeDJPTbqLs--isCkJALKeIuvDQYLx5U_hc0dOShrJF1Ka_fGeMJw3zDnsXL1HC8isakwZxrmZEx25jCjR6r2huld90ph6XohZDfoeCrrJshxXlx7f-ndadb6Ug_vFdMvtbAGootp2PDVmGiJK3uMwrCZ-qRfYSEUUrQW1aEI5aG2MyhZhcaH2&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

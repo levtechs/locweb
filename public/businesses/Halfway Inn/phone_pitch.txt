@@ -1,0 +1,40 @@
+PHONE PITCH SCRIPT - Halfway Inn
+
+---
+
+OPENING:
+"Hi [Owner Name], this is Lev calling. I noticed Halfway Inn online and wanted to reach out — I run a small web design service for local businesses."
+
+BUILD RAPPORT & PERSONALIZATION:
+"With a 4.3-star rating from 77 reviews, it's clear you know how to take care of customers. Danville's bar scene is lucky to have you!"
+
+PRESENT THE FREE VALUE:
+"I actually built you a FREE demo website to show what I can do. It's already live and ready for you to preview."
+
+WEBSITE ANNOUNCEMENT:
+"You can see it at: https://locweb.vercel.app/web/halfway-inn"
+
+"This is a professional site showcasing your bar, hours, location, customer reviews — everything people need to know before visiting."
+
+EXPLAIN YOUR SERVICE:
+"I help local businesses get set up with their own custom domain and ongoing maintenance. It's a turnkey solution so you don't have to worry about the technical stuff."
+
+PRICING:
+"One-time setup fee is $45, then $5/month covers hosting and keeping everything up to date. Super affordable and straightforward."
+
+HANDLE OBJECTIONS / CLOSE:
+"I can have this live with your own domain this week if you're interested. No pressure at all — but I'd love the opportunity to help Halfway Inn stand out online."
+
+FOLLOW-UP:
+"If now isn't the right time, totally understand. Can I follow up next week? Thanks so much for your time!"
+
+---
+
+KEY POINTS TO EMPHASIZE:
+- Free demo website already created
+- 4.3-star rating shows quality service
+- Simple pricing: $45 + $5/mo
+- Domain setup and maintenance included
+- Quick turnaround available
+
+CALL DURATION: 2-3 minutes max

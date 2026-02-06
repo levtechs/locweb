@@ -1,0 +1,129 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "323 N 2nd St, Richmond, VA 23219, USA",
+  "formatted_phone_number": "(804) 354-0974",
+  "geometry": {
+    "location": {
+      "lat": 37.5452141,
+      "lng": -77.4393879
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 37.5466001302915,
+        "lng": -77.4380816197085
+      },
+      "southwest": {
+        "lat": 37.5439021697085,
+        "lng": -77.4407795802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 804-354-0974",
+  "name": "Indigo",
+  "photos": [
+    {
+      "height": 3000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116936620327284152433\">Ralph Rose</a>"
+      ],
+      "photo_reference": "AcnlKN1_cRDQQESJzdTAdwz3p3pKkvwYLMJQVTHsZnC2yaF5YEFPu7XYylJ6BRUElRQ3g0NwDD8pjQ0BjWQgYoLQ5U7uJPEizDHkC83NNLxWVdBk7glcgRm5b2b6uipuYTJwfL2S0bayDfiP2jjt0M8PuPQQipkYpjqndA4E62jNgJt6-J9HZIbU5AxOdRiIdcD4nnVyHDwTpRcSOooeATBwVamNi4KRjQJnz_6Ackog7LxVHwhO2PmBuKOobbRnPUOYbjStwkLUZtoHdLy_9qDfL_B56-vNH252bAjaDpvXWHDl50V2gMIZh3_OB_9bPBMANOzg87Y3RJtDnP0NbqSmZdRaOpaHbD_t2KmpHKMJ5Xkvn0UKJZLf4ugybv0GjAZYBLUSqdovhsT_b3ci6ysVOYJc28DL45C5PtLsWFKI6FQwj7Wj",
+      "width": 4000
+    },
+    {
+      "height": 4000,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116936620327284152433\">Ralph Rose</a>"
+      ],
+      "photo_reference": "AcnlKN2w85IAOWfxo-58yeSuzoTFA7h6UsT_laAxiAh6fb8qo9PuATqElTpn6PTbXHqihE6fLZJtBuefPGyq0nUvYBfgcNar0QmGNkfHDLQG62qjdwLeQJdTQLtQ00BN93QiRi7qnOm6ACb350xq320J42ciE6IW5YAAZg49T-l9HGPI6-Qn2SE9GwZJWczM1o5QQRFq-i6N9Vsm3tCGObygIxmZfaCd_dgi2isTVFTyHbhAsd7Wx9WHOavurZL0FJDUBdoJgNiwJ93bIFVELX-_U2T3aMmBKcX72-icdkhZZGFXd-oqAa99YTn_KfmqkJi40uNBQFIPvrEkTvcvp0eUlbmeDvEj5-PLl1WcQJLTQd0r_nbZhet4L51OxPLVzbCpMDm-bLdWOAScS4-yIXlcQ69LQ79lpYVoRUTf68pyZlZUi2BQ",
+      "width": 3000
+    }
+  ],
+  "place_id": "ChIJy564vDsRsYkRu-HFckVkpB0",
+  "rating": 4.6,
+  "reference": "ChIJy564vDsRsYkRu-HFckVkpB0",
+  "reviews": [
+    {
+      "author_name": "Dr. Ellis O Henderson",
+      "author_url": "https://www.google.com/maps/contrib/105650858537504019064/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWpH66nmuf5tAmhyKi3lXnd-7MEDNQVZikwTKwPpMeHbhwER2s=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "3 weeks ago",
+      "text": "Indigo is one of the few places on earth where men can find comfort support strength and love. Sister Ife knows how to love men, black men, big man, kindmen,  strong man, and each time that she completes her ministry to me I leave clairvoyant strengthen affirm establish rooted and built upon",
+      "time": 1767923443,
+      "translated": false
+    },
+    {
+      "author_name": "JaBrie Lindsey",
+      "author_url": "https://www.google.com/maps/contrib/100131678975083416411/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIUCYS_NNFhkDTnXOZw-FpVw-9Cq_ZKvodfnR-RJZfjGepUIA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "11 months ago",
+      "text": "This lady is magnificent, and the atmosphere  of her business is reminiscent of a pure oasis.  The utopian aura that permeates your senses begins at the storefront glass where you can see plants soaking up the sun as you  glance inside. You\u2019re greeted by a warm hello and a golden smile.  I promise, before you get your hair done, consultation, or make a purchase of colognes or crystals,  you\u2019ll know that you will want to come back for a cup of complimentary tea or a spiritual and intellectual conversation.    This company is a product and a service.",
+      "time": 1741145178,
+      "translated": false
+    },
+    {
+      "author_name": "Sherida Haughton",
+      "author_url": "https://www.google.com/maps/contrib/102807609442397595889/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWrDU_ur_M9pKSqwPoF5kX5P8b8fgQpL0n0meZS4T3snqGOaKA1wQ=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "relative_time_description": "9 years ago",
+      "text": "Wonderful. Professional. Calm. Creative. Those words describe Ife, the owner and stylist. She sees her clients one at a time - no overbooking - so she can connect with each one.\n\nIfe does a great job creating an inviting atmosphere with warm tea and a soothing voice. She checked the condition of my hair, talked to me about my preferences and because I knew how good she was from seeing other clients' hair, I told her to do her magic. I left with a beautiful style feeling renewed and well put together.  I will be back.",
+      "time": 1481665931,
+      "translated": false
+    },
+    {
+      "author_name": "darlene anita scott",
+      "author_url": "https://www.google.com/maps/contrib/108515294995141942631/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjViM6Y4Dr0OHuD63bo3FN0Anms66e49tLCwoK47FnxZy5xxgAzWZw=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "4 years ago",
+      "text": "Always pleasant conversation, good music, and honestly natural haircare tailored to your aesthetic, lifestyle, and needs. I rarely let anyone touch my hair until I found Ife.  A medical condition caused me to lose my locs; she burned sage for me and we listened to India Arie's \"I Am Not My Hair\" to celebrate my journey. Ask her about Seven Stones, her crystal shop.",
+      "time": 1614988265,
+      "translated": false
+    },
+    {
+      "author_name": "Ralph Rose",
+      "author_url": "https://www.google.com/maps/contrib/116936620327284152433/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWfhOSGcCjgQM-ES5MeSxZwX9u1xgBe197Oaz9_ts89GTGXrbfuhg=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "4 years ago",
+      "text": "In addition to being a true professional in natural hair styles and care, Ife maintains a calm, soothing environment for her clients.",
+      "time": 1625290750,
+      "translated": false
+    }
+  ],
+  "types": [
+    "beauty_salon",
+    "establishment",
+    "hair_care",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=2135942372721549755",
+  "user_ratings_total": 10,
+  "utc_offset": -300,
+  "vicinity": "323 N 2nd St, Richmond",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1_cRDQQESJzdTAdwz3p3pKkvwYLMJQVTHsZnC2yaF5YEFPu7XYylJ6BRUElRQ3g0NwDD8pjQ0BjWQgYoLQ5U7uJPEizDHkC83NNLxWVdBk7glcgRm5b2b6uipuYTJwfL2S0bayDfiP2jjt0M8PuPQQipkYpjqndA4E62jNgJt6-J9HZIbU5AxOdRiIdcD4nnVyHDwTpRcSOooeATBwVamNi4KRjQJnz_6Ackog7LxVHwhO2PmBuKOobbRnPUOYbjStwkLUZtoHdLy_9qDfL_B56-vNH252bAjaDpvXWHDl50V2gMIZh3_OB_9bPBMANOzg87Y3RJtDnP0NbqSmZdRaOpaHbD_t2KmpHKMJ5Xkvn0UKJZLf4ugybv0GjAZYBLUSqdovhsT_b3ci6ysVOYJc28DL45C5PtLsWFKI6FQwj7Wj&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2w85IAOWfxo-58yeSuzoTFA7h6UsT_laAxiAh6fb8qo9PuATqElTpn6PTbXHqihE6fLZJtBuefPGyq0nUvYBfgcNar0QmGNkfHDLQG62qjdwLeQJdTQLtQ00BN93QiRi7qnOm6ACb350xq320J42ciE6IW5YAAZg49T-l9HGPI6-Qn2SE9GwZJWczM1o5QQRFq-i6N9Vsm3tCGObygIxmZfaCd_dgi2isTVFTyHbhAsd7Wx9WHOavurZL0FJDUBdoJgNiwJ93bIFVELX-_U2T3aMmBKcX72-icdkhZZGFXd-oqAa99YTn_KfmqkJi40uNBQFIPvrEkTvcvp0eUlbmeDvEj5-PLl1WcQJLTQd0r_nbZhet4L51OxPLVzbCpMDm-bLdWOAScS4-yIXlcQ69LQ79lpYVoRUTf68pyZlZUi2BQ&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg"
+  ]
+}
