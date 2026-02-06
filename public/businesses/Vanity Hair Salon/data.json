@@ -1,0 +1,167 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "5552 Old Shell Rd, Mobile, AL 36608, USA",
+  "formatted_phone_number": "(251) 308-5228",
+  "geometry": {
+    "location": {
+      "lat": 30.69004929999999,
+      "lng": -88.1704209
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.6911617302915,
+        "lng": -88.16905541970849
+      },
+      "southwest": {
+        "lat": 30.6884637697085,
+        "lng": -88.1717533802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-308-5228",
+  "name": "Vanity Hair Salon",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 2,
+          "time": "2000"
+        },
+        "open": {
+          "day": 2,
+          "time": "0945"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1800"
+        },
+        "open": {
+          "day": 3,
+          "time": "0945"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "2000"
+        },
+        "open": {
+          "day": 4,
+          "time": "0945"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "2000"
+        },
+        "open": {
+          "day": 5,
+          "time": "0945"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "2000"
+        },
+        "open": {
+          "day": 6,
+          "time": "0945"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Closed",
+      "Tuesday: 9:45\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Wednesday: 9:45\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Thursday: 9:45\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Friday: 9:45\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Saturday: 9:45\u202fAM\u2009\u2013\u20098:00\u202fPM",
+      "Sunday: Closed"
+    ]
+  },
+  "place_id": "ChIJt_f6Bq2ym4gRsUMZV6vCDPg",
+  "rating": 4.8,
+  "reference": "ChIJt_f6Bq2ym4gRsUMZV6vCDPg",
+  "reviews": [
+    {
+      "author_name": "User: 125",
+      "author_url": "https://www.google.com/maps/contrib/117707874959722233358/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJqpNiUELknQDUp0vr-cnzz2PLvqFnJw50p-TMkTRXikTloZQ=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "6 years ago",
+      "text": "Love love love this place. Tiffany is my go to lady and always does a fantastic job, she even done my hair for my wedding a few years back. I'm not sure how they were able to get me in this week with all of the back to school cuts going on but they did and I love my new hair style ",
+      "time": 1564144726,
+      "translated": false
+    },
+    {
+      "author_name": "Meghan Magandy",
+      "author_url": "https://www.google.com/maps/contrib/117309524336379447376/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWzjmc42pKUkDasyRdBWBvvu5UCAVmkeVk88t5RsBIxJP-AAocJ=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "relative_time_description": "8 years ago",
+      "text": "Every time I go to get my hair done, Tiffany does an amazing job on top of the nice friendly experience I get there. These girls are amazing and I definitely recommend everyone to them. I drive from Mississippi just to come here!! GREAT JOB LADIES!",
+      "time": 1500309059,
+      "translated": false
+    },
+    {
+      "author_name": "Kristi B",
+      "author_url": "https://www.google.com/maps/contrib/104820891782849244552/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXoDRTamk2gdL-cPRlpAAy_hV2dVsnpkHXXYmNWSegMaiz3-kzQJQ=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "6 years ago",
+      "text": "love love love all the ladies a Vanity Hair Salon. Wren is still my go to girl when I am ready for a GOOD haircut and style. However, I would not hesitate to use any of the stylists. Awesome bunch!!!",
+      "time": 1570741415,
+      "translated": false
+    },
+    {
+      "author_name": "Grace Burks",
+      "author_url": "https://www.google.com/maps/contrib/101186272427239748627/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJmSpvt-2o2sXxkP1c5usYyNR8aYmuHW1IS29Qbe9XF7Ko-=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "8 years ago",
+      "text": "What a great Salon! Congratulations Vanity on getting the Best New Salon in Mobile Award. They have a Beautiful Shop on Old Shell Road, and a Staff of Ladies who are tops in their trade. Tiffany is my favorite.",
+      "time": 1500215793,
+      "translated": false
+    },
+    {
+      "author_name": "Pam Martin",
+      "author_url": "https://www.google.com/maps/contrib/102096009261372035897/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJ1SYIbIbMuegS0L0g8qfdldUmyJ7vUYkN1w1IU1QGxZwJ-jQ=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "6 months ago",
+      "text": "Becca did an amazing job.   I will be back for sure.",
+      "time": 1754600418,
+      "translated": false
+    }
+  ],
+  "types": [
+    "establishment",
+    "hair_care",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=17873875062283125681",
+  "user_ratings_total": 21,
+  "utc_offset": -360,
+  "vicinity": "5552 Old Shell Rd, Mobile",
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": []
+}

@@ -1,0 +1,79 @@
+{
+  "business_status": "CLOSED_TEMPORARILY",
+  "formatted_address": "3207 International Dr, Mobile, AL 36606, USA",
+  "formatted_phone_number": "(251) 473-3439",
+  "geometry": {
+    "location": {
+      "lat": 30.6676562,
+      "lng": -88.123587
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.6690152302915,
+        "lng": -88.12224911970848
+      },
+      "southwest": {
+        "lat": 30.6663172697085,
+        "lng": -88.12494708029149
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-473-3439",
+  "name": "Hair Masters",
+  "place_id": "ChIJvX7NFqRNmogRuit5crR7ie8",
+  "rating": 2,
+  "reference": "ChIJvX7NFqRNmogRuit5crR7ie8",
+  "reviews": [
+    {
+      "author_name": "Kera Barr",
+      "author_url": "https://www.google.com/maps/contrib/113464487183882146281/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWlf-AM9NyQEKT7554NDBOg9OD7Jfbwqn8MxrvW3EdP4Pcj5Nwh=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 4,
+      "relative_time_description": "12 years ago",
+      "text": "I was on my lunch break & needed a cut. Nettie was a jewel. We laughed & chatted about eveything. I have been in Mobile two years & been doing my own hair, but not after today. I will definately go back.",
+      "time": 1371080588,
+      "translated": false
+    },
+    {
+      "author_name": "Wendy Roberts",
+      "author_url": "https://www.google.com/maps/contrib/118267945066492965666/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKtjP-YQ55YNFvguNPp31VVCRwLXODwtqHFvID5U5Cei-IeLw=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 1,
+      "relative_time_description": "4 years ago",
+      "text": "Noone answered the phone when i called",
+      "time": 1616620535,
+      "translated": false
+    },
+    {
+      "author_name": "Walter Netto",
+      "author_url": "https://www.google.com/maps/contrib/113881187040071291357/reviews",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUas_mCdAKnzNB_BmKngn722GVUwpW0cMV6FN2kL38Qp5_4i5DK=s128-c0x00000000-cc-rp-mo",
+      "rating": 1,
+      "relative_time_description": "7 years ago",
+      "text": "",
+      "time": 1531176634,
+      "translated": false
+    }
+  ],
+  "types": [
+    "beauty_salon",
+    "establishment",
+    "hair_care",
+    "health",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=17260463061819009978",
+  "user_ratings_total": 3,
+  "utc_offset": -360,
+  "vicinity": "3207 International Dr, Mobile",
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": []
+}

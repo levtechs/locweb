@@ -1,0 +1,239 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "3990 Government Blvd D, Mobile, AL 36693, USA",
+  "formatted_phone_number": "(251) 661-5600",
+  "geometry": {
+    "location": {
+      "lat": 30.6379275,
+      "lng": -88.14153739999999
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.63934953029149,
+        "lng": -88.14013781970849
+      },
+      "southwest": {
+        "lat": 30.6366515697085,
+        "lng": -88.1428357802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-661-5600",
+  "name": "Skyland Barber & Style",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 1,
+          "time": "1700"
+        },
+        "open": {
+          "day": 1,
+          "time": "1000"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1700"
+        },
+        "open": {
+          "day": 2,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1700"
+        },
+        "open": {
+          "day": 3,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1700"
+        },
+        "open": {
+          "day": 4,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1700"
+        },
+        "open": {
+          "day": 5,
+          "time": "0900"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 10:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 3024,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117960829861740229768\">Mike Dominguez</a>"
+      ],
+      "photo_reference": "AcnlKN2da7m0aeGh7hvOwo83aOt3_YmIGTZP3JXkSCpPNHTtA3ymoHw4BijUZdOHk0-6m2sZRrcfUjXYq6Ux_MY4uo4afGNWAaTCa_RQECavBEjrCMOGUdvXUEYQJ7xIn_1qPr7nmPEM29H6Ak-pi7IL9o3CWlVXQM-pqDaUX4k3pxzmeSZKzbZnAyGNkJrTwy-WQ_r7GFQbtvlGcBi_27YNej8_ESOVyydTMI2WoEu8QUgPdQIIi7DoS7Jb_DWeP3xZQe2ofy1fW_9cHDNf7BUR6HJ0pyZk6TUZU-HnBoEg4UL44irOEbZh4oxZI8Rbrg_O4DCvji9ffCnlUwDv79m0N0_dG-2fEjexhn3YreGAO55sagi7hKMj13lw66KFSOHsXZF3nhxU605CcYK-wcKL0gwhBDDXbtcOKF3g0QGz1ME",
+      "width": 4032
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/117960829861740229768\">Mike Dominguez</a>"
+      ],
+      "photo_reference": "AcnlKN172q9IdZNZBQt-eliQIc_n4Bhgtf6aoUY2K92VE-JHhjymD3NvoT-gZA9FYBFh6S7zp_KwSbBf_f4LQw4EBx9Vfg6IVfvdF3b2ZRuEhMgJ6E4qVLULgsX3_MTxe-ulkR-A-dlltvn5k9OkobRUwae6YQ5BsJex143RIGgBWoPI7xmYRw9TvP5j_YBiDD63jIEtVtw4oIhPvf28jNMte2W69R9JbSoDU96Z046eYxnPE-GmyPyiluy33hDS0zkY_mysimN9fjpBn2sa2ZEOMTw63TrL5XBB7XUTxcGnOJT7kdPp1nOLXYWqMzd0W8zu1-9lFdBDklwJx0gVODiFQEQ8nPXDz8X2jfgFFEqvFq-MzURUL2s394oHzb6tSTeSjAwav7B0tceWe698PPfB21L8lnoFIiH096tlIU93xbA8_8TB",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103420828241365999733\">Raymond Varner</a>"
+      ],
+      "photo_reference": "AcnlKN0_L-R0egf6roTyz2_kPdPcM-SrW8KOLpR1cJ9GDEg4IdMkVYKdmOvU1JDc301Lg6vXZLC_THWwOcd5RmPK_Q8TbnBsrjMpESQYWoTFytQA79waSmX1bEdAsXCwuKsxOsxXbGousFeKhm1SXx1tcbpSRlg06sdg4Zi3GIW8yUn0lFickqRLFaUlQWV2oVjqucT7vObhFLBa2FtMMN5PZwYFQvNLYU4rOgm91658id4q_FErJb2B4vhY3EW-FeFMCivMSSSfaeiyI3_x3FJlrVFEBkKdVj0CRYPfi2imK_5zH_UF7Ryg5lBvRBAI4QE9O-6xC3g-EEZFvJLW1W8t8PWn_vYgHY3pP9-fa8Svvb1tTlc_l0U1mEBb9KSpe649f8zj7dfKCm1N4v8x1gN7O7cmnlQlrkMbkofjvPGjn1TpAT9O",
+      "width": 2268
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103420828241365999733\">Raymond Varner</a>"
+      ],
+      "photo_reference": "AcnlKN27j1wWDEwGmHAv3xf10cRDyWVv1VxU9CLl7g-0s42EALww7J4bEd1aR6r2NYm-bw_xeCs7hixYEIkHsN0V30r1RicuIUiX8uZok_6U3_CcGJCqHf3YH_y7nbFAKfiCDabXb6vP4a9iJaQXp4YQAHOFkOMEFY6BAtcVgXh0yauHIvnRzdUIehJBgNoM5anLXxdbabIw8TTZH6oIEOBKWy2SekUs_YvyhdvPXophjMtgSqAs7lJBkNAGV7he4-VwKrbDTRxk5ksDugsW_qSyy1xayI0qYg02RHCj-51FZKvEKtLAujzooBl6VYleAm1452wf8ZD56CmwddGW9QmS9In16tn_dE0DI94ii8oYDSJGAtVuQuyoYqAcSETQUFm5ttyZA7vJHhmLcK4k5ZsD0y__V0i-rcNhlAOS8kWyAnVnXw",
+      "width": 2268
+    },
+    {
+      "height": 2448,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103039852126736852093\">T Denton</a>"
+      ],
+      "photo_reference": "AcnlKN2iivDxlOTga_XfN9PaQiLH4s4tfr_eRt2hWd3TRD2HBv-xP5MWgDv86ZoycN0aY5T7qnPQxgJHt0RG31pydULbQk8dQPdJvGM4QivDnK9gX-h7fR2sy0CoTnldzIp3CY8WqxEcFQ_w3Wm0gbyOH9_f79FSL_nG5ryoPG0MLmOXuezX486ntWI-Xb36RIoe2mzWT-iwBG7VC4ZcRAMF3qyF-jNhUqsBV4ilOjbwcoml1e_yrMsBeSAPo2Dofd_SP63rxEBoLXRK-ZtRAxz30dLcX3h1aIvhhCB0HPk2e68nKFXiCgb8eYhis5wLt8lVhWLIPJRRdsD3SINEIRf5--So0IwVghB4o4JSvD9A524CsnAEnHDhy3JMD1-gjzjPXtpYYCAzLvN7RkTAIrfWDG2v03a4uhJ7uwHxI0DmB1bzCA0",
+      "width": 3264
+    },
+    {
+      "height": 2448,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103039852126736852093\">T Denton</a>"
+      ],
+      "photo_reference": "AcnlKN2K0I6fBXVmWu8WFspbVTyMSl5OXLWeeUPs1-tQ5g7L8aelpegQ63J5R5OsUDj3Ery-KaORrv46kNghOKk97tmE3tzXwQFgvt6BcY6we8A6D2hFmg5UfOD9yAI05ztyBzSm_Mmdu0DRpGSfMfvxQYdOkiZxPVhPAUuL6aVN1eAucx_SjFs6aer7gsD4scYc89UmsBE9acF_3K5Udx2JPOlCYD-MXtoW4lR6nJgq4PxKlMaJhDlGKNGmmYqtN_JkHjAtbEwaX-M3U9_uXIUYzCrUbMrGu6jXRSWv6Ubmi2q5jKyWrID3PF9bDnWIMsCw2rT8jMjeLnraDwg2QEEfLAT1xlBiR2I05xH77YH8rZx2gTSuU3PBj8eeHWyRubPcrGhOt84Go6c8uxQOCQcJMuS2Iu6raarKkMdtaypb6UdwpA",
+      "width": 3264
+    },
+    {
+      "height": 2448,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103039852126736852093\">T Denton</a>"
+      ],
+      "photo_reference": "AcnlKN33aeiIMlInrVtkJjhiXnmFqsqfpRVVSA0os70-PlM-knSxGVKZ2Bknxxr2X7ov5iilKv5FMQjFKfvfc-pJwdZnfWjc_u16Rjvmtbl9lFr9pq1C4ZmK07YA6SAU16JWNpzSFAoWB6zCdPGWw86Oo02oQKmFbNz9vS02ZmPm6trUiS0LM8ChZ_F6z-BIX0xmWYjCntAaFedUPJgQWf7RinPQPuWb5NCKXGniK7_DIraZxxhUAxE2eW51gV1iyRFRyGCUgyaeWzuIn11oPSdAn3OdBW0YSUK7jCsnpyBpShcGtKhewzWTZbdUgjL3-Q1-Id2cR8gVJhhc3eXTA1a9UZJxkbiuCXqTBRQjHX6m_pReEbnWYvoKQ3SQTAaC7c5WYgf0Fi8nyrkAsjoP68ahquKmR0lZteEd-UMh4_vbIRw",
+      "width": 3264
+    }
+  ],
+  "place_id": "ChIJcVS8Wu5MmogRwwPETMBa_IM",
+  "rating": 4.4,
+  "reference": "ChIJcVS8Wu5MmogRwwPETMBa_IM",
+  "reviews": [
+    {
+      "author_name": "Shae Daugbwag",
+      "author_url": "https://www.google.com/maps/contrib/114552500293223430456/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWaacnjNE6xVfFLOwCB-IdcWEmMtRtxiWY3XnN9WNEORxCrq8HuXA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "2 weeks ago",
+      "text": "Great barbershop! Both girls are super sweet, they do a great job on anyone's hair. Daphne always cuts mine, Miranda normally does my grandsons hair.  The beard trim is always a nice bonus for him. Love that they are carrying on a family tradition. Also the antique barbershop tools are super cool to view.",
+      "time": 1768565825,
+      "translated": false
+    },
+    {
+      "author_name": "Adam Breeland",
+      "author_url": "https://www.google.com/maps/contrib/112614290602145779881/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWxel0H7_YNQR7p28iJ8n_FDmPKu4p4ii7rTe3RzrnmyccHY553=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "relative_time_description": "a month ago",
+      "text": "Awesome experience!   Daphne goes above and beyond.  Great pricing and quick turnaround.",
+      "time": 1767465506,
+      "translated": false
+    },
+    {
+      "author_name": "Dewayne Riley",
+      "author_url": "https://www.google.com/maps/contrib/108670806617298002892/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKzEniuOxjAv79wdAHedaTwdNBTtUZ3cVPiltsnVpAzHWlQtA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "5 months ago",
+      "text": "Albert's granddaughters are just as good if not better than he was. Real barbershop not a beauty parlor",
+      "time": 1755532889,
+      "translated": false
+    },
+    {
+      "author_name": "Mike Dominguez",
+      "author_url": "https://www.google.com/maps/contrib/117960829861740229768/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKv4yfr--2_lVyzCAw02ddlvgJx9f_Mw4V6KFZE_HYXX21Tnw=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "Great little family owned business. Haircut the way you request it. Open Mondays.",
+      "time": 1708628298,
+      "translated": false
+    },
+    {
+      "author_name": "Paul Kossik",
+      "author_url": "https://www.google.com/maps/contrib/102719189998768556903/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLs6jMGY7AmxjsxPfC90Nih3bahIv3sKWfWEtHKQMxgoKvOqA=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "12 months ago",
+      "text": "Whether I get Miranda or Daphne depends on what day of the week I can get by, because they both do a great job.",
+      "time": 1738906476,
+      "translated": false
+    }
+  ],
+  "types": [
+    "establishment",
+    "hair_care",
+    "health",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=9510576295067780035",
+  "user_ratings_total": 54,
+  "utc_offset": -360,
+  "vicinity": "3990 Government Blvd D, Mobile",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2da7m0aeGh7hvOwo83aOt3_YmIGTZP3JXkSCpPNHTtA3ymoHw4BijUZdOHk0-6m2sZRrcfUjXYq6Ux_MY4uo4afGNWAaTCa_RQECavBEjrCMOGUdvXUEYQJ7xIn_1qPr7nmPEM29H6Ak-pi7IL9o3CWlVXQM-pqDaUX4k3pxzmeSZKzbZnAyGNkJrTwy-WQ_r7GFQbtvlGcBi_27YNej8_ESOVyydTMI2WoEu8QUgPdQIIi7DoS7Jb_DWeP3xZQe2ofy1fW_9cHDNf7BUR6HJ0pyZk6TUZU-HnBoEg4UL44irOEbZh4oxZI8Rbrg_O4DCvji9ffCnlUwDv79m0N0_dG-2fEjexhn3YreGAO55sagi7hKMj13lw66KFSOHsXZF3nhxU605CcYK-wcKL0gwhBDDXbtcOKF3g0QGz1ME&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN172q9IdZNZBQt-eliQIc_n4Bhgtf6aoUY2K92VE-JHhjymD3NvoT-gZA9FYBFh6S7zp_KwSbBf_f4LQw4EBx9Vfg6IVfvdF3b2ZRuEhMgJ6E4qVLULgsX3_MTxe-ulkR-A-dlltvn5k9OkobRUwae6YQ5BsJex143RIGgBWoPI7xmYRw9TvP5j_YBiDD63jIEtVtw4oIhPvf28jNMte2W69R9JbSoDU96Z046eYxnPE-GmyPyiluy33hDS0zkY_mysimN9fjpBn2sa2ZEOMTw63TrL5XBB7XUTxcGnOJT7kdPp1nOLXYWqMzd0W8zu1-9lFdBDklwJx0gVODiFQEQ8nPXDz8X2jfgFFEqvFq-MzURUL2s394oHzb6tSTeSjAwav7B0tceWe698PPfB21L8lnoFIiH096tlIU93xbA8_8TB&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0_L-R0egf6roTyz2_kPdPcM-SrW8KOLpR1cJ9GDEg4IdMkVYKdmOvU1JDc301Lg6vXZLC_THWwOcd5RmPK_Q8TbnBsrjMpESQYWoTFytQA79waSmX1bEdAsXCwuKsxOsxXbGousFeKhm1SXx1tcbpSRlg06sdg4Zi3GIW8yUn0lFickqRLFaUlQWV2oVjqucT7vObhFLBa2FtMMN5PZwYFQvNLYU4rOgm91658id4q_FErJb2B4vhY3EW-FeFMCivMSSSfaeiyI3_x3FJlrVFEBkKdVj0CRYPfi2imK_5zH_UF7Ryg5lBvRBAI4QE9O-6xC3g-EEZFvJLW1W8t8PWn_vYgHY3pP9-fa8Svvb1tTlc_l0U1mEBb9KSpe649f8zj7dfKCm1N4v8x1gN7O7cmnlQlrkMbkofjvPGjn1TpAT9O&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN27j1wWDEwGmHAv3xf10cRDyWVv1VxU9CLl7g-0s42EALww7J4bEd1aR6r2NYm-bw_xeCs7hixYEIkHsN0V30r1RicuIUiX8uZok_6U3_CcGJCqHf3YH_y7nbFAKfiCDabXb6vP4a9iJaQXp4YQAHOFkOMEFY6BAtcVgXh0yauHIvnRzdUIehJBgNoM5anLXxdbabIw8TTZH6oIEOBKWy2SekUs_YvyhdvPXophjMtgSqAs7lJBkNAGV7he4-VwKrbDTRxk5ksDugsW_qSyy1xayI0qYg02RHCj-51FZKvEKtLAujzooBl6VYleAm1452wf8ZD56CmwddGW9QmS9In16tn_dE0DI94ii8oYDSJGAtVuQuyoYqAcSETQUFm5ttyZA7vJHhmLcK4k5ZsD0y__V0i-rcNhlAOS8kWyAnVnXw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2iivDxlOTga_XfN9PaQiLH4s4tfr_eRt2hWd3TRD2HBv-xP5MWgDv86ZoycN0aY5T7qnPQxgJHt0RG31pydULbQk8dQPdJvGM4QivDnK9gX-h7fR2sy0CoTnldzIp3CY8WqxEcFQ_w3Wm0gbyOH9_f79FSL_nG5ryoPG0MLmOXuezX486ntWI-Xb36RIoe2mzWT-iwBG7VC4ZcRAMF3qyF-jNhUqsBV4ilOjbwcoml1e_yrMsBeSAPo2Dofd_SP63rxEBoLXRK-ZtRAxz30dLcX3h1aIvhhCB0HPk2e68nKFXiCgb8eYhis5wLt8lVhWLIPJRRdsD3SINEIRf5--So0IwVghB4o4JSvD9A524CsnAEnHDhy3JMD1-gjzjPXtpYYCAzLvN7RkTAIrfWDG2v03a4uhJ7uwHxI0DmB1bzCA0&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

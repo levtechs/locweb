@@ -1,0 +1,120 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "5550 Old Shell Rd, Mobile, AL 36608, USA",
+  "formatted_phone_number": "(251) 408-3583",
+  "geometry": {
+    "location": {
+      "lat": 30.69004929999999,
+      "lng": -88.1704209
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.6911617302915,
+        "lng": -88.16905541970849
+      },
+      "southwest": {
+        "lat": 30.6884637697085,
+        "lng": -88.1717533802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-408-3583",
+  "name": "Enve Color Studio & Salon",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 2,
+          "time": "1800"
+        },
+        "open": {
+          "day": 2,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1800"
+        },
+        "open": {
+          "day": 3,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1800"
+        },
+        "open": {
+          "day": 4,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1800"
+        },
+        "open": {
+          "day": 5,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "1500"
+        },
+        "open": {
+          "day": 6,
+          "time": "0900"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Closed",
+      "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Saturday: 9:00\u202fAM\u2009\u2013\u20093:00\u202fPM",
+      "Sunday: Closed"
+    ]
+  },
+  "place_id": "ChIJs_JRx62ym4gR3hFNTOkpmhI",
+  "rating": 5,
+  "reference": "ChIJs_JRx62ym4gR3hFNTOkpmhI",
+  "reviews": [
+    {
+      "author_name": "Chad",
+      "author_url": "https://www.google.com/maps/contrib/106078024057973726348/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIns9O_Ur915O_2x5drBGtfccyN_ggHYwujq_Jl_2vgBx2zqN_2=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "8 years ago",
+      "text": "Amanda does a great job on men's haircuts",
+      "time": 1497737981,
+      "translated": false
+    }
+  ],
+  "types": [
+    "beauty_salon",
+    "establishment",
+    "hair_care",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=1340429921080381918",
+  "user_ratings_total": 1,
+  "utc_offset": -360,
+  "vicinity": "5550 Old Shell Rd, Mobile",
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": []
+}

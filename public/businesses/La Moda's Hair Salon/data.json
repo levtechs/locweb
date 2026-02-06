@@ -1,0 +1,56 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "3725 Airport Blvd, Mobile, AL 36608, USA",
+  "formatted_phone_number": "(251) 633-7715",
+  "geometry": {
+    "location": {
+      "lat": 30.6750066,
+      "lng": -88.1368268
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.6766222302915,
+        "lng": -88.13526811970848
+      },
+      "southwest": {
+        "lat": 30.6739242697085,
+        "lng": -88.1379660802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-633-7715",
+  "name": "La Moda's Hair Salon",
+  "place_id": "ChIJpeOZ8uiym4gR3X6WTW7ttr8",
+  "rating": 1,
+  "reference": "ChIJpeOZ8uiym4gR3X6WTW7ttr8",
+  "reviews": [
+    {
+      "author_name": "Julia Cope",
+      "author_url": "https://www.google.com/maps/contrib/105030444063608062078/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLFxQjbC1FNK9Ln3Tu8HK6xiF7_79SRWq4yJ72eTgQ6yBVzVA=s128-c0x00000000-cc-rp-mo",
+      "rating": 1,
+      "relative_time_description": "9 years ago",
+      "text": "Mallory made my hair break off!",
+      "time": 1474309522,
+      "translated": false
+    }
+  ],
+  "types": [
+    "beauty_salon",
+    "establishment",
+    "hair_care",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=13814489965009469149",
+  "user_ratings_total": 1,
+  "utc_offset": -360,
+  "vicinity": "3725 Airport Blvd, Mobile",
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": []
+}

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enve Color Studio & Salon | Mobile, AL</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+    .font-playfair { font-family: 'Playfair Display', serif; }
+    .font-inter { font-family: 'Inter', sans-serif; }
+    .hero-gradient { background: linear-gradient(135deg, #2d2d2d 0%, #4a4a4a 100%); }
+    .text-gradient { background: linear-gradient(135deg, #c9a66b 0%, #e8d5b7 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="font-inter text-gray-800 antialiased">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <div class="flex-shrink-0">
+          <h1 class="font-playfair text-2xl font-bold text-gray-900">Enve <span class="text-gradient">Color Studio</span></h1>
+        </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#home" class="text-gray-700 hover:text-amber-600 transition duration-300 font-medium">Home</a>
+          <a href="#about" class="text-gray-700 hover:text-amber-600 transition duration-300 font-medium">About</a>
+          <a href="#services" class="text-gray-700 hover:text-amber-600 transition duration-300 font-medium">Services</a>
+          <a href="#gallery" class="text-gray-700 hover:text-amber-600 transition duration-300 font-medium">Gallery</a>
+          <a href="#reviews" class="text-gray-700 hover:text-amber-600 transition duration-300 font-medium">Reviews</a>
+          <a href="#contact" class="bg-amber-600 text-white px-6 py-2.5 rounded-full hover:bg-amber-700 transition duration-300 font-medium">Book Now</a>
+        </div>
+        <div class="md:hidden">
+          <button id="mobile-menu-btn" class="text-gray-700 hover:text-amber-600 focus:outline-none">
+            <i class="fas fa-bars text-2xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+      <div class="px-4 py-4 space-y-3">
+        <a href="#home" class="block text-gray-700 hover:text-amber-600 font-medium py-2">Home</a>
+        <a href="#about" class="block text-gray-700 hover:text-amber-600 font-medium py-2">About</a>
+        <a href="#services" class="block text-gray-700 hover:text-amber-600 font-medium py-2">Services</a>
+        <a href="#gallery" class="block text-gray-700 hover:text-amber-600 font-medium py-2">Gallery</a>
+        <a href="#reviews" class="block text-gray-700 hover:text-amber-600 font-medium py-2">Reviews</a>
+        <a href="#contact" class="block bg-amber-600 text-white px-6 py-2.5 rounded-full text-center font-medium">Book Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative h-screen min-h-[700px] flex items-center hero-gradient overflow-hidden">
+    <div class="absolute inset-0 opacity-30">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=80" alt="Salon Interior" class="w-full h-full object-cover">
+    </div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="max-w-3xl">
+        <span class="inline-block px-4 py-1.5 bg-amber-600/20 border border-amber-400/30 rounded-full text-amber-200 text-sm font-medium mb-6">Premium Hair Color & Styling</span>
+        <h2 class="font-playfair text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+          Transform Your Look at <span class="text-gradient">Enve Color Studio</span>
+        </h2>
+        <p class="text-xl text-gray-200 mb-8 leading-relaxed max-w-2xl">
+          Experience luxury hair care with Amanda and our expert team. Specializing in men's haircuts and stunning color transformations in the heart of Mobile, Alabama.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#contact" class="inline-flex items-center justify-center px-8 py-3.5 bg-amber-600 text-white rounded-full hover:bg-amber-700 transition duration-300 font-medium text-lg">
+            <i class="fas fa-calendar-check mr-2"></i>Book Appointment
+          </a>
+          <a href="#services" class="inline-flex items-center justify-center px-8 py-3.5 border-2 border-white text-white rounded-full hover:bg-white hover:text-gray-900 transition duration-300 font-medium text-lg">
+            <i class="fas fa-scissors mr-2"></i>Our Services
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <a href="#about" class="text-white/70 hover:text-white transition duration-300">
+        <i class="fas fa-chevron-down text-2xl"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="relative">
+          <div class="absolute -top-4 -left-4 w-full h-full border-2 border-amber-200 rounded-2xl"></div>
+          <img src="https://images.unsplash.com/photo-1521590832169-7dad6c8cc8c8?w=800&q=80" alt="Enve Color Studio Interior" class="relative rounded-2xl shadow-xl w-full h-[500px] object-cover">
+          <div class="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-lg p-6 max-w-xs">
+            <div class="flex items-center mb-3">
+              <div class="flex text-amber-400">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span class="ml-2 font-semibold text-gray-900">5.0 Rating</span>
+            </div>
+            <p class="text-gray-600 text-sm italic">"Amanda does a great job on men's haircuts"</p>
+            <p class="text-gray-400 text-xs mt-2">— Chad, Verified Client</p>
+          </div>
+        </div>
+        <div>
+          <span class="text-amber-600 font-semibold text-sm uppercase tracking-wider">About Us</span>
+          <h2 class="font-playfair text-4xl sm:text-5xl font-bold text-gray-900 mt-2 mb-6">Your Trusted Mobile Salon for Quality Hair Care</h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-6">
+            Welcome to Enve Color Studio & Salon, where artistry meets expertise. Located in the beautiful Mobile area, our salon is dedicated to providing exceptional hair care services in a warm, inviting atmosphere.
+          </p>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            Whether you're looking for a precision men's haircut, a stunning color transformation, or a complete style overhaul, our skilled team is here to help you look and feel your absolute best.
+          </p>
+          <div class="grid grid-cols-2 gap-6">
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mr-4">
+                <i class="fas fa-cut text-amber-600 text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Expert Stylists</h4>
+                <p class="text-gray-500 text-sm">Trained Professionals</p>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mr-4">
+                <i class="fas fa-palette text-amber-600 text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Color Specialists</h4>
+                <p class="text-gray-500 text-sm">Premium Products</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="text-amber-600 font-semibold text-sm uppercase tracking-wider">Our Services</span>
+        <h2 class="font-playfair text-4xl sm:text-5xl font-bold text-gray-900 mt-2 mb-4">Premium Hair Care Services</h2>
+        <p class="text-gray-600 text-lg max-w-2xl mx-auto">From precision cuts to stunning color transformations, we offer a full range of services to meet all your hair care needs.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 group">
+          <div class="h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=600&q=80" alt="Men's Haircut" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          </div>
+          <div class="p-6">
+            <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+              <i class="fas fa-user text-amber-600 text-xl"></i>
+            </div>
+            <h3 class="font-playfair text-2xl font-bold text-gray-900 mb-3">Men's Haircut</h3>
+            <p class="text-gray-600 mb-4">Precision cuts tailored to your style. Expert styling for the modern gentleman.</p>
+            <a href="#contact" class="text-amber-600 font-semibold hover:text-amber-700 transition duration-300">
+              Book Now <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 group">
+          <div class="h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80" alt="Women's Cut & Style" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          </div>
+          <div class="p-6">
+            <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+              <i class="fas fa-female text-amber-600 text-xl"></i>
+            </div>
+            <h3 class="font-playfair text-2xl font-bold text-gray-900 mb-3">Women's Cut & Style</h3>
+            <p class="text-gray-600 mb-4">Beautiful cuts and styling that enhance your natural beauty and lifestyle.</p>
+            <a href="#contact" class="text-amber-600 font-semibold hover:text-amber-700 transition duration-300">
+              Book Now <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Service 3 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 group">
+          <div class="h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&q=80" alt="Hair Color" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          </div>
+          <div class="p-6">
+            <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+              <i class="fas fa-paint-brush text-amber-600 text-xl"></i>
+            </div>
+            <h3 class="font-playfair text-2xl font-bold text-gray-900 mb-3">Hair Color & Highlights</h3>
+            <p class="text-gray-600 mb-4">Stunning highlights, balayage, and custom color treatments using premium products.</p>
+            <a href="#contact" class="text-amber-600 font-semibold hover:text-amber-700 transition duration-300">
+              Book Now <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Service 4 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 group">
+          <div class="h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80" alt="Balayage" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          </div>
+          <div class="p-6">
+            <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+              <i class="fas fa-water text-amber-600 text-xl"></i>
+            </div>
+            <h3 class="font-playfair text-2xl font-bold text-gray-900 mb-3">Balayage</h3>
+            <p class="text-gray-600 mb-4">Hand-painted highlights for a natural, sun-kissed look with seamless regrowth.</p>
+            <a href="#contact" class="text-amber-600 font-semibold hover:text-amber-700 transition duration-300">
+              Book Now <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Service 5 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 group">
+          <div class="h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=600&q=80" alt="Keratin Treatment" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          </div>
+          <div class="p-6">
+            <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+              <i class="fas fa-sparkles text-amber-600 text-xl"></i>
+            </div>
+            <h3 class="font-playfair text-2xl font-bold text-gray-900 mb-3">Keratin Treatment</h3>
+            <p class="text-gray-600 mb-4">Smoothing and repairing treatments for frizz-free, healthy-looking hair.</p>
+            <a href="#contact" class="text-amber-600 font-semibold hover:text-amber-700 transition duration-300">
+              Book Now <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Service 6 -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300 group">
+          <div class="h-48 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=600&q=80" alt="Bridal Styling" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+          </div>
+          <div class="p-6">
+            <div class="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center mb-4">
+              <i class="fas fa-gem text-amber-600 text-xl"></i>
+            </div>
+            <h3 class="font-playfair text-2xl font-bold text-gray-900 mb-3">Bridal & Event Styling</h3>
+            <p class="text-gray-600 mb-4">Stunning updos and styling for your special day or any occasion.</p>
+            <a href="#contact" class="text-amber-600 font-semibold hover:text-amber-700 transition duration-300">
+              Book Now <i class="fas fa-arrow-right ml-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="text-amber-600 font-semibold text-sm uppercase tracking-wider">Our Work</span>
+        <h2 class="font-playfair text-4xl sm:text-5xl font-bold text-gray-900 mt-2 mb-4">Stunning Transformations</h2>
+        <p class="text-gray-600 text-lg max-w-2xl mx-auto">Browse through some of our recent work and get inspired for your next salon visit.</p>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="group overflow-hidden rounded-xl aspect-square">
+          <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=600&q=80" alt="Hair Color Result 1" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="group overflow-hidden rounded-xl aspect-square">
+          <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&q=80" alt="Hair Color Result 2" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="group overflow-hidden rounded-xl aspect-square">
+          <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600&q=80" alt="Hair Color Result 3" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="group overflow-hidden rounded-xl aspect-square">
+          <img src="https://images.unsplash.com/photo-1634459023678-2f77f7728555?w=600&q=80" alt="Hair Color Result 4" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="group overflow-hidden rounded-xl aspect-square">
+          <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?w=600&q=80" alt="Hair Style 1" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="group overflow-hidden rounded-xl aspect-square">
+          <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600&q=80" alt="Hair Style 2" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="group overflow-hidden rounded-xl aspect-square">
+          <img src="https://images.unsplash.com/photo-1522337360705-8b13d5230363?w=600&q=80" alt="Hair Style 3" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+        <div class="group overflow-hidden rounded-xl aspect-square">
+          <img src="https://images.unsplash.com/photo-1624939983570-620d3df489cf?w=600&q=80" alt="Hair Style 4" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <span class="text-amber-600 font-semibold text-sm uppercase tracking-wider">Testimonials</span>
+        <h2 class="font-playfair text-4xl sm:text-5xl font-bold text-gray-900 mt-2 mb-4">What Our Clients Say</h2>
+        <p class="text-gray-600 text-lg max-w-2xl mx-auto">Don't just take our word for it — hear from our satisfied clients.</p>
+      </div>
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12 relative">
+          <i class="fas fa-quote-left text-amber-200 text-5xl absolute top-8 left-8"></i>
+          <div class="relative z-10">
+            <div class="flex items-center mb-6">
+              <img src="https://ui-avatars.com/api/?name=Chad&background=c9a66b&color=fff&size=128" alt="Chad" class="w-16 h-16 rounded-full mr-4">
+              <div>
+                <h4 class="font-semibold text-gray-900 text-lg">Chad</h4>
+                <div class="flex text-amber-400 mt-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-600 text-lg leading-relaxed italic">"Amanda does a great job on men's haircuts"</p>
+          </div>
+        </div>
+        <div class="flex justify-center items-center mt-8 space-x-4">
+          <div class="flex items-center">
+            <i class="fas fa-star text-amber-400 text-xl"></i>
+            <span class="ml-2 text-2xl font-bold text-gray-900">5.0</span>
+          </div>
+          <span class="text-gray-400">|</span>
+          <span class="text-gray-600">Based on 1 review</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12">
+        <div>
+          <span class="text-amber-400 font-semibold text-sm uppercase tracking-wider">Contact Us</span>
+          <h2 class="font-playfair text-4xl sm:text-5xl font-bold mt-2 mb-6">Book Your Appointment Today</h2>
+          <p class="text-gray-300 text-lg leading-relaxed mb-8">
+            Ready to transform your look? Contact us to schedule your appointment at Enve Color Studio & Salon.
+          </p>
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-amber-600/20 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <i class="fas fa-map-marker-alt text-amber-400 text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white mb-1">Address</h4>
+                <p class="text-gray-300">5550 Old Shell Rd, Mobile, AL 36608</p>
+                <a href="https://maps.google.com/?cid=1340429921080381918" target="_blank" class="text-amber-400 hover:text-amber-300 text-sm mt-1 inline-block">
+                  Get Directions <i class="fas fa-external-link-alt ml-1"></i>
+                </a>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-amber-600/20 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <i class="fas fa-phone-alt text-amber-400 text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white mb-1">Phone</h4>
+                <p class="text-gray-300">(251) 408-3583</p>
+                <a href="tel:+12514083583" class="text-amber-400 hover:text-amber-300 text-sm mt-1 inline-block">
+                  Call Now <i class="fas fa-phone ml-1"></i>
+                </a>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-12 h-12 bg-amber-600/20 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                <i class="fas fa-envelope text-amber-400 text-xl"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white mb-1">Email</h4>
+                <p class="text-gray-300">smolsky.lev@gmail.com</p>
+                <a href="mailto:smolsky.lev@gmail.com" class="text-amber-400 hover:text-amber-300 text-sm mt-1 inline-block">
+                  Send Email <i class="fas fa-paper-plane ml-1"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8">
+            <h4 class="font-semibold text-white mb-4">Follow Us</h4>
+            <div class="flex space-x-4">
+              <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-amber-600 transition duration-300">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-amber-600 transition duration-300">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-amber-600 transition duration-300">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="bg-white rounded-2xl shadow-xl p-8 text-gray-900">
+            <h3 class="font-playfair text-2xl font-bold mb-6">Business Hours</h3>
+            <div class="space-y-4">
+              <div class="flex justify-between items-center py-3 border-b border-gray-100">
+                <span class="text-gray-600">Monday</span>
+                <span class="font-semibold text-gray-400">Closed</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-gray-100">
+                <span class="text-gray-600">Tuesday</span>
+                <span class="font-semibold">9:00 AM – 6:00 PM</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-gray-100">
+                <span class="text-gray-600">Wednesday</span>
+                <span class="font-semibold">9:00 AM – 6:00 PM</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-gray-100">
+                <span class="text-gray-600">Thursday</span>
+                <span class="font-semibold">9:00 AM – 6:00 PM</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-gray-100">
+                <span class="text-gray-600">Friday</span>
+                <span class="font-semibold">9:00 AM – 6:00 PM</span>
+              </div>
+              <div class="flex justify-between items-center py-3 border-b border-gray-100">
+                <span class="text-gray-600">Saturday</span>
+                <span class="font-semibold">9:00 AM – 3:00 PM</span>
+              </div>
+              <div class="flex justify-between items-center py-3">
+                <span class="text-gray-600">Sunday</span>
+                <span class="font-semibold text-gray-400">Closed</span>
+              </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-gray-100">
+              <a href="https://maps.google.com/?cid=1340429921080381918" target="_blank" class="w-full bg-amber-600 text-white py-4 rounded-xl font-semibold hover:bg-amber-700 transition duration-300 flex items-center justify-center">
+                <i class="fas fa-calendar-alt mr-2"></i>Book Appointment
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="h-96">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.123456789!2d-88.1704209!3d30.6900493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzzCsDQxJzI5LjEiTiA4OMKwMTAnMjAuNiJX!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" 
+      width="100%" 
+      height="100%" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"
+      class="grayscale contrast-125">
+    </iframe>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12 border-t border-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="font-playfair text-2xl font-bold mb-4">Enve <span class="text-gradient">Color Studio</span></h3>
+          <p class="text-gray-400 mb-4">Your trusted destination for premium hair care services in Mobile, Alabama.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+          <div class="space-y-2">
+            <a href="#home" class="block text-gray-400 hover:text-white transition duration-300">Home</a>
+            <a href="#about" class="block text-gray-400 hover:text-white transition duration-300">About</a>
+            <a href="#services" class="block text-gray-400 hover:text-white transition duration-300">Services</a>
+            <a href="#gallery" class="block text-gray-400 hover:text-white transition duration-300">Gallery</a>
+            <a href="#reviews" class="block text-gray-400 hover:text-white transition duration-300">Reviews</a>
+            <a href="#contact" class="block text-gray-400 hover:text-white transition duration-300">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg mb-4">Contact Info</h4>
+          <div class="space-y-3 text-gray-400">
+            <p class="flex items-center"><i class="fas fa-map-marker-alt w-5"></i>5550 Old Shell Rd, Mobile, AL 36608</p>
+            <p class="flex items-center"><i class="fas fa-phone w-5"></i>(251) 408-3583</p>
+            <p class="flex items-center"><i class="fas fa-envelope w-5"></i>smolsky.lev@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+        <p>&copy; 2026 Enve Color Studio & Salon. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+          // Close mobile menu if open
+          document.getElementById('mobile-menu').classList.add('hidden');
+        }
+      });
+    });
+
+    // Navbar background on scroll
+    window.addEventListener('scroll', function() {
+      const nav = document.querySelector('nav');
+      if (window.scrollY > 50) {
+        nav.classList.add('shadow-md');
+      } else {
+        nav.classList.remove('shadow-md');
+      }
+    });
+  </script>
+</body>
+</html>

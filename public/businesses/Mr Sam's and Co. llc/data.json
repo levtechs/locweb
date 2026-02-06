@@ -1,0 +1,184 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "158 N McGregor Ave, Mobile, AL 36608, USA",
+  "formatted_phone_number": "(251) 342-3173",
+  "geometry": {
+    "location": {
+      "lat": 30.6980322,
+      "lng": -88.14408309999999
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.69939618029149,
+        "lng": -88.14276116970849
+      },
+      "southwest": {
+        "lat": 30.69669821970849,
+        "lng": -88.14545913029151
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-342-3173",
+  "name": "Mr Sam's and Co. llc",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 2,
+          "time": "1700"
+        },
+        "open": {
+          "day": 2,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1700"
+        },
+        "open": {
+          "day": 3,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1700"
+        },
+        "open": {
+          "day": 4,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1700"
+        },
+        "open": {
+          "day": 5,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "1700"
+        },
+        "open": {
+          "day": 6,
+          "time": "0900"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Closed",
+      "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Thursday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 1440,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116297334874816757098\">Desiree Henderson</a>"
+      ],
+      "photo_reference": "AcnlKN3IGUSpK-U-myKg9OiYF2v3Eet2v1BY8LDgVpWHszptkpT5RjBBTaf_nqpKbr6wh_ethzrO4D3fOUNcvlpbIDLMEn1meaU8_f7yZRbl-oV0ix7fGOJpLEk3O46vpGagXK2GbOfCx8iqhkD_-yJHkz6wi1j2Bc6njFV-hdk7rgsR5MGaEVo07Hm_wq70q48gkV7Yb9Vw5VwngPS3z1TT9eZKmjnQklk5pvXN89jpxqaUJDZbJL2d_WT1mPRgfMcOd-xTnhhZN6_Ja3cEsKOJsKhdqEKVkuFg184PjK8SbuWL5A4WgyW8kbffaUP-ExtSmOCv_bPT36RAsgGLOcJ0OiH2VPqn9MjI1B5ceYkGsdabCUZMHyFm8Etgd0Ono-ia9g9u3JLqbnFhzU2es9Ocda8zJC03v-idO5MWYy0brjgnZg",
+      "width": 2560
+    }
+  ],
+  "place_id": "ChIJaT8--mFNmogRK2mSO9AhULM",
+  "rating": 4.6,
+  "reference": "ChIJaT8--mFNmogRK2mSO9AhULM",
+  "reviews": [
+    {
+      "author_name": "Jerrie Denham",
+      "author_url": "https://www.google.com/maps/contrib/103157706324374636455/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjW8EJJKQKF7v3LicCDjQXzu8PjNnwVem3csf1iXxo1inzB8tVAK=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "relative_time_description": "5 years ago",
+      "text": "Been using Mr. Sam\u2019s for a years, all the staff are friendly, great, knowledgeable, and know their profession well. I started with Floyd, he is an awesome stylist, and then he changed his days that I cannot make, he recommended Laurie.  I love her to death.  She is smart, funny,  and very good at styling.  I also give kudos to Jamie, great manicurist ever.  Will not even consider looking anywhere else for my hair and nails.  See you soon ladies.",
+      "time": 1607188129,
+      "translated": false
+    },
+    {
+      "author_name": "Diane Orem",
+      "author_url": "https://www.google.com/maps/contrib/105898423617523141109/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKVCEdRbS0gncHilC99IEtempdC5LttasNiy709Yk0W5ghrvw=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "4 years ago",
+      "text": "Laurie had to be out unexpectantly but Debbie step in and did my perm that was so eager to get.  I appreciate her willingness to take my appointment.  I'm very pleased with the results!  Thanks Debbie for stepping in for Laurie.",
+      "time": 1624022909,
+      "translated": false
+    },
+    {
+      "author_name": "Dawn Hind",
+      "author_url": "https://www.google.com/maps/contrib/113924361661848207049/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIqWkMq_rGoapL3Uxo0Py7Mj7rjy8VE2XiLV4iEsWikWrQ9HQ=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "7 years ago",
+      "text": "I have been going to Mr Sams for years. Best hair cuts and perms of my life. Friendly and knowledgeable staff. Keep up the great work.",
+      "time": 1521469498,
+      "translated": false
+    },
+    {
+      "author_name": "Karen Cormier",
+      "author_url": "https://www.google.com/maps/contrib/102815631413545269639/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKDbTZ-48tI-r_RFUKkEyr1tBOYEA8MKc3mEE5_2YFNVUKd8w=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "6 years ago",
+      "text": "Jamie is the best! Awesome pedicure.",
+      "time": 1554842565,
+      "translated": false
+    },
+    {
+      "author_name": "Joe T",
+      "author_url": "https://www.google.com/maps/contrib/100543828475427551472/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLE3MZ0Jn9q1hDe27dpVCOwRg3vmj0uyEEqHMEhUqyr6Mikrg=s128-c0x00000000-cc-rp-mo-ba5",
+      "rating": 5,
+      "relative_time_description": "2 years ago",
+      "text": "Friendly staff. Always helpful",
+      "time": 1704834270,
+      "translated": false
+    }
+  ],
+  "types": [
+    "establishment",
+    "hair_care",
+    "jewelry_store",
+    "point_of_interest",
+    "store"
+  ],
+  "url": "https://maps.google.com/?cid=12920864509162318123",
+  "user_ratings_total": 10,
+  "utc_offset": -360,
+  "vicinity": "158 N McGregor Ave, Mobile",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3IGUSpK-U-myKg9OiYF2v3Eet2v1BY8LDgVpWHszptkpT5RjBBTaf_nqpKbr6wh_ethzrO4D3fOUNcvlpbIDLMEn1meaU8_f7yZRbl-oV0ix7fGOJpLEk3O46vpGagXK2GbOfCx8iqhkD_-yJHkz6wi1j2Bc6njFV-hdk7rgsR5MGaEVo07Hm_wq70q48gkV7Yb9Vw5VwngPS3z1TT9eZKmjnQklk5pvXN89jpxqaUJDZbJL2d_WT1mPRgfMcOd-xTnhhZN6_Ja3cEsKOJsKhdqEKVkuFg184PjK8SbuWL5A4WgyW8kbffaUP-ExtSmOCv_bPT36RAsgGLOcJ0OiH2VPqn9MjI1B5ceYkGsdabCUZMHyFm8Etgd0Ono-ia9g9u3JLqbnFhzU2es9Ocda8zJC03v-idO5MWYy0brjgnZg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg"
+  ]
+}

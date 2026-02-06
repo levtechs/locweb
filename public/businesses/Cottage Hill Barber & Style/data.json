@@ -1,0 +1,173 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "818 Azalea Rd, Mobile, AL 36693, USA",
+  "formatted_phone_number": "(251) 666-2186",
+  "geometry": {
+    "location": {
+      "lat": 30.6515976,
+      "lng": -88.1403278
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.6529894302915,
+        "lng": -88.13891431970849
+      },
+      "southwest": {
+        "lat": 30.6502914697085,
+        "lng": -88.1416122802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-666-2186",
+  "name": "Cottage Hill Barber & Style",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 2,
+          "time": "1730"
+        },
+        "open": {
+          "day": 2,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1730"
+        },
+        "open": {
+          "day": 3,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1730"
+        },
+        "open": {
+          "day": 4,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1730"
+        },
+        "open": {
+          "day": 5,
+          "time": "0900"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Closed",
+      "Tuesday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+      "Wednesday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+      "Thursday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+      "Friday: 9:00\u202fAM\u2009\u2013\u20095:30\u202fPM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112900395930623346690\">Jack Allen</a>"
+      ],
+      "photo_reference": "AcnlKN1bBjfBFcCpoI2cOvVvEeBQiAq-3AnuWlsRoAKjye8k5PaNwyJDXwql1xOjzvKq0Yx5V5gooYwzKx6AkU0BoB4NZin9vSWSL_4dtP-IP--zMAaUucVFyjn6BTo8-JSiDlc4v6rpcnJNAKFYHSWPhe84C72RJMBOImnz2lO6xiTfh7wzHfC2S5MeUoECI6KaWTTzIHv4srohL6ukKsWZ4GphmSStzONg8Zkk63tSez5PI--YjIsSCB2yKDoSq5w5YsGR-bChG4yBun373kHgc76gWNiwQTn08ZbWHdF4M9_J1hQDQgpXxTZ8NQKQWuybk5UOFAD8gMbxE2na4aU2Liv71Ihqm2JckwrtCtgBv77yr4XLOyHXlBIx4Sn_8t8EZbzziwO0avVPhmCpWXPZiZywMtZ3XsAbvqXqv6TeBC3LQ_o",
+      "width": 3024
+    }
+  ],
+  "place_id": "ChIJ22p6veJMmogRLwBn_0nPoU0",
+  "rating": 4.5,
+  "reference": "ChIJ22p6veJMmogRLwBn_0nPoU0",
+  "reviews": [
+    {
+      "author_name": "Suzanne Gillette",
+      "author_url": "https://www.google.com/maps/contrib/108971815409624430365/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVQ1d_MkReAepB9IIXXzWM8jQJ5iGWj6ERNyODxwrUUk3gOG8ut=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "11 months ago",
+      "text": "Hubby and now grown my sons have been going there for  30 plus years open Tuesday through Friday. Gene and Bob are the best barbers.",
+      "time": 1741694451,
+      "translated": false
+    },
+    {
+      "author_name": "Suzie Gillette",
+      "author_url": "https://www.google.com/maps/contrib/101828813916781485498/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXzkra2HoW5qKhsNnXYchEk87SoI9LumVnRyL2zJzHRxhsFiyE=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "2 years ago",
+      "text": "Hubby went for a haircut n it\u2019s closed up ? What happened? He\u2019s been going there for 30 years best barber Bob ! but now it\u2019s closed hope it opens again n everyone is ok! It\u2019s open again just not on Saturday!! Still the best barbers Gene n Bob!",
+      "time": 1681403935,
+      "translated": false
+    },
+    {
+      "author_name": "Joey Wilkinson",
+      "author_url": "https://www.google.com/maps/contrib/114770211732217106583/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocK7Fwj4k2jbyJOmOTaFct_sZdpWwDb6oWtK1ngbTTCl2ToD_w=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "relative_time_description": "3 years ago",
+      "text": "Gone to this barber shop since I was 5 years old.\nThey do great work and always enjoy good conversation.",
+      "time": 1647559019,
+      "translated": false
+    },
+    {
+      "author_name": "Sherman Putman",
+      "author_url": "https://www.google.com/maps/contrib/116114578434371734116/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWcxW7vt4NpTLAesbXG6J1qspgwiA0z_v8QOxu80c615oTHuuo=s128-c0x00000000-cc-rp-mo",
+      "rating": 4,
+      "relative_time_description": "a year ago",
+      "text": "Gene Capps is my barber, and he does an excellent job.",
+      "time": 1720016817,
+      "translated": false
+    },
+    {
+      "author_name": "Jerry Johnson",
+      "author_url": "https://www.google.com/maps/contrib/110533484545423538753/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIjUz6FFZmtBNOox5MohlFQp6azO1fxKQoaJnzws4drLoL0XA=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "3 years ago",
+      "text": "Great place to get hair cut. Good prices Old school",
+      "time": 1645558716,
+      "translated": false
+    }
+  ],
+  "types": [
+    "establishment",
+    "hair_care",
+    "health",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=5593980128895369263",
+  "user_ratings_total": 19,
+  "utc_offset": -360,
+  "vicinity": "818 Azalea Rd, Mobile",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1bBjfBFcCpoI2cOvVvEeBQiAq-3AnuWlsRoAKjye8k5PaNwyJDXwql1xOjzvKq0Yx5V5gooYwzKx6AkU0BoB4NZin9vSWSL_4dtP-IP--zMAaUucVFyjn6BTo8-JSiDlc4v6rpcnJNAKFYHSWPhe84C72RJMBOImnz2lO6xiTfh7wzHfC2S5MeUoECI6KaWTTzIHv4srohL6ukKsWZ4GphmSStzONg8Zkk63tSez5PI--YjIsSCB2yKDoSq5w5YsGR-bChG4yBun373kHgc76gWNiwQTn08ZbWHdF4M9_J1hQDQgpXxTZ8NQKQWuybk5UOFAD8gMbxE2na4aU2Liv71Ihqm2JckwrtCtgBv77yr4XLOyHXlBIx4Sn_8t8EZbzziwO0avVPhmCpWXPZiZywMtZ3XsAbvqXqv6TeBC3LQ_o&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg"
+  ]
+}

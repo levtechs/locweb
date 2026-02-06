@@ -1,0 +1,128 @@
+{
+  "business_status": "CLOSED_TEMPORARILY",
+  "formatted_address": "700 S University Blvd, Mobile, AL 36609, USA",
+  "formatted_phone_number": "(251) 661-9122",
+  "geometry": {
+    "location": {
+      "lat": 30.6502426,
+      "lng": -88.16208429999999
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.6516161302915,
+        "lng": -88.16064251970847
+      },
+      "southwest": {
+        "lat": 30.6489181697085,
+        "lng": -88.1633404802915
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-661-9122",
+  "name": "Hair Studio",
+  "photos": [
+    {
+      "height": 400,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110306938599383133585\">Hair Studio</a>"
+      ],
+      "photo_reference": "AcnlKN21wSt_W_Vrh3PN596x8KothWoZLNmi4ATRixsrCskFKu759GcGixoHKUlqtFK2n2l1vqQAbJkrQueeP_kwOFYXslX1ctOrOyvUdRtuyUhqCxy0kLMdyjrsvDlp9BwZPZ6pLqjbGvQaOuJmdzmWo5bKs7s_K5NaiV2KUBmM-WaiIXsmVig3AfqhEgAEjG-BYzgFm6WkALhPghhJmC73oy8VI0lpRnLnymr_OVn9ZZ_hcuxBnHaxetTaJ38_VgVqDK9_hCoB1qkQVnK0vCyLQk2HQf5ls79npG2DCZljBJXqHg",
+      "width": 940
+    },
+    {
+      "height": 400,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/110306938599383133585\">Hair Studio</a>"
+      ],
+      "photo_reference": "AcnlKN1DBOMBuGJSjWefG2P2Xamhxegz-fvR8W1_0G2BYqEQU8AC0vqdmJz8In5HvFf5C2LDPR4eWW4i5RnrNVFLVpcT-sAr8blF4iBIX_myhF6EJDTo1zPbOHxSUr3febGzXZ62iR_L_gXfdzoEEItPBJdj7pCH0gKug_ERvWsLDmJzLZWqHB0ojTjfgWgDDYmho-K-vsEwc17-zMTn5tg6Sy30r66PGexVogksCe8pp8C-J2GJcRk01njKPBiva1ENGP0ZUbuwzV_ylaMQDC5zVm-JVxRHP3HCYN2OKUXfDWdmUA",
+      "width": 940
+    }
+  ],
+  "place_id": "ChIJtU-qktZMmogRX-QzgSMexng",
+  "rating": 3.2,
+  "reference": "ChIJtU-qktZMmogRX-QzgSMexng",
+  "reviews": [
+    {
+      "author_name": "Mahogany Mcclennnan",
+      "author_url": "https://www.google.com/maps/contrib/111455645983519310599/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXDuFV6EmOXaRit5feeU1D5nnALHrvbcdtLIYHdegNFG2lyGqaw=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "4 months ago",
+      "text": "Last year I got my haircut. It was really nice and I\u2019m gonna go back over there today.",
+      "time": 1758812286,
+      "translated": false
+    },
+    {
+      "author_name": "Howard McNorton Jr",
+      "author_url": "https://www.google.com/maps/contrib/112219680519376946865/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKIMJV7jSzCVxHGb7yfrbCOGXE6pQk1OAcKsLjwVzCRRQ3Byw=s128-c0x00000000-cc-rp-mo",
+      "rating": 1,
+      "relative_time_description": "9 years ago",
+      "text": "We have all had bad hair cuts from time to time, but this one takes the cake. My usual barber was out and another cut my hair. She did not know how to do a men's fade at all, told me my hair grew forward as to why it wasn't faded right. Then after returning to have it fixed she further gaped it up more and asked me at the end I could wear a hard hat to work?!?",
+      "time": 1467159632,
+      "translated": false
+    },
+    {
+      "author_name": "Terry B",
+      "author_url": "https://www.google.com/maps/contrib/107014837833285257482/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJ8Dm0EIPOsqfh9Aju2A3KdHuZRGOeUVPM0orFUq0wotwr4Iw=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 1,
+      "relative_time_description": "7 years ago",
+      "text": "Do not recommended this place. The only way to fix my haircut is to wait till it grows back",
+      "time": 1520714830,
+      "translated": false
+    },
+    {
+      "author_name": "Blaine Kelley",
+      "author_url": "https://www.google.com/maps/contrib/103072886467889824523/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWn6TB18ix0re3eQoYnT9OxW6UD52LON6YfdooBWqHFVYl81FoX-g=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 4,
+      "relative_time_description": "6 years ago",
+      "text": "My stylist worked there until they CLOSED!",
+      "time": 1566742338,
+      "translated": false
+    },
+    {
+      "author_name": "Dolores Rice",
+      "author_url": "https://www.google.com/maps/contrib/117327746798545186331/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXLhRfoIOk-Q2N67LEHS70EaldmmmOtZQAm5Cg9MHeTCWW_yQWV=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "9 years ago",
+      "text": "Men's hair cut.....  9.95",
+      "time": 1467171720,
+      "translated": false
+    }
+  ],
+  "types": [
+    "establishment",
+    "hair_care",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=8702676467780412511",
+  "user_ratings_total": 5,
+  "utc_offset": -360,
+  "vicinity": "700 S University Blvd, Mobile",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN21wSt_W_Vrh3PN596x8KothWoZLNmi4ATRixsrCskFKu759GcGixoHKUlqtFK2n2l1vqQAbJkrQueeP_kwOFYXslX1ctOrOyvUdRtuyUhqCxy0kLMdyjrsvDlp9BwZPZ6pLqjbGvQaOuJmdzmWo5bKs7s_K5NaiV2KUBmM-WaiIXsmVig3AfqhEgAEjG-BYzgFm6WkALhPghhJmC73oy8VI0lpRnLnymr_OVn9ZZ_hcuxBnHaxetTaJ38_VgVqDK9_hCoB1qkQVnK0vCyLQk2HQf5ls79npG2DCZljBJXqHg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1DBOMBuGJSjWefG2P2Xamhxegz-fvR8W1_0G2BYqEQU8AC0vqdmJz8In5HvFf5C2LDPR4eWW4i5RnrNVFLVpcT-sAr8blF4iBIX_myhF6EJDTo1zPbOHxSUr3febGzXZ62iR_L_gXfdzoEEItPBJdj7pCH0gKug_ERvWsLDmJzLZWqHB0ojTjfgWgDDYmho-K-vsEwc17-zMTn5tg6Sy30r66PGexVogksCe8pp8C-J2GJcRk01njKPBiva1ENGP0ZUbuwzV_ylaMQDC5zVm-JVxRHP3HCYN2OKUXfDWdmUA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg"
+  ]
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stevie's Kitchen - Mobile, AL</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    .hover-lift { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .hover-lift:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.15); }
+    .star-icon { color: #F59E0B; }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-orange-600">Stevie's Kitchen</a>
+      <div class="hidden md:flex space-x-6">
+        <a href="#about" class="text-gray-700 hover:text-orange-600 transition">About</a>
+        <a href="#info" class="text-gray-700 hover:text-orange-600 transition">Info</a>
+        <a href="#gallery" class="text-gray-700 hover:text-orange-600 transition">Gallery</a>
+        <a href="#reviews" class="text-gray-700 hover:text-orange-600 transition">Reviews</a>
+      </div>
+      <a href="tel:+12512872793" class="bg-orange-100 text-orange-700 px-4 py-2 rounded-lg font-medium hover:bg-orange-200 transition">Call Now</a>
+    </nav>
+  </header>
+
+  <section class="bg-gray-50 py-20">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Stevie's Kitchen</h1>
+      <p class="text-xl text-gray-600 mb-6">Fresh Sandwiches & Southern Comfort Food</p>
+      <p class="text-gray-700 max-w-2xl mx-auto mb-8">Your local hidden gem in Mobile! Serving fresh deli sandwiches, award-winning gumbo, homemade chicken salad, and frozen take-home meals.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:+12512872793" class="bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition shadow-lg">Call to Order</a>
+        <a href="#info" class="bg-white text-gray-800 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition shadow border border-gray-200">Visit Us</a>
+      </div>
+      <div class="mt-8 flex items-center justify-center gap-2">
+        <div class="flex">
+          <span class="star-icon text-xl">★</span>
+          <span class="star-icon text-xl">★</span>
+          <span class="star-icon text-xl">★</span>
+          <span class="star-icon text-xl">★</span>
+          <span class="star-icon text-xl">★</span>
+        </div>
+        <span class="text-gray-700 font-medium">4.8 (128 reviews)</span>
+        <span class="text-gray-400">|</span>
+        <span class="text-gray-600">$$</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">About Stevie's Kitchen</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <p class="text-gray-700 mb-4 text-lg leading-relaxed">Welcome to Stevie's Kitchen, Mobile's premier locally-owned deli! We've been serving the community with fresh, quality sandwiches and Southern comfort food.</p>
+          <p class="text-gray-700 mb-4 text-lg leading-relaxed">Our award-winning gumbo is a customer favorite, made fresh daily with authentic Southern recipes. Whether you're craving a hearty sandwich, a fresh salad, or need a quick dinner solution, we've got you covered with our frozen take-home meals.</p>
+          <p class="text-gray-700 text-lg leading-relaxed">Enjoy our cozy indoor seating or relax in our pleasant outdoor patio area. We pride ourselves on friendly service, great prices, and food that keeps customers coming back!</p>
+        </div>
+        <div class="bg-gray-100 rounded-2xl p-8 text-center">
+          <h3 class="text-2xl font-semibold mb-6 text-gray-900">What We're Known For</h3>
+          <ul class="space-y-3 text-gray-700">
+            <li class="flex items-center gap-2"><span class="text-orange-500 text-xl">★</span> Award-Winning Gumbo</li>
+            <li class="flex items-center gap-2"><span class="text-orange-500 text-xl">★</span> Fresh Sandwiches & Salads</li>
+            <li class="flex items-center gap-2"><span class="text-orange-500 text-xl">★</span> Best Chicken Salad in Town</li>
+            <li class="flex items-center gap-2"><span class="text-orange-500 text-xl">★</span> Frozen Take-Home Meals</li>
+            <li class="flex items-center gap-2"><span class="text-orange-500 text-xl">★</span> Indoor & Outdoor Seating</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-4 text-gray-900">Photo Gallery</h2>
+      <p class="text-gray-600 text-center mb-12">A glimpse inside Stevie's Kitchen</p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <img src="photos/photo-1.jpg" alt="Stevie's Kitchen interior" class="w-full h-64 object-cover rounded-xl shadow-md hover-lift cursor-pointer">
+        <img src="photos/photo-2.jpg" alt="Delicious food at Stevie's Kitchen" class="w-full h-64 object-cover rounded-xl shadow-md hover-lift cursor-pointer">
+        <img src="photos/photo-3.jpg" alt="Stevie's Kitchen ambiance" class="w-full h-64 object-cover rounded-xl shadow-md hover-lift cursor-pointer">
+      </div>
+    </div>
+  </section>
+
+  <section id="info" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Visit Us</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-gray-50 p-6 rounded-xl hover-lift">
+          <div class="text-3xl mb-4">📍</div>
+          <h3 class="font-semibold text-lg mb-2 text-gray-900">Address</h3>
+          <p class="text-gray-700">41 W I-65 Service Rd N #150</p>
+          <p class="text-gray-700">Mobile, AL 36608</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl hover-lift">
+          <div class="text-3xl mb-4">📞</div>
+          <h3 class="font-semibold text-lg mb-2 text-gray-900">Phone</h3>
+          <p class="text-gray-700"><a href="tel:+12512872793" class="hover:text-orange-600 transition">(251) 287-2793</a></p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl hover-lift">
+          <div class="text-3xl mb-4">🕐</div>
+          <h3 class="font-semibold text-lg mb-2 text-gray-900">Hours</h3>
+          <p class="text-gray-700">Mon-Fri: 10AM - 3PM</p>
+          <p class="text-gray-600 text-sm">Sat-Sun: Closed</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl hover-lift">
+          <div class="text-3xl mb-4">💵</div>
+          <h3 class="font-semibold text-lg mb-2 text-gray-900">Price Level</h3>
+          <p class="text-gray-700">$$</p>
+          <p class="text-gray-600 text-sm">Affordable & Quality</p>
+        </div>
+      </div>
+      <div class="mt-12 text-center">
+        <a href="https://maps.google.com/?cid=9150502891256667675" target="_blank" class="inline-block bg-orange-100 text-orange-700 px-6 py-3 rounded-lg font-medium hover:bg-orange-200 transition">Get Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-4 text-gray-900">What Our Customers Say</h2>
+      <p class="text-gray-600 text-center mb-12">Real reviews from happy diners</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow-sm hover-lift">
+          <div class="flex text-xl mb-3">
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"First time trying this place and just wow, gumbo is amazing, the Cajun sandwich is so fresh!! Hands down best hidden gem in Mobile, Al. We will definitely be back..."</p>
+          <p class="font-semibold text-gray-900">- Ashley Strange</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm hover-lift">
+          <div class="flex text-xl mb-3">
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Great food. Great friendly staff. Atmosphere is wonderful. Good prices. Outdoor seating area. Gumbo is awesome. Best chicken salad. Everything on menu is good..."</p>
+          <p class="font-semibold text-gray-900">- Dorothy Sloan</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-sm hover-lift">
+          <div class="flex text-xl mb-3">
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+            <span class="star-icon">★</span>
+          </div>
+          <p class="text-gray-700 mb-4 italic">"Excellent deli locally owned. They live up to their billing on the gumbo. It's very good. Their sandwich selection is excellent and made fresh with quality meats..."</p>
+          <p class="font-semibold text-gray-900">- William Cox</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white py-8 border-t border-gray-200">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h3 class="text-xl font-bold text-orange-600 mb-2">Stevie's Kitchen</h3>
+      <p class="text-gray-600 mb-4">Fresh Sandwiches & Southern Comfort Food in Mobile, AL</p>
+      <p class="text-gray-500 text-sm">© 2026 Stevie's Kitchen. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>

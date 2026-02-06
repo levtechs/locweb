@@ -1,0 +1,264 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "4690 SpringHill Ave Ste A1, Mobile, AL 36608, USA",
+  "formatted_phone_number": "(251) 348-5271",
+  "geometry": {
+    "location": {
+      "lat": 30.7056728,
+      "lng": -88.1498417
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.7069427302915,
+        "lng": -88.14852686970848
+      },
+      "southwest": {
+        "lat": 30.7042447697085,
+        "lng": -88.15122483029148
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-348-5271",
+  "name": "Blend Masters Barber Studio",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 2,
+          "time": "1800"
+        },
+        "open": {
+          "day": 2,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1800"
+        },
+        "open": {
+          "day": 3,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1800"
+        },
+        "open": {
+          "day": 4,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1800"
+        },
+        "open": {
+          "day": 5,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "1700"
+        },
+        "open": {
+          "day": 6,
+          "time": "0900"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Closed",
+      "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Saturday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 2048,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118019384809182007338\">Blend Masters Barber Studio</a>"
+      ],
+      "photo_reference": "AcnlKN2x3rG53jc8_4WyT6xnZdR8iFyRmfM-CfLlge-vkl1ruR-Ngh7ntkYggN6PE7IEKz6VgZCwEiSHmkqXdtAamST2I8HK18q_YWSldDfZ80XaF2gPtvQ_E2F_5gFrH3PHbyAYqhUtZWGy-m6IyS78uXkKr9JHpv4pcBknl2Kp85bOAEcDEQ9icviJnGyRSv1zZVI6OHEASREYAYo79w_gPmm8M4K1O_zB5EcE2HWnxV3b2BWTB_YNJgp0e7uyiSbuekoVVagOyKeA8rVk1A3J_9wEergdqp6Fvrt1vZeCuMYvdw",
+      "width": 1536
+    },
+    {
+      "height": 1534,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118019384809182007338\">Blend Masters Barber Studio</a>"
+      ],
+      "photo_reference": "AcnlKN1WycC7IcS1BYT7ne5odkAveDGCCo3m5HrSqVL-CCEFAAwK6782umkDS2FmDD9Exe2fUqd2APjAD4jJND0vndZatcKqIpiWI1OJmcz_-1Y4oqcr2M0nKi27JqdD74-SQOtwCQfG5XgdCw-4GOJvB7e1SXxsnZpBplvhQkn6pwSxTFwOeJpb3c-RBfzuf6uKhrGP4vURatI1UYDvqDRQJ89gcDSQbjn3FeGqkI4BK0GiCW6DUDXPgow3Vim_fhfKnDwIZJSW6XXK9a2CQivhispbS-Od4qidHLcldYU8sMXwFg",
+      "width": 2048
+    },
+    {
+      "height": 3016,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/112237775677192837799\">Alejandro I\u00f1iguez</a>"
+      ],
+      "photo_reference": "AcnlKN1PPNbxjQVCiwLcK-p8bFLzaO1TKGU42WdASw-VtFJD2SJKUIr7t1yhN25yxvoyDjkbHXAj-TyVgHFz7wv19eB3DrxlKqLO6lwDGM-eEvPdI8MHzBJ7WHZHhloL3XJRDE9618yAB5CTd1gSCGgdgpNAvSyy2fnJRYMhqQEmUyuI8EGMeSWkoI-QwA34dSBD7VrID2op4BjhV134nJ7o2yacW_X-HmEaKuRphXELLtSiZMTkyhdoKGaD4Yh-L1jppLCQByuI4BOi8hUv8Z5wRitC77JvBhNnxY0cV1qIetzoxV4ZhBwdmxbKvDZBYigFCA8xqzKysBjDvwf1xSAJP_ZHMNOhtcd9CUq1LrhpQInK93YjasnaErFCz6daWGrx1HG6VhxXKZ9ott7mKLGLM5w8VRS6i6u7K1181gj1lEHb7ZtW",
+      "width": 2087
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118054520935183456032\">Abel Fabian</a>"
+      ],
+      "photo_reference": "AcnlKN0jbWZXm39kebnluqB42ZEnoiGgrGcHK74Uhi7FVt1H-q_Imk_50-k2FAWACUgRlHKmY_7Zds9tte3O7elOGvb3CTK1mN4kRdcOEJzW8seURwGPOPpGqw1Z3LlQMQkvcwKRVbY_hqsXZw9urHc7_ac9-YjH3Cqq_RjiNjOOx2mxMxtn7Aq8OyLUfiEvpSWhohe70Bjjr0lStXPZqrJKzy_lR-KeGUcIAJaVtCbZpBZ-C73uy-VaN0ja-oRhxLQKXT3YcDF2igxvnMcWQSpgQV6YlS0lRu1-O7LCWeZIuL4vn9TuNYGqNzObvALsfQw_sGyete6eIamMFTOj0cCqpZfgeV7yp9SR09-awcmehUl2P5a1hZStVuNm03mmrBfpjsFToqLP77c09VyEIMcBHbtisH4G90lQh_NTWw",
+      "width": 3024
+    },
+    {
+      "height": 1152,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118019384809182007338\">Blend Masters Barber Studio</a>"
+      ],
+      "photo_reference": "AcnlKN0jJd4p_PJ9QkiyEzyVpKS6lIeSi8DBMCMGcOsb8iLUEwdZXdgoZiQatzd4FwKJuGc-JF64u1opCuDHnrE59oYXHwfXIAT0Vr5vyTCzrCGQnNalIsU7eixfSz71SczQgmHNVhIf58FXk2aeO-7Yz9gZl4cq9f6QqXc9ManhoaqgoMp_baVoqT04nxMleiapN-m-bCQovA2qZ9cQ-9AnhQxRwxMA7jF7OnLHMDbMQ6hIX_57Jubs-zKnVE1LD-gpUmTCxubyWn4Ym794fGLgXHQ2Vo-bGPm8f7Eu2TE383rv0g",
+      "width": 864
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118019384809182007338\">Blend Masters Barber Studio</a>"
+      ],
+      "photo_reference": "AcnlKN0262vXBbZqyy9iC4kY791jiIxl64OKg43142u1x8ZsuOfSPPTY19rkWp534_haEAML0BZuahvZJ6vEdPKwmxwqCfhh27sSb-YGvoTyWzt_JJAqjIbzsYMNpIhvxIFHYU_mLJQa7VlSDsW6oDMRD1M59CgCbmWCE4aR_LMwTpIVT791spbunc0Lc-UV90h2JERjhFskf2iolODazrvT_eoNWNOrMTxRvOLCqu-dgqpAc1b_3rT6DyuqYK66hnoPPt-66DXyGjm0gAKjpFuCW2YiVPfV5_NZ-jViykQKb3z1xA",
+      "width": 3024
+    },
+    {
+      "height": 1753,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118019384809182007338\">Blend Masters Barber Studio</a>"
+      ],
+      "photo_reference": "AcnlKN1pHS1G6gwsfeTKsAGEblDwRXeo8cDUwmFeQu8heGVO8qt5drsysmEG3qkw2Ql8h9lhtSizVUCCEdj9quxscSfh_NarxU5mdJq0Bvrt5h-n3FHGTnkUQ5BRGErktEGYQN8zFxbo17gp9jwQthEVyRMaeelLzVZyGV1-rwR8A5zesIqyU-xPlg_Cs-wyPPHGkXlvUhy3fbmTKme3uKpM4v0EeTKfvtLFJ0-WjUYHSf-s3N_4wbPuAXnRR5J5e9FJ0I-ObXL_Q_8C0YWkFIEV6AD0BOWZzpyKx1UUcD2nngBm_w",
+      "width": 1753
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118019384809182007338\">Blend Masters Barber Studio</a>"
+      ],
+      "photo_reference": "AcnlKN3b_Te-JHWLen2NRhTQyXg9oHd9Ok-AK4PdnnVyZORaz7qbZ-i-PtVIkHU7MbGf13Zze_wqrys2CsvvHPKHpEpgT71dwIEoAMmfHQD03t_thOuwckNTK5t-SFSKJUjwos2tQkxADqDlcSQwh5o6u9TJLoWSVdsa5k2rxcO2Jcn3VmHofXoJPO-yJ5aPksUscCQcX3w4kVUrp0vOC40az71RTgTk8ks2btslO0qpRojSL-VH1I6hTPP6eQPj6JHVEYYKWKLxvYF18HkvQB31GokT8wHMt24bmyD0V03Rv7UX_A",
+      "width": 3024
+    },
+    {
+      "height": 2048,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118019384809182007338\">Blend Masters Barber Studio</a>"
+      ],
+      "photo_reference": "AcnlKN1_Y6c7u3mwhffTwwfvIykAovesqJHDqMqIbkRVxkrd3KRmdgJB74PN_Em1CJLEyHeUhAs2vWIk2Ok0RmHxYQ6SosvsKHWbvOwDxxMbkbdCSWZSuygNPGVwqAILt8S0vHpUC8cPXGNhuRZk8-nzLv7Vg8fOXIAO2sGOGE6O9LxaNm61CscOScQzUBrEoZ0MfbOe9O1m4VdBUcHhp2tpTTio96gE-Rx9gT_QBBCOX-2Qx_i56wYYIO0YaR0Gz_HH96iOYzU-B_iUsuom5gUbuT1a897RqHVl2EPSFlXxyJatww",
+      "width": 1536
+    },
+    {
+      "height": 2560,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/118019384809182007338\">Blend Masters Barber Studio</a>"
+      ],
+      "photo_reference": "AcnlKN3dktrYkX215Xkusd1OzH1ynTteJMZeCCSzkZX_VEchQtp2iLl7rHkj8bgSBb7lNX64E5Dbg6cMofnVUb-b-nGP4pSsA2L3r3rSDpVfikqbyBAUtrahDktr8I5k96kBMSUuDjC9dIxW7wOUi__U-xHuyCgb0UXYVrb_En35JfViBcRZVFrauXp-0SH10RTPk4ANkHIz9brEUSdZ1YBjt3I4uLrtrRCQHLygowDlZR7oqS0b7-vCL9RrnsqEJ7YMg9A3R6E2RCUPKjIhdJlN_2PGO5A77DO0uyc13yujQZRv2A",
+      "width": 1920
+    }
+  ],
+  "place_id": "ChIJNTdFMKJSmogRESaIqgdpCzY",
+  "rating": 4.6,
+  "reference": "ChIJNTdFMKJSmogRESaIqgdpCzY",
+  "reviews": [
+    {
+      "author_name": "don clayton",
+      "author_url": "https://www.google.com/maps/contrib/114389123541180905109/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjW8y4u5AiB27DSs8iFO1O-NPpIDTBWlUtMO4TOyMbnFp5Hh30T-fQ=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "Lady there is excellent I would recommend her. Prices are a little higher 42 plus tip to get high and tight haircut and beard trim but to me she's worth it. Go see her and tell her Don sent you",
+      "time": 1731947352,
+      "translated": false
+    },
+    {
+      "author_name": "Abel Fabian",
+      "author_url": "https://www.google.com/maps/contrib/118054520935183456032/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLNMjZdgl6PvnnCHAzxwpmfFSrmcE-szPsARGIP5XzkmnBBUw=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 1,
+      "relative_time_description": "4 years ago",
+      "text": "Booked an appointment, got there 30 mins early. Not one barber asked if i had an appointment nor anything. If u arent already a regular there, go somewhere else",
+      "time": 1638578474,
+      "translated": false
+    },
+    {
+      "author_name": "Alejandro I\u00f1iguez",
+      "author_url": "https://www.google.com/maps/contrib/112237775677192837799/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjW6TweneI3geCSb4lOM7IQ10OvBTMUcKlTMWK1OYpjd_hYZIOLm=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 1,
+      "relative_time_description": "3 years ago",
+      "text": "Booked an appointment at 8am and showed up and no one ever came to open the shop. The sign even says 8am - 6pm .",
+      "time": 1672754576,
+      "translated": false
+    },
+    {
+      "author_name": "A. Thompson",
+      "author_url": "https://www.google.com/maps/contrib/112861321761496946542/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXlWcl6x_j-WDJrlIX9fbAAxakMFSHx5uCQUnXbT0zz8vejfOWV=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "Service: 10/10\nThe people are nice and mr allen did an amazing job at getting my hair right for the homecoming dance\nGo here its the best in town\nWatched lion king while doing hair cut\n-Justin",
+      "time": 1727391239,
+      "translated": false
+    },
+    {
+      "author_name": "Calandra Peterson",
+      "author_url": "https://www.google.com/maps/contrib/103849957684851325714/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXLFVTtbyblzp93cHUsbmbhy59q9AYZZMYPB-u6DIDZPQvf47iL=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "4 years ago",
+      "text": "I arrived in town and on the recommendation of a friend, called and \"Tee\" was able to get me in same afternoon. Very professional, extremely talented barbers in a shop with a whole vibe. I was completely satisfied and will definitely return.",
+      "time": 1628855179,
+      "translated": false
+    }
+  ],
+  "types": [
+    "beauty_salon",
+    "establishment",
+    "hair_care",
+    "health",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=3894321784438662673",
+  "user_ratings_total": 80,
+  "utc_offset": -360,
+  "vicinity": "4690 SpringHill Ave Ste A1, Mobile",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2x3rG53jc8_4WyT6xnZdR8iFyRmfM-CfLlge-vkl1ruR-Ngh7ntkYggN6PE7IEKz6VgZCwEiSHmkqXdtAamST2I8HK18q_YWSldDfZ80XaF2gPtvQ_E2F_5gFrH3PHbyAYqhUtZWGy-m6IyS78uXkKr9JHpv4pcBknl2Kp85bOAEcDEQ9icviJnGyRSv1zZVI6OHEASREYAYo79w_gPmm8M4K1O_zB5EcE2HWnxV3b2BWTB_YNJgp0e7uyiSbuekoVVagOyKeA8rVk1A3J_9wEergdqp6Fvrt1vZeCuMYvdw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1WycC7IcS1BYT7ne5odkAveDGCCo3m5HrSqVL-CCEFAAwK6782umkDS2FmDD9Exe2fUqd2APjAD4jJND0vndZatcKqIpiWI1OJmcz_-1Y4oqcr2M0nKi27JqdD74-SQOtwCQfG5XgdCw-4GOJvB7e1SXxsnZpBplvhQkn6pwSxTFwOeJpb3c-RBfzuf6uKhrGP4vURatI1UYDvqDRQJ89gcDSQbjn3FeGqkI4BK0GiCW6DUDXPgow3Vim_fhfKnDwIZJSW6XXK9a2CQivhispbS-Od4qidHLcldYU8sMXwFg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1PPNbxjQVCiwLcK-p8bFLzaO1TKGU42WdASw-VtFJD2SJKUIr7t1yhN25yxvoyDjkbHXAj-TyVgHFz7wv19eB3DrxlKqLO6lwDGM-eEvPdI8MHzBJ7WHZHhloL3XJRDE9618yAB5CTd1gSCGgdgpNAvSyy2fnJRYMhqQEmUyuI8EGMeSWkoI-QwA34dSBD7VrID2op4BjhV134nJ7o2yacW_X-HmEaKuRphXELLtSiZMTkyhdoKGaD4Yh-L1jppLCQByuI4BOi8hUv8Z5wRitC77JvBhNnxY0cV1qIetzoxV4ZhBwdmxbKvDZBYigFCA8xqzKysBjDvwf1xSAJP_ZHMNOhtcd9CUq1LrhpQInK93YjasnaErFCz6daWGrx1HG6VhxXKZ9ott7mKLGLM5w8VRS6i6u7K1181gj1lEHb7ZtW&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0jbWZXm39kebnluqB42ZEnoiGgrGcHK74Uhi7FVt1H-q_Imk_50-k2FAWACUgRlHKmY_7Zds9tte3O7elOGvb3CTK1mN4kRdcOEJzW8seURwGPOPpGqw1Z3LlQMQkvcwKRVbY_hqsXZw9urHc7_ac9-YjH3Cqq_RjiNjOOx2mxMxtn7Aq8OyLUfiEvpSWhohe70Bjjr0lStXPZqrJKzy_lR-KeGUcIAJaVtCbZpBZ-C73uy-VaN0ja-oRhxLQKXT3YcDF2igxvnMcWQSpgQV6YlS0lRu1-O7LCWeZIuL4vn9TuNYGqNzObvALsfQw_sGyete6eIamMFTOj0cCqpZfgeV7yp9SR09-awcmehUl2P5a1hZStVuNm03mmrBfpjsFToqLP77c09VyEIMcBHbtisH4G90lQh_NTWw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0jJd4p_PJ9QkiyEzyVpKS6lIeSi8DBMCMGcOsb8iLUEwdZXdgoZiQatzd4FwKJuGc-JF64u1opCuDHnrE59oYXHwfXIAT0Vr5vyTCzrCGQnNalIsU7eixfSz71SczQgmHNVhIf58FXk2aeO-7Yz9gZl4cq9f6QqXc9ManhoaqgoMp_baVoqT04nxMleiapN-m-bCQovA2qZ9cQ-9AnhQxRwxMA7jF7OnLHMDbMQ6hIX_57Jubs-zKnVE1LD-gpUmTCxubyWn4Ym794fGLgXHQ2Vo-bGPm8f7Eu2TE383rv0g&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

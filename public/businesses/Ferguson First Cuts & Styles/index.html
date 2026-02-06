@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferguson First Cuts & Styles - Premium Barbershop in Mobile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    .fade-in { animation: fadeIn 0.6s ease-in-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .hover-lift { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .hover-lift:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
+    <nav class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-gray-900">Ferguson First Cuts & Styles</a>
+      <div class="hidden md:flex gap-6">
+        <a href="#about" class="text-gray-700 hover:text-gray-900 font-medium">About</a>
+        <a href="#services" class="text-gray-700 hover:text-gray-900 font-medium">Services</a>
+        <a href="#gallery" class="text-gray-700 hover:text-gray-900 font-medium">Gallery</a>
+        <a href="#reviews" class="text-gray-700 hover:text-gray-900 font-medium">Reviews</a>
+        <a href="#contact" class="text-gray-700 hover:text-gray-900 font-medium">Contact</a>
+      </div>
+      <a href="tel:+12514760122" class="bg-white border-2 border-gray-900 px-5 py-2 rounded-lg font-semibold text-gray-900 hover:bg-gray-100 transition">Call Now</a>
+    </nav>
+  </header>
+
+  <section class="pt-24 pb-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="fade-in">
+          <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Ferguson First Cuts & Styles</h1>
+          <p class="text-xl text-gray-700 mb-6">Premium barbershop services for the whole family. Experience professional cuts in a clean, comfortable environment.</p>
+          <div class="flex flex-wrap gap-4">
+            <a href="tel:+12514760122" class="bg-white border-2 border-gray-900 px-8 py-3 rounded-lg font-semibold text-gray-900 hover:bg-gray-100 transition shadow-lg">Book Appointment</a>
+            <a href="#location" class="bg-gray-100 border-2 border-gray-900 px-8 py-3 rounded-lg font-semibold text-gray-900 hover:bg-gray-200 transition shadow-lg">Get Directions</a>
+          </div>
+          <div class="mt-8 flex items-center gap-3">
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <span class="text-2xl font-bold ml-2">4.8</span>
+            </div>
+            <span class="text-gray-600">from 78 reviews</span>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="photos/photo-1.jpg" alt="Ferguson First Cuts & Styles Barbershop" class="rounded-2xl shadow-2xl hover-lift w-full h-96 object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">About Us</h2>
+      <div class="max-w-3xl mx-auto text-center">
+        <p class="text-lg text-gray-700 leading-relaxed mb-6">Welcome to Ferguson First Cuts & Styles, your premier barbershop in Mobile, Alabama. We specialize in providing top-quality haircuts and styling services for men, women, and children of all ages. Our team of professional barbers is dedicated to delivering exceptional service in a clean, comfortable environment.</p>
+        <p class="text-lg text-gray-700 leading-relaxed mb-6">Whether you're looking for a classic cut, a modern style, or a fresh design, our skilled barbers have got you covered. We take pride in our attention to detail and commitment to customer satisfaction. Come experience the difference at Ferguson First Cuts & Styles.</p>
+        <div class="grid grid-cols-3 gap-8 mt-12">
+          <div class="bg-white p-6 rounded-xl shadow-md hover-lift">
+            <p class="text-4xl font-bold text-gray-900 mb-2">10+</p>
+            <p class="text-gray-600">Years Experience</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-md hover-lift">
+            <p class="text-4xl font-bold text-gray-900 mb-2">1000+</p>
+            <p class="text-gray-600">Happy Clients</p>
+          </div>
+          <div class="bg-white p-6 rounded-xl shadow-md hover-lift">
+            <p class="text-4xl font-bold text-gray-900 mb-2">5.0</p>
+            <p class="text-gray-600">Star Rating</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 p-8 rounded-2xl hover-lift border border-gray-100">
+          <div class="w-14 h-14 bg-gray-200 rounded-full flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-gray-900">Haircuts</h3>
+          <p class="text-gray-600">Precision haircuts tailored to your style. From classic cuts to modern fades, our barbers deliver perfect results every time.</p>
+        </div>
+        <div class="bg-gray-50 p-8 rounded-2xl hover-lift border border-gray-100">
+          <div class="w-14 h-14 bg-gray-200 rounded-full flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-gray-900">Beard & Shave</h3>
+          <p class="text-gray-600">Professional beard trims and hot towel shaves. Keep your facial hair looking sharp and well-groomed.</p>
+        </div>
+        <div class="bg-gray-50 p-8 rounded-2xl hover-lift border border-gray-100">
+          <div class="w-14 h-14 bg-gray-200 rounded-full flex items-center justify-center mb-6">
+            <svg class="w-7 h-7 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-gray-900">Family Friendly</h3>
+          <p class="text-gray-600">We welcome clients of all ages! Bring the whole family for quality grooming services in a comfortable setting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Our Gallery</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="hover-lift">
+          <img src="photos/photo-1.jpg" alt="Barbershop interior" class="w-full h-72 object-cover rounded-xl shadow-md">
+        </div>
+        <div class="hover-lift">
+          <img src="photos/photo-2.jpg" alt="Professional haircut service" class="w-full h-72 object-cover rounded-xl shadow-md">
+        </div>
+        <div class="hover-lift">
+          <img src="photos/photo-3.jpg" alt="Barbershop styling area" class="w-full h-72 object-cover rounded-xl shadow-md">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">What Our Clients Say</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-50 p-6 rounded-xl hover-lift border border-gray-100">
+          <div class="flex items-center mb-4">
+            <div class="flex">
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+          </div>
+          <p class="text-gray-700 italic mb-4">"After going to several barbers and I hadn't been to him in a while! By far he is the superior Barber! Had my hairline and cut altogether looking real good! Definitely will continue going there!"</p>
+          <p class="font-semibold text-gray-900">- Edward Turner</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl hover-lift border border-gray-100">
+          <div class="flex items-center mb-4">
+            <div class="flex">
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+          </div>
+          <p class="text-gray-700 italic mb-4">"My cousin is the owner of this establishment, and it is kid friendly. They are available to service all ages with respect and class. I take my 3 boys and another cousin cuts their hair."</p>
+          <p class="font-semibold text-gray-900">- Denise Harvey</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-xl hover-lift border border-gray-100">
+          <div class="flex items-center mb-4">
+            <div class="flex">
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+          </div>
+          <p class="text-gray-700 italic mb-4">"Newly renovated!! Awesome atmosphere and most importantly a CLEAN environment. It's like a touch of spa was sprinkled over the barbershop. Joe is professional, positive and great with children."</p>
+          <p class="font-semibold text-gray-900">- Denise Andrews</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Visit Us</h2>
+      <div class="grid md:grid-cols-2 gap-12">
+        <div class="bg-white p-8 rounded-2xl shadow-md">
+          <h3 class="text-xl font-semibold mb-6 text-gray-900">Contact Information</h3>
+          <div class="space-y-4">
+            <div class="flex items-start gap-4">
+              <svg class="w-6 h-6 text-gray-700 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              <div>
+                <p class="font-medium text-gray-900">Address</p>
+                <p class="text-gray-600">420 Holcombe Ave, Mobile, AL 36606</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4">
+              <svg class="w-6 h-6 text-gray-700 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              <div>
+                <p class="font-medium text-gray-900">Phone</p>
+                <a href="tel:+12514760122" class="text-gray-600 hover:text-gray-900">(251) 476-0122</a>
+              </div>
+            </div>
+          </div>
+          <div class="mt-8">
+            <h4 class="font-semibold mb-4 text-gray-900">Business Hours</h4>
+            <div class="space-y-2 text-gray-600">
+              <div class="flex justify-between"><span>Monday</span><span>9:00 AM - 6:00 AM</span></div>
+              <div class="flex justify-between"><span>Tuesday</span><span>9:00 AM - 6:00 PM</span></div>
+              <div class="flex justify-between"><span>Wednesday</span><span>9:00 AM - 6:00 AM</span></div>
+              <div class="flex justify-between"><span>Thursday</span><span>9:00 AM - 6:00 AM</span></div>
+              <div class="flex justify-between"><span>Friday</span><span>9:00 AM - 6:00 AM</span></div>
+              <div class="flex justify-between font-medium"><span>Saturday</span><span>Closed</span></div>
+              <div class="flex justify-between font-medium"><span>Sunday</span><span>Closed</span></div>
+            </div>
+          </div>
+        </div>
+        <div id="location" class="bg-white p-8 rounded-2xl shadow-md">
+          <h3 class="text-xl font-semibold mb-6 text-gray-900">Find Us</h3>
+          <div class="bg-gray-100 rounded-xl h-72 flex items-center justify-center mb-4">
+            <p class="text-gray-600">Map placeholder - 420 Holcombe Ave, Mobile, AL 36606</p>
+          </div>
+          <a href="https://www.google.com/maps/dir//420+Holcombe+Ave,+Mobile,+AL+36606" target="_blank" class="w-full bg-white border-2 border-gray-900 py-3 rounded-lg font-semibold text-gray-900 hover:bg-gray-100 transition flex items-center justify-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+            Get Directions
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white py-8 border-t border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p class="text-gray-600">&copy; 2024 Ferguson First Cuts & Styles. All rights reserved.</p>
+      <p class="text-gray-500 mt-2">420 Holcombe Ave, Mobile, AL 36606 | (251) 476-0122</p>
+    </div>
+  </footer>
+</body>
+</html>

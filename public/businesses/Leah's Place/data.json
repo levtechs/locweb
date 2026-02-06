@@ -1,0 +1,240 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "156-C N McGregor Ave, Mobile, AL 36608, USA",
+  "formatted_phone_number": "(251) 721-0343",
+  "geometry": {
+    "location": {
+      "lat": 30.6980166,
+      "lng": -88.14408279999999
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.6993409302915,
+        "lng": -88.14275476970849
+      },
+      "southwest": {
+        "lat": 30.6966429697085,
+        "lng": -88.14545273029151
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-721-0343",
+  "name": "Leah's Place",
+  "opening_hours": {
+    "open_now": false,
+    "periods": [
+      {
+        "close": {
+          "day": 2,
+          "time": "1800"
+        },
+        "open": {
+          "day": 2,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 3,
+          "time": "1800"
+        },
+        "open": {
+          "day": 3,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "1800"
+        },
+        "open": {
+          "day": 4,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "1700"
+        },
+        "open": {
+          "day": 5,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "1400"
+        },
+        "open": {
+          "day": 6,
+          "time": "1000"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: Closed",
+      "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Friday: 9:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+      "Saturday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fPM",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103621801745697501672\">Leah&#39;s Place</a>"
+      ],
+      "photo_reference": "AcnlKN1Q0FPkLqjuJ9iPRD1zbJ7nngZip6p35hAcQwrXw-c5F4UQ0J3D96S_8PaDmUH9Wlwdvpc_Y9No7o9Hx8ETlckDmL7SiHqRL8YxCCVJ8sTvrcOB6sUJNhz4k3_JQZyxiFg8NrZ8TlLIhD7dmSm980yRhvrGIa0glXoAePu-09b733XUOTlFYWKX9593p0Iq3x1ozTC3M8xWbsY70g_dng3RZN9EjQmzjQI7dEGEOigvxo5eiipcIyJaRlXK5b9w9xOSrUkpLJVok77QkusKclODkxcoQWjxniagxN3I5O9l_Q",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103621801745697501672\">Leah&#39;s Place</a>"
+      ],
+      "photo_reference": "AcnlKN2eOdzXvo31BPSB2skEnQl6XaAZWXgPxLm8VJowzve83H_0O3ySBJ-7S2PoEBawPNW3a5DJ9UyNn-W3hsxyNU-d54AaKGdkk2Bhp0d_xR04IFgGea91Z2jQ1OgsiHPWn_MaMo10C-hee1vUa9r6ff4li4mwY4EasqKjMOPuEzLzaEoPRP0ZTwFRNbzVPnMRqcRlorCNNubaw936AsmbMb5GjzGxzUYxL_NYC3H_Qv-6fosKe3CBR75kwdDlbh4i5a1czIvvVrunOMLzbY0EBVm9fG8M1FC1sgAOcn16FPu55A",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103621801745697501672\">Leah&#39;s Place</a>"
+      ],
+      "photo_reference": "AcnlKN0rs8LPYPpsJK08dA1SpYzUbKTXJ0Uhw0dOvrpVwvElYWwtTTkFUvvdEiMlmtCMrdCupkZJg-0zu98Ths69s_-MyQqTM-hMoa8kgv-4O2DzjBxMCFxhZrg8Y3T87DaBKfC-Dt-IwtR2ASQST8TRQQlptTaLvYlmf5LbD18OuCMKqcKfsLrwvwC0gce4mMzjmFe-HY2xt_k8ryak-5PnoBe82fBf_Qd9wxyqDtewevNOcZCZAKJ2YwOUDvoripYIBseyt-yQiPo-YbwwAMK1IKJhv1LyHzNT6YT8a_hi0lI3Fw",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103621801745697501672\">Leah&#39;s Place</a>"
+      ],
+      "photo_reference": "AcnlKN3Pbg_eqnGwsEkUXtOEie418wRKJ4YavdOt1HcTgsjer3qdfGVgsNeHt5fOZ01rIlsoReUA9Bc-Mur6HsgC5I1R2Dl3mwV0ekj9nPHdgbOGnnDz2A8txJcgvBokJrm9eaCNoyKC17iDfnss6MstZXJoQtGrA_JOd6PFyx9CkM_WoWml3nrHskLozjHlJSrQc8WqIGxBxHX8oRi1dIXz1csIXUuan5jIjBmJZHmOVTJMWWzK4L4qqpp3qx4lR9glsuRAM5llpu9LTZBb4CFh4e-9bIBVjql0E5PSytLKBL0zHA",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103621801745697501672\">Leah&#39;s Place</a>"
+      ],
+      "photo_reference": "AcnlKN0S-0WpUNJ8UIaN56F2mLuQuCtxgr3fP82Mza_YPuJNakmp0-kiU6C0SeZs-lDtPexfIQkC2yqiHt8iy5rSv4QpLjrR1cmOcIkNW9wBgJfXsHsVc2sgGzX7Batt2BUlizBXIq_1PzNHLVTw6qR6SB5QtiBrlDKh-qQRGGm5nTPhXzPmcw5DCheRGcv4xVxP5VV1VZgjcLtDRUHoqjwAdVnlHJyyoSYVg2QzmekWA9SBrTXicZbJmcluOTmouszlbwmbZnwtGAA8DJHEw2fgk0OCo4yi4mdbUMpaMJjOB8nbvA",
+      "width": 3024
+    },
+    {
+      "height": 2048,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103621801745697501672\">Leah&#39;s Place</a>"
+      ],
+      "photo_reference": "AcnlKN3oxTtHF7OFwGiFJ6bhbormClXU9wGpnOkymirhCUDswoLIRg0QrWyt1rX8KGEt1XFmjVUSfXFwy9wXa8PPZNOMkp2Ie-IP9IjJajqNsTPMNYXsjH15JvrK-k3rhgs64P6ea_h5dWS7i35C7JhPcs2omaRwF_U8c9HgLIvlH2rN6o8ar4yWusg3D46P1IG8Or0au-pFKQWp_Q4Gzz7dNpJFopRjl6XmEpMyMf1b0qY_tXCCh3WHO5YHBi4yUernA7WMPTI9fJvXbjC35QQ7VVKJWSe3zFf8UQOiUO84wLdukA",
+      "width": 1536
+    },
+    {
+      "height": 2048,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103621801745697501672\">Leah&#39;s Place</a>"
+      ],
+      "photo_reference": "AcnlKN0XzazFxO0l1DIM1p23iL9g3NasiRAZlG_jT-wPQK_mhIlRhfdUgk0AV6OX7ISPNdHjid_K-50YnK-2rz69n6YFr3IvAZrYixGD5pbpL3tN4N0hww5iX-HdGZxuqAF2uiDeO46xOLCPqwIPz1C1xif2FsBwyla9uJ3QKbfYMJJK8m4I5d1os3Y2E5ONfE79-YCENB6_vo7mXozupqB8nneF6kMYdqv6ge87ir-X7eRZpAhHnWJhrpyCOncdhHxUnyH8rpnWc6SyxVDzcstWwAPzjXcgxSn8wACYcWM5mGMUng",
+      "width": 1536
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103621801745697501672\">Leah&#39;s Place</a>"
+      ],
+      "photo_reference": "AcnlKN1dqoHylxEJo9NI8T8jz7mX738OY6Gg5g0rkkEOeTUUjgX_sMhQhTo0F7HzI4zb3bqueBOrlYFAz_LuQ6PR3fE-pk1y8qihlpdpTULtESWeqLsAo7QMQfhgRArYgxz5M97goIZed1WPjxhfxyA2S4Q_fQIEWqAxTgU-pTl8BSRrn5jYS2SnG4DAmDtjDm7yq-8alyGrnUGP7ljcNH5T_gVL0sb0hC6tisVecW4oQuO_b9DGV3y8l8aVs2LrCJ11e1gEpCMqwpGI0aIbs0mgv0c7ClU6cf3f7d9qgFqIfvNMBg",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103621801745697501672\">Leah&#39;s Place</a>"
+      ],
+      "photo_reference": "AcnlKN1ry-z3jyTULBXIhnjyuvX_lAdqoHW0jsRaY841mZ5kw6QoPof6-EssdS00P_8jRAmfbUWhdWvpsxZEdjbaQAVb_rRMoIffUVU2R0plR28Erdu-oebyGad9UxE7LtBvt0NZcn1xHDHQIlviLRvXvFZYhrLxl-_pWCXBtMupNv2_RvJJ04IeFREcQFZH9_kjRKKrNoT7niu34q19HKX2nQrCq-X5t7hWFa-CoxjG0qyhhI8vGYMYq-b4w_6jS29GsG9pRt2VPkvh-OU6EZV1lQ4T3gYUERPukB0OR7XZyeRyFQ",
+      "width": 3024
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/103621801745697501672\">Leah&#39;s Place</a>"
+      ],
+      "photo_reference": "AcnlKN2oCPQ10JR9XKy_oYOUEbyl4MbZYCztZmM3BqPDjCp11yIMKWuzHJbTK1320avsU0QIYSBJhkYb65NUY1JGJW59_uXe0C3fGOEk7igZ7qRPSlDxYNr4dOHJ2epwVUYXqIrRoIzkMrplNjAQbVthKazfEdmSe4rWXfTHe3wW1yQBpqEsHx5V0QujbqUr-lQ6Pi78N7lMGooVXl61BKir4sfDyOQPe7I-KZ-0Gs_CGJ4y6jU89SooJsytAcIgD0flvHlgg2lhizc12PbS3q54-mI8F0IQ_GpOOkk_BERlVEWvEQ",
+      "width": 3024
+    }
+  ],
+  "place_id": "ChIJMYj7CWhNmogRyZshXBWjI00",
+  "rating": 5,
+  "reference": "ChIJMYj7CWhNmogRyZshXBWjI00",
+  "reviews": [
+    {
+      "author_name": "Samantha Williams",
+      "author_url": "https://www.google.com/maps/contrib/107238662507678429088/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocI77gLtjsowavFoDpWYu6COGK1AtcnHflbIrRnOBkcPaWFwJA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "2 years ago",
+      "text": "I used to dread waxing day because of how red my skin gets, but Leah is fantastic and skin care is her top priority. My brows have never looked better and her prices are very reasonable!",
+      "time": 1706799949,
+      "translated": false
+    },
+    {
+      "author_name": "Tony Hines",
+      "author_url": "https://www.google.com/maps/contrib/100560924522286433799/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUMNwEdaieOCuX0i3OZO8papTaPtUNYvqLYkTGsrHxgjF9c2gwKJA=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "6 years ago",
+      "text": "Leah\u2019s place is not just for the ladies. Guys that nose and ear hair needs to go.  Your lady will appreciate it. Also makes great gifts for her.",
+      "time": 1549927990,
+      "translated": false
+    },
+    {
+      "author_name": "Hayley Meeks",
+      "author_url": "https://www.google.com/maps/contrib/109912314321153005341/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLARajU6Pawot_-d4eQpjbzXO1XsD5ZhSR92D_8rZe9I-v7IA=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "8 months ago",
+      "text": "Leah is the absolute best!!!!!",
+      "time": 1747138478,
+      "translated": false
+    }
+  ],
+  "types": [
+    "beauty_salon",
+    "establishment",
+    "hair_care",
+    "health",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=5558465677240671177",
+  "user_ratings_total": 3,
+  "utc_offset": -360,
+  "vicinity": "156-C N McGregor Ave, Mobile",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1Q0FPkLqjuJ9iPRD1zbJ7nngZip6p35hAcQwrXw-c5F4UQ0J3D96S_8PaDmUH9Wlwdvpc_Y9No7o9Hx8ETlckDmL7SiHqRL8YxCCVJ8sTvrcOB6sUJNhz4k3_JQZyxiFg8NrZ8TlLIhD7dmSm980yRhvrGIa0glXoAePu-09b733XUOTlFYWKX9593p0Iq3x1ozTC3M8xWbsY70g_dng3RZN9EjQmzjQI7dEGEOigvxo5eiipcIyJaRlXK5b9w9xOSrUkpLJVok77QkusKclODkxcoQWjxniagxN3I5O9l_Q&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN2eOdzXvo31BPSB2skEnQl6XaAZWXgPxLm8VJowzve83H_0O3ySBJ-7S2PoEBawPNW3a5DJ9UyNn-W3hsxyNU-d54AaKGdkk2Bhp0d_xR04IFgGea91Z2jQ1OgsiHPWn_MaMo10C-hee1vUa9r6ff4li4mwY4EasqKjMOPuEzLzaEoPRP0ZTwFRNbzVPnMRqcRlorCNNubaw936AsmbMb5GjzGxzUYxL_NYC3H_Qv-6fosKe3CBR75kwdDlbh4i5a1czIvvVrunOMLzbY0EBVm9fG8M1FC1sgAOcn16FPu55A&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0rs8LPYPpsJK08dA1SpYzUbKTXJ0Uhw0dOvrpVwvElYWwtTTkFUvvdEiMlmtCMrdCupkZJg-0zu98Ths69s_-MyQqTM-hMoa8kgv-4O2DzjBxMCFxhZrg8Y3T87DaBKfC-Dt-IwtR2ASQST8TRQQlptTaLvYlmf5LbD18OuCMKqcKfsLrwvwC0gce4mMzjmFe-HY2xt_k8ryak-5PnoBe82fBf_Qd9wxyqDtewevNOcZCZAKJ2YwOUDvoripYIBseyt-yQiPo-YbwwAMK1IKJhv1LyHzNT6YT8a_hi0lI3Fw&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN3Pbg_eqnGwsEkUXtOEie418wRKJ4YavdOt1HcTgsjer3qdfGVgsNeHt5fOZ01rIlsoReUA9Bc-Mur6HsgC5I1R2Dl3mwV0ekj9nPHdgbOGnnDz2A8txJcgvBokJrm9eaCNoyKC17iDfnss6MstZXJoQtGrA_JOd6PFyx9CkM_WoWml3nrHskLozjHlJSrQc8WqIGxBxHX8oRi1dIXz1csIXUuan5jIjBmJZHmOVTJMWWzK4L4qqpp3qx4lR9glsuRAM5llpu9LTZBb4CFh4e-9bIBVjql0E5PSytLKBL0zHA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0S-0WpUNJ8UIaN56F2mLuQuCtxgr3fP82Mza_YPuJNakmp0-kiU6C0SeZs-lDtPexfIQkC2yqiHt8iy5rSv4QpLjrR1cmOcIkNW9wBgJfXsHsVc2sgGzX7Batt2BUlizBXIq_1PzNHLVTw6qR6SB5QtiBrlDKh-qQRGGm5nTPhXzPmcw5DCheRGcv4xVxP5VV1VZgjcLtDRUHoqjwAdVnlHJyyoSYVg2QzmekWA9SBrTXicZbJmcluOTmouszlbwmbZnwtGAA8DJHEw2fgk0OCo4yi4mdbUMpaMJjOB8nbvA&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}

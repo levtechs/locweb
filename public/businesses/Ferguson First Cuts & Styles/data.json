@@ -1,0 +1,263 @@
+{
+  "business_status": "OPERATIONAL",
+  "formatted_address": "420 Holcombe Ave, Mobile, AL 36606, USA",
+  "formatted_phone_number": "(251) 476-0122",
+  "geometry": {
+    "location": {
+      "lat": 30.6740269,
+      "lng": -88.089162
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 30.6753449802915,
+        "lng": -88.0877657697085
+      },
+      "southwest": {
+        "lat": 30.6726470197085,
+        "lng": -88.09046373029152
+      }
+    }
+  },
+  "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+  "icon_background_color": "#7B9EB0",
+  "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+  "international_phone_number": "+1 251-476-0122",
+  "name": "Ferguson First Cuts & Styles",
+  "opening_hours": {
+    "open_now": true,
+    "periods": [
+      {
+        "close": {
+          "day": 2,
+          "time": "0600"
+        },
+        "open": {
+          "day": 1,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 2,
+          "time": "1800"
+        },
+        "open": {
+          "day": 2,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 4,
+          "time": "0600"
+        },
+        "open": {
+          "day": 3,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 5,
+          "time": "0600"
+        },
+        "open": {
+          "day": 4,
+          "time": "0900"
+        }
+      },
+      {
+        "close": {
+          "day": 6,
+          "time": "0600"
+        },
+        "open": {
+          "day": 5,
+          "time": "0900"
+        }
+      }
+    ],
+    "weekday_text": [
+      "Monday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fAM",
+      "Tuesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fPM",
+      "Wednesday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fAM",
+      "Thursday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fAM",
+      "Friday: 9:00\u202fAM\u2009\u2013\u20096:00\u202fAM",
+      "Saturday: Closed",
+      "Sunday: Closed"
+    ]
+  },
+  "photos": [
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/113329101308573716177\">Charles Coleman</a>"
+      ],
+      "photo_reference": "AcnlKN1DgsMevUCo3KbSB_GyxomCqNJDXJcBuTeCy-u7391kkm81AVTapWk-H4Wsr7P4NIPZqalGxMS_R3WLMk-ZAaaUoUufZyEjOoHvrq7hHZbQLbT-6rCGIG2dyzD01U1BQD9Z0KzkyKt3ynOSS6RNhhfPAmICpF1kQVHERNU-Ze8vav4y6blBALstmw9Z0Ghn3nEJ3CIM-27VcUa-QPHpGlifZqHI__v90DVHF6iA1kOFocEMh4ZKu_o9D-NPPzbng7F07SAB4yWcSBgeq-hWuvQQ2J4FxFzlglHSefzn04q_BCRraSM-8fHrFeJp_k333VqK35Jtmuuyg--JUKBkZkd828v9wQOve8T2DJG8HFcEIV_e2p0qEFc-ojYGT3_Nqr4fmHJEYf5J9NQqzaYx4CpML78ohp_olVjrlXA8VnmVfh6K",
+      "width": 1960
+    },
+    {
+      "height": 4160,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100503115038545720003\">Donnie Stewart</a>"
+      ],
+      "photo_reference": "AcnlKN38Opx9Ff7P8VAvg2Y-BkgN71eCyLLWEV5FkdvW_ou5AoQmBppuwcqhkbLsZUZPTLWbzzuow6mpXG-NNAkdPsywSLduR-6FB0FihFUdI41dB5H-87I9fdrwLwiPQdlEf3gW5IZVjMFxr1TBGKgEFbbryaf4eKoXKhV5YAsXxbK1Orwb0BjUa4RyLJtyCGCy9JySpoJXZ1gC6kAIYWVoGIQo27eRacceJJwN5pUY0OClPwNo-tkUzzXS9EbYQ-dwABKQSUsKrj91f5_3XVhpIYMtAGLT6iUleJVGjSss7JM_El5OvYX0SfP1RocYwP1fjOyF4mWsUYmIapD1WblQRfqcbFHICi7a79SFjLmAKu8KGKh3KMYPJ7UlxUd0jhRwqcDDk6B7dB0ik6HDjJNGC_Ic83j8yZtkVBl_f7aSrwYbXmCV",
+      "width": 3120
+    },
+    {
+      "height": 4032,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102328745763314252880\">Ferguson First Cuts &amp; Styles</a>"
+      ],
+      "photo_reference": "AcnlKN0WpioTAUIbg6OHFcNPeVJUo6R5WTc7Mz8fW2AnYNZRSZGFzH1WcmXY6yStOVlJ0Cr45UPp5Teq8BOadGZTCN_gSvuTGAZg2E0x_O9qPNsqfmOrVqwDGb3RCgkTnuDCQjbuTRwN4BaQBVJWC5d1x7ej8RKvrldfcHbt_44VFIgQi6tUn4jA8_4fni7fT3V9qMRVRLLmX_vAzi55YzVrElAc8jxVdPhWSCT_T4PuJRUQ8UEOTMeMYc_Un9cupIc-9eo6q1-M0VfgTZWbGxKK7b3efCCQFpQr9dfb5bVbKK-k7w",
+      "width": 3024
+    },
+    {
+      "height": 3264,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/111827109520538280798\">Chef Rocko</a>"
+      ],
+      "photo_reference": "AcnlKN1wOdA5WFeS_SeHZigV41CCM6W9Hv7_ofH9thn8jMgP3HCGuQGaoBkp64jIZw1W1hsHa7eoU3qQLxdV2o53DfT7UAT1z5ybaiieFNR80AuN44i_0MKwX_ZGZVz5bv_-gVxFgpD18A_uVHnRJZt4LbrhdE67pajgs2eXuFiwOc_p2rmiJJoyuR2Y557KdaMdABIfgec9xrlcPrn4VHka8zuoddKdJstAxaTls1OI6CLeHT7xkBI3xWyWl9MZxOKgi2pQgEY6jBh_tZYvq8uvY7bwBdTRfobY16ynqA0HX80gh8YrMbbCH7F5GSRKcLN5KIh4JYqS61IdEz_B1erjorjhSvuu8-7pHOlwzZ8xse1Rnl-pTaIru-yKMUFAn8KdAQuB5YNwgvoxYFBe4AwRPcp8a9oUpxYcEmGvynGD0rZgwg",
+      "width": 2448
+    },
+    {
+      "height": 3264,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116242152943485957626\">Aaron Paul &amp; Amanda Brown</a>"
+      ],
+      "photo_reference": "AcnlKN36EQC1aFCEFhFtJDWzpelHVrgTdXRic1S19m08gBxqz4Inubxu0hHp8JNzSMLcVA0Sz8XXr0doPgq1xExS9KkfD7uTzaDn7VdYNlMcqgZ9gur7gF76vGtMHCt3QljR6M4PY6MGdGGiFHNIKHrB030h33gne6QZuFyYrACHOszChSdx8hVFobZP7Q9w-YWwPXY7u7e-TaijvelzxeXfebucBbtRRmqSgzc8tAIjLn08s3KGDAqI0sfKujQv2fZbztje7UvSOHkv8Qp1Q6VxTytrK-bPWbFZ0cbv7etp7fhIk2UWbMV1_kSCbj--eck3-HbCv6iPjI2mL7erUNRJNuCRaFn0mumM81fxDNVmRRfZ8WNbHxpwOsxxEhfY15CLKjal_KyZgFMYdMZXpPMtxx1qpvVT-2QAo5M6iY4nTfj1Fu8H",
+      "width": 2448
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102328745763314252880\">Ferguson First Cuts &amp; Styles</a>"
+      ],
+      "photo_reference": "AcnlKN0Au73Ul43V0WZnhpZvOcXYmR9UVdXbDKaL3JpO0s9n2Im-ppW5HKP0CUoB96Mt5R3-mEqo8RVSNdZEE1YIWsITXdvu8hiMSDBuvTttAofLyV76bd8h7Y2CSUU3SZqT8t_fuUSEb6RHYT99c9EXKG74oRSoXEk7lVDhU92qSjq1KG1yg1U6evc7C6hhqc0Y4sWBh5sSN0k3EpdKrA6ELMOJRjPMs1CJWVrIHluPmTQVvWCyNcxH-aqTT6lPlpy7GxqsdVEQ2IZlLQMCtULY08loaUrdnuXRAx4N47ceGQ38Tg",
+      "width": 2700
+    },
+    {
+      "height": 4160,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100503115038545720003\">Donnie Stewart</a>"
+      ],
+      "photo_reference": "AcnlKN0eI4555yyh0JeSpTcafUgqBXczuU4_uqYmSA3hq2oAwIuyU1CSwrAuzmxmptNOhS2TOCVorF08prH0sP0UijfvcsbTdn1LN9D2TSEcXdxcRubvi8_FRS1OOq5ibOSXTV2Ce2dPVO0zZ1Xfd5nbwlf8hzTq-YGMZtJ9xAplgYE-TJm5UqwiQgxJ40s_xaRiq1ggpSdgmdBehX3UYhhI3f-QpRuV01qlyKiQ5ke3_GsT_W4Umd3pa2Xs-BSTJDAWzaCzCzaLpF3S5ZfOIE6s4OVo9AJgWyX7GOd4wMigqPLcaNbchkfSxjKmhfhNcrgzqIj4B0UyhTeH6CX-ESZDnPf9sZ4HW5RyucNuMoMvwy1spRZ5UZ91LV4ZDdJHi7or-C4AfYTC2O7AdEvPniRGzjCOiZAAi7Xll9_Ha_ecQz5F5Q",
+      "width": 3120
+    },
+    {
+      "height": 4160,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/100503115038545720003\">Donnie Stewart</a>"
+      ],
+      "photo_reference": "AcnlKN26g0rBJRCui89alkWr2A1UT8g6B6SqQdYhsAYSbUK5v5bQgpOkOJDgHW3MvMkEJ9r3ZbRP8OzSX4nEphZsU0vUUx5OyZK9oirsXHL0_wsvg6WwFiRNNvuFcoJMRvOClTQtbo2ZU9k7hWgkEL94vkC1bGC_j22vA1b4bvqnEswqW3WnGIm9AEUK14dTqYHacicUe1-4SGhT_eq9G9Yau8Qfo2-Qxs8-0vSYdO-RuEmVZAXXnMok2FuhZ7bknHXdT4oKeg8Bg4HxvPRk4oYJ3THfPUf8s8PC9e_n1ydSv-jQqPypz3owTpWmPW9PORCQntxMHL4m0ss0x-MmQS1NgMGoUKRKhFHfGWo3j20MCVBZ1z3ynb6jcnh8LI8DJP_oYify8CNXarFxXGNkaQxEvanRqxEGExYDepGekZ-PZDG68q23",
+      "width": 3120
+    },
+    {
+      "height": 3264,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/116242152943485957626\">Aaron Paul &amp; Amanda Brown</a>"
+      ],
+      "photo_reference": "AcnlKN3aOSq6Pe1EXOvrXfumcD7fbVMwustAV1BthGJsxR-mo_nlTyzqNj7rZyom_9lMIMPXdHYnEbv95qC7qZ9hL2mfHY-GfqYnOK5HceQRv0bACBXh6fNPDrx6uMKxBNX-4W63fLVZ2HdsP63wRJQeWwx-HSj6VAzAZ_pOxDUB0M_bfYhLWpcCVxdnxhJNvi_mGSwLIdz6venTPPDh6mUkp0GSKmOsYwBHCxf0LrlleUtDcd1YxRULXyj4FpmvEeNAxTMpHRsVSMD_7uy-Q--qDiWuN73Cr0x3BZVpgE7-wNpqoBRLq4YYE3YWawv70GgFIGNceCPS5JMPkl6Pc32OO5I1_KEH5IMayga9wnv2UrKzcdVIw814ttw881apkpExV73y3SdcCh3pqpLiX0tcCb3yxsMhP0tkoVL4nh1C8I0",
+      "width": 2448
+    },
+    {
+      "height": 4800,
+      "html_attributions": [
+        "<a href=\"https://maps.google.com/maps/contrib/102328745763314252880\">Ferguson First Cuts &amp; Styles</a>"
+      ],
+      "photo_reference": "AcnlKN2BEFcwCmvh6pQtedXihyoy8npSztaMByVjN2J_V4AnLSO57u9JF6jST6auBZ3P28YH_RxZenNjeeBAibTf_gd-49W45lQmLdIN4v_VmrdyXUs9mMsd-wN946FHRVQOupdeG5ZEvk_MQXSMxwHm7tMDdA7an0NAAwJ4fweJSPq5AneIQSAfu6A53JaI9sgK4UBrsddHSbksAkXFQWrWgJasHhCowbG27ra1fS80cm8PXjSHy2urmDh1X9hRwf8SizRA9mP7xqAkwtKqt3kyTgtr2VYB82ThRyVrH0dO6Jmgmw",
+      "width": 2700
+    }
+  ],
+  "place_id": "ChIJ8eopNHVOmogRK-rqZ8ISECs",
+  "rating": 4.8,
+  "reference": "ChIJ8eopNHVOmogRK-rqZ8ISECs",
+  "reviews": [
+    {
+      "author_name": "Edward Turner",
+      "author_url": "https://www.google.com/maps/contrib/111323787608792191191/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocK70wM363ZP9yk8OdrAUY805dWNoWXkKuy-nfy7kJV2613WJSU=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "After going to several barbers and I hadn\u2019t been to him in a while!,\u2026by far he is the superior Barber!,\u2026.had my hairline and cut altogether looking real good!,\u2026.definitely will continue going there!,\u2026.",
+      "time": 1707689402,
+      "translated": false
+    },
+    {
+      "author_name": "Denise Harvey",
+      "author_url": "https://www.google.com/maps/contrib/114133320187306576403/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjV4AFX8yYH3m9dWV8sfKw_anLNthhx0bDp9eOI7-pGbWm9XCcCapA=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "relative_time_description": "a year ago",
+      "text": "My cousin is the owner of this establishment, and it is kid friendly . They are available to service all ages with respect and class. I take my 3 boys and another cousin cuts they hair..",
+      "time": 1713633966,
+      "translated": false
+    },
+    {
+      "author_name": "Denise Andrews",
+      "author_url": "https://www.google.com/maps/contrib/110074746767031508222/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVY6P1jnT1BZxeVrLp552pNG5jqb3Tvz30vHgCDK_xueQKMV-hI=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "relative_time_description": "6 years ago",
+      "text": "Newly renovated!! Awesome atmosphere and most importantly a CLEAN environment. It's like a touch of spa was sprinkled over the barbershop. Joe is  professional, positive and  great with children.",
+      "time": 1570542807,
+      "translated": false
+    },
+    {
+      "author_name": "Dwayne Lillie",
+      "author_url": "https://www.google.com/maps/contrib/112754385099912424285/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVrm4gZbIGqgdPlwpSNm_j_PD4RVdIrd-qf6oYqHvfjnyEV-z07=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "4 years ago",
+      "text": "I\u2019m from North Carolina and was in town with Appalachian state for the SBC track and field championships. Some of the guys needed a fresh cut and Ferguson\u2019s came in clutch. Would 10/10 recommend both Quentin and Reggie (cut my hair).",
+      "time": 1621011078,
+      "translated": false
+    },
+    {
+      "author_name": "Kevon Trainer",
+      "author_url": "https://www.google.com/maps/contrib/114819289278048101386/reviews",
+      "language": "en",
+      "original_language": "en",
+      "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKT0kggfFgHJlw-ZTau3VXfGqUejXUUqWOO_bCntAUfRInC6A=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "relative_time_description": "3 years ago",
+      "text": "I love this place I come here every time  it\u2019s a good n fun environment n their haircuts are done perfect I go to Q every time one of the best there I go to him every time still to this day if u need a haircut go to Ferguson first cuts preferably Q\u2026\u2026\u2026",
+      "time": 1653430189,
+      "translated": false
+    }
+  ],
+  "types": [
+    "establishment",
+    "hair_care",
+    "health",
+    "point_of_interest"
+  ],
+  "url": "https://maps.google.com/?cid=3103000769434675755",
+  "user_ratings_total": 78,
+  "utc_offset": -360,
+  "vicinity": "420 Holcombe Ave, Mobile",
+  "photo_urls": [
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1DgsMevUCo3KbSB_GyxomCqNJDXJcBuTeCy-u7391kkm81AVTapWk-H4Wsr7P4NIPZqalGxMS_R3WLMk-ZAaaUoUufZyEjOoHvrq7hHZbQLbT-6rCGIG2dyzD01U1BQD9Z0KzkyKt3ynOSS6RNhhfPAmICpF1kQVHERNU-Ze8vav4y6blBALstmw9Z0Ghn3nEJ3CIM-27VcUa-QPHpGlifZqHI__v90DVHF6iA1kOFocEMh4ZKu_o9D-NPPzbng7F07SAB4yWcSBgeq-hWuvQQ2J4FxFzlglHSefzn04q_BCRraSM-8fHrFeJp_k333VqK35Jtmuuyg--JUKBkZkd828v9wQOve8T2DJG8HFcEIV_e2p0qEFc-ojYGT3_Nqr4fmHJEYf5J9NQqzaYx4CpML78ohp_olVjrlXA8VnmVfh6K&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN38Opx9Ff7P8VAvg2Y-BkgN71eCyLLWEV5FkdvW_ou5AoQmBppuwcqhkbLsZUZPTLWbzzuow6mpXG-NNAkdPsywSLduR-6FB0FihFUdI41dB5H-87I9fdrwLwiPQdlEf3gW5IZVjMFxr1TBGKgEFbbryaf4eKoXKhV5YAsXxbK1Orwb0BjUa4RyLJtyCGCy9JySpoJXZ1gC6kAIYWVoGIQo27eRacceJJwN5pUY0OClPwNo-tkUzzXS9EbYQ-dwABKQSUsKrj91f5_3XVhpIYMtAGLT6iUleJVGjSss7JM_El5OvYX0SfP1RocYwP1fjOyF4mWsUYmIapD1WblQRfqcbFHICi7a79SFjLmAKu8KGKh3KMYPJ7UlxUd0jhRwqcDDk6B7dB0ik6HDjJNGC_Ic83j8yZtkVBl_f7aSrwYbXmCV&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN0WpioTAUIbg6OHFcNPeVJUo6R5WTc7Mz8fW2AnYNZRSZGFzH1WcmXY6yStOVlJ0Cr45UPp5Teq8BOadGZTCN_gSvuTGAZg2E0x_O9qPNsqfmOrVqwDGb3RCgkTnuDCQjbuTRwN4BaQBVJWC5d1x7ej8RKvrldfcHbt_44VFIgQi6tUn4jA8_4fni7fT3V9qMRVRLLmX_vAzi55YzVrElAc8jxVdPhWSCT_T4PuJRUQ8UEOTMeMYc_Un9cupIc-9eo6q1-M0VfgTZWbGxKK7b3efCCQFpQr9dfb5bVbKK-k7w&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN1wOdA5WFeS_SeHZigV41CCM6W9Hv7_ofH9thn8jMgP3HCGuQGaoBkp64jIZw1W1hsHa7eoU3qQLxdV2o53DfT7UAT1z5ybaiieFNR80AuN44i_0MKwX_ZGZVz5bv_-gVxFgpD18A_uVHnRJZt4LbrhdE67pajgs2eXuFiwOc_p2rmiJJoyuR2Y557KdaMdABIfgec9xrlcPrn4VHka8zuoddKdJstAxaTls1OI6CLeHT7xkBI3xWyWl9MZxOKgi2pQgEY6jBh_tZYvq8uvY7bwBdTRfobY16ynqA0HX80gh8YrMbbCH7F5GSRKcLN5KIh4JYqS61IdEz_B1erjorjhSvuu8-7pHOlwzZ8xse1Rnl-pTaIru-yKMUFAn8KdAQuB5YNwgvoxYFBe4AwRPcp8a9oUpxYcEmGvynGD0rZgwg&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk",
+    "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AcnlKN36EQC1aFCEFhFtJDWzpelHVrgTdXRic1S19m08gBxqz4Inubxu0hHp8JNzSMLcVA0Sz8XXr0doPgq1xExS9KkfD7uTzaDn7VdYNlMcqgZ9gur7gF76vGtMHCt3QljR6M4PY6MGdGGiFHNIKHrB030h33gne6QZuFyYrACHOszChSdx8hVFobZP7Q9w-YWwPXY7u7e-TaijvelzxeXfebucBbtRRmqSgzc8tAIjLn08s3KGDAqI0sfKujQv2fZbztje7UvSOHkv8Qp1Q6VxTytrK-bPWbFZ0cbv7etp7fhIk2UWbMV1_kSCbj--eck3-HbCv6iPjI2mL7erUNRJNuCRaFn0mumM81fxDNVmRRfZ8WNbHxpwOsxxEhfY15CLKjal_KyZgFMYdMZXpPMtxx1qpvVT-2QAo5M6iY4nTfj1Fu8H&key=AIzaSyCxkTYY1VzBsNBQGGA5raFFX_3plVslDFk"
+  ],
+  "owner_email": "smolsky.lev@gmail.com",
+  "owner_name": "Lev",
+  "local_photos": [
+    "photos/photo-1.jpg",
+    "photos/photo-2.jpg",
+    "photos/photo-3.jpg",
+    "photos/photo-4.jpg",
+    "photos/photo-5.jpg"
+  ]
+}
