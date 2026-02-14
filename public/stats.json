@@ -1,0 +1,21 @@
+{
+  "websites": {
+    "numberOfWebsites": 30,
+    "numberOfCities": 17,
+    "numberOfZipcodes": 24
+  },
+  "scanned": {
+    "websitesScanned": 90,
+    "zipsScanned": 24,
+    "percentZipsScanned": null
+  },
+  "sales": {
+    "numberOfSales": 0
+  },
+  "searchProgress": {
+    "counter": 97,
+    "areasExplored": 97,
+    "totalAreas": 42000,
+    "coveragePercent": "0.23%"
+  }
+}

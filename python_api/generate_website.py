@@ -14,8 +14,6 @@ PUBLIC_BUSINESSES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)),
 OPENCODE_API_KEY = os.environ.get("OPENCODE_API_KEY")
 OPENCODE_HOST = os.environ.get("OPENCODE_HOST", "127.0.0.1")
 OPENCODE_PORT = os.environ.get("OPENCODE_PORT", "4096")
-OWNER_EMAIL = os.environ.get("OWNER_EMAIL", "contact@locweb.example.com")
-OWNER_NAME = os.environ.get("OWNER_NAME", "The LocWeb Team")
 
 OPENCODE_BASE_URL = f"http://{OPENCODE_HOST}:{OPENCODE_PORT}"
 
@@ -261,14 +259,14 @@ Follow the detailed instructions in AGENTS.md to create a professional HTML webs
 - Make all links functional
 
 **Critical Rules:**
-- DO NOT create additional files EXCEPT phone_pitch.txt
+- DO NOT create additional files
 - DO NOT delete existing files
-- Only modify index.html and create phone_pitch.txt
+- Only modify index.html
 - Follow AGENTS.md instructions exactly
 - CRITICAL: Use the local photo paths provided in data.json, NOT the Google Maps URLs
-- CRITICAL: DO NOT ASK QUESTIONS. Make all decisions autonomously. Do not stop to ask for clarification. If information is missing, make a reasonable assumption and proceed.
+- CRITICAL: DO NOT ASK QUESTIONS. Make all decisions autonomously. Do not ask for clarification - proceed with reasonable assumptions.
 
-After modifying index.html and creating phone_pitch.txt, verify everything is complete and professional."""
+After modifying index.html, verify everything is complete and professional."""
     return prompt
 
 def create_business_folder(business_data, slug, photo_paths):
@@ -276,8 +274,6 @@ def create_business_folder(business_data, slug, photo_paths):
     os.makedirs(folder_path, exist_ok=True)
     os.makedirs(os.path.join(folder_path, "photos"), exist_ok=True)
     
-    business_data["owner_email"] = OWNER_EMAIL
-    business_data["owner_name"] = OWNER_NAME
     business_data["local_photos"] = photo_paths
     
     with open(os.path.join(folder_path, "data.json"), "w", encoding="utf-8") as f:

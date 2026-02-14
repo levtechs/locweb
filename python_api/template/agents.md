@@ -6,80 +6,9 @@ You are an expert web developer creating a complete, beautiful HTML landing page
 
 Read `data.json` to understand the business, then create a stunning professional landing page by modifying `index.html`.
 
-## Additional Task: Create Phone Pitch
-
-After creating the website, you MUST also create a file called `phone_pitch.txt` with a personalized phone call script to pitch the website to the business owner.
-
-### Phone Pitch Strategy
-
-The goal is to:
-1. Build rapport with the business owner
-2. Show them you noticed their business and care about their success
-3. Present the demo website you created for them FOR FREE
-4. Explain your service: you set up the website properly with a custom domain and ongoing maintenance
-5. Pricing: $45 one-time setup fee + $5/month for hosting and maintenance
-6. Close the sale or leave the door open for follow-up
-
-### Phone Pitch Tone
-- Warm, friendly, professional
-- Genuinely enthusiastic about their business
-- Confident but not pushy
-- Show you've done your homework about their business
-- Keep it conversational
-- Be brief - phone calls should be 2-5 minutes max
-
-### Phone Pitch Template (Customize for Each Business)
-
-The phone_pitch.txt file should include:
-- Call opening script
-- Explanation of who you are and why you're calling
-- Specific details about their business (from your research) to show you care
-- Mention you made them a FREE demo website to show what you can do
-- Website URL: https://locweb.vercel.app/web/{slug} (use the business slug)
-- Explain the service: custom domain setup + ongoing maintenance
-- Pricing: $45 setup + $5/month
-- Response handling for interested/uninterested prospects
-- Closing
-
-### Phone Pitch Placeholders
-
-The following values are available in `data.json`:
-- `owner_name` - Your name (from OWNER_NAME env var)
-- `owner_email` - Your email address (from OWNER_EMAIL env var)
-- Business name, rating, review_count from the business data
-
-### Pitch Customization Guidelines
-
-For a personalized comment about their business, choose ONE based on the business:
-- For restaurants with good reviews: "Your customers clearly love the food here - those reviews are impressive!"
-- For restaurants with photos: "The photos of your dishes look absolutely incredible"
-- For new businesses: "It's exciting to see a new business bringing something fresh to the area"
-- For highly-rated places: "With a X-star rating and Y reviews, it's clear you know how to take care of customers"
-- For businesses with clear location: "Located in a great spot, you're perfectly positioned to serve the community"
-
-### Key Principles
-
-1. **Lead with genuine appreciation** - Show you've actually looked at their business
-2. **Give value first** - You already made them a free demo website
-3. **Personalize specifically** - Reference their rating, photos, location, or reviews
-4. **Be clear about pricing** - $45 setup + $5/month for domain and maintenance
-5. **Create urgency without pressure** - "I can have this live with your own domain this week"
-6. **Easy out** - Make it clear there's no pressure, but follow up
-7. **Be brief** - Phone calls should be short and sweet
-
-### What NOT to Do
-
-- Do NOT be vague about pricing - be upfront: $45 + $5/mo
-- Do NOT use aggressive sales language
-- Do NOT apologize for reaching out
-- Do NOT make it sound like charity - you're offering a professional service
-- Do NOT use dark backgrounds (gray-800, gray-900, black, navy, etc.)
-- Do NOT assume light text will work - ALWAYS use dark text throughout
-- Do NOT create long scripts - keep phone pitches to key points only
-
 ## Research Task
 
-Before creating the website, you should do light research on the business to personalize your phone pitch. Check:
+Before creating the website, you should do light research on the business to better understand it:
 1. Any additional details about the business from your general knowledge
 2. What type of cuisine/food they specialize in (for restaurants)
 3. Any notable features or specialties they might have
@@ -202,7 +131,7 @@ The local paths are already downloaded and stored in the `photos/` folder. DO NO
 
 ## Important
 
-- DO NOT create additional files EXCEPT phone_pitch.txt
+- DO NOT create additional files
 - DO NOT delete any existing files
 - Focus on making the business look professional and trustworthy online
 - Test that all links work properly

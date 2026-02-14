@@ -79,20 +79,6 @@ def get_already_curated_slugs():
 def get_current_count():
     return len(get_already_curated_slugs())
 
-def print_phone_pitches():
-    print("\n" + "=" * 60)
-    print("PHONE PITCHES")
-    print("=" * 60)
-    
-    curated = get_already_curated_slugs()
-    for slug in sorted(curated):
-        pitch_file = os.path.join(PUBLIC_BUSINESSES_DIR, slug, "phone_pitch.txt")
-        if os.path.exists(pitch_file):
-            name = unquote(slug).replace("-", " ").replace("+", " ")
-            print(f"\n--- {name} ---")
-            with open(pitch_file, "r") as f:
-                print(f.read())
-
 def commit_and_push_changes():
     try:
         import subprocess
@@ -411,7 +397,6 @@ def main():
     print(f"COMPLETE: Generated {success_count}/{len(businesses)} websites")
     print("=" * 60)
     
-    print_phone_pitches()
     commit_and_push_changes()
     
     print("\nDone!")
