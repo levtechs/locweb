@@ -270,9 +270,3 @@ Generated websites are displayed in an isolated iframe:
 - **Setup Fee**: $45 one-time
 - **Monthly**: $5/month for hosting and maintenance
 - **Refund Policy**: 30-day money-back guarantee on setup fee
-
----
-
-## License
-
-MIT
